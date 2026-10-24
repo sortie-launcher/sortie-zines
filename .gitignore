@@ -1,3 +1,10 @@
 .local/
 __pycache__/
 *.py[cod]
+# Signing material never belongs in the content repository.
+*.p12
+*.pfx
+*.jks
+*.keystore
+store-password
+bitwarden-import.txt

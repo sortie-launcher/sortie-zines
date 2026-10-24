@@ -6,7 +6,7 @@ Offline game zines for a general audience: nine issues, 41 articles and 131 illu
 
 ## Use with Sortie
 
-Keep this content repository separate from the application repository. From the Sortie checkout, explicitly supply this repository's `issues/` directory:
+Keep this content repository separate from the [Sortie application repository](https://github.com/sortie-launcher/sortie). From the Sortie checkout, explicitly supply this repository's `issues/` directory:
 
 ```sh
 tools/build.sh -PsortieMagazinesDir=/path/to/sortie-zines/issues
