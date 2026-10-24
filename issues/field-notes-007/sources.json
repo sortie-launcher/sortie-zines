@@ -1,0 +1,1728 @@
+{
+ "issue": "field-notes-007",
+ "compiled": "2026-10-24",
+ "revised": "2026-10-24",
+ "rightsNote": "Original editorial prose and cover layouts were written for Sortie Field Notes. Game images and quoted material belong to their respective rights holders. Included for commentary and criticism; no endorsement or ownership is implied. Third-party media is not covered by the Sortie app's MIT licence. Per-image credits and sources follow.",
+ "researchNote": "No game was launched or played for this issue. Mechanics come from manuals, official sites, contemporary reviews and credited fan references; emulator compatibility figures cite upstream project data and are not test results.",
+ "media": [
+  {
+   "file": "media/cover.webp",
+   "kind": "original 1600x1000 composite cover",
+   "derivedFrom": [
+    "media/character-action-history.webp",
+    "media/onimusha-warlords-issen-castle-fight.webp",
+    "media/zoe2-jehuty-momentum.webp",
+    "media/bayonetta-witch-time.webp"
+   ],
+   "source": "Authored composition from this pack's credited gameplay images; corresponding source entries below.",
+   "rights": "Game images © Capcom, Konami and Sega; original layout by Sortie Field Notes.",
+   "processing": "ImageMagick, aspect-preserving fits with letterboxing, Noto Serif Bold and Noto Sans Condensed, WebP quality 87. Revised 2026-10-24: one line of blurb text was repainted in the same typeface (Noto Sans Condensed) to remove device-specific wording; layout otherwise unchanged."
+  },
+  {
+   "file": "media/character-action-history.webp",
+   "source": "ScreenScraper media retrieved through a Skyscraper scraper cache (database title 'Strider', arcade; resource e77697f1b9b807facfa468be3e17e35c9059ec1a). The ES-DE screenshot for the same set is this frame composited with box art and logo, so the clean frame was used.",
+   "edition": "Strider, Capcom CPS1 arcade (1989), native 384x224 gameplay frame with arcade HUD; specific ROM set/region not identifiable from the frame",
+   "rights": "© Capcom",
+   "processing": "Point-scaled 3x (-filter point) to 1152x672, WebP q90, 82580 bytes; visually inspected"
+  },
+  {
+   "file": "media/character-action-history-strider2.webp",
+   "source": "ScreenScraper media retrieved through a Skyscraper scraper cache (database title 'Strider 2', PlayStation; resource 0a76a54e2858fc19dce973ddac298d0b7debab95)",
+   "edition": "Strider 2, PlayStation (2000); English HUD ('TRANSPORT' boss); NTSC-U vs PAL not distinguishable from the frame",
+   "rights": "© Capcom",
+   "processing": "Point-scaled 2x to 1280x960, WebP q82, 86158 bytes; visually inspected"
+  },
+  {
+   "file": "media/character-action-history-onimusha.webp",
+   "source": "ScreenScraper media retrieved through a Skyscraper scraper cache (database title 'Onimusha : Warlords', PS2; resource 1146cd2da565acf31b91d672bf0cd9c63fc4ec93)",
+   "edition": "Onimusha: Warlords, PlayStation 2 (2001) gameplay; no on-screen text, region not identifiable",
+   "rights": "© Capcom",
+   "processing": "640x480 kept, WebP q82, 35546 bytes; visually inspected"
+  },
+  {
+   "file": "media/character-action-history-godofwar.webp",
+   "source": "ScreenScraper media retrieved through a Skyscraper scraper cache (database title 'God of War', PS2; resource 9e074d0efb3401d46c71303d8e1f5445a25fb7df)",
+   "edition": "God of War, PlayStation 2 (2005) gameplay; no on-screen text, region not identifiable",
+   "rights": "© Sony Interactive Entertainment",
+   "processing": "640x480 kept, WebP q82, 22476 bytes; visually inspected"
+  },
+  {
+   "file": "media/onimusha-warlords-issen.webp",
+   "source": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Onimusha%20-%20Warlords%20(USA).png",
+   "edition": "Visually verified: North American PS2 front cover, 'NTSC U/C' mark, ESRB Mature, Capcom logo. Used inline in the body's opening section, not as the lead image; the filename was kept as-is.",
+   "rights": "© Capcom",
+   "processing": "512x726 PNG converted to WebP quality 82, no resize."
+  },
+  {
+   "file": "media/onimusha-warlords-issen-manual-controls.webp",
+   "source": "https://www.video-games-museum.com/en/manual/Playstation%202/50745_us-Onimusha-Warlords.pdf (PDF page 5 = manual pages 6–7)",
+   "edition": "Visually verified: US manual 'Game Controls' spread; left analog stick 'Not used', directional buttons move, Circle absorbs souls.",
+   "rights": "© Capcom",
+   "processing": "pdftoppm at 110 dpi, then WebP quality 80; 976x791."
+  },
+  {
+   "file": "media/onimusha-warlords-issen-castle-fight.webp",
+   "source": "ScreenScraper media retrieved through a Skyscraper scraper cache (database title 'Onimusha : Warlords', PS2; resource 1146cd2da565acf31b91d672bf0cd9c63fc4ec93)",
+   "edition": "Visually verified: 640x480 in-game PS2 capture, pre-rendered outdoor screen with HUD vitality bar and soul counter. Same frame as libretro Named_Snaps 'Onimusha - Warlords (USA)'. Region of the capture can't be determined from the frame; the cache entry matches the USA ROM. Used as the manifest lead image only, not repeated in the body.",
+   "rights": "© Capcom",
+   "processing": "Point-scaled 2x (no blur) to 1280x960, WebP quality 82."
+  },
+  {
+   "file": "media/zoe2-jehuty-momentum.webp",
+   "source": "ScreenScraper media retrieved through a Skyscraper scraper cache (database title 'Zone of the Enders : The 2nd Runner', PS2; resource de12ba3e1bd3867d80545aad840b74ec2a0e585c)",
+   "edition": "Visually verified: PS2 gameplay, Jehuty vs Raptor on Callisto, English HUD/subtitles. Region of capture not determinable. Not taken from the ES-DE screenshot because ES-DE's 'screenshots/Zone of the Enders - The 2nd Runner (USA).png' is a composite of this same frame with the PAL Special Edition box overlaid (misleading for an NA disc).",
+   "rights": "© Konami",
+   "processing": "magick -resize '1280x1280>' -quality 82 (640x480, no resize)"
+  },
+  {
+   "file": "media/zoe2-jehuty-momentum-homing-laser.webp",
+   "source": "https://web.archive.org/web/20130630055921im_/http://ps2media.ign.com/ps2/image/zoe2_031003_inline_01.jpg",
+   "edition": "Visually verified: PS2 press/review screenshot from IGN's 10 March 2003 NA review; Homing Lasers against boss 'ARDJET', GRAB/NRG/SUB HUD. Capture region not stated by IGN.",
+   "rights": "© Konami",
+   "processing": "magick -shave 9x9 (remove IGN frame border) -quality 82; 397x297"
+  },
+  {
+   "file": "media/zoe2-jehuty-momentum-covers.webp",
+   "source": "Left: https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Boxarts/Zone%20of%20the%20Enders%20-%20The%202nd%20Runner%20(USA).png ; Right: ES-DE scrape (upstream source not recorded), stored under the USA title but showing the PAL Special Edition box",
+   "edition": "Visually verified: left NA cover (NTSC U/C, ESRB M, Konami logo); right European PAL cover (PAL mark, PEGI 12+, 'SPECIAL EDITION' strip). Note the ES-DE cache stores the PAL SE cover under the (USA) filename.",
+   "rights": "© Konami",
+   "processing": "each resized to 680px height, side by side with 24px gap and 12px dark border (+smush), -quality 82; 1014x704"
+  },
+  {
+   "file": "media/blood-will-tell-48-fiends.webp",
+   "source": "https://www.gamespot.com/wp-content/uploads/original/gamespot/images/2004/reviews/603610-914717_20040921_002.jpg",
+   "edition": "Visually verified: English-language HUD (SLICE / Finish), Slice Attack command gauge; GameSpot review screenshot from NA launch review 2004-09-21; GameSpot watermark; used as manifest lead image",
+   "rights": "© SEGA / Tezuka Productions; screenshot via GameSpot",
+   "processing": "magick -quality 82, 720x480 unchanged"
+  },
+  {
+   "file": "media/blood-will-tell-48-fiends-cover.webp",
+   "source": "ES-DE scrape (upstream source not recorded), cover for 'Blood Will Tell - Tezuka Osamu's Dororo (USA)'",
+   "edition": "Visually verified: North American PS2 front cover, NTSC U/C mark, ESRB M, SEGA logo",
+   "rights": "© SEGA / Tezuka Productions",
+   "processing": "magick -resize '1280x1280>' -quality 82 (486x680, no resize needed)"
+  },
+  {
+   "file": "media/blood-will-tell-48-fiends-map.webp",
+   "source": "https://www.gamespot.com/wp-content/uploads/original/gamespot/images/2004/reviews/603612-914717_20040921_004.jpg",
+   "edition": "Visually verified: gameplay with leg-cannon (05) and arm-cannon (067) counters and translucent map; GameSpot NA review screenshot 2004-09-21; GameSpot watermark",
+   "rights": "© SEGA / Tezuka Productions; screenshot via GameSpot",
+   "processing": "magick -quality 82, 720x480 unchanged"
+  },
+  {
+   "file": "media/ghost-of-sparta-pocket-epic.webp",
+   "source": "ScreenScraper media retrieved through a Skyscraper scraper cache (database title 'God of War : Ghost of Sparta', PSP, release 2010-11-02; resource e75def0993833bb1bcab14f72f9a2c6da75b2446). The same frame appears inside the ES-DE composite screenshot for the USA release.",
+   "edition": "PSP in-game frame, 480x272, no box art or region marking; visually confirmed Ghost of Sparta gameplay (Kratos with two enemies in a wrecked wooden hull). Region of capture not determinable from the image.",
+   "rights": "© Sony Interactive Entertainment",
+   "processing": "magick -filter point -resize 200% -quality 85 → 960x544 WebP, 38 KB"
+  },
+  {
+   "file": "media/ghost-of-sparta-pocket-epic-combat.webp",
+   "source": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_Portable/master/Named_Snaps/God%20of%20War%20-%20Ghost%20of%20Sparta%20(USA)%20(En,Fr,Es).png",
+   "edition": "Named for the USA (En,Fr,Es) set; in-game PSP frame 484x272 showing Kratos fighting a group of enemies in rain with the Blade HUD and red-orb counter 37; visually verified",
+   "rights": "© Sony Interactive Entertainment",
+   "processing": "magick -filter point -resize 200% -quality 85 → 968x544 WebP, 44 KB"
+  },
+  {
+   "file": "media/ghost-of-sparta-pocket-epic-chains.webp",
+   "source": "ES-DE scrape (upstream source not recorded), composite screenshot for 'God of War - Chains of Olympus (USA)'",
+   "edition": "Composite: Chains of Olympus PSP gameplay (burning city, HUD, 1292 orbs, 2 hits) plus PAL PEGI 18 box art and logo, although the scraper entry is named for the USA release",
+   "rights": "© Sony Interactive Entertainment",
+   "processing": "magick -quality 82 → 640x480 WebP, 43 KB"
+  },
+  {
+   "file": "media/ghost-of-sparta-pocket-epic-ps2.webp",
+   "source": "ES-DE scrape (upstream source not recorded), composite screenshot for 'God of War (USA)'",
+   "edition": "Composite: God of War PS2 gameplay (wooden deck in the rain, harpies) plus PAL PEGI 18 PS2 box art, although the scraper entry is named for the USA release (SCUS-97399)",
+   "rights": "© Sony Interactive Entertainment",
+   "processing": "magick -quality 82 → 640x480 WebP, 31 KB"
+  },
+  {
+   "file": "media/dmc3-special-edition-styles.webp",
+   "source": "https://www.gamespot.com/wp-content/uploads/original/gamespot/images/2006/023/reviews/708986-930014_20060124_002.jpg",
+   "edition": "PS2 Devil May Cry 3 Special Edition (GameSpot's SE review, 2006-01-24); visually verified: Vergil in blue coat, HUD with Devil Trigger orbs, red orb count 177, style meter reading \"Dope!\". Gameplay screenshot used as the lead image.",
+   "rights": "© Capcom; screenshot captured by GameSpot (watermark retained)",
+   "processing": "magick 720x480 JPEG -quality 82 to WebP, no crop or resize"
+  },
+  {
+   "file": "media/dmc3-special-edition-styles-style-menu.webp",
+   "source": "https://www.gamespot.com/wp-content/uploads/original/gamespot/images/2005/058/reviews/643504-920607_20050228_003.jpg",
+   "edition": "PS2 Devil May Cry 3: Dante's Awakening, original 2005 release (GameSpot's 2005-02-28 review); visually verified Style menu listing Trickster, Swordmaster, Gunslinger, Royalguard; Gunslinger Lv1 selected",
+   "rights": "© Capcom; screenshot captured by GameSpot (watermark retained)",
+   "processing": "magick 720x480 JPEG -quality 82 to WebP, no crop or resize"
+  },
+  {
+   "file": "media/dmc3-special-edition-styles-character-select.webp",
+   "source": "https://www.gamespot.com/wp-content/uploads/original/gamespot/images/2006/023/reviews/708985-930014_20060124_001.jpg",
+   "edition": "PS2 Devil May Cry 3: Dante's Awakening Special Edition, English title/character select (VERGIL / DANTE), from GameSpot's 2006 SE review; visually verified",
+   "rights": "© Capcom; illustrations credited on screen to Kazuma Kaneko/Atlus; screenshot captured by GameSpot (watermark retained)",
+   "processing": "magick 720x480 JPEG -quality 82 to WebP, no crop or resize"
+  },
+  {
+   "file": "media/dmc3-special-edition-styles-boxart.webp",
+   "source": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Devil%20May%20Cry%203%20-%20Dante%27s%20Awakening%20%28USA%29%20%28En%2CJa%29%20%28Special%20Edition%29.png",
+   "edition": "North American (NTSC U/C) PS2 cover, 'Dante's Awakening Special Edition' logo, ESRB M; visually verified",
+   "rights": "© Capcom; scan via libretro-thumbnails",
+   "processing": "magick 512x728 PNG -quality 82 to WebP, no resize"
+  },
+  {
+   "file": "media/bayonetta-witch-time.webp",
+   "source": "https://www.gamespot.com/wp-content/uploads/original/gamespot/images/2010/003/reviews/1094851-946346_20100104_002.jpg",
+   "edition": "Xbox 360 per publication context: from GameSpot's Xbox 360 review (image ID 946346 is GameSpot's 360 product ID; the PS3 review uses 946345). Visually checked: gameplay with a Verse 4 HUD and halo counter, and a hair-summoned demon finishing a large angel. The capture hardware can't be confirmed from the pixels.",
+   "rights": "© Sega / PlatinumGames; screenshot via GameSpot (watermarked)",
+   "processing": "1024x576 JPEG -> magick -resize '1280x1280>' -quality 82 WebP (no upscale), 55 KB"
+  },
+  {
+   "file": "media/bayonetta-witch-time-hud.webp",
+   "source": "https://www.gamespot.com/wp-content/uploads/original/gamespot/images/2010/003/reviews/1094852-946346_20100104_003.jpg",
+   "edition": "Xbox 360 per publication context (GameSpot Xbox 360 review gallery). Visually checked: health bar, eight-segment magic gauge, Verse 4, halo counter and combo points x1.6 as Bayonetta fires her heel guns upside down.",
+   "rights": "© Sega / PlatinumGames; screenshot via GameSpot (watermarked)",
+   "processing": "1024x576 JPEG -> WebP q82, 73 KB"
+  },
+  {
+   "file": "media/bayonetta-witch-time-jeanne.webp",
+   "source": "https://www.gamespot.com/wp-content/uploads/original/gamespot/images/2010/003/reviews/1094850-946346_20100104_001.jpg",
+   "edition": "Xbox 360 per publication context (GameSpot Xbox 360 review gallery). Visually checked: cutscene still of Bayonetta in the foreground and Jeanne airborne with drawn pistols.",
+   "rights": "© Sega / PlatinumGames; screenshot via GameSpot (watermarked)",
+   "processing": "1024x576 JPEG -> WebP q82, 35 KB"
+  }
+ ],
+ "articles": {
+  "character-action-history": {
+   "games": [
+    "arcade-strider",
+    "genesis-strider",
+    "arcade-shinobi",
+    "genesis-the-revenge-of-shinobi",
+    "genesis-shinobi-iii-return-of-the-ninja-master",
+    "nes-ninja-gaiden",
+    "psx-strider-2",
+    "ps2-onimusha-warlords",
+    "ps2-devil-may-cry",
+    "ps2-shinobi",
+    "ps2-nightshade",
+    "xbox-ninja-gaiden",
+    "ps2-devil-may-cry-3-dantes-awakening",
+    "ps2-devil-may-cry-3-dantes-awakening-special-edition",
+    "ps2-god-of-war",
+    "psp-god-of-war-chains-of-olympus",
+    "psp-god-of-war-ghost-of-sparta",
+    "gc-viewtiful-joe",
+    "ps2-god-hand",
+    "xbox360-bayonetta",
+    "ps2-zone-of-the-enders-the-2nd-runner",
+    "ps2-blood-will-tell-tezuka-osamus-dororo",
+    "ps2-devil-kings",
+    "wii-muramasa-the-demon-blade",
+    "metal-gear-rising-revengeance",
+    "devil-may-cry-4",
+    "dmc-devil-may-cry",
+    "devil-may-cry-5",
+    "hi-fi-rush",
+    "ninja-gaiden-4"
+   ],
+   "sources": [
+    {
+     "title": "Hack and slash",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Hack_and_slash",
+     "type": "reference"
+    },
+    {
+     "title": "デビル メイ クライ",
+     "author": "Capcom",
+     "publisher": "Capcom Japan",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://www.devilmaycry.com/1/ja/",
+     "type": "reference"
+    },
+    {
+     "title": "Spawn Point: a guide to spectacle fighters",
+     "author": "Rowan McDonald-Nyland",
+     "publisher": "Rock Paper Shotgun",
+     "date": "2019-05-17",
+     "score": "",
+     "url": "https://www.rockpapershotgun.com/spawn-point-a-guide-to-spectacle-fighters",
+     "type": "retrospective"
+    },
+    {
+     "title": "Wet",
+     "author": "Ben \"Yahtzee\" Croshaw",
+     "publisher": "The Escapist",
+     "date": "2009-10-14",
+     "score": "",
+     "url": "https://zeropunctuation.fandom.com/wiki/Wet",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Interview with Kouichi 'Isuke' Yotsui",
+     "author": "Scion, Dire 51 (questions), Gaijin Punch (translation)",
+     "publisher": "LSCM",
+     "date": "2010-04-24",
+     "score": "",
+     "url": "https://lscmainframe.kontek.net/features/kyotsui.html",
+     "type": "interview"
+    },
+    {
+     "title": "Strider (1989 arcade game)",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Strider_(1989_arcade_game)",
+     "type": "reference"
+    },
+    {
+     "title": "Shinobi (1987 video game)",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Shinobi_(1987_video_game)",
+     "type": "reference"
+    },
+    {
+     "title": "The Revenge of Shinobi",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/The_Revenge_of_Shinobi",
+     "type": "reference"
+    },
+    {
+     "title": "Shinobi III: Return of the Ninja Master",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Shinobi_III:_Return_of_the_Ninja_Master",
+     "type": "reference"
+    },
+    {
+     "title": "Ninja Gaiden (NES video game)",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Ninja_Gaiden_(NES_video_game)",
+     "type": "reference"
+    },
+    {
+     "title": "Returning To Round One: The History Of Street Fighter",
+     "author": "Brian Shea",
+     "publisher": "Game Informer",
+     "date": "2022-12-27",
+     "score": "",
+     "url": "https://gameinformer.com/feature/2022/12/27/returning-to-round-one-the-history-of-street-fighter",
+     "type": "retrospective"
+    },
+    {
+     "title": "Onimusha: Warlords",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Onimusha:_Warlords",
+     "type": "reference"
+    },
+    {
+     "title": "『デビル メイ クライ』が『バイオハザード4』として開発されていた頃の状況について、神谷英樹氏が改めて振り返る",
+     "author": "Taijiro Yamanaka",
+     "publisher": "Automaton",
+     "date": "2021-08-23",
+     "score": "",
+     "url": "https://automaton-media.com/articles/newsjp/20210823-173268/",
+     "type": "interview"
+    },
+    {
+     "title": "Devil May Cry Stylish Combat Was the Result of an Onimusha Bug",
+     "author": "Kazuma Hashimoto",
+     "publisher": "Siliconera",
+     "date": "2021-08-23",
+     "score": "",
+     "url": "https://www.siliconera.com/devil-may-cry-stylish-combat-was-the-result-of-an-onimusha-bug/",
+     "type": "interview"
+    },
+    {
+     "title": "Devil May Cry (video game)",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Devil_May_Cry_(video_game)",
+     "type": "reference"
+    },
+    {
+     "title": "Devil May Cry",
+     "author": "Doug Perry",
+     "publisher": "IGN",
+     "date": "2001-10-16",
+     "score": "9.6",
+     "url": "https://www.ign.com/articles/2001/10/16/devil-may-cry",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Shinobi",
+     "author": "Benjamin Turner",
+     "publisher": "GameSpy",
+     "date": "2002-11-08",
+     "score": "",
+     "url": "http://ps2.gamespy.com/playstation-2/shinobi/574900p1.html",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Shinobi (2002 video game)",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Shinobi_(2002_video_game)",
+     "type": "reference"
+    },
+    {
+     "title": "Nightshade (2003 video game)",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Nightshade_(2003_video_game)",
+     "type": "reference"
+    },
+    {
+     "title": "Ninja Gaiden (2004 video game)",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Ninja_Gaiden_(2004_video_game)",
+     "type": "reference"
+    },
+    {
+     "title": "Tomonobu Itagaki",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Tomonobu_Itagaki",
+     "type": "reference"
+    },
+    {
+     "title": "Ninja Gaiden Review",
+     "author": "Greg Kasavin",
+     "publisher": "GameSpot",
+     "date": "2004-02-26",
+     "score": "9.4",
+     "url": "https://www.gamespot.com/reviews/ninja-gaiden-review/1900-6090169/",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Devil May Cry 3: Dante's Awakening Review",
+     "author": "Greg Kasavin",
+     "publisher": "GameSpot",
+     "date": "2005-02-28",
+     "score": "8.6",
+     "url": "https://www.gamespot.com/reviews/devil-may-cry-3-dantes-awakening-review/1900-6119331/",
+     "type": "contemporary review"
+    },
+    {
+     "title": "SCEA Santa Monica Gamers' Day: God of War Interview",
+     "author": "Ed Lewis",
+     "publisher": "IGN",
+     "date": "2004-02-20",
+     "score": "",
+     "url": "https://www.ign.com/articles/2004/02/20/scea-santa-monica-gamers-day-god-of-war-interview",
+     "type": "interview"
+    },
+    {
+     "title": "God of War Review",
+     "author": "Ivan Sulic",
+     "publisher": "IGN",
+     "date": "2005-03-18",
+     "score": "9.8",
+     "url": "https://www.ign.com/articles/2005/03/18/god-of-war",
+     "type": "contemporary review"
+    },
+    {
+     "title": "God of War (2005 video game)",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/God_of_War_(2005_video_game)",
+     "type": "reference"
+    },
+    {
+     "title": "God of War: Chains of Olympus",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/God_of_War:_Chains_of_Olympus",
+     "type": "reference"
+    },
+    {
+     "title": "God of War: Ghost of Sparta",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/God_of_War:_Ghost_of_Sparta",
+     "type": "reference"
+    },
+    {
+     "title": "Viewtiful Joe (video game)",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Viewtiful_Joe_(video_game)",
+     "type": "reference"
+    },
+    {
+     "title": "Clover Studio",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Clover_Studio",
+     "type": "reference"
+    },
+    {
+     "title": "Bayonetta Review",
+     "author": "Ryan Clements",
+     "publisher": "IGN",
+     "date": "2009-12-22",
+     "score": "",
+     "url": "https://www.ign.com/articles/2009/12/22/bayonetta-review",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Bayonetta Review",
+     "author": "Lark Anderson",
+     "publisher": "GameSpot",
+     "date": "2010-01-04",
+     "score": "",
+     "url": "https://www.gamespot.com/reviews/bayonetta-review/1900-6244865/",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Famitsu Awards Bayonetta A Perfect Score",
+     "author": "Brian Ashcraft",
+     "publisher": "Kotaku",
+     "date": "2009-10-20",
+     "score": "Famitsu 40/40 (Xbox 360)",
+     "url": "https://kotaku.com/famitsu-awards-bayonetta-a-perfect-score-5385506",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Critical Reception: Sega/PlatinumGames' Bayonetta",
+     "author": "Danny Cowan",
+     "publisher": "Game Developer (Gamasutra)",
+     "date": "2010-01-06",
+     "score": "Edge Online 10/10 (reported)",
+     "url": "https://www.gamedeveloper.com/game-platforms/critical-reception-sega-platinumgames-i-bayonetta-i-",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Bayonetta (video game)",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Bayonetta_(video_game)",
+     "type": "reference"
+    },
+    {
+     "title": "DmC: Devil May Cry Review",
+     "author": "Ryan Clements",
+     "publisher": "IGN",
+     "date": "2013-01-14",
+     "score": "",
+     "url": "https://www.ign.com/articles/2013/01/14/dmc-devil-may-cry-review-ps3",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Metal Gear Rising: Revengeance",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Metal_Gear_Rising:_Revengeance",
+     "type": "reference"
+    },
+    {
+     "title": "Devil May Cry 4",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Devil_May_Cry_4",
+     "type": "reference"
+    },
+    {
+     "title": "DmC: Devil May Cry",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/DmC:_Devil_May_Cry",
+     "type": "reference"
+    },
+    {
+     "title": "Devil May Cry 5",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Devil_May_Cry_5",
+     "type": "reference"
+    },
+    {
+     "title": "Hi-Fi Rush",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Hi-Fi_Rush",
+     "type": "reference"
+    },
+    {
+     "title": "Ninja Gaiden 4",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Ninja_Gaiden_4",
+     "type": "reference"
+    },
+    {
+     "title": "Strider 2 (NTSC-U)",
+     "author": "PSX Data Center",
+     "publisher": "psxdatacenter.com",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://psxdatacenter.com/games/U/S/SLUS-01142.html",
+     "type": "reference"
+    },
+    {
+     "title": "Strider",
+     "author": "Redump",
+     "publisher": "redump.org",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "http://redump.org/disc/1230/",
+     "type": "reference"
+    },
+    {
+     "title": "Strider 2",
+     "author": "Redump",
+     "publisher": "redump.org",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "http://redump.org/disc/1231/",
+     "type": "reference"
+    },
+    {
+     "title": "Devil Kings",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Devil_Kings",
+     "type": "reference"
+    },
+    {
+     "title": "Blood Will Tell",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Blood_Will_Tell",
+     "type": "reference"
+    },
+    {
+     "title": "Zone of the Enders: The 2nd Runner",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Zone_of_the_Enders:_The_2nd_Runner",
+     "type": "reference"
+    },
+    {
+     "title": "Muramasa: The Demon Blade",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Muramasa:_The_Demon_Blade",
+     "type": "reference"
+    },
+    {
+     "title": "God Hand",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/God_Hand",
+     "type": "reference"
+    }
+   ],
+   "notes": [
+    "Redump and PSX Data Center show the US Strider 2 release as two discs: Strider = SLUS-01142 (Redump disc 1230), Strider 2 = SLUS-01163 (Redump disc 1231). The article therefore says a Strider 2 disc on its own holds only the sequel.",
+    "I couldn't establish the origin of the English term 'character action', and the article says so without claiming it is globally unknown. 'Spectacle fighter' is sourced to Croshaw's 2009-10-14 Wet review, where he says he is 'still determined' to popularise it; earlier use was not located.",
+    "Strider-to-DMC influence is framed as critical lineage only; no Kamiya interview making that link was found.",
+    "DMC3's director is deliberately not named, since that was not verified in this pass; Itsuno is named only for DMC4/DmC/DMC5, per Wikipedia.",
+    "The GameSpy Shinobi (2002) review score was not captured; it is left blank rather than guessed.",
+    "The Edge 10/10 for Bayonetta is cited via Game Developer's Critical Reception roundup, not the Edge review itself.",
+    "Muramasa's cached press screenshot shows a Japanese HUD and a watermark, so it was not used.",
+    "DMC mission ranking is sourced via IGN's DmC (2013) review; no DMC1-specific source for the end-of-mission grade was captured. Bayonetta per-verse grading criteria come from GameSpot (Lark Anderson, 2010-01-04); that review's score was not captured.",
+    "Source 'date' for Wikipedia, Capcom, PSX Data Center and Redump entries is the access date (2026-10-24), not a publication date."
+   ]
+  },
+  "onimusha-warlords-issen": {
+   "games": [
+    "ps2-onimusha-warlords",
+    "xbox-genma-onimusha",
+    "onimusha-warlords-remaster",
+    "ps2-onimusha-2-samurais-destiny",
+    "ps2-onimusha-3-demon-siege",
+    "ps2-devil-may-cry"
+   ],
+   "sources": [
+    {
+     "title": "Onimusha: Warlords instruction manual (NTSC-U, PlayStation 2)",
+     "author": "Capcom",
+     "publisher": "Capcom / scan hosted by Video Game Museum",
+     "date": "2001",
+     "score": "",
+     "url": "https://www.video-games-museum.com/en/manual/Playstation%202/50745_us-Onimusha-Warlords.pdf",
+     "type": "manual"
+    },
+    {
+     "title": "Onimusha: Warlords Review",
+     "author": "Joe Fielder",
+     "publisher": "GameSpot",
+     "date": "2001-03-09",
+     "score": "8.4/10",
+     "url": "https://www.gamespot.com/reviews/onimusha-warlords-review/1900-2694062/",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Onimusha Warlords",
+     "author": "Doug Perry",
+     "publisher": "IGN",
+     "date": "2001-03-14",
+     "score": "8.9/10",
+     "url": "https://web.archive.org/web/20020602050743/http://ps2.ign.com/articles/161/161520p1.html",
+     "type": "contemporary review"
+    },
+    {
+     "title": "'Warlords' Is a Cut Above the Rest",
+     "author": "Aaron Curtiss",
+     "publisher": "Los Angeles Times",
+     "date": "2001-03-15",
+     "score": "",
+     "url": "https://www.latimes.com/archives/la-xpm-2001-mar-15-tt-37925-story.html",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Onimusha: Warlords Review (remaster)",
+     "author": "Seth G. Macy",
+     "publisher": "IGN",
+     "date": "2019-01-16",
+     "score": "6.5/10",
+     "url": "https://www.ign.com/articles/2019/01/16/onimusha-warlords-review",
+     "type": "retrospective"
+    },
+    {
+     "title": "Devil May Cry Stylish Combat Was the Result of an Onimusha Bug",
+     "author": "Kazuma Hashimoto",
+     "publisher": "Siliconera",
+     "date": "2021-08-23",
+     "score": "",
+     "url": "https://www.siliconera.com/devil-may-cry-stylish-combat-was-the-result-of-an-onimusha-bug/",
+     "type": "interview"
+    },
+    {
+     "title": "Onimusha: Warlords Cuts To The Chase With Dark Realm And Fluorite Info",
+     "author": "Alistair Wong",
+     "publisher": "Siliconera",
+     "date": "2018-12-13",
+     "score": "",
+     "url": "https://www.siliconera.com/onimusha-warlords-cuts-to-the-chase-with-dark-realm-and-fluorite-info/",
+     "type": "reference"
+    },
+    {
+     "title": "Onimusha Official Site (remaster)",
+     "author": "Capcom",
+     "publisher": "Capcom",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://www.capcom-games.com/onimusha/1/us/",
+     "type": "reference"
+    },
+    {
+     "title": "Onimusha: Warlords Issen FAQ",
+     "author": "Goldsickle",
+     "publisher": "GameFAQs",
+     "date": "2004-04-26",
+     "score": "",
+     "url": "https://gamefaqs.gamespot.com/ps2/198238-onimusha-warlords/faqs/30018",
+     "type": "reference"
+    },
+    {
+     "title": "Onimusha: Warlords Cheats, Codes, and Secrets (PS2)",
+     "author": "GameFAQs contributors",
+     "publisher": "GameFAQs",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://gamefaqs.gamespot.com/ps2/198238-onimusha-warlords/cheats",
+     "type": "reference"
+    },
+    {
+     "title": "Fluorite",
+     "author": "Onimusha Wiki contributors",
+     "publisher": "Fandom",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://onimusha.fandom.com/wiki/Fluorite",
+     "type": "reference"
+    },
+    {
+     "title": "Dark Realm",
+     "author": "Onimusha Wiki contributors",
+     "publisher": "Fandom",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://onimusha.fandom.com/wiki/Dark_Realm",
+     "type": "reference"
+    },
+    {
+     "title": "Onimusha: Warlords",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Onimusha:_Warlords",
+     "type": "reference"
+    },
+    {
+     "title": "Onimusha 2: Samurai's Destiny",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Onimusha_2:_Samurai%27s_Destiny",
+     "type": "reference"
+    },
+    {
+     "title": "Onimusha 3: Demon Siege",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Onimusha_3:_Demon_Siege",
+     "type": "reference"
+    },
+    {
+     "title": "How long is Onimusha: Warlords?",
+     "author": "HowLongToBeat",
+     "publisher": "HowLongToBeat",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://howlongtobeat.com/game/6768",
+     "type": "reference"
+    },
+    {
+     "title": "GameIndex.yaml entry SLUS-20018 (commit b3402c13b104ce255bb15234bb567cd87f87f95f)",
+     "author": "PCSX2 project",
+     "publisher": "GitHub",
+     "date": "2026-10-21",
+     "score": "",
+     "url": "https://github.com/PCSX2/pcsx2/blob/master/bin/resources/GameIndex.yaml",
+     "type": "upstream data"
+    },
+    {
+     "title": "Onimusha: Warlords (PS2, USA, SLUS 20018)",
+     "author": "Redump",
+     "publisher": "redump.org",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "http://redump.org/disc/3769/",
+     "type": "reference"
+    }
+   ],
+   "notes": [
+    "Not launched on any device. SLUS-20018 is identified through Redump (USA disc 3769; Original and Greatest Hits share the serial) and the PCSX2 GameIndex.",
+    "PCSX2 GameIndex SLUS-20018 at commit b3402c13 (2026-10-21) gives compat 5. In PCSX2's GameDatabase.h enum that means 'Playable'; 6 is 'Perfect'. The entry also sets gsHWFixes texturePreloading 1 and gameFixes SoftwareRendererFMVHack. This is desktop upstream data only.",
+    "The US manual says the left analog stick is not used; movement is D-pad only.",
+    "GameSpot's page now shows 'May 8, 2014' (an editor's note says only screens and video were updated). The 2001-03-09 date comes from the page's parsely-pub-date metadata.",
+    "IGN's 2001 review page is reachable only via Wayback; the on-page date is March 14, 2001. Wikipedia cites a separate Perry article dated 2001-01-25, probably the Japanese import coverage, which I didn't use. IGN's 2019 remaster score of 6.5 is taken from IGN's game hub and Wikipedia because ign.com returned 403. The in.ign.com mirror of that review shows a garbled 6.8 score and an unrelated verdict box.",
+    "The Issen mechanics in the article (soul multiplier, Hajiki Issen, lock-on quirk, the second Marcellus being the only boss that can be Issen-ed) come from a fan FAQ and are labelled as such. The US manual pages I inspected don't name Issen.",
+    "The Easy-mode unlock condition varies between fan guides (3 or 5 deaths, sometimes specifically against Osric). The article says only that it's hidden and that the guides disagree.",
+    "The Famitsu 35/40 score and the 'first PS2 million-seller' claim come from Wikipedia, not from the primary sources.",
+    "The ES-DE cover for 'Onimusha - Warlords (USA)' is actually the PAL box (ELSPA 15, capcom-europe.com), and the ES-DE screenshot is a composite 'mix' image that includes that PAL box. I used neither; the lead image is the libretro NTSC-U boxart instead.",
+    "Manual source date is given as year only ('2001', not full YYYY-MM-DD). The scan carries no printed date; I verified only that it's the 2001 NTSC-U PS2 manual, so I didn't use the March 14, 2001 release date as its publication date.",
+    "The manifest lead is a gameplay screenshot; the US box cover appears in the body after the first paragraph. A title-screen image was dropped from the pack; the Samuragochi credit is sourced to Wikipedia."
+   ]
+  },
+  "zoe2-jehuty-momentum": {
+   "games": [
+    "ps2-zone-of-the-enders-the-2nd-runner",
+    "ps2-zone-of-the-enders-the-2nd-runner-special-edition",
+    "ps2-zone-of-the-enders",
+    "ps3-zone-of-the-enders-hd-collection",
+    "zone-of-the-enders-the-2nd-runner-mars"
+   ],
+   "sources": [
+    {
+     "title": "Zone of the Enders: The 2nd Runner instruction manual (NTSC U/C)",
+     "author": "Konami",
+     "publisher": "Konami (scan via VideoGameManual.com)",
+     "date": "2003",
+     "score": "",
+     "url": "https://www.videogamemanual.com/PS2/Zone%20of%20the%20Enders-%20The%202nd%20Runner%20(USA).pdf",
+     "type": "manual"
+    },
+    {
+     "title": "Zone of the Enders: The 2nd Runner official English site (System, Subweapons, Zero Shift, Vector Cannon pages)",
+     "author": "Konami",
+     "publisher": "Konami",
+     "date": "2003",
+     "score": "",
+     "url": "https://www.konami.com/games/zoe2/english/subweapons.html",
+     "type": "manual"
+    },
+    {
+     "title": "E3 2002: Z.O.E 2 Q&A",
+     "author": "IGN Staff",
+     "publisher": "IGN",
+     "date": "2002-05-22",
+     "score": "",
+     "url": "https://web.archive.org/web/20231103021507/https://www.ign.com/articles/2002/05/22/e3-2002-zoe-2-qa",
+     "type": "interview"
+    },
+    {
+     "title": "Zone of the Enders: The 2nd Runner (review)",
+     "author": "Jeremy Dunham",
+     "publisher": "IGN",
+     "date": "2003-03-10",
+     "score": "8.6/10",
+     "url": "https://web.archive.org/web/20130630055921/http://www.ign.com/articles/2003/03/10/zone-of-the-enders-the-2nd-runner",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Zone of the Enders: The 2nd Runner Review",
+     "author": "Giancarlo Varanini",
+     "publisher": "GameSpot",
+     "date": "2003-03-11",
+     "score": "8.5/10",
+     "url": "https://web.archive.org/web/20130324004733/http://www.gamespot.com/zone-of-the-enders-the-2nd-runner/reviews/zone-of-the-enders-the-2nd-runner-review-2912559/",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Zone of the Enders: The 2nd Runner (review)",
+     "author": "Shawn Sanders",
+     "publisher": "GameRevolution",
+     "date": "2003-03",
+     "score": "B+",
+     "url": "https://web.archive.org/web/20041025155755/http://game-revolution.com/games/ps2/action/zone_of_enders_second_runner.htm",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Zone of the Enders 2",
+     "author": "Michael Vreeland",
+     "publisher": "GameSpy",
+     "date": "2003-03-22",
+     "score": "3/5",
+     "url": "https://web.archive.org/web/20150908001123/http://ps2.gamespy.com/playstation-2/zone-of-the-enders-the-2nd-runner/5717p1.html",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Zone of the Enders: The 2nd Runner (Review Crew, EGM #164)",
+     "author": "EGM Review Crew (names not shown in archived page)",
+     "publisher": "Electronic Gaming Monthly / Ziff Davis",
+     "date": "2003",
+     "score": "7.5, 9.0, 8.5 (of 10); same page lists OPM 4.5/5, GMR 8/10",
+     "url": "https://web.archive.org/web/20040301150608/http://www.egmmag.com/article2/0,4364,1490347,00.asp",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Zone of the Enders: The 2nd Runner review",
+     "author": "Rob Fahey",
+     "publisher": "Eurogamer",
+     "date": "2003-10-13",
+     "score": "8/10",
+     "url": "https://www.eurogamer.net/r-zoe2-ps2",
+     "type": "contemporary review"
+    },
+    {
+     "title": "ZOE: The 2nd Runner enhanced for Europe",
+     "author": "Justin Calvert",
+     "publisher": "GameSpot",
+     "date": "2003-03-24",
+     "score": "",
+     "url": "https://www.gamespot.com/articles/zoe-the-2nd-runner-enhanced-for-europe/1100-6023646/",
+     "type": "reference"
+    },
+    {
+     "title": "Anubis Special Edition Details",
+     "author": "IGNPS2",
+     "publisher": "IGN",
+     "date": "2003-11-17",
+     "score": "",
+     "url": "https://web.archive.org/web/20130305083531/http://www.ign.com/articles/2003/11/17/anubis-special-edition-details",
+     "type": "reference"
+    },
+    {
+     "title": "Zone of the Enders HD includes 2nd Runner SE",
+     "author": "Steve Watts",
+     "publisher": "Shacknews",
+     "date": "2012-02-23",
+     "score": "",
+     "url": "https://www.shacknews.com/article/72576/zone-of-the-enders-hd-includes-2nd-runner-se",
+     "type": "reference"
+    },
+    {
+     "title": "Zone of the Enders: how Konami remade its own HD remake",
+     "author": "John Linneman",
+     "publisher": "Digital Foundry",
+     "date": "2013-08-18",
+     "score": "",
+     "url": "https://www.digitalfoundry.net/articles/digitalfoundry-how-konami-remade-zoe-hd-remaster",
+     "type": "retrospective"
+    },
+    {
+     "title": "Zone Of The Enders: The 2nd Runner – MARS Review",
+     "author": "Justin Clark",
+     "publisher": "GameSpot",
+     "date": "2018-09-14",
+     "score": "5/10 (M∀RS remaster, not the PS2 original)",
+     "url": "https://www.gamespot.com/reviews/zone-of-the-enders-the-2nd-runner-mars-review/1900-6416990/",
+     "type": "retrospective"
+    },
+    {
+     "title": "ZONE OF THE ENDERS THE 2nd RUNNER : M∀RS (Steam store page)",
+     "author": "Konami",
+     "publisher": "Valve / Konami",
+     "date": "2018-09-04",
+     "score": "",
+     "url": "https://store.steampowered.com/app/650510/",
+     "type": "reference"
+    },
+    {
+     "title": "Zone of the Enders: The 2nd Runner (PS2) critic aggregate",
+     "author": "Metacritic",
+     "publisher": "Metacritic",
+     "date": "",
+     "score": "82 (aggregate, 33 critics; not an outlet score)",
+     "url": "https://www.metacritic.com/game/zone-of-the-enders-the-2nd-runner",
+     "type": "reference"
+    },
+    {
+     "title": "GameIndex.yaml entry SLUS-20545",
+     "author": "PCSX2 project",
+     "publisher": "GitHub PCSX2/pcsx2 (master; last commit touching file b3402c13, 2026-10-21)",
+     "date": "2026-10-24",
+     "score": "compat 5",
+     "url": "https://github.com/PCSX2/pcsx2/blob/master/bin/resources/GameIndex.yaml",
+     "type": "upstream data"
+    }
+   ],
+   "notes": [
+    "Nothing launched or played on any device. SLUS-20545 is the GameIndex/Redump serial for the NTSC-U release.",
+    "The ES-DE ps2 cache for this (USA) title has the PAL Special Edition cover, and its screenshot is a composite with that PAL box. The lead uses the clean underlying ScreenScraper frame from the Skyscraper cache instead.",
+    "The source count of Special Edition stages differs: GameSpot's March 2003 Konami Europe announcement lists three new events plus two redesigned levels, while IGN's Nov 2003 Japanese SE report says 'two extra stages'. The article states both. The final shipped content was not checked.",
+    "Sub-weapon count: Konami's official site lists 12, and IGN says 14 'in all' (possibly counting Grab and others). The article gives both.",
+    "The labels 'dash-guard' and 'Big Battle' circulate in informal descriptions of the game. Neither name appears in the NA manual or the sources read, so the article describes blocking per the manual and the large field battle per Eurogamer, without those labels.",
+    "EGM #164's reviewer names are not shown on the archived 1UP page, and the OPM/GMR scores come from the same Ziff Davis page (Konami's site credits Sam Kennedy/OPM and James Mielke/GMR, but those reviews were not read). No Famitsu score was sourced.",
+    "I did not verify whether M∀RS is based on the Special Edition content, so the article does not claim it.",
+    "The GameSpot review's page 2 could not be fetched (no Wayback capture). Only page 1 was used.",
+    "The release date is 11 March 2003 per IGN/GameSpy and 10 March per GameSpot/EGM listings. The article says 'March 2003'."
+   ]
+  },
+  "blood-will-tell-48-fiends": {
+   "games": [
+    "ps2-blood-will-tell-tezuka-osamus-dororo",
+    "ps2-dororo"
+   ],
+   "sources": [
+    {
+     "title": "Blood Will Tell instruction manual (NTSC U/C)",
+     "author": "Sega of America",
+     "publisher": "Sega (scan via Gaming Alexandria)",
+     "date": "2004",
+     "score": "",
+     "url": "https://www.gamingalexandria.com/highquality/ps2/Blood%20Will%20Tell%20-%20Tezuka%20Osamu%27s%20Dororo/Blood%20Will%20Tell%20-%20Tezuka%20Osamu%27s%20Dororo%20-%20Manual%20%28Compressed%29.pdf",
+     "type": "manual"
+    },
+    {
+     "title": "Blood Will Tell Review",
+     "author": "Justin Calvert",
+     "publisher": "GameSpot",
+     "date": "2004-09-21",
+     "score": "7.3/10",
+     "url": "https://www.gamespot.com/reviews/blood-will-tell-review/1900-6108051/",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Blood Will Tell",
+     "author": "Ivan Sulic",
+     "publisher": "IGN",
+     "date": "2004-09-22",
+     "score": "6.8/10",
+     "url": "https://web.archive.org/web/20151025010603/http://www.ign.com/articles/2004/09/23/blood-will-tell",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Blood Will Tell",
+     "author": "Justin Leeper",
+     "publisher": "GameSpy",
+     "date": "2004-09-23",
+     "score": "3.5/5",
+     "url": "https://web.archive.org/web/20040924085228/http://ps2.gamespy.com:80/playstation-2/blood-will-tell/550556p1.html",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Blood Will Tell review",
+     "author": "Tom Bramwell",
+     "publisher": "Eurogamer",
+     "date": "2005-02-28",
+     "score": "7/10",
+     "url": "https://www.eurogamer.net/r-bloodwilltell-ps2",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Blood Will Tell Guide and Walkthrough",
+     "author": "Daniel \"DEngel\" Engel",
+     "publisher": "GameFAQs",
+     "date": "2023-02-19",
+     "score": "",
+     "url": "https://gamefaqs.gamespot.com/ps2/914717-blood-will-tell/faqs/35936",
+     "type": "reference"
+    },
+    {
+     "title": "Blood Will Tell: Tezuka Osamu's Dororo",
+     "author": "Brian S. Lang",
+     "publisher": "Hardcore Gaming 101",
+     "date": "2017-07-24",
+     "score": "",
+     "url": "https://web.archive.org/web/20260613152004/https://www.hardcoregaming101.net/blood-will-tell-tezuka-osamus-dororo/",
+     "type": "retrospective"
+    },
+    {
+     "title": "Blood Will Tell",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "Famitsu 30/40 (as cited)",
+     "url": "https://en.wikipedia.org/wiki/Blood_Will_Tell",
+     "type": "reference"
+    },
+    {
+     "title": "Dororo",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Dororo",
+     "type": "reference"
+    },
+    {
+     "title": "Blood Will Tell PlayStation 2 critic reviews",
+     "author": "",
+     "publisher": "Metacritic",
+     "date": "2026-10-24",
+     "score": "Metascore 67 (37 reviews, aggregate)",
+     "url": "https://www.metacritic.com/game/blood-will-tell/critic-reviews/?platform=playstation-2",
+     "type": "reference"
+    },
+    {
+     "title": "Blood Will Tell: Tezuka Osamu's Dororo (USA SLUS-20782; Europe SLES-52755)",
+     "author": "Redump Team",
+     "publisher": "Redump",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "http://redump.org/disc/7186/",
+     "type": "reference"
+    },
+    {
+     "title": "GameIndex.yaml entry SLUS-20782 and GameDatabase.h compatibility enum",
+     "author": "PCSX2 team",
+     "publisher": "GitHub PCSX2/pcsx2 (commit b3402c13, 2026-10-21)",
+     "date": "2026-10-21",
+     "score": "",
+     "url": "https://github.com/PCSX2/pcsx2/blob/master/bin/resources/GameIndex.yaml",
+     "type": "upstream data"
+    }
+   ],
+   "notes": [
+    "Fact-check findings: most of the 48 body parts are stat bonuses; only a handful change senses/abilities (left eye = colour, vocal cords, left leg dash, ears, nose/pain rumble, arms swap blades for swords, right leg doubles leg-cannon ammo). No source supports 'limb-targeting' of enemies; IGN criticised oversized hitboxes instead. Weapons are a right-arm machine gun (R1, Arm Blade mode only) and a knee/leg cannon (hold R2, five-shell capacity in the manual, later doubled by the right-leg upgrade per DEngel).",
+    "Not used for illustration: the ES-DE screenshot and Skyscraper/screenscraper screenshot plus libretro-thumbnails Named_Snaps/Named_Titles for 'Blood Will Tell - Tezuka Osamu's Dororo (USA)' actually show the French-language PAL build (HUD 'Niv', title 'APPUYER SUR LA TOUCHE START'), despite the USA filename.",
+    "No sourced content differences between JP Dororo (SLPM-65526) and NA Blood Will Tell found; only title, release dates and disc language sets are documented.",
+    "Famitsu 30/40 taken from Wikipedia's citation; the Famitsu page itself was not opened.",
+    "No limb-by-limb mechanic, 'Zan meter' or sound-before-ears mechanic is documented; the game's equivalents are the Slice Attack and spirit gauge.",
+    "Nothing was launched on any device. PCSX2 GameIndex data (compat 5 = Playable, textureInsideRT 1, minimumBlendingLevel 2) is desktop upstream data. Serial SLUS-20782 comes from Redump.",
+    "Manual source date is year-only (2004); exact print date not verified."
+   ]
+  },
+  "ghost-of-sparta-pocket-epic": {
+   "games": [
+    "psp-god-of-war-ghost-of-sparta",
+    "psp-god-of-war-chains-of-olympus",
+    "ps2-god-of-war"
+   ],
+   "sources": [
+    {
+     "title": "God of War: Ghost of Sparta Review",
+     "author": "Nicole Tanner",
+     "publisher": "IGN",
+     "date": "2010-10-25",
+     "score": "9.5/10",
+     "url": "https://web.archive.org/web/20121020044819/http://www.ign.com/articles/2010/10/25/god-of-war-ghost-of-sparta-review",
+     "type": "contemporary review"
+    },
+    {
+     "title": "God of War: Ghost of Sparta Review (page 2)",
+     "author": "Nicole Tanner",
+     "publisher": "IGN",
+     "date": "2010-10-25",
+     "score": "9.5/10",
+     "url": "https://web.archive.org/web/20130221171753/http://www.ign.com/articles/2010/10/25/god-of-war-ghost-of-sparta-review?page=2",
+     "type": "contemporary review"
+    },
+    {
+     "title": "God of War: Ghost of Sparta Review",
+     "author": "Tom Mc Shea",
+     "publisher": "GameSpot",
+     "date": "2010-10-29",
+     "score": "8/10",
+     "url": "https://www.gamespot.com/reviews/god-of-war-ghost-of-sparta-review/1900-6283287/",
+     "type": "contemporary review"
+    },
+    {
+     "title": "God of War: Ghost of Sparta Review",
+     "author": "Simon Parkin",
+     "publisher": "Eurogamer",
+     "date": "2010-10-25",
+     "score": "7/10",
+     "url": "https://web.archive.org/web/20121024044921/http://www.eurogamer.net/articles/2010-10-25-god-of-war-ghost-of-sparta-review",
+     "type": "contemporary review"
+    },
+    {
+     "title": "God of War: Ghost of Sparta Review",
+     "author": "Chris Pereira",
+     "publisher": "1UP.com",
+     "date": "2010-10-25",
+     "score": "A-",
+     "url": "https://web.archive.org/web/20121107010340/http://www.1up.com/reviews/god-war-ghost-sparta-review",
+     "type": "contemporary review"
+    },
+    {
+     "title": "God of War: Ghost of Sparta Review (page 2)",
+     "author": "Chris Pereira",
+     "publisher": "1UP.com",
+     "date": "2010-10-25",
+     "score": "A-",
+     "url": "https://web.archive.org/web/20130318004050/http://www.1up.com/reviews/god-war-ghost-sparta-review?pager.offset=1",
+     "type": "contemporary review"
+    },
+    {
+     "title": "God of War: Ghost of Sparta review: This Spartan stands tall",
+     "author": "Randy Nelson",
+     "publisher": "Joystiq",
+     "date": "2010-10-25",
+     "score": "4.5/5",
+     "url": "https://web.archive.org/web/20121126102457/http://www.joystiq.com/2010/10/25/god-of-war-ghost-of-sparta-review/",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Ghost Of Sparta Review: Kratos Delivers More Epic Handheld Action",
+     "author": "Joe Juba",
+     "publisher": "Game Informer",
+     "date": "2010-10-25",
+     "score": "9.5/10",
+     "url": "https://web.archive.org/web/20120819121100/http://www.gameinformer.com/games/god_of_war_ghost_of_sparta/b/psp/archive/2010/10/25/ghost-of-sparta-review-kratos-delivers-more-epic-handheld-action.aspx",
+     "type": "contemporary review"
+    },
+    {
+     "title": "God of War: Chains of Olympus Review",
+     "author": "Aaron Thomas",
+     "publisher": "GameSpot",
+     "date": "2008-03-04",
+     "score": "8.5/10",
+     "url": "https://www.gamespot.com/reviews/god-of-war-chains-of-olympus-review/1900-6187153/",
+     "type": "contemporary review"
+    },
+    {
+     "title": "God of War (PS2, USA) instruction manual",
+     "author": "Sony Computer Entertainment America",
+     "publisher": "Sony Computer Entertainment America (scan via videogamemanual.com)",
+     "date": "2005-03-22",
+     "score": "",
+     "url": "https://www.videogamemanual.com/PS2/God%20of%20War%20(USA).pdf",
+     "type": "manual"
+    },
+    {
+     "title": "God of War: Ghost of Sparta Guide and Walkthrough (PSP)",
+     "author": "Jake \"WingedMasamune\"",
+     "publisher": "GameFAQs",
+     "date": "2011-01-13",
+     "score": "",
+     "url": "https://gamefaqs.gamespot.com/psp/995953-god-of-war-ghost-of-sparta/faqs/61223",
+     "type": "reference"
+    },
+    {
+     "title": "God of War: Ghost of Sparta",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "Metacritic 86/100 (aggregate, not an outlet score)",
+     "url": "https://en.wikipedia.org/wiki/God_of_War:_Ghost_of_Sparta",
+     "type": "reference"
+    },
+    {
+     "title": "God of War: Ghost of Sparta (USA, UCUS-98737, v2.00)",
+     "author": "redump.org",
+     "publisher": "redump.org",
+     "date": "",
+     "score": "",
+     "url": "http://redump.org/disc/20585/",
+     "type": "reference"
+    },
+    {
+     "title": "assets/compat.ini",
+     "author": "PPSSPP project",
+     "publisher": "GitHub hrydgard/ppsspp",
+     "date": "2026-10-21",
+     "score": "",
+     "url": "https://github.com/hrydgard/ppsspp/blob/master/assets/compat.ini",
+     "type": "upstream data"
+    },
+    {
+     "title": "God Of War Ghost Of Sparta: crash jumping down in nexus of atlantis (has workaround) #14958",
+     "author": "PPSSPP issue tracker",
+     "publisher": "GitHub hrydgard/ppsspp",
+     "date": "2021-10-01",
+     "score": "",
+     "url": "https://github.com/hrydgard/ppsspp/issues/14958",
+     "type": "upstream data"
+    },
+    {
+     "title": "GOW - Ghost Of Sparta Segmentation fault #6982 (workaround comment)",
+     "author": "Unknown W. Brackets",
+     "publisher": "GitHub hrydgard/ppsspp",
+     "date": "2022-10-30",
+     "score": "",
+     "url": "https://github.com/hrydgard/ppsspp/issues/6982#issuecomment-1296037392",
+     "type": "upstream data"
+    },
+    {
+     "title": "God of War Ghost Of Sparta unlimited enemies in The Vortex #8299",
+     "author": "PPSSPP issue tracker",
+     "publisher": "GitHub hrydgard/ppsspp",
+     "date": "2022-07-10",
+     "score": "",
+     "url": "https://github.com/hrydgard/ppsspp/issues/8299",
+     "type": "upstream data"
+    },
+    {
+     "title": "Combo Mapping for PC (Single input button: Multiple output button) #21059",
+     "author": "Henrik Rydgård (comment)",
+     "publisher": "GitHub hrydgard/ppsspp",
+     "date": "2025-12-05",
+     "score": "",
+     "url": "https://github.com/hrydgard/ppsspp/issues/21059",
+     "type": "upstream data"
+    },
+    {
+     "title": "PPSSPP Reporting: God of War: Ghost of Sparta (2.00, USA)",
+     "author": "PPSSPP users",
+     "publisher": "report.ppsspp.org",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://report.ppsspp.org/game/UCUS98737_2.00",
+     "type": "upstream data"
+    }
+   ],
+   "notes": [
+    "No US PSP manual for Ghost of Sparta was found online (archive.org, videogamemanual.com). PSP controls and move names (L block/tap deflect, L+R+nub evade, d-pad magic and weapon swap, hold R for Thera's Bane, L+circle Hyperion Charge) come from the WingedMasamune GameFAQs guide and are backed up by the 1UP, Eurogamer and Game Informer reviews. Only the PS2 comparison uses a manual (the US PS2 manual scan).",
+    "Matching the Hyperion Charge to Juba's 'run-and-tackle move' is the author's inference. The article labels it with 'appears to be'.",
+    "The in-game difficulty names for Ghost of Sparta were not verified. The article names only God Mode, which appears in the guide's unlockables. The Mortal/Hero/Spartan/God names apply to the PS2 original, taken from its manual.",
+    "The disc version (2.00) and CRC come from Redump data for the US release; no disc image was hashed for this issue.",
+    "Nothing was launched on any device. PPSSPP information is upstream: compat.ini at master commit ef7ca8b85f (2026-10-21), GitHub issues, and user-submitted compatibility reports. Issue #14958 was open when fetched on 2026-10-24. The 2022 CPU-clock workaround mentioned in #6982 was left out because current compat.ini forces the default CPU clock for UCUS-98737. The single-button L+R binding Rydgård describes is untested.",
+    "The lead image is a clean gameplay frame rather than the ES-DE composite screenshot, which adds PAL box art to the same frame. The body images do not repeat the lead.",
+    "Wikipedia gives conflicting lifetime sales figures (3.2 million and 1.2 million), so the article omits sales."
+   ]
+  },
+  "dmc3-special-edition-styles": {
+   "games": [
+    "ps2-devil-may-cry-3-dantes-awakening-special-edition",
+    "ps2-devil-may-cry-3-dantes-awakening",
+    "switch-devil-may-cry-3-special-edition",
+    "devil-may-cry-hd-collection",
+    "ps2-devil-may-cry"
+   ],
+   "sources": [
+    {
+     "title": "Devil May Cry 3: Dante's Awakening Review",
+     "author": "Greg Kasavin",
+     "publisher": "GameSpot",
+     "date": "2005-02-28",
+     "score": "8.6/10",
+     "url": "https://www.gamespot.com/reviews/devil-may-cry-3-dantes-awakening-review/1900-6119331/",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Devil May Cry 3: Dante's Awakening – Special Edition Review",
+     "author": "Greg Kasavin",
+     "publisher": "GameSpot",
+     "date": "2006-01-24",
+     "score": "8.2/10",
+     "url": "https://www.gamespot.com/reviews/devil-may-cry-3-dantes-awakening-special-edition-r/1900-6142942/",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Devil May Cry 3: Dante's Awakening (review)",
+     "author": "Jeremy Dunham",
+     "publisher": "IGN",
+     "date": "2005-02-25",
+     "score": "9.6/10",
+     "url": "https://web.archive.org/web/20081225054453/http://ps2.ign.com/articles/590/590779p1.html",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Devil May Cry 3: Dante's Awakening Special Edition (PS2 review)",
+     "author": "Jeremy Dunham",
+     "publisher": "IGN",
+     "date": "2006-01-24",
+     "score": "9.0/10",
+     "url": "https://web.archive.org/web/2008/http://ps2.ign.com/articles/683/683034p1.html",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Devil May Cry 3: Dante's Awakening Special Edition Review (PC)",
+     "author": "Jeremy Dunham",
+     "publisher": "IGN",
+     "date": "2006-11-22",
+     "score": "",
+     "url": "https://www.ign.com/articles/2006/11/23/devil-may-cry-3-dantes-awakening-special-edition-review",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Devil May Cry 3: Dante's Awakening (review)",
+     "author": "Miguel Lopez",
+     "publisher": "GameSpy",
+     "date": "2005-03-01",
+     "score": "4/5",
+     "url": "https://web.archive.org/web/20081231010322/http://ps2.gamespy.com/playstation-2/devil-may-cry-3/592530p1.html",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Devil May Cry 3 (review)",
+     "author": "Kristan Reed",
+     "publisher": "Eurogamer",
+     "date": "2005-04-29",
+     "score": "8/10",
+     "url": "https://web.archive.org/web/20070930041216/http://www.eurogamer.net/article.php?article_id=58841",
+     "type": "contemporary review"
+    },
+    {
+     "title": "If Devil May Cry 3 Hadn't Been a \"Huge Success,\" Its Development Team Would Have All Quit (interview with Matt Walker)",
+     "author": "Mathew Olson",
+     "publisher": "USgamer (republished by VG247)",
+     "date": "2020-02-18",
+     "score": "",
+     "url": "https://www.vg247.com/if-devil-may-cry-3-hadnt-been-a-huge-success-its-development-team-would-have-all-quit",
+     "type": "interview"
+    },
+    {
+     "title": "Devil May Cry 3 On Switch Will Introduce A Style Change System",
+     "author": "James O'Connor",
+     "publisher": "GameSpot",
+     "date": "2020-01-15",
+     "score": "",
+     "url": "https://www.gamespot.com/articles/devil-may-cry-3-on-switch-will-introduce-a-style-c/1100-6472660/",
+     "type": "reference"
+    },
+    {
+     "title": "Devil May Cry Finds A New Home On GOG's Preservation Program",
+     "author": "Darryn Bonthuys",
+     "publisher": "GameSpot",
+     "date": "2025-06-18",
+     "score": "",
+     "url": "https://www.gamespot.com/articles/devil-may-cry-finds-a-new-home-on-gog-preservation-program/1100-6532525/",
+     "type": "reference"
+    },
+    {
+     "title": "Devil May Cry HD Collection (product page)",
+     "author": "Capcom",
+     "publisher": "Capcom",
+     "date": "2018-03-13",
+     "score": "",
+     "url": "https://www.capcom-games.com/product/en-us/devilmaycry-hdcollection/",
+     "type": "reference"
+    },
+    {
+     "title": "Steam store API appdetails, app 631510 (Devil May Cry HD Collection)",
+     "author": "Valve",
+     "publisher": "Steam",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://store.steampowered.com/api/appdetails?appids=631510&cc=us&filters=basic,price_overview,packages",
+     "type": "reference"
+    },
+    {
+     "title": "Devil May Cry 3: Dante's Awakening – Battle/Combat Mechanics FAQ v1.5",
+     "author": "Dahbomb (co-written by Pokey86)",
+     "publisher": "GameFAQs",
+     "date": "2006-01-26",
+     "score": "",
+     "url": "https://gamefaqs.gamespot.com/ps2/920607-devil-may-cry-3-dantes-awakening/faqs/40790",
+     "type": "reference"
+    },
+    {
+     "title": "Devil May Cry 3: Dante's Awakening",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Devil_May_Cry_3:_Dante%27s_Awakening",
+     "type": "reference"
+    },
+    {
+     "title": "GameIndex.yaml (entry SLUS-21361)",
+     "author": "PCSX2 team",
+     "publisher": "PCSX2 (GitHub)",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://raw.githubusercontent.com/PCSX2/pcsx2/master/bin/resources/GameIndex.yaml",
+     "type": "upstream data"
+    }
+   ],
+   "notes": [
+    "Nothing was played or launched on any device.",
+    "PCSX2 compatibility (SLUS-21361 compat 5, eeRoundMode fix for a Mission 18 door) is desktop upstream data only.",
+    "libretro-thumbnails Named_Titles for the USA/EU/JP SE entries all serve the same French-language PAL title screen ('Edition Spéciale'), so it was not used. The libretro SE Named_Snaps (Vergil gameplay) was a lead candidate but the GameSpot SE screenshot is sharper and shows the style meter.",
+    "The style menu screenshot is from the original 2005 release, and the caption says so. SE keeps the same four starting styles, but the SE menu itself was not separately captured.",
+    "Mission grades are described as 'from D upward' on purpose. Wikipedia lists S and SS as top marks, and Dahbomb's FAQ mentions an 'SS rank' run on Dante Must Die, which corroborates SS. The wording is still conservative.",
+    "Itsuno's reasoning on styles is reported second-hand through producer Matt Walker (USgamer 2020). A 1UP 'Postmortem on DMC3:SE' interview (James Mielke) cited by Wikipedia for Vergil's cut moves could not be fetched (archive.today timed out; Wayback 404), so the article makes no claims from it.",
+    "A fan-wiki claim that Itsuno named each style after a fighting game (e.g. Royal Guard after Street Fighter III's parry) has no primary source and was left out.",
+    "Whether cutscenes can be skipped was not verified and is not claimed.",
+    "Steam availability resolved. The issue editor checked the Steam appdetails API on 2026-10-24: success true, the HD Collection (which includes DMC3 SE) has an active US purchase package. The 2023 GameSpot 'retired on Steam' headline wasn't read (403), and what it covered is unknown. The article doesn't claim the standalone 2006 PC port is available, and leaves out the price because it changes.",
+    "Style levelling: the article says only that the four starting styles level up. Wikipedia (Vergil's style 'leveled-up twice like Dante's four styles') and Screen Rant's 2020 levelling guide describe levelling only for the four starting styles plus Dark Slayer. No primary source was found on whether Quicksilver and Doppelganger level, so the article doesn't say either way.",
+    "Locked-on roll input R1 + left/right + X comes from Dahbomb's GameFAQs FAQ; GameSpot 2005 confirms a wrong direction makes Dante jump. Starting weapons (sword plus twin handguns) come from GameSpy 2005; the names Rebellion and Ebony & Ivory from the FAQ and Wikipedia."
+   ]
+  },
+  "bayonetta-witch-time": {
+   "games": [
+    "xbox360-bayonetta",
+    "ps3-bayonetta",
+    "switch-bayonetta",
+    "ps2-god-hand"
+   ],
+   "sources": [
+    {
+     "title": "Bayonetta Manual (Steam PC edition)",
+     "author": "Sega / PlatinumGames",
+     "publisher": "Sega Europe",
+     "date": "2017-04-11",
+     "score": "",
+     "url": "https://archive.org/details/bayonetta-steam-manual-hr",
+     "type": "manual"
+    },
+    {
+     "title": "Bayonetta Official Strategy Guide",
+     "author": "Tim Bogenn (writer)",
+     "publisher": "BradyGames / Sega",
+     "date": "2010",
+     "score": "",
+     "url": "https://archive.org/details/119913398f-8ff-1ee-09640d-5d-0bca-716d-07f-46764",
+     "type": "reference"
+    },
+    {
+     "title": "Q&A: Hideki Kamiya on Bayonetta",
+     "author": "Randolph Ramsay",
+     "publisher": "GameSpot",
+     "date": "2009-04-09",
+     "score": "",
+     "url": "https://www.gamespot.com/articles/qanda-hideki-kamiya-on-bayonetta/1100-6207621/",
+     "type": "interview"
+    },
+    {
+     "title": "Platinum Games Shows Off Bayonetta's 'Very Easy Automatic' Mode",
+     "author": "Kat Bailey",
+     "publisher": "1UP.com",
+     "date": "2009-08-24",
+     "score": "1UP grades shown on page: X360 A, PS3 A-",
+     "url": "https://web.archive.org/web/20121012213033/http://www.1up.com/news/platinum-games-shows-bayonetta-easy",
+     "type": "reference"
+    },
+    {
+     "title": "Bayonetta is Perfect (Famitsu Cross Review report)",
+     "author": "Anoop Gantayat",
+     "publisher": "IGN",
+     "date": "2009-10-21",
+     "score": "Famitsu X360 40/40 (10/10/10/10); PS3 38/40 (10/10/9/9)",
+     "url": "https://web.archive.org/web/20091025124147/http://ps3.ign.com:80/articles/103/1037152p1.html",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Bayonetta review (Japanese Xbox 360 import)",
+     "author": "Simon Parkin",
+     "publisher": "Eurogamer",
+     "date": "2009-11-18",
+     "score": "9/10",
+     "url": "https://www.eurogamer.net/bayonetta-import-review",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Face-Off: Bayonetta",
+     "author": "Richard Leadbetter",
+     "publisher": "Digital Foundry (Eurogamer)",
+     "date": "2009-11-26",
+     "score": "",
+     "url": "https://www.digitalfoundry.net/articles/digitalfoundry-bayonetta-faceoff",
+     "type": "reference"
+    },
+    {
+     "title": "Bayonetta Review (Xbox 360)",
+     "author": "Ryan Clements",
+     "publisher": "IGN",
+     "date": "2009-12-22",
+     "score": "9.5/10 (IGN UK separate review: 9.6)",
+     "url": "https://web.archive.org/web/20120821210037/http://xbox360.ign.com/articles/105/1056885p1.html",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Bayonetta Review (PlayStation 3)",
+     "author": "Ryan Clements",
+     "publisher": "IGN",
+     "date": "2009-12-22",
+     "score": "8.2/10",
+     "url": "https://web.archive.org/web/20120402185743/http://ps3.ign.com/articles/105/1057012p1.html",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Bayonetta: Platinum Games Pushes Action To Absurdity (Xbox 360)",
+     "author": "Joe Juba",
+     "publisher": "Game Informer",
+     "date": "2009-12-22",
+     "score": "9/10",
+     "url": "https://web.archive.org/web/20091225112622/http://gameinformer.com/games/bayonetta/b/xbox360/archive/2009/12/22/review.aspx",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Bayonetta Review (Xbox 360)",
+     "author": "Lark Anderson",
+     "publisher": "GameSpot",
+     "date": "2010-01-04",
+     "score": "9.0/10",
+     "url": "https://www.gamespot.com/reviews/bayonetta-review/1900-6244865/",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Bayonetta Review (PS3)",
+     "author": "Lark Anderson",
+     "publisher": "GameSpot",
+     "date": "2010-01-04",
+     "score": "8.0/10 (briefly mis-published as 8.5)",
+     "url": "https://www.gamespot.com/reviews/bayonetta-review/1900-6244896/",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Review: Bayonetta (Edge 209)",
+     "author": "Edge Staff (unsigned)",
+     "publisher": "Edge / Edge Online",
+     "date": "2010-01-05",
+     "score": "10/10 (Xbox 360 tested)",
+     "url": "https://web.archive.org/web/20100211112500/http://www.edge-online.com:80/magazine/review-bayonetta",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Review: Bayonetta (2014 capture with rating markup)",
+     "author": "Edge Staff (unsigned)",
+     "publisher": "Edge Online",
+     "date": "2010-01-05",
+     "score": "10/10",
+     "url": "https://web.archive.org/web/20141006082219/http://www.edge-online.com/review/review-bayonetta/",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Bayonetta Updated For PS3, Load Times Improved",
+     "author": "Michael McWhertor",
+     "publisher": "Kotaku",
+     "date": "2010-01-28",
+     "score": "",
+     "url": "https://kotaku.com/bayonetta-updated-for-ps3-load-times-improved-5458852",
+     "type": "reference"
+    },
+    {
+     "title": "Bayonetta And Bayonetta 2 FAQ - All Of Your Questions Answered",
+     "author": "Glen Fox",
+     "publisher": "Nintendo Life",
+     "date": "2018-02-12",
+     "score": "",
+     "url": "https://www.nintendolife.com/guides/bayonetta-and-bayonetta-2-faq-all-of-your-questions-answered",
+     "type": "retrospective"
+    },
+    {
+     "title": "Bayonetta (Steam store page)",
+     "author": "Sega",
+     "publisher": "Valve / Steam",
+     "date": "2017-04-11",
+     "score": "",
+     "url": "https://store.steampowered.com/app/460790/",
+     "type": "reference"
+    },
+    {
+     "title": "Bayonetta and Vanquish coming to PlayStation 4 and Xbox One in February 2020!",
+     "author": "PlatinumGames",
+     "publisher": "PlatinumGames Official Blog",
+     "date": "2019-12-10",
+     "score": "",
+     "url": "https://www.platinumgames.com/official-blog/article/10858",
+     "type": "reference"
+    },
+    {
+     "title": "Nex Entertainment consumer works page (archived)",
+     "author": "Nex Entertainment",
+     "publisher": "Nex Entertainment",
+     "date": "2016-03-20",
+     "score": "",
+     "url": "https://web.archive.org/web/20160320182847/http://www.nex-ent.co.jp/contents/consumer.html",
+     "type": "reference"
+    },
+    {
+     "title": "Bayonetta (video game); Edge (magazine)",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Bayonetta_(video_game)",
+     "type": "reference"
+    }
+   ],
+   "notes": [
+    "Nothing was played or tested on any device. The availability section lists official releases only and makes no emulation claim for the 360 or PS3 discs.",
+    "Medal scale: the BradyGames tables rate each verse criterion (time, combo, damage) from Bronze to Platinum. 'Pure Platinum' as a higher verse grade comes from the GameSpot (360) and Eurogamer reviews, not the guide or manual. Stone is the manual's lowest chapter trophy. I didn't verify whether a verse itself can score Stone, so the article doesn't say so.",
+    "Bat Within: the guide says 'press RT immediately after taking damage ... mitigating any damage you've take[n]'. The article repeats 'mitigates' and doesn't claim full negation, because the guide doesn't specify it.",
+    "Climax Brace: the guide's unlock table lists 'obtain 101 Umbran Tears of Blood -> enter Shop'. No alternate unlock was checked, so the article says the guide lists that condition and doesn't use 'only'.",
+    "Screenshot platform: GameSpot published all three images in its Xbox 360 review under its 360 product ID (946346). The pixels can't prove the capture hardware, so every caption reads 'supplied with GameSpot's Xbox 360 review; capture platform not independently verified'. MobyGames 360 screenshots weren't used because Cloudflare blocked both a scripted fetch and a headless browser.",
+    "The mechanics come from the PC (Steam, 2017) manual and the BradyGames guide, not the 2010 Xbox 360 manual. Control descriptions use 360 buttons (RT evade, LT weapon swap), which match the PC manual's gamepad layout.",
+    "The PS3 port credit: Nex Entertainment lists BAYONETTA on its archived consumer-works page without naming a platform. Platinum's Minami (via Digital Foundry) says only that Sega did the port. The article says Nex 'is credited with' the port and does not claim more.",
+    "Edge: the review is unsigned. The issue number E209 comes from Wikipedia's Edge 10/10 list, and the 10/10 is confirmed by the ratingValue markup in a 2014 Edge Online capture; the 2010 capture's text doesn't print the number.",
+    "1UP's grades (X360 A, PS3 A-) come from the 1UP page sidebar. The reviewer's name (Matt Leone) appears only on Wikipedia, so the article doesn't name a reviewer.",
+    "The QTE criticism is attributed to Wikipedia's reception summary. The lethal-QTE example (Route 666, Jump prompt) comes from the official guide. No contemporary pro review quote on QTE deaths was located.",
+    "The guide's date is inferred as c. 2010; no date is printed in the scan.",
+    "Umbran Climax is deliberately not mentioned because it is a Bayonetta 2 mechanic. Kamiya's 'Mommy Mode' remark was not used."
+   ]
+  }
+ }
+}

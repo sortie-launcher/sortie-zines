@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 2,
+  "id": "field-notes-005",
+  "revision": 2,
+  "title": "Straight to the Good Part",
+  "subtitle": "Field Notes No. 005 · Instant action, deep systems",
+  "published": "2026-10-24",
+  "cover": "media/cover.webp",
+  "rightsNotice": "Game images and quoted material belong to their respective rights holders. Included for commentary and criticism; no endorsement or ownership is implied.",
+  "editorial": "Field Notes No. 005 is for the moment you have a few minutes and want something happening on screen right away. All four games here put you in action within seconds, and all four keep teaching you long after the first stage. Soldier Blade is one of the PC Engine's best-loved shooters, so this is a closer look rather than an introduction: its capsules are your weapon, your armour and your bomb stock at once, and it was built for a two-minute tournament mode that's easy to skip. Armed Police Batrider takes Battle Garegga's hidden rank and puts the decisions up front, with three pilots, four tunings and hidden bosses that depend on what you wreck and who's still alive. Alien Soldier cuts a run-and-gun down to a gauntlet of bosses, held together by a dash, a counter and a full-health super move that spends the health the counter gave you. God Hand lets you build your own moveset, then rates your performance in real time on a meter that runs 1, 2, 3, DIE. Each article names the edition it describes, from the US Soldier Blade HuCard and its Caravan-only Special Version to the full-speed Japanese Alien Soldier cartridge, and separates what the manuals and reviews say from what we think. None of these games was played for this issue; the emulation notes summarise published databases and community references, not test results.",
+  "articles": [
+    {
+      "id": "soldier-blade-caravan-rediscovery",
+      "title": "Soldier Blade, Played Like a Caravan Finalist",
+      "gameTitle": "Soldier Blade",
+      "system": "TurboGrafx-16 / PC Engine",
+      "games": [
+        {"id": "tg16-soldier-blade", "title": "Soldier Blade", "systemId": "tg16", "edition": "TurboGrafx-16 HuCard (North America, 1992)"},
+        {"id": "pcengine-soldier-blade", "title": "Soldier Blade", "systemId": "pcengine", "edition": "PC Engine HuCard (Japan, 1992)"},
+        {"id": "pcengine-soldier-blade-special-version", "title": "Soldier Blade Special Version", "systemId": "pcengine", "edition": "Limited Caravan tournament cartridge; time-attack modes only", "matchNames": ["Soldier Blade - Special Version"]}
+      ],
+      "deck": "Hudson's fastest shooter rewards a closer look: what the manual says about capsules, shells and Burst Out, the two-minute tournament mode it was built for, and the Caravan-only Special Version cartridge.",
+      "body": "articles/soldier-blade-caravan-rediscovery.md",
+      "image": "media/soldier-blade-caravan-rediscovery.webp",
+      "imageCaption": "Stage 1 of the US HuCard. The Soldier Blade and its escort pod fire up a girdered space station, with the speed readout at LOW under the score and the shell stock at bottom right. Screenshot © Hudson Soft / Konami, via libretro-thumbnails.",
+      "readingMinutes": 7
+    },
+    {
+      "id": "batrider-team-rank-roulette",
+      "title": "Armed Police Batrider: Pick Three Pilots, Then Pay for It",
+      "gameTitle": "Armed Police Batrider",
+      "system": "Arcade",
+      "games": [
+        {"id": "arcade-armed-police-batrider", "title": "Armed Police Batrider", "systemId": "arcade", "edition": "Arcade, USA set (batrideru, 13 February 1998) as described; other region sets share the game", "matchNames": ["batrideru", "batrider"]},
+        {"id": "arcade-battle-garegga", "title": "Battle Garegga", "systemId": "arcade", "edition": "Original 1996 arcade release (February 3, 1996 set)", "matchNames": ["bgaregga"]}
+      ],
+      "deck": "Raizing's follow-up to Battle Garegga puts the decisions up front: which three pilots, which tuning, which course. Then it watches what you wreck and who's still alive to decide which bosses you'll face.",
+      "body": "articles/batrider-team-rank-roulette.md",
+      "image": "media/batrider-team-rank-roulette.webp",
+      "imageCaption": "Left: an Advanced-course boss fight, a blue winged gunship spraying orange bullets at the player's airbike. Right: the title screen of the USA set, reading \"USE IN U.S.A. ONLY\" with guest players and the special course shown as enabled. Arcade screenshots © Raizing / Eighting, via Arcade Database.",
+      "readingMinutes": 7
+    },
+    {
+      "id": "alien-soldier-boss-gauntlet",
+      "title": "Alien Soldier: Counter, Heal, Burn It, Repeat",
+      "gameTitle": "Alien Soldier",
+      "system": "Mega Drive",
+      "games": [
+        {"id": "genesis-alien-soldier", "title": "Alien Soldier", "systemId": "genesis", "edition": "Japanese Mega Drive cartridge (full speed); the PAL cartridge runs slower"},
+        {"id": "genesis-gunstar-heroes", "title": "Gunstar Heroes", "systemId": "genesis"}
+      ],
+      "deck": "Treasure's 1995 run-and-gun is mostly bosses, with short stages in between. Its depth is a cycle of three moves: a counter that turns bullets into health, an invulnerable dash, and a full-health super move that spends that health. The Japanese cartridge is the full-speed one.",
+      "body": "articles/alien-soldier-boss-gauntlet.md",
+      "image": "media/alien-soldier-boss-gauntlet.webp",
+      "imageCaption": "Epsilon-Eagle squares up to an insectoid boss in an industrial stage. The HUD shows player health, Force energy, the boss's health bar, four equipped weapons and the stage timer at 2:12. Mega Drive screenshot © Sega / Treasure, via libretro-thumbnails.",
+      "readingMinutes": 7
+    },
+    {
+      "id": "god-hand-difficulty-dial",
+      "title": "God Hand: The Brawler That Grades You Live",
+      "gameTitle": "God Hand",
+      "system": "PS2",
+      "games": [
+        {"id": "ps2-god-hand", "title": "God Hand", "systemId": "ps2"}
+      ],
+      "deck": "Clover Studio's last game puts you in a fight almost at once, gives you a moveset to build yourself, and rates your performance on a meter running from 1 to DIE. Critics split hard over it at release. Here's why both sides had a point.",
+      "body": "articles/god-hand-difficulty-dial.md",
+      "image": "media/god-hand-difficulty-dial.webp",
+      "imageCaption": "Gene squares off against a mohawked thug in a saloon. Bottom left: the difficulty meter at level 1, three roulette orbs, and the life and tension bars. The money counter reads 999,999 G, so this capture comes from a late or modified save. PS2 screenshot © Capcom / Clover Studio, via libretro-thumbnails.",
+      "readingMinutes": 7
+    }
+  ]
+}

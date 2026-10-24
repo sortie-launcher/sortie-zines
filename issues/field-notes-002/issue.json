@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 2,
+  "revision": 2,
+  "id": "field-notes-002",
+  "title": "The Garage Issue",
+  "subtitle": "Field Notes No. 002 · Buildcraft, loadouts and tactical tradeoffs",
+  "published": "2026-10-24",
+  "cover": "media/cover.webp",
+  "rightsNotice": "Game images and quoted material belong to their respective rights holders. Included for commentary and criticism; no endorsement or ownership is implied.",
+  "editorial": "The second Field Notes is about the decisions a mech game asks of you before the shooting starts, and what each of them costs. Each of these four games sets up its garage differently. Armored Core 3 puts a price on every build: repair and ammunition come out of your fee, and an overweight frame launches anyway, so you can learn from it. Front Mission 3 makes weight a hard budget against the body's power, spreads damage across arms, legs and body, and hides its best skills inside the parts. Ring of Red won't let you touch the machine at all. Its loadout is the three squads riding with each walker, and losing the walker loses them for good. Gungriffon Blaze shrinks the garage to a supply shelf, where whatever you equip is spent even if the mission fails. They don't ask for the same kind of time, and the articles don't pretend they do. Gungriffon is the closest to instant-on and over in an evening. Armored Core 3 needs a sitting in the garage and, ideally, a community analog-controls patch. Front Mission 3 surrounds 15-to-20-minute battles with long stretches of story. Ring of Red's missions can run for hours, with a suspend save to bail you out. Two reading notes. Scores and quotes come from reviews actually opened, with retrospectives and aggregates labelled separately. And Field Notes did not play-test these games on any particular emulator or device for this issue: compatibility notes come from the emulator projects' own databases and community reports, and are labelled as such.",
+  "articles": [
+    {
+      "id": "armored-core-3-weight-and-wages",
+      "title": "Armored Core 3: Weight, Wages and the Repair Bill",
+      "gameTitle": "Armored Core 3",
+      "system": "PS2",
+      "games": [
+        {
+          "id": "ps2-armored-core-3",
+          "title": "Armored Core 3",
+          "systemId": "ps2",
+          "edition": "North American release (Agetec, SLUS-20435)"
+        },
+        {
+          "id": "ps2-silent-line-armored-core",
+          "title": "Silent Line: Armored Core",
+          "systemId": "ps2",
+          "edition": "Original PS2 release",
+          "matchNames": [
+            "Silent Line - Armored Core"
+          ]
+        },
+        {
+          "id": "ps2-armored-core-2",
+          "title": "Armored Core 2",
+          "systemId": "ps2",
+          "edition": "Original PS2 release"
+        }
+      ],
+      "deck": "FromSoftware's 2002 reboot turned every contract into a business decision and let an imperfect build launch anyway. It's a forgiving place to learn the Armored Core garage, provided you fix its controls first.",
+      "body": "articles/armored-core-3-weight-and-wages.md",
+      "image": "media/armored-core-3-weight-and-wages.webp",
+      "imageCaption": "Armored Core 3: a shot streaks down a night-time city street while the HUD shows 8170 AP, the laser blade and the rifle's ammunition. PS2 screenshot © FromSoftware; frame archived by libretro-thumbnails under the game's USA name.",
+      "readingMinutes": 7
+    },
+    {
+      "id": "front-mission-3-wanzer-workshop",
+      "title": "Front Mission 3: The Wanzer as a Budget",
+      "gameTitle": "Front Mission 3",
+      "system": "PS1",
+      "games": [
+        {
+          "id": "psx-front-mission-3",
+          "title": "Front Mission 3",
+          "systemId": "psx",
+          "edition": "North American release (Square Electronic Arts, SLUS-01011)"
+        }
+      ],
+      "deck": "Square's first Front Mission sold in North America caps weight at the body's power, gives every limb its own HP and hides its best skills inside the parts. It's a deep workshop wrapped in a lot of story, and here's how to get through one without drowning in the other.",
+      "body": "articles/front-mission-3-wanzer-workshop.md",
+      "image": "media/front-mission-3-wanzer-workshop.webp",
+      "imageCaption": "Front Mission 3's tactical map: a wanzer with 14 AP chooses between a Chongta 3 shotgun, described as \"(Ranged) Damage all parts\", and a Fear Fist melee arm. PlayStation screenshot © Square Enix (originally Square); English text, region not identified; via ScreenScraper.",
+      "readingMinutes": 7
+    },
+    {
+      "id": "ring-of-red-crew-and-caliber",
+      "title": "Ring of Red: No Wrench, Three Squads",
+      "gameTitle": "Ring of Red",
+      "system": "PS2",
+      "games": [
+        {
+          "id": "ps2-ring-of-red",
+          "title": "Ring of Red",
+          "systemId": "ps2",
+          "edition": "North American release (Konami, SLUS-20145)"
+        }
+      ],
+      "deck": "Konami's alternate-history walker war won't let you modify a single bolt. The loadout is the infantry riding with each machine, and every duel is a ninety-second bet on how long to keep aiming. Superb decisions, very slow, and here's the honest version.",
+      "body": "articles/ring-of-red-crew-and-caliber.md",
+      "image": "media/ring-of-red-crew-and-caliber.webp",
+      "imageCaption": "A Ring of Red skirmish through the targeting scope: an enemy walker and its infantry on a hillside at medium range, hit chance at 85.45%, with both units' HP and squads at the top. PS2 screenshot © Konami; via ScreenScraper.",
+      "readingMinutes": 7
+    },
+    {
+      "id": "gungriffon-blaze-spent-stock",
+      "title": "Gungriffon Blaze: Six Missions, Spent Stock",
+      "gameTitle": "Gungriffon Blaze",
+      "system": "PS2",
+      "games": [
+        {
+          "id": "ps2-gungriffon-blaze",
+          "title": "Gungriffon Blaze",
+          "systemId": "ps2",
+          "edition": "North American release (Working Designs, SLUS-20080)",
+          "matchNames": [
+            "Gun Griffon Blaze"
+          ]
+        },
+        {
+          "id": "ps2-armored-core-2",
+          "title": "Armored Core 2",
+          "systemId": "ps2",
+          "edition": "Original PS2 release"
+        }
+      ],
+      "deck": "This issue's counterweight: Game Arts' launch-window mech shooter has almost no garage, only a supply shelf. Every optional weapon you equip is gone whether or not you succeed, and even failed runs pay into your unlocks. Short, fast, and closest to instant-on.",
+      "body": "articles/gungriffon-blaze-spent-stock.md",
+      "image": "media/gungriffon-blaze-spent-stock.webp",
+      "imageCaption": "Gungriffon Blaze, North American release: a tank in the targeting box beside a hangar, under the localised message \"Blitzed the combat vehicle!\" PS2 screenshot © Game Arts / Working Designs; contributed to GameFAQs by CRON.",
+      "readingMinutes": 7
+    }
+  ]
+}

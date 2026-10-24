@@ -1,0 +1,74 @@
+{
+  "issue": "field-notes-003",
+  "revision": 2,
+  "compiled": "2026-10-24",
+  "rightsNotice": "Game images and quoted material belong to their respective rights holders. Included for commentary and criticism; no endorsement or ownership is implied.",
+  "rightsHolders": "Screenshots and box art: Konami; Sting / Atlus / Rising Star Games; Nippon Ichi Software / NIS America; Nintendo / The Pokémon Company / Spike Chunsoft. Original prose, layout and cover composition are by Sortie Field Notes; third-party images are not covered by the Sortie app's MIT license.",
+  "media": [
+    {"file": "media/cover.webp", "kind": "authored composite", "derivedFrom": ["media/azure-dreams-monster-tower.webp", "media/baroque-neuro-tower.webp", "media/zhp-shadowgram-hero.webp", "media/pmd-explorers-of-sky.webp"], "rights": "Screenshots © Konami; Sting/Atlus; Nippon Ichi Software/NIS America; Nintendo/The Pokémon Company/Spike Chunsoft. Layout and text authored for Sortie Field Notes with ImageMagick and Noto Serif/Sans."},
+    {"file": "media/azure-dreams-monster-tower.webp", "source": "https://gamefaqs.gamespot.com/a/screen/full/1/1/0/2860110.jpg", "page": "https://gamefaqs.gamespot.com/ps/196675-azure-dreams/images?pid=196675&img=390", "credit": "GameFAQs reader screenshot by KFHEWUI, labelled Azure Dreams (US, 1998-06-30)", "rights": "© Konami", "processing": "Letterbox cropped 640x480 to 640x408, WebP q88"},
+    {"file": "media/azure-dreams-monster-tower-town.webp", "source": "ScreenScraper screenshot (screenscraper.fr)", "credit": "ScreenScraper", "rights": "© Konami", "processing": "Letterbox trimmed, WebP"},
+    {"file": "media/azure-dreams-monster-tower-box.webp", "source": "ScreenScraper box art (screenscraper.fr)", "credit": "ScreenScraper", "rights": "© Konami", "edition": "North American cover, SLUS-00614, ESRB E (inspected)"},
+    {"file": "media/baroque-neuro-tower.webp", "source": "ScreenScraper screenshot (screenscraper.fr)", "credit": "ScreenScraper", "rights": "© Sting / Atlus", "edition": "PS2 remake, English HUD text ('Obtained Recovery', 'Atonement')"},
+    {"file": "media/baroque-neuro-tower-ps1.webp", "source": "ScreenScraper screenshot (screenscraper.fr)", "credit": "ScreenScraper", "rights": "© Sting", "edition": "1999 PlayStation port with original Japanese on-screen text, not the fan translation; captioned as such"},
+    {"file": "media/baroque-neuro-tower-box-pal.webp", "source": "ScreenScraper box art (screenscraper.fr)", "credit": "ScreenScraper", "rights": "© Sting / Rising Star Games", "edition": "European PAL cover (PEGI 12+, Rising Star Games), although the source record was labelled USA; captioned as PAL"},
+    {"file": "media/zhp-shadowgram-hero.webp", "source": "https://gamefaqs.gamespot.com/a/screen/full/3/6/1/333361.jpg", "page": "https://gamefaqs.gamespot.com/psp/975347-zhp-unlosing-ranger-vs-darkdeath-evilman/images?pid=975347&img=1", "credit": "GameFAQs reader screenshot by SA_Tatami ('The shadowgram system'), labelled US 2010-10-25", "rights": "© Nippon Ichi Software / NIS America", "processing": "480x272 upscaled 2x nearest-neighbour"},
+    {"file": "media/zhp-shadowgram-hero-status.webp", "source": "https://gamefaqs.gamespot.com/a/screen/full/3/6/3/333363.jpg", "page": "https://gamefaqs.gamespot.com/psp/975347-zhp-unlosing-ranger-vs-darkdeath-evilman/images?pid=975347&img=3", "credit": "GameFAQs reader screenshot by SA_Tatami ('Stats at medium levels')", "rights": "© Nippon Ichi Software / NIS America", "processing": "2x nearest-neighbour"},
+    {"file": "media/zhp-shadowgram-hero-stage.webp", "source": "ScreenScraper screenshot (screenscraper.fr)", "credit": "ScreenScraper", "rights": "© Nippon Ichi Software", "processing": "2x nearest-neighbour", "caveat": "Exact in-game location not identified; captioned descriptively"},
+    {"file": "media/zhp-shadowgram-hero-box.webp", "source": "ScreenScraper box art (screenscraper.fr)", "credit": "ScreenScraper", "rights": "© Nippon Ichi Software / NIS America", "edition": "North American cover, ESRB T (inspected)"},
+    {"file": "media/pmd-explorers-of-sky.webp", "source": "ScreenScraper screenshot (screenscraper.fr)", "credit": "ScreenScraper", "rights": "© Nintendo / The Pokémon Company / Spike Chunsoft", "processing": "256x384 upscaled 2x nearest-neighbour", "edition": "English text, controls reference visible"},
+    {"file": "media/pmd-explorers-of-sky-box.webp", "source": "ScreenScraper box art (screenscraper.fr)", "credit": "ScreenScraper", "rights": "© Nintendo / The Pokémon Company", "edition": "North American cover, ESRB E (inspected)"}
+  ],
+  "research": {
+    "azure-dreams-monster-tower": [
+      "https://www.gamespot.com/reviews/azure-dreams-review/1900-2546709/",
+      "https://www.ign.com/articles/1998/08/25/azure-dreams-2",
+      "https://www.rpgfan.com/review/azure-dreams/",
+      "https://gamefaqs.gamespot.com/ps/196675-azure-dreams/faqs/43628",
+      "https://en.wikipedia.org/wiki/Azure_Dreams"
+    ],
+    "baroque-neuro-tower": [
+      "https://www.gamespot.com/reviews/baroque-review/1900-6189382/",
+      "https://www.ign.com/articles/2008/04/30/baroque-review",
+      "https://www.rpgfan.com/review/baroque-2/",
+      "https://www.metacritic.com/game/baroque/critic-reviews/?platform=playstation-2",
+      "https://en.wikipedia.org/wiki/Baroque_(video_game)",
+      "https://web.archive.org/web/2025/https://www.romhacking.net/translations/6608/",
+      "https://web.archive.org/web/2024/https://www.romhacking.net/forum/index.php?topic=35396.0"
+    ],
+    "zhp-shadowgram-hero": [
+      "https://www.rpgfan.com/review/z-h-p-unlosing-ranger-vs-darkdeath-evilman/",
+      "https://rpgamer.com/review/zettai-hero-project-unlosing-ranger-vs-darkdeath-evilman-review/",
+      "https://www.metacritic.com/game/z-h-p-unlosing-ranger-vs-darkdeath-evilman/critic-reviews/",
+      "https://gamefaqs.gamespot.com/psp/975347-zhp-unlosing-ranger-vs-darkdeath-evilman/faqs/61406",
+      "https://gamefaqs.gamespot.com/boards/975347-zhp-unlosing-ranger-vs-darkdeath-evilman/57776637",
+      "https://blog.playstation.com/2010/10/15/z-h-p-unlosing-ranger-vs-darkdeath-evilman-comes-to-psp-october-26th/",
+      "https://en.wikipedia.org/wiki/Z.H.P._Unlosing_Ranger_VS_Darkdeath_Evilman"
+    ],
+    "pmd-explorers-of-sky": [
+      "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_ds_21/Manual_NintendoDS_PokemonMysteryDungeonExplorersOfSky_EN.pdf",
+      "https://www.ign.com/articles/2009/10/13/pokemon-mystery-dungeon-explorers-of-sky-review",
+      "https://web.archive.org/web/20160609002635/http://www.1up.com/reviews/pokmon-mystery-dungeon-explorers-sky",
+      "https://web.archive.org/web/20100427035144/http://www.rpgamer.com/games/pokemon/pokemdexpsky/reviews/pokemdexpskystrev1.html",
+      "https://www.nintendolife.com/reviews/wiiu-eshop/pokemon_mystery_dungeon_explorers_of_sky_ds",
+      "https://www.metacritic.com/game/pokemon-mystery-dungeon-explorers-of-sky/critic-reviews/",
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Mystery_Dungeon:_Explorers_of_Sky",
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Mystery_Dungeon:_Explorers_of_Time_and_Explorers_of_Darkness",
+      "https://www.hackdex.app/hack/rogue-rescue-team",
+      "https://www.pokecommunity.com/threads/rogue-rescue-team-v1-0-0.541040/",
+      "https://github.com/jtjanecek/rogue-rescue-team",
+      "https://hacks.skytemple.org/h/spirit",
+      "https://projectpokemon.org/home/forums/topic/60890-pokemon-mystery-dungeon-explorers-of-the-spirit/"
+    ]
+  },
+  "unresolved": [
+    "Field Notes did not play-test any of these games, or the two PMD fan hacks, on any emulator or device for this issue. Controller mappings, performance and save behaviour are not verified.",
+    "Azure Dreams lead screenshot comes from late in a reader gallery and may show an ending or credits sequence rather than ordinary play. It is in-engine and on a tower floor, and the caption avoids claiming the context.",
+    "Contemporary review scores for EGM, Game Informer, GameFan, OPM, Next Generation and Famitsu (Azure Dreams) and Famitsu (Baroque, PMD) come from Wikipedia's reception tables; the original magazine pages were not read.",
+    "RPGamer's Z.H.P. and PMD numeric scores were not captured.",
+    "Z.H.P. claims about the Unlosing Cape and Plug-S come from a GameFAQs board thread and are labelled as community advice.",
+    "The PMD defeat penalty differs between the Sky manual (half your money, some items) and Wikipedia's Explorers summary (all money, half or more of your items). The article follows the manual.",
+    "Baroque PS1 differences claimed in the romhacking.net forum (floor count, Collector) are labelled as unverified fan claims.",
+    "The Wii version of the Baroque remake is mentioned but not covered; its controls were not researched."
+  ]
+}

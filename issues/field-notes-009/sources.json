@@ -1,0 +1,809 @@
+{
+ "issue": "field-notes-009",
+ "compiled": "2026-10-24",
+ "revised": "2026-10-24",
+ "rightsNote": "Original editorial prose and cover layouts were written for Sortie Field Notes. Game images and quoted material belong to their respective rights holders. Included for commentary and criticism; no endorsement or ownership is implied. Third-party media is not covered by the Sortie app's MIT licence. Per-image credits and sources follow.",
+ "researchNote": "No game was launched or played for this issue. Mechanics come from manuals, official sites, contemporary reviews and credited fan references; emulator compatibility figures cite upstream project data and are not test results.",
+ "media": [
+  {
+   "file": "media/cover.webp",
+   "kind": "original 1600x1000 composite cover",
+   "derivedFrom": [
+    "media/ssx3-mountain-lines.webp",
+    "media/thug2-bank-or-bail.webp",
+    "media/windjammers-disc-duel.webp",
+    "media/neo-turf-masters-wind-and-club.webp"
+   ],
+   "source": "Authored composition from this pack's four credited lead gameplay images; their source entries follow.",
+   "rights": "Game images © Electronic Arts, Activision, Data East (1994 on-screen copyright) and Nazca / SNK; original layout by Sortie Field Notes.",
+   "processing": "ImageMagick: each lead fitted into 320x240 (aspect preserved, letterboxed on #0F322B), court-line layout (#17453B ground, chalk #EEF1E8, centre line #F2C230), Noto Sans ExtraCondensed Black and Noto Sans Condensed, WebP quality 88, 141366 bytes; decoded and visually inspected."
+  },
+  {
+   "file": "media/ssx3-mountain-lines.webp",
+   "source": "ScreenScraper media retrieved through a Skyscraper scraper cache (SSX 3, PS2; resource 3bc2ca90480aa5d4586bea023cf25e39ad01660a)",
+   "edition": "PS2 gameplay frame, English HUD (race, 2ND/6, 00:01:18, 44 MPH, SUPER UBER letters). Region not identifiable from pixels. The ES-DE screenshot of the same frame is a composite with box art and logo, so it was rejected.",
+   "rights": "© Electronic Arts",
+   "processing": "640x480 PNG, 2x point scale to 1280x960, WebP q88, 110862 bytes; source and final visually inspected"
+  },
+  {
+   "file": "media/ssx3-mountain-lines-manual-controls.webp",
+   "source": "https://www.video-games-museum.com/en/manual/Playstation%202/51092_us-SSX-3.pdf (PDF page 5, left half = manual page 6 'Complete Controls')",
+   "edition": "US NTSC-U PS2 manual (the prior page carries NTSC U/C and ESRB text); establishes the PS2 US control layout",
+   "rights": "© Electronic Arts; scan via Video Game Museum",
+   "processing": "pdftoppm 200 dpi, left half crop 900x1400, WebP q85, 249248 bytes; visually inspected"
+  },
+  {
+   "file": "media/ssx3-mountain-lines-handplant.webp",
+   "source": "http://web.archive.org/web/2025id_/https://ps2media.ign.com/ps2/image/ssx3_101703_2med.jpg (embedded in IGN PS2 review, archived)",
+   "edition": "Handplant on a blue rail, no HUD. Platform not identifiable: the same IGN PS2 gallery includes an Equip Gear screen with Xbox green-A/red-B prompts (ssx3_101703_3med.jpg), so the PS2 image path proves nothing.",
+   "rights": "© Electronic Arts; image via IGN (IGN.com watermark)",
+   "processing": "460x345 JPEG, 2x point scale to 920x690, WebP q88, 71082 bytes; visually inspected"
+  },
+  {
+   "file": "media/thug2-bank-or-bail.webp",
+   "source": "ScreenScraper media retrieved through a Skyscraper scraper cache (Tony Hawk's Underground 2, PlayStation 2; resource fedb1962fb4d0394e6ec33f852084348e2c97f62)",
+   "edition": "Gameplay; Berlin (Fernsehturm visible), English HUD. ScreenScraper metadata says PS2; pixels do not establish platform or region",
+   "rights": "© Activision / Neversoft",
+   "processing": "JPEG 640x480 -> WebP q90, native size, metadata stripped; 640x480, 58,320 bytes; visually inspected source and final"
+  },
+  {
+   "file": "media/thug2-bank-or-bail-manual-controls.webp",
+   "source": "https://archive.org/download/ps2_Tony_Hawks_Underground_2_USA/page/n7_w1400.jpg + page/n8_w1400.jpg (manual pages 6-7)",
+   "edition": "US PS2 NTSC U/C manual (disc handling notice names NTSC U/C)",
+   "rights": "© Activision; scan via Internet Archive",
+   "processing": "Two 1364x2160 page images appended side by side, resized to 1600 wide, WebP q85; 1600x1267, 338,654 bytes; text legible; visually inspected"
+  },
+  {
+   "file": "media/thug2-bank-or-bail-create-a-graphic.webp",
+   "source": "https://www.gamespot.com/wp-content/uploads/original/gamespot/images/2004/reviews/584830-920660_20040719_003.jpg (gallery image on Gerstmann review)",
+   "edition": "Create-A-Graphic editor; PlayStation triangle/X prompts indicate a PlayStation build (920660 is GameSpot's PS2 product id). Filename dated 2004-07-19, pre-release possible; region not identifiable",
+   "rights": "© Activision; GameSpot watermark",
+   "processing": "JPEG 640x448 -> WebP q90, native size; 640x448, 54,262 bytes; visually inspected"
+  },
+  {
+   "file": "media/windjammers-disc-duel.webp",
+   "source": "Arcade Database (arcadeitalia) screenshot retrieved through a Skyscraper scraper cache (resource a01bed973223cb4bcd97c70efe129a7631355b62)",
+   "edition": "Neo Geo MVS gameplay, English HUD, LEVEL-4, P1 USA vs P2 Italy on the tiled court (red end zones/yellow centre). Region/BIOS setting and MVS vs AES not identifiable from the frame.",
+   "rights": "© 1994 Data East Corporation",
+   "processing": "320x224 PNG point-scaled 3x to 960x672, WebP q90 method 6; 119768 bytes; decoded and visually inspected"
+  },
+  {
+   "file": "media/windjammers-disc-duel-beach.webp",
+   "source": "Scraper-cache 'import' screenshot titled Windjammers (resource a01bed973223cb4bcd97c70efe129a7631355b62); upstream origin of the import unknown",
+   "edition": "Gameplay on the beach court (red centre/yellow end zones), Spain vs Germany, 00-04, timer 22, per-player CREDITS 3/4 counters, English HUD. Hardware (MVS/AES/CD) and region not identifiable from the frame; import provenance upstream of the cache unknown.",
+   "rights": "© 1994 Data East Corporation",
+   "processing": "320x224 PNG point-scaled 3x to 960x672, WebP q90 method 6; 181910 bytes; decoded and visually inspected"
+  },
+  {
+   "file": "media/windjammers-disc-duel-select.webp",
+   "source": "https://adb.arcadeitalia.net/media/mame.current/selects/wjammers.png (Arcade Database MAME select snapshot; downloaded 2026-10-24, sha256 48efb9cf…66a7)",
+   "edition": "English SELECT PLAYER screen showing B. YOO (South Korea) in the sixth slot, BEGINNER/MEDIUM/EXPERT labels and speed/power bars, LEVEL-4. Exact BIOS region not identifiable; Yoo appears rather than Miller.",
+   "rights": "© 1994 Data East Corporation; snapshot via Arcade Database",
+   "processing": "320x224 PNG point-scaled 3x to 960x672, WebP q90 method 6; 87580 bytes; decoded and visually inspected"
+  },
+  {
+   "file": "media/neo-turf-masters-wind-and-club.webp",
+   "source": "Arcade Database (arcadeitalia) screenshot retrieved through a Skyscraper scraper cache (resource c6e7b880f37ce4a417efe43300ad83b236cbf191)",
+   "edition": "Neo Geo arcade/cartridge game, English text, MVS-style LEVEL-4 / CREDIT 00 readouts. Hole 1 426Y par 4 matches Mizuumi's Japan (Fujiyama Oriental) hole 1. Exact romset/region/BIOS not identifiable from the frame.",
+   "rights": "© 1996 Nazca Corporation / SNK",
+   "processing": "320x224 PNG, point-filter 3x to 960x672, WebP q88 method 6, 126134 bytes; visually inspected source and final"
+  },
+  {
+   "file": "media/neo-turf-masters-wind-and-club-instruction-card.webp",
+   "source": "https://cdn.wikimg.net/en/strategywiki/images/8/85/Neo_Turf_Masters_arcade_controls.jpg (StrategyWiki file page credits http://www.neogeosoft.com/?section=view&game=turfmast)",
+   "edition": "English-language MVS cabinet instruction card, 'Printed in Japan', © 1996 Nazca Corporation; regional distribution of this card not established",
+   "rights": "© 1996 Nazca Corporation; NEO GEO trademark SNK",
+   "processing": "891x1091 JPEG re-encoded WebP q86 method 6 at native size, 181416 bytes; visually inspected source and final"
+  },
+  {
+   "file": "media/neo-turf-masters-wind-and-club-ngpc.webp",
+   "source": "ScreenScraper media retrieved through a Skyscraper scraper cache (Neo Turf Masters, Neo Geo Pocket Color; resource e753db9a71402aa1e0d934b21733846d6900d686)",
+   "edition": "Neo Geo Pocket Color version (Address screen matching manual p.17 layout: MAX/100 power gauge, L/H spin gauge, 1W-260Y). Not the arcade game. Region not identifiable from the frame.",
+   "rights": "© 1999 SNK",
+   "processing": "160x152 native NGPC frame, point-filter 4x to 640x608, WebP q90 method 6, 22094 bytes; visually inspected source and final"
+  }
+ ],
+ "articles": {
+  "ssx3-mountain-lines": {
+   "title": "Mountain Lines: SSX 3's Adrenaline Economy",
+   "gameTitle": "SSX 3",
+   "system": "PS2",
+   "games": [
+    "ps2-ssx-3"
+   ],
+   "sources": [
+    {
+     "title": "SSX 3 instruction manual (NTSC-U, PlayStation 2)",
+     "author": "Electronic Arts",
+     "publisher": "Electronic Arts",
+     "date": "2003",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "PS2 NTSC-U",
+     "type": "manual",
+     "usedFor": "Default/Pro controls, adrenaline meter and boost levels, Uber/Super Uber rules, scoring and combos, board presses, handplants, event types and rounds, Peak Goals (race/freestyle, exploration 30%, earnings), cash uses, lodge menu, Multi Play, HUD options; controls page scan for body image",
+     "url": "https://www.video-games-museum.com/en/manual/Playstation%202/51092_us-SSX-3.pdf"
+    },
+    {
+     "title": "SSX 3 Review",
+     "author": "Greg Kasavin",
+     "publisher": "GameSpot",
+     "date": "2003-10-21",
+     "accessDate": "2026-10-24",
+     "score": "9.0",
+     "reviewedEdition": "Multiplatform review (PS2, Xbox, GameCube; PS2 online section)",
+     "type": "contemporary review",
+     "usedFor": "Top-three-of-six progression, Peak 1 only at start, peak run lengths, boost loss on falls, auto-reset and invisible bounds, no rubber-band AI, gold medals hard, rock-bottom starting stats, vertical two-player split-screen, Big Challenges, adaptive soundtrack, higher Xbox/GC resolution",
+     "url": "https://www.gamespot.com/reviews/ssx-3-review/1900-6077123/"
+    },
+    {
+     "title": "SSX 3 (PS2 review: 'The best snowboarding game ever?')",
+     "author": "Douglass C. Perry",
+     "publisher": "IGN",
+     "date": "2003-10-17",
+     "accessDate": "2026-10-24",
+     "score": "9.5 (Editors' Choice)",
+     "reviewedEdition": "PlayStation 2",
+     "type": "contemporary review",
+     "usedFor": "SSX Tricky comparison (Ubers, three tiers, meter decay), board presses, handplants, gear doesn't affect handling, stuck spots, unmarked drops, rails too high, Peak 3 'brutal', GameCube pad limitation, music/ambience options; source page for handplant gallery image",
+     "url": "https://web.archive.org/web/20250425044023/https://www.ign.com/articles/2003/10/17/ssx-3-5"
+    },
+    {
+     "title": "SSX 3 critic reviews (PlayStation 2)",
+     "author": "Metacritic",
+     "publisher": "Metacritic",
+     "date": "",
+     "accessDate": "2026-10-24",
+     "score": "93 (aggregate, 41 reviews)",
+     "reviewedEdition": "PlayStation 2",
+     "type": "database",
+     "usedFor": "Aggregate score only, labelled as aggregate",
+     "url": "https://www.metacritic.com/game/ssx-3/critic-reviews/?platform=playstation-2"
+    },
+    {
+     "title": "SSX 3 Guide and Walkthrough (PS2), v1.0",
+     "author": "gondee and contributors",
+     "publisher": "GameFAQs",
+     "date": "2004-06-04",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "PS2",
+     "type": "reference",
+     "usedFor": "Fan reference: seven attributes rated 1-11 with escalating cost, Peak 1 track/event list, race heat target times (~3 minutes), shortcuts needing upgraded riders, Stability's effect on landings",
+     "url": "https://gamefaqs.gamespot.com/ps2/914646-ssx-3/faqs/26460"
+    },
+    {
+     "title": "SSX 3",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "",
+     "type": "reference",
+     "usedFor": "GBA port by Visual Impact, PS2 online service discontinued, 2018 Xbox One re-release; orientation only",
+     "url": "https://en.wikipedia.org/wiki/SSX_3"
+    },
+    {
+     "title": "SSX 3 (PS2, USA, SLUS 20772)",
+     "author": "Redump",
+     "publisher": "redump.org",
+     "date": "",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "USA v1.00, Original and Greatest Hits",
+     "type": "database",
+     "usedFor": "USA serial and editions sharing it",
+     "url": "http://redump.org/disc/6440/"
+    },
+    {
+     "title": "GameIndex.yaml entry SLUS-20772 (commit b3402c13, 2026-10-21)",
+     "author": "PCSX2 project",
+     "publisher": "GitHub",
+     "date": "2026-10-21",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "SLUS-20772 (NTSC-U)",
+     "type": "reference",
+     "usedFor": "Upstream desktop compat 5 and GS HW fixes (blending level 4, textureInsideRT, halfPixelOffset 2, nativeScaling); not a tested result",
+     "url": "https://github.com/PCSX2/pcsx2/blob/master/bin/resources/GameIndex.yaml"
+    }
+   ],
+   "gaps": [
+    "Nothing played or launched. Serial, integrity and controller mapping of four shoulder buttons plus the right stick are unverified.",
+    "Which SLUS-20772 printing (Original or Greatest Hits) the file comes from is unknown; Redump lists both under one serial.",
+    "Wipeout recovery: the manual says to tap Square repeatedly, but GameSpot and IGN both describe tapping jump to recover mid-air. The article flags this as unchecked.",
+    "Which Peak 1 events are open at the very start isn't verified; the first-session plan says 'whichever is open'.",
+    "Freestyle rounds: the manual says qualifying + final, while Wikipedia says three heats and the fan guide says two heats + final with skips. The article follows the manual.",
+    "Attribute costs in the fan guide are internally inconsistent (two different totals), so no cash figures are given.",
+    "The lead's left gauge is the course-position bar per the manual's Game Screen page (other riders/current location, 36%), not a boost bar. Boost/adrenaline is the right-hand spiral.",
+    "Release reception is limited to GameSpot and IGN primary pages plus the Metacritic aggregate. EGM, GamePro and Eurogamer scores were seen only as Metacritic-normalised values and are not cited.",
+    "Online status rests on Wikipedia only; the 2-player split-screen wasn't tested and no second-controller setup is claimed.",
+    "The 'Stability first' purchase is an authorial suggestion, not tested."
+   ]
+  },
+  "thug2-bank-or-bail": {
+   "title": "Bank It or Bail: Tony Hawk's Underground 2 as a Score-Attack Game",
+   "gameTitle": "Tony Hawk's Underground 2",
+   "system": "PS2",
+   "games": [
+    "ps2-tony-hawks-underground-2",
+    "thug-pro"
+   ],
+   "sources": [
+    {
+     "title": "Tony Hawk's Underground 2 instruction manual (PS2, NTSC U/C)",
+     "author": "Activision / Neversoft",
+     "publisher": "Activision (scan: Internet Archive, ps2-kirklands-manual-labor collection)",
+     "date": "2004",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "PS2 NTSC U/C",
+     "type": "manual",
+     "usedFor": "Exact PS2 controls (pp.4-8), Focus limits, scoring tips, special slots, main-menu modes incl. Classic description (p.11), create modes, 2-player and online modes, memory card sizes; page images n7/n8 used for body illustration",
+     "url": "https://archive.org/details/ps2_Tony_Hawks_Underground_2_USA"
+    },
+    {
+     "title": "Tony Hawk's Underground 2 Review",
+     "author": "Jeff Gerstmann",
+     "publisher": "GameSpot",
+     "date": "2004-10-04",
+     "accessDate": "2026-10-24",
+     "score": "8.2 (as displayed on current page)",
+     "reviewedEdition": "Multi-platform review (current merged page); PS2/PC online and EyeToy discussed",
+     "type": "contemporary review",
+     "usedFor": "Story structure and length, Classic mode, Sticker Slap, Focus, Natas Spin, Freak Out, PS2 frame rate/widescreen blur; hosts the Create-A-Graphic gallery image",
+     "url": "https://www.gamespot.com/reviews/tony-hawks-underground-2-review/1900-6109624/"
+    },
+    {
+     "title": "Tony Hawk's Underground 2 for PlayStation 2 Review (Wayback capture 2009-03-04)",
+     "author": "Jeff Gerstmann",
+     "publisher": "GameSpot",
+     "date": "2004-10-04",
+     "accessDate": "2026-10-24",
+     "score": "8.3",
+     "reviewedEdition": "PS2 page",
+     "type": "contemporary review",
+     "usedFor": "PS2-specific GameSpot score 8.3; GameSpot critic list showing IGN 8.6 for PS2",
+     "url": "https://web.archive.org/web/20090304191021/http://www.gamespot.com/ps2/sports/tonyhawksunderground2/review.html"
+    },
+    {
+     "title": "Tony Hawk's Underground 2 (Wayback capture 2014-04-08)",
+     "author": "Douglass C. Perry",
+     "publisher": "IGN",
+     "date": "2004-10-07",
+     "accessDate": "2026-10-24",
+     "score": "8.6",
+     "reviewedEdition": "Archived copy's ratings box labelled PC; text covers PS2/PC; PS2 8.6 corroborated by GameSpot 2009 critic list and Wikipedia",
+     "type": "contemporary review",
+     "usedFor": "Classic options (turn off manuals/reverts/walking/spin taps), non-skating goals, off-board controls criticism",
+     "url": "https://web.archive.org/web/20140408012448/http://www.ign.com/articles/2004/10/07/tony-hawks-underground-2-6"
+    },
+    {
+     "title": "Tony Hawk's Underground 2 review",
+     "author": "Tom Bramwell",
+     "publisher": "Eurogamer",
+     "date": "2004-10-08",
+     "accessDate": "2026-10-24",
+     "score": "8/10",
+     "reviewedEdition": "PS2 (URL r_thug2_ps2; PS2 button references)",
+     "type": "contemporary review",
+     "usedFor": "Classic difficulty and six-goal progression, tutorial burden and learning curve, Jackass tone",
+     "url": "https://www.eurogamer.net/r-thug2-ps2"
+    },
+    {
+     "title": "Tony Hawk's Underground 2 PlayStation 2 Critic Reviews",
+     "author": "Metacritic",
+     "publisher": "Metacritic",
+     "date": "",
+     "accessDate": "2026-10-24",
+     "score": "Metascore 83 (59 critics); Game Informer listed 98",
+     "reviewedEdition": "PS2",
+     "type": "database",
+     "usedFor": "Aggregate PS2 score; Game Informer citation (Nov 2004, p.140)",
+     "url": "https://www.metacritic.com/game/tony-hawks-underground-2/critic-reviews/?platform=playstation-2"
+    },
+    {
+     "title": "Tony Hawk's Underground 2 Guide and Walkthrough (PS2), v2.7",
+     "author": "Brokaliv",
+     "publisher": "GameFAQs",
+     "date": "2006-06-16",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "PS2",
+     "type": "reference",
+     "usedFor": "Classic Normal/Sick goal thresholds (6/8), Barcelona score targets, stat points, Story Training goals, Natas Spin input, 2-player mode list",
+     "url": "https://gamefaqs.gamespot.com/ps2/920660-tony-hawks-underground-2/faqs/32792"
+    },
+    {
+     "title": "Tony Hawk's Underground 2 FAQ/Walkthrough (PS2), v1.0",
+     "author": "wayalla (Aaron Baker)",
+     "publisher": "GameFAQs",
+     "date": "2004-12-24",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "PS2",
+     "type": "reference",
+     "usedFor": "Clean landing +1,000 / sloppy -500, bail loses combo points, Natas Spin input",
+     "url": "https://gamefaqs.gamespot.com/ps2/920660-tony-hawks-underground-2/faqs/34191"
+    },
+    {
+     "title": "Online Play",
+     "author": "Tony Hawk's Games Wiki contributors",
+     "publisher": "Fandom",
+     "date": "",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "",
+     "type": "reference",
+     "usedFor": "2007 removal of THUG2 official server files, GameSpy closure 2014; online treated as unavailable",
+     "url": "https://tonyhawkgames.fandom.com/wiki/Online_Play"
+    },
+    {
+     "title": "Tony Hawk's Underground 2",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "",
+     "type": "reference",
+     "usedFor": "Returning classic levels list, Game Informer 9.75 raw score, reception orientation, Eurogamer/IGN/GameSpot citation URLs",
+     "url": "https://en.wikipedia.org/wiki/Tony_Hawk%27s_Underground_2"
+    },
+    {
+     "title": "THUG Pro",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "PC mod",
+     "type": "retrospective",
+     "usedFor": "Later legacy: fan mod on THUG2 engine since 2013; Pro Skater 5 reviewers citing it",
+     "url": "https://en.wikipedia.org/wiki/THUG_Pro"
+    },
+    {
+     "title": "GameIndex.yaml entry SLUS-20965 (commit b3402c13)",
+     "author": "PCSX2 project",
+     "publisher": "GitHub",
+     "date": "2026-10-21",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "SLUS-20965 NTSC-U",
+     "type": "database",
+     "usedFor": "Upstream desktop compat 5, vu1RoundMode 0 'Crashes without', GS HW fixes; not a tested result",
+     "url": "https://github.com/PCSX2/pcsx2/blob/master/bin/resources/GameIndex.yaml"
+    },
+    {
+     "title": "Tony Hawk's Underground 2 (PS2, USA, SLUS 20965, v1.00)",
+     "author": "Redump",
+     "publisher": "Redump",
+     "date": "",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "USA Original v1.00",
+     "type": "database",
+     "usedFor": "Serial confirmation; dump size 3,364,945,920 bytes",
+     "url": "http://redump.org/disc/14682/"
+    }
+   ],
+   "gaps": [
+    "Nothing played or tested; all controls are from the US manual or fan guides.",
+    "Natas Spin input (Triangle + R1/L1) comes from two fan guides; not in the US manual.",
+    "Clean landing +1,000 / sloppy -500 / bail loses combo comes from a 2004 fan guide, not the manual; the manual states only that every trick adds to the multiplier and that repeated tricks lose value.",
+    "GameSpot score discrepancy: 8.3 on the archived 2009 PS2 page vs 8.2 on today's page for the same review; article reports both.",
+    "IGN 8.6: the archived copy read carries a PC ratings box; PS2 8.6 rests on GameSpot's 2009 PS2 critic list and Wikipedia. Original PS2-specific IGN URL not located (Wayback rate-limited).",
+    "Game Informer 9.75 not read from the magazine; via Wikipedia and Metacritic (98).",
+    "Whether Classic mode is unlocked from the start was not explicitly verified; the manual presents it as a main-menu mode and Barcelona as first level per a fan guide.",
+    "Eurogamer date: page metadata says 2004-10-08; Wikipedia cites August 10, 2004 (likely a day/month swap).",
+    "Later PS2-specific reassessment is thin; legacy noted via THUG Pro (PC mod)."
+   ]
+  },
+  "windjammers-disc-duel": {
+   "title": "The Disc Duel: Windjammers as a Fighting Game",
+   "gameTitle": "Windjammers",
+   "system": "Neo Geo",
+   "games": [
+    "arcade-windjammers",
+    "windjammers-dotemu"
+   ],
+   "sources": [
+    {
+     "title": "Windjammers / Flying Power Disc (MAME history entry, mirrored by mdk.cab)",
+     "author": "arcade-history.com contributors",
+     "publisher": "mdk.cab / arcade-history.com",
+     "date": "",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "Neo Geo MVS (wjammers set)",
+     "type": "reference",
+     "usedFor": "Japanese release date 1994-02-17; AES/CD release dates; A = slide/receive/throw, B = lob; bonus games after matches 2 and 4; B. Yoo/S. Miller region swap note",
+     "url": "https://mdk.cab/game/wjammers"
+    },
+    {
+     "title": "Windjammers / Flying Power Disc - MAME machine",
+     "author": "Michele Fochi (Arcade Database)",
+     "publisher": "Arcade Database (adb.arcadeitalia.net)",
+     "date": "",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "Neo Geo MVS (wjammers set)",
+     "type": "database",
+     "usedFor": "In-game how-to snapshot with C/D buttons crossed out; select-screen snapshot used as body image (media URL https://adb.arcadeitalia.net/media/mame.current/selects/wjammers.png)",
+     "url": "https://adb.arcadeitalia.net/dettaglio_mame.php?game_name=wjammers"
+    },
+    {
+     "title": "Windjammers: Controls",
+     "author": "Arcade Quartermaster",
+     "publisher": "arcadequartermaster.com",
+     "date": "",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "Neo Geo",
+     "type": "reference",
+     "usedFor": "Throw/block/slide/lob/special/reversal descriptions; reversals speed up",
+     "url": "https://www.arcadequartermaster.com/wjammers_config.html"
+    },
+    {
+     "title": "WindJammers FAQ v1.3",
+     "author": "BakaOrochi (June Kim)",
+     "publisher": "GameFAQs",
+     "date": "2018-12-04",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "Neo Geo MVS/AES",
+     "type": "reference",
+     "usedFor": "Scoring incl. push-into-goal; set rules; court order and zone layouts; Stadium growth; character grades and specials; LEVEL 1-8 (4 standard), continue default; bonus rounds; CPU plays beginner characters well; recommends medium characters",
+     "url": "https://gamefaqs.gamespot.com/neo/565658-windjammers/faqs/27027"
+    },
+    {
+     "title": "The basics",
+     "author": "Windjammers France",
+     "publisher": "windjammers-france.fr",
+     "date": "",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "Windjammers (original)",
+     "type": "reference",
+     "usedFor": "Dash/toss timing; Mita fastest/Wessel slowest walker; curve strength by character; lob depth vs hold time; supersonic window widens when behind; automatic charge; charge speeds; super types",
+     "url": "https://www.windjammers-france.fr/wiki/wiki-en/the-basics"
+    },
+    {
+     "title": "Windjammers",
+     "author": "Neo-Geo.com wiki contributors",
+     "publisher": "neo-geo.com",
+     "date": "",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "Neo Geo",
+     "type": "reference",
+     "usedFor": "Six court names and zone layouts; Stadium red zone growth",
+     "url": "https://www.neo-geo.com/wiki/index.php?title=Windjammers"
+    },
+    {
+     "title": "Warpzone – Neo Geo: Windjammers",
+     "author": "Wolfgang Schaedle",
+     "publisher": "Video Games (DE) 6/94, Future-Verlag, p. 40",
+     "date": "1994-06",
+     "accessDate": "2026-10-24",
+     "score": "71% one-player / 90% two-player",
+     "reviewedEdition": "Neo Geo (74 Mbit, ca. 360 DM)",
+     "type": "contemporary review",
+     "usedFor": "Release-era score split and solo-vs-partner verdict; scan visually checked via Kultboy",
+     "url": "https://www.kultboy.com/index.php?site=t&id=18742"
+    },
+    {
+     "title": "Flying Power Disc",
+     "author": "Uncredited",
+     "publisher": "Ultimate Future Games #5, Future Publishing, p. 89",
+     "date": "1995-04",
+     "accessDate": "2026-10-24",
+     "score": "73%",
+     "reviewedEdition": "Neo Geo, Japanese title, £45; cartridge vs CD not stated on page (Wikipedia labels it Neo Geo CD)",
+     "type": "contemporary review",
+     "usedFor": "Release-era score and short quote; page scan visually checked (archive.org page n88)",
+     "url": "https://archive.org/details/ultimate-future-games-05"
+    },
+    {
+     "title": "Review: Windjammers",
+     "author": "Kyle LeClair",
+     "publisher": "Hardcore Gamer",
+     "date": "2017-08-31",
+     "accessDate": "2026-10-24",
+     "score": "4/5 (as displayed in page rating box)",
+     "reviewedEdition": "PS4 (DotEmu 2017)",
+     "type": "retrospective",
+     "usedFor": "Fighting-game comparison quote; match length; clone-of-yourself ladder; bonus games in menu; claim EGM/GamePro gave no proper review",
+     "url": "https://hardcoregamer.com/reviews/review-windjammers/270088/"
+    },
+    {
+     "title": "Windjammers Review",
+     "author": "Andrew King",
+     "publisher": "Gamecritics",
+     "date": "2017-09-15",
+     "accessDate": "2026-10-24",
+     "score": "7/10",
+     "reviewedEdition": "PS4 (DotEmu 2017)",
+     "type": "retrospective",
+     "usedFor": "Later reassessment score; solo content limited to arcade mode",
+     "url": "https://gamecritics.com/andrew-king/windjammers-review/"
+    },
+    {
+     "title": "Windjammers Review (Switch eShop)",
+     "author": "Gonçalo Lopes",
+     "publisher": "Nintendo Life",
+     "date": "2018-10-23",
+     "accessDate": "2026-10-24",
+     "score": "8/10 (verified in page JSON-LD ratingValue)",
+     "reviewedEdition": "Switch, European",
+     "type": "retrospective",
+     "usedFor": "Later reassessment; 'launched to lukewarm reviews'; solo warning; re-release features",
+     "url": "https://www.nintendolife.com/reviews/switch-eshop/windjammers"
+    },
+    {
+     "title": "Windjammers (video game)",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "",
+     "type": "reference",
+     "usedFor": "Orientation; list of further contemporary scores (Edge 5/10, Famitsu 28/40 etc.) reported as unverified; DotEmu port dates",
+     "url": "https://en.wikipedia.org/wiki/Windjammers_(video_game)"
+    }
+   ],
+   "gaps": [
+    "No scan of the original MVS instruction card or AES/CD manual was found; controls are sourced to the in-game how-to screen, MAME history entry and Arcade Quartermaster.",
+    "Region assignment of Beeho Yoo vs Steve Miller conflicts: the MAME history says Miller appears only with the USA territory setting; the BakaOrochi FAQ says Miller in Japan/US and Yoo in Europe; Ultimate Future Games' Japanese-titled page shows S. MILLER. Left unresolved in the article.",
+    "Whether you must tap A while charging conflicts: Arcade Quartermaster/FAQ say tap or mash; the Windjammers France wiki says the charge is automatic.",
+    "The BakaOrochi FAQ claims a set past 12 points continues until someone leads by more than 2. That conflicts with Wikipedia's simple 12-point rule, was not verified, and is omitted from the article.",
+    "Arcade ladder length: Hardcore Gamer (PS4) says it includes a clone of yourself and MAN!AC 5/94 OCR says five other players; exact count of matches in the original was not verified from primary material.",
+    "Edge #10 5/10, Famitsu 28/40 and the other scores in Wikipedia's table were not verified: the archive.org Edge_UK_010 item is dark, and the MAN!AC 5/94 page image failed to download (OCR text only, score unreadable).",
+    "Hardcore Gamer's claim that EGM and GamePro gave no proper review was not independently checked against magazine scans.",
+    "Hardcore Gamer's 4/5 is taken from the site's current rating box and may be a post-migration display of the original score.",
+    "Nothing tested: launch, emulator performance, button mapping, half-circle reliability on a D-pad, difficulty/DIP settings and two-player play.",
+    "Court identification of the lead image as 'tiled' is inferred from its goal colour layout matching the FAQ/wiki description, not from an on-screen label."
+   ]
+  },
+  "neo-turf-masters-wind-and-club": {
+   "title": "Neo Turf Masters: Wind, Lie and the Price of a Hole",
+   "gameTitle": "Neo Turf Masters",
+   "system": "Neo Geo / Neo Geo Pocket Color",
+   "games": [
+    "arcade-neo-turf-masters",
+    "ngp-neo-turf-masters"
+   ],
+   "sources": [
+    {
+     "title": "Neo Turf Masters MVS instruction card (\"How to play with NEO TURF MASTERS\")",
+     "author": "Nazca / SNK",
+     "publisher": "Nazca Corporation / SNK (scan hosted by StrategyWiki, credited to neogeosoft.com)",
+     "date": "1996",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "",
+     "type": "manual",
+     "usedFor": "Exact cabinet controls: lever club/direction, A shot/putt, B and C hook & slice, D unused; body illustration",
+     "url": "https://strategywiki.org/wiki/File:Neo_Turf_Masters_arcade_controls.jpg"
+    },
+    {
+     "title": "Neo Turf Masters/Controls",
+     "author": "StrategyWiki contributors",
+     "publisher": "StrategyWiki",
+     "date": "2024-04-02",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "",
+     "type": "reference",
+     "usedFor": "B = hook, C = slice, D unused (Neo Geo column); page last edited date used as date",
+     "url": "https://strategywiki.org/wiki/Neo_Turf_Masters/Controls"
+    },
+    {
+     "title": "ビッグトーナメントゴルフ (Virtual Console official page)",
+     "author": "SNK Playmore / D4 Enterprise",
+     "publisher": "SNK Playmore",
+     "date": "2008",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "Wii Virtual Console (AES-based) official description",
+     "type": "reference",
+     "usedFor": "Four named courses, Stroke/Match play, hole-cost point table and game over at zero, three-over-par forced give-up, six golfers' star ratings; Wayback capture 2008-07-15",
+     "url": "http://web.archive.org/web/20080715100137/http://game.snkplaymore.co.jp:80/event/virtual-console/btg/index_btg_j.html"
+    },
+    {
+     "title": "Neo Turf Masters instruction manual (English)",
+     "author": "SNK",
+     "publisher": "SNK",
+     "date": "1999",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "Neo Geo Pocket Color",
+     "type": "manual",
+     "usedFor": "NGPC controls, shot/spin/putt flow, modes (Stroke, Handicap, Crown), Crown clear conditions, saving, link-cable VS, Clubs of Legends, three courses, golfer ratings, special rules",
+     "url": "https://archive.org/download/neo-geo-pocket-manuals/neo_turf_masters-english.pdf"
+    },
+    {
+     "title": "Neo Turf Masters - SNK Neo-Geo Pocket Color",
+     "author": "Games Database",
+     "publisher": "gamesdatabase.org",
+     "date": "",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "",
+     "type": "database",
+     "usedFor": "NGPC developer Saurus, publisher SNK, 1999",
+     "url": "https://www.gamesdatabase.org/game/snk-neo-geo-pocket-color/neo-turf-masters"
+    },
+    {
+     "title": "Neo Turf Masters",
+     "author": "Mizuumi Wiki contributors",
+     "publisher": "Mizuumi Wiki",
+     "date": "",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "",
+     "type": "reference",
+     "usedFor": "MVS shot clock vs AES/CD/Wii; Neo Geo CD extras incl. hidden Scotland; current tournament scene",
+     "url": "https://mizuumi.wiki/w/Neo_Turf_Masters"
+    },
+    {
+     "title": "Neo Turf Masters/System",
+     "author": "Mizuumi Wiki contributors",
+     "publisher": "Mizuumi Wiki",
+     "date": "",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "",
+     "type": "reference",
+     "usedFor": "14 clubs, power scaling, 100% buffer and Max shot windows, height effects, curve, spin, lies, wind 0-15 relative to minimap, minimap imprecision, Veteran recovery",
+     "url": "https://mizuumi.wiki/w/Neo_Turf_Masters/System"
+    },
+    {
+     "title": "Neo Turf Masters/Controls",
+     "author": "Mizuumi Wiki contributors",
+     "publisher": "Mizuumi Wiki",
+     "date": "",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "",
+     "type": "reference",
+     "usedFor": "Spin inputs not explained by in-game tutorial",
+     "url": "https://mizuumi.wiki/w/Neo_Turf_Masters/Controls"
+    },
+    {
+     "title": "Neo Turf Masters/Power Golfer",
+     "author": "Mizuumi Wiki contributors",
+     "publisher": "Mizuumi Wiki",
+     "date": "2025-11-24",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "",
+     "type": "reference",
+     "usedFor": "Almeida ~320y drives, driver only off tee, worst putting",
+     "url": "https://mizuumi.wiki/w/Neo_Turf_Masters/Power_Golfer"
+    },
+    {
+     "title": "Neo Turf Masters/Japan",
+     "author": "Mizuumi Wiki contributors",
+     "publisher": "Mizuumi Wiki",
+     "date": "",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "",
+     "type": "reference",
+     "usedFor": "Japan = short distances; hole 1 426Y par 4 no hills (also matches lead screenshot)",
+     "url": "https://mizuumi.wiki/w/Neo_Turf_Masters/Japan"
+    },
+    {
+     "title": "Neo Turf Masters/Germany",
+     "author": "Mizuumi Wiki contributors",
+     "publisher": "Mizuumi Wiki",
+     "date": "",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "",
+     "type": "reference",
+     "usedFor": "Hole 10 crash/soft-reset bug reported in all versions",
+     "url": "https://mizuumi.wiki/w/Neo_Turf_Masters/Germany"
+    },
+    {
+     "title": "Neo Turf Masters",
+     "author": "Giant Bomb contributors",
+     "publisher": "Giant Bomb",
+     "date": "",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "",
+     "type": "reference",
+     "usedFor": "Stat definitions, Adams/Almeida 1-wood distances, one coin = three holes and operator-adjustable, 2019 rename to Big Tournament Golf",
+     "url": "https://www.giantbomb.com/neo-turf-masters/3030-17791/"
+    },
+    {
+     "title": "Neo Turf Masters (review)",
+     "author": "Dan Elektro",
+     "publisher": "neo-geo.com",
+     "date": "",
+     "accessDate": "2026-10-24",
+     "score": "10/10 (fan review)",
+     "reviewedEdition": "Neo Geo MVS",
+     "type": "retrospective",
+     "usedFor": "Fan review of MVS: coin buys three holes, birdies add holes, bogeys remove them; quote; 10/10 overall. Undated; earliest Wayback capture 2002-11-27",
+     "url": "https://www.neo-geo.com/reviews/neo-reviews/ntm/ntm.html"
+    },
+    {
+     "title": "Game Machine's Best Hit Games 25 (issue 514, p. 25)",
+     "author": "Game Machine",
+     "publisher": "Amusement Press",
+     "date": "1996-03-15",
+     "accessDate": "2026-10-24",
+     "score": "Chart #12, rating 6.14",
+     "reviewedEdition": "Arcade (MVS)",
+     "type": "reference",
+     "usedFor": "Release-era operator popularity chart (not a critical review): Big Tournament Golf / Neo Turf Masters #12 video game software, new entry, rating 6.14 (not a critical review)",
+     "url": "https://archive.org/details/game-machine-magazine-19960315p"
+    },
+    {
+     "title": "Neo Turf Masters Review",
+     "author": "Jeff Gerstmann",
+     "publisher": "GameSpot",
+     "date": "2000-04-28",
+     "accessDate": "2026-10-24",
+     "score": "7.2",
+     "reviewedEdition": "Neo Geo Pocket Color",
+     "type": "contemporary review",
+     "usedFor": "NGPC release-era review: three-press swing, Clubs of Legends, link-cable complaint, 'great fun'",
+     "url": "https://www.gamespot.com/reviews/neo-turf-masters-review/1900-2543844/"
+    },
+    {
+     "title": "Neo Turf Masters Review",
+     "author": "Lucas M. Thomas",
+     "publisher": "IGN",
+     "date": "2008-08-19",
+     "accessDate": "2026-10-24",
+     "score": "7.5",
+     "reviewedEdition": "Wii Virtual Console",
+     "type": "retrospective",
+     "usedFor": "Later re-release review: 'golf on steroids', countdown clocks, no targeting lines or green contour maps",
+     "url": "https://web.archive.org/web/20080823001248/http://wii.ign.com/articles/899/899986p1.html"
+    },
+    {
+     "title": "ACA NEOGEO BIG TOURNAMENT GOLF",
+     "author": "Hamster Corporation",
+     "publisher": "Arcade Archives",
+     "date": "",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "",
+     "type": "reference",
+     "usedFor": "ACA platforms/dates (PS4/XB1 2017-02-23), MVS basis",
+     "url": "https://www.arcadearchives.com/en/title/ang-007/"
+    },
+    {
+     "title": "Neo Turf Masters",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "reviewedEdition": "",
+     "type": "reference",
+     "usedFor": "Ex-Irem programmers (Major Title 2), Metal Slug lineage, NGPC cartoonish art, rename context",
+     "url": "https://en.wikipedia.org/wiki/Neo_Turf_Masters"
+    }
+   ],
+   "gaps": [
+    "No release-era critical review score verified for the 1996 arcade/AES/Neo Geo CD game; Famitsu, GameFan, Neo Geo Freak not found/checked. Only Game Machine's operator chart (#12, 6.14) is verified.",
+    "No IGN or other 1999 NGPC review located; GameSpot 7.2 (2000-04-28) is the only verified NGPC-era score.",
+    "Hole-cost point values come from SNK's Wii VC (AES-based) page; the MVS three-holes-per-coin default comes from a fan review and Giant Bomb, not an SNK document. Operator DIP defaults not verified.",
+    "Shot clock: Mizuumi says MVS only (absent on AES/CD/Wii VC) but IGN's Wii VC review describes countdown clocks; unresolved.",
+    "B vs C assignment: card only says 'hook&slice'; StrategyWiki lists B hook / C slice, while Mizuumi's wording ('slices and hooks ... B or C respectively') implies the reverse. Article cites StrategyWiki only.",
+    "Arcade golfer nationalities omitted: sources disagree (Giant Bomb/NGPC manual Australia vs StrategyWiki New Zealand for Frank Adams).",
+    "Nothing played or tested: launch, emulator behaviour, button mapping and performance are all untested.",
+    "Arcade Japanese-course identification of the lead image rests on hole length/par matching Mizuumi data, not on an on-screen course name.",
+    "NGPC Japanese release date (Wikipedia: 1999-07-29) and NGPC Selection Vol. 1 (2021) not independently verified; not used in body beyond '1999'."
+   ]
+  }
+ }
+}

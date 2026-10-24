@@ -1,0 +1,21 @@
+{
+  "issue": "field-notes-001",
+  "revision": 2,
+  "prepared": "2026-10-24",
+  "rightsNotice": "Game images and quoted material belong to their respective rights holders. Included for commentary and criticism; no endorsement or ownership is implied.",
+  "rightsHolders": "Screenshots, box art and arcade promotional art: Konami; Sega / Spike Chunsoft (originally Chunsoft); Artdink; Raizing / Eighting. Original prose, layout and cover composition are by Sortie Field Notes; third-party images are not covered by the Sortie app's MIT license.",
+  "media": [
+    {"file": "media/cover.webp", "kind": "authored composite cover", "inputs": ["media/peace-walker-extra-ops.webp", "media/shiren-ds-thirty-floors.webp", "media/carnage-heart-exa-flowchart-pilot.webp", "media/battle-garegga-rank-economy.webp"], "credit": "Screenshots via ScreenScraper and Arcade Database, credited on the cover", "note": "Subtitle text revised in revision 2 for a general audience; images unchanged."},
+    {"file": "media/peace-walker-extra-ops.webp", "role": "lead", "source": "ScreenScraper screenshot (screenscraper.fr)", "rights": "Konami", "edition": "PSP"},
+    {"file": "media/peace-walker-extra-ops-box.webp", "role": "inline", "source": "ScreenScraper box art (screenscraper.fr)", "rights": "Konami", "edition": "North American PSP cover"},
+    {"file": "media/shiren-ds-thirty-floors.webp", "role": "lead", "source": "ScreenScraper screenshot (screenscraper.fr)", "rights": "Sega / Spike Chunsoft", "edition": "DS, English text"},
+    {"file": "media/shiren-ds-thirty-floors-box.webp", "role": "inline", "source": "ScreenScraper box art (screenscraper.fr)", "rights": "Sega / Spike Chunsoft", "edition": "North American DS cover"},
+    {"file": "media/carnage-heart-exa-flowchart-pilot.webp", "role": "lead", "source": "ScreenScraper screenshot (screenscraper.fr)", "rights": "Artdink", "edition": "PSP; region not identified"},
+    {"file": "media/carnage-heart-exa-flowchart-pilot-box-jp.webp", "role": "inline", "source": "ScreenScraper box art (screenscraper.fr)", "rights": "Artdink", "edition": "Japanese PSP retail cover; the North American edition was download-only"},
+    {"file": "media/battle-garegga-rank-economy.webp", "role": "lead", "source": "Arcade Database screenshot for set bgaregga, https://adb.arcadeitalia.net/?mame=bgaregga", "rights": "Raizing / Eighting", "edition": "Arcade, February 3, 1996 set"},
+    {"file": "media/battle-garegga-rank-economy-marquee.webp", "role": "inline", "source": "Arcade Database marquee for set bgaregga, https://adb.arcadeitalia.net/?mame=bgaregga", "rights": "Raizing / Eighting", "edition": "Arcade"},
+    {"file": "media/battle-garegga-rank-economy-flyer.webp", "role": "inline", "source": "Arcade Database flyer for set bgaregga, https://adb.arcadeitalia.net/?mame=bgaregga", "rights": "Raizing / Eighting", "edition": "1996 arcade release"}
+  ],
+  "research": "Each article ends with its own offline Sources section (authors, dates, scores as published, URLs). Wikipedia-only figures are labelled as such in the articles.",
+  "testing": "Field Notes did not play-test these games on any emulator or device for this issue. Control notes come from manuals, reviews and community references."
+}

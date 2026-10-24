@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 2,
+  "id": "field-notes-009",
+  "revision": 2,
+  "title": "The Other Arena",
+  "subtitle": "Field Notes No. 009 · Sports for the systems-minded",
+  "published": "2026-10-24",
+  "cover": "media/cover.webp",
+  "rightsNotice": "Game images and quoted material belong to their respective rights holders. Included for commentary and criticism; no endorsement or ownership is implied.",
+  "editorial": "Players who come to games for their systems often give sports games a polite label: not for me. Often that is right. Season modes, licences and simulation detail are not why everyone plays, and this issue won't pretend otherwise. But a few sports games are built from parts that systems-minded players already enjoy: a resource you can spend or lose, a route you plan before committing, a duel decided by spacing and reads, physics that show you their inputs. These four were picked for those parts, not for the sport.\n\nSSX 3 is a racer with a fuel budget. Tricks fill an adrenaline meter, the meter becomes boost, and a fall cashes out the lot, so every jump in a race is a small bet. Tony Hawk's Underground 2 is score attack with a balance meter: points count only when you land, and Classic mode trims it to two-minute runs with a printed goal list, away from the Jackass-style story. Windjammers is the issue's nearest neighbour to a fighting game, a one-on-one disc duel about spacing, a timed block and a charged super; its own 1994 reviewers liked it far more with two players than alone. Neo Turf Masters turns golf into a stack of quick decisions against wind and lie, and the arcade pays for good play in extra holes. Its Neo Geo Pocket Color namesake, a separate game from a different developer, gets its own section.\n\nThe friction is real and each article names it. SSX 3's lodge upgrades are shallow. THUG2 still asks for collecting and some patience with tutorials. Windjammers alone is a short ladder against the CPU. Neo Turf Masters is still golf, and emulation makes its coin pressure optional. Nothing was played for this issue: controls come from manuals and cabinet cards, and reception from reviews we could actually read. One twenty-minute session should tell you whether any of these belongs in your rotation, and each piece explains how to spend it.",
+  "articles": [
+    {
+      "id": "ssx3-mountain-lines",
+      "title": "Mountain Lines: SSX 3's Adrenaline Economy",
+      "gameTitle": "SSX 3",
+      "system": "PS2",
+      "games": [
+        {
+          "id": "ps2-ssx-3",
+          "title": "SSX 3",
+          "systemId": "ps2",
+          "edition": "PS2 release"
+        }
+      ],
+      "deck": "Often filed as just another sports game, SSX 3 is closer to a racer built on a spendable resource: tricks fill an adrenaline meter, the meter becomes boost and Uber tricks, and every fall drains it. A source-based reading of its three-peak mountain, alternative peak goals, lodge economy, US PS2 controls and the friction of its forgiving resets.",
+      "body": "articles/ssx3-mountain-lines.md",
+      "image": "media/ssx3-mountain-lines.webp",
+      "imageCaption": "A race in progress: the rider is airborne in 2nd of 6 at 1:18. The right-hand adrenaline spiral sits under the SUPER UBER letters, the left-hand gauge shows course position (36%) and the speed reads 44 MPH. SSX 3 PS2 screen capture with an English HUD; the region can't be identified from the frame. © Electronic Arts, via ScreenScraper.",
+      "readingMinutes": 7
+    },
+    {
+      "id": "thug2-bank-or-bail",
+      "title": "Bank It or Bail: Tony Hawk's Underground 2 as a Score-Attack Game",
+      "gameTitle": "Tony Hawk's Underground 2",
+      "system": "PS2",
+      "games": [
+        {
+          "id": "ps2-tony-hawks-underground-2",
+          "title": "Tony Hawk's Underground 2",
+          "systemId": "ps2",
+          "edition": "PS2 release"
+        },
+        {
+          "id": "thug-pro",
+          "title": "THUG Pro",
+          "edition": "PC fan mod built on Underground 2"
+        }
+      ],
+      "deck": "Underneath Bam Margera's World Destruction Tour sits a two-minute score-attack game. Each trick adds to a multiplier, but the points only count if you land, and every extra rail risks the whole combo. Start with Classic mode, learn the revert-to-manual link, and treat the Jackass story as optional.",
+      "body": "articles/thug2-bank-or-bail.md",
+      "image": "media/thug2-bank-or-bail.webp",
+      "imageCaption": "Berlin, with the TV tower behind: an unbanked combo from FS Revert through Nose Manual, Spine Transfer and the 'Out of Church' gap to a BS 5-0 grind, 14,821 x 17, balance arc above the skater, special meter lit. ScreenScraper tags it PS2; English HUD, region not identifiable from the frame. © Activision / Neversoft; screenshot via ScreenScraper",
+      "readingMinutes": 6
+    },
+    {
+      "id": "windjammers-disc-duel",
+      "title": "The Disc Duel: Windjammers as a Fighting Game",
+      "gameTitle": "Windjammers",
+      "system": "Neo Geo",
+      "games": [
+        {
+          "id": "arcade-windjammers",
+          "title": "Windjammers",
+          "systemId": "arcade",
+          "edition": "Data East Neo Geo original (1994)",
+          "matchNames": [
+            "Flying Power Disc",
+            "wjammers"
+          ]
+        },
+        {
+          "id": "windjammers-dotemu",
+          "title": "Windjammers (DotEmu edition)",
+          "edition": "2017 DotEmu reissue"
+        }
+      ],
+      "deck": "Data East's 1994 Neo Geo frisbee game is a one-on-one duel in sports clothes. You choose where to aim, when to block the disc up for a charged super, and when to reverse one. Here is how its zones, courts and six players work, a no-sports-knowledge first session, and why it's great with two players but short-lived alone.",
+      "body": "articles/windjammers-disc-duel.md",
+      "image": "media/windjammers-disc-duel.webp",
+      "imageCaption": "Gameplay on the blue tiled court, where each goal has red 5-point zones at the ends and a yellow 3-point centre. The disc is airborne over the net and its landing reticle sits in the Italian player's half. USA (G. Scott) vs Italy (L. Biaggi), English arcade HUD at LEVEL-4; BIOS region not identifiable from the frame. Windjammers (Neo Geo MVS), © 1994 Data East; screenshot from the Arcade Database (arcadedb).",
+      "readingMinutes": 7
+    },
+    {
+      "id": "neo-turf-masters-wind-and-club",
+      "title": "Neo Turf Masters: Wind, Lie and the Price of a Hole",
+      "gameTitle": "Neo Turf Masters",
+      "system": "Neo Geo / Neo Geo Pocket Color",
+      "games": [
+        {
+          "id": "arcade-neo-turf-masters",
+          "title": "Neo Turf Masters",
+          "systemId": "arcade",
+          "edition": "Nazca Neo Geo MVS original (1996)",
+          "matchNames": [
+            "Big Tournament Golf",
+            "turfmast"
+          ]
+        },
+        {
+          "id": "ngp-neo-turf-masters",
+          "title": "Neo Turf Masters",
+          "systemId": "ngp",
+          "edition": "Neo Geo Pocket Color game by Saurus (1999)"
+        }
+      ],
+      "deck": "Nazca's 1996 arcade golf game, made the year of Metal Slug, turns every shot into six quick decisions: club, aim, curve, power, height and hidden spin, all shaped by wind and lie. Its credit is paid in holes, so birdies buy more game. A separate look at the 1999 Neo Geo Pocket Color version and its tournament campaign.",
+      "body": "articles/neo-turf-masters-wind-and-club.md",
+      "image": "media/neo-turf-masters-wind-and-club.webp",
+      "imageCaption": "Neo Turf Masters, Neo Geo arcade, English text: golfer at the top of the swing on hole 1 (426 yards, par 4, matching the Japan course opener in Mizuumi's hole list), SW-100Y selected, wind 1, SHOT-POWER meter with LOW/NICE/HIGH height bands, LEVEL-4 and CREDIT 00 readouts. Exact region or romset not identifiable from the frame. © 1996 Nazca / SNK; screenshot from the Arcade Database (arcadedb), 3x point-scaled",
+      "readingMinutes": 7
+    }
+  ]
+}

@@ -1,0 +1,1019 @@
+{
+ "digest": "aacc00fc7f6bc8bcf44f9f68475fbd7f24e4de2e6c5ec61ecedb94c3c382975c",
+ "format": 1,
+ "issues": [
+  {
+   "digest": "cd4dc9a2e83a52640fa517c617b3e67dac8813e4f763603a8c42d93da693242b",
+   "files": [
+    {
+     "path": "articles/battle-garegga-rank-economy.md",
+     "sha256": "3a585256ef2a82304a33db48a283cf4dff2fca6cbfa1f301c7296f3e2a6ead89",
+     "size": 8023
+    },
+    {
+     "path": "articles/carnage-heart-exa-flowchart-pilot.md",
+     "sha256": "1c93d9b561a58631e8931d1e6468e588bce329ab873431839b7e0ed897deff4a",
+     "size": 8025
+    },
+    {
+     "path": "articles/peace-walker-extra-ops.md",
+     "sha256": "b5d7de4fedcc67685b0ae83a7ad152f02fdd207e18aec340a35034586620065b",
+     "size": 8485
+    },
+    {
+     "path": "articles/shiren-ds-thirty-floors.md",
+     "sha256": "fa0f3309a2f3720b2dc94e2e8f0e3aacedafa1cc42a2b6e9a675c3bc7c630b6e",
+     "size": 8982
+    },
+    {
+     "path": "issue.json",
+     "sha256": "7ce60a93017af51f548c0032c4082b01f327904d17e86627118547a3c8c2d519",
+     "size": 6433
+    },
+    {
+     "path": "media/battle-garegga-rank-economy-flyer.webp",
+     "sha256": "b13923d9f4f5667c8d57b78f75288b203b7b97742bc52caa2db6e2e3d1db2cbd",
+     "size": 80724
+    },
+    {
+     "path": "media/battle-garegga-rank-economy-marquee.webp",
+     "sha256": "ddb0e4fa2a492c5de4a8671e4ebb339720b6a62ca0fd72da383dd2573f8f4202",
+     "size": 30492
+    },
+    {
+     "path": "media/battle-garegga-rank-economy.webp",
+     "sha256": "7c7cbaad6f2fde4361d5c6cc85fca7cfac10d007b08ccddaca63286bff8946ff",
+     "size": 28486
+    },
+    {
+     "path": "media/carnage-heart-exa-flowchart-pilot-box-jp.webp",
+     "sha256": "151d0733cd913b13c739ad20aabaf2196a0546b22bd1de8a9448b2e875356b92",
+     "size": 50768
+    },
+    {
+     "path": "media/carnage-heart-exa-flowchart-pilot.webp",
+     "sha256": "346ac207f535e3893c192f2faf81a57eea13b18cd9de42513fbf3be1dbb256d3",
+     "size": 72238
+    },
+    {
+     "path": "media/cover.webp",
+     "sha256": "78faff784c910f5a7c8f8757d408aca46a8d87e2b4180fdfab029dfb15023a35",
+     "size": 268186
+    },
+    {
+     "path": "media/peace-walker-extra-ops-box.webp",
+     "sha256": "90f80a2ca51424f22bb497a5abb2ebfe9fd1e8046b376cc995dbd55a3678d889",
+     "size": 63676
+    },
+    {
+     "path": "media/peace-walker-extra-ops.webp",
+     "sha256": "8a5d00da362018db57ab8405602614e5d302635bbf5a615650f6b4cbfcc188ad",
+     "size": 139968
+    },
+    {
+     "path": "media/shiren-ds-thirty-floors-box.webp",
+     "sha256": "570c89996e397a409e9bfaca98217bd57a3928e2dea9b8f7230f05ae9ef08a32",
+     "size": 61762
+    },
+    {
+     "path": "media/shiren-ds-thirty-floors.webp",
+     "sha256": "6e6939656a9502abb5318aa0579e604bacabffa6b3b187631735ca67ca9c4fc3",
+     "size": 32558
+    },
+    {
+     "path": "sources.json",
+     "sha256": "8fd1fc83b6c24fc1ff4dd05cef0dd7d9be089f5ffb44314da32709093f1c586d",
+     "size": 3241
+    }
+   ],
+   "id": "field-notes-001",
+   "revision": 2
+  },
+  {
+   "digest": "a8f6a36e12ca6d6449c1d519eb5070112eff517275bd479c38c6d9860db0f0e0",
+   "files": [
+    {
+     "path": "articles/armored-core-3-weight-and-wages.md",
+     "sha256": "e31651cd7cb9fe4ce2aad85eac0b7c889dad67358ce4f4113dda227add451038",
+     "size": 13086
+    },
+    {
+     "path": "articles/front-mission-3-wanzer-workshop.md",
+     "sha256": "d119d118e001872b7016e3ee499275a2a2e11c10131195424a96ae11c168a79c",
+     "size": 13288
+    },
+    {
+     "path": "articles/gungriffon-blaze-spent-stock.md",
+     "sha256": "c78c9ab0fe0cc96c4203fccf503073fecde8484c5926e9b232bc1aaaafd88f12",
+     "size": 11956
+    },
+    {
+     "path": "articles/ring-of-red-crew-and-caliber.md",
+     "sha256": "22ded0fa1c3a89795fe269eb5ac01f2c24e52443e9dd7fbf3dfee7ab82352cd1",
+     "size": 13169
+    },
+    {
+     "path": "issue.json",
+     "sha256": "ff8451c1bde545ac8d7883ffbd6c852a119ff4d32a52c435f09da827149bf5e2",
+     "size": 6952
+    },
+    {
+     "path": "media/armored-core-3-weight-and-wages-box.webp",
+     "sha256": "ef151c4b0460a4623ece539af7dd71a18f3ea435ae5d456db1da5a35ba68aeaa",
+     "size": 88966
+    },
+    {
+     "path": "media/armored-core-3-weight-and-wages-underground.webp",
+     "sha256": "fdc70c34510e5313faae16a013b2736531f791b26cac4e5d46109085fb1c751f",
+     "size": 44580
+    },
+    {
+     "path": "media/armored-core-3-weight-and-wages.webp",
+     "sha256": "939ecf5fdeb301a7d8a892b62a04c2792be4c13b992a47df77f421401d8ef6fa",
+     "size": 25316
+    },
+    {
+     "path": "media/cover.webp",
+     "sha256": "d89d6f2d23f4bc0fd72cedeefed1fcbff772dbb5b4f85bd4a0b0cd2a1876e76f",
+     "size": 223790
+    },
+    {
+     "path": "media/front-mission-3-wanzer-workshop-box.webp",
+     "sha256": "57a576770d378c490f149a468630f1bec801fa2c844b9031a697a8d2db931424",
+     "size": 77338
+    },
+    {
+     "path": "media/front-mission-3-wanzer-workshop-network.webp",
+     "sha256": "d53f8858570e14e5ca5545b9eb6bd6366630f3a64bdb9135ec7b835afc75a3b2",
+     "size": 19844
+    },
+    {
+     "path": "media/front-mission-3-wanzer-workshop.webp",
+     "sha256": "3e0df0809a4cf8cd1cc3514b1361c5f37b18bcd3b72fc34ff74f3d1dc189bdba",
+     "size": 77078
+    },
+    {
+     "path": "media/gungriffon-blaze-spent-stock-box.webp",
+     "sha256": "29e95519adf14bd7dab7219a746478b18db07af4a0ab83fba8765ab9b738dde6",
+     "size": 163032
+    },
+    {
+     "path": "media/gungriffon-blaze-spent-stock-objective.webp",
+     "sha256": "8e700ae5dcbcfb53c81602f773005c7cbc01e82eb1d82416e4a85a7f97c9323d",
+     "size": 58858
+    },
+    {
+     "path": "media/gungriffon-blaze-spent-stock.webp",
+     "sha256": "5375dc94c76a9bf56fc25dfd9881e553ec3b6e53a7484df4c517f065e8629b2f",
+     "size": 64000
+    },
+    {
+     "path": "media/ring-of-red-crew-and-caliber-box.webp",
+     "sha256": "574b32256e37bf2a742af0a0281eab4bb193e87a7b225a07e3b1c9a4d0cbcc14",
+     "size": 78332
+    },
+    {
+     "path": "media/ring-of-red-crew-and-caliber-title.webp",
+     "sha256": "dd00393e2b12b104055598972058de1bd92ce5f99e49112f479135dea0aeac3e",
+     "size": 29112
+    },
+    {
+     "path": "media/ring-of-red-crew-and-caliber.webp",
+     "sha256": "4fbe24a5ce45cb76a678a8ea8c9acf19300a9b43051cf1e5822f2d14e424f4c2",
+     "size": 42502
+    },
+    {
+     "path": "sources.json",
+     "sha256": "01a66e54f11dd84620094189df34ea5ff08f6a971e0a4c2d667a01e008c61b75",
+     "size": 5496
+    }
+   ],
+   "id": "field-notes-002",
+   "revision": 2
+  },
+  {
+   "digest": "a70226a50bbda6ddfa64e38bb3665fa9e07173adca8a69bf0d2e2b54abf988cf",
+   "files": [
+    {
+     "path": "articles/azure-dreams-monster-tower.md",
+     "sha256": "75d5e7cd514655a3a6d105b8352b8356900b0b9be5b1c45bd837e7031e9c0da3",
+     "size": 10137
+    },
+    {
+     "path": "articles/baroque-neuro-tower.md",
+     "sha256": "24d68c1564a545e908a41f946dfecc9ed73a1b8266c240000a7a3af38676a786",
+     "size": 10509
+    },
+    {
+     "path": "articles/pmd-explorers-of-sky.md",
+     "sha256": "9d035d53e0770dad3883c8e8e1c0e9ccb6a894b090c9413a572e86e568adef4b",
+     "size": 11595
+    },
+    {
+     "path": "articles/zhp-shadowgram-hero.md",
+     "sha256": "5be7ee3d7469467f128189bad4d41ee85fa2519f8f7989bf90780d2d2b44a8e6",
+     "size": 11337
+    },
+    {
+     "path": "issue.json",
+     "sha256": "078f9fb46c9da4ad5407563180e986b7bedfe37746566cd5fea55ec0dfc5f754",
+     "size": 8179
+    },
+    {
+     "path": "media/azure-dreams-monster-tower-box.webp",
+     "sha256": "4d065f0927fdd6ad8a3546e1f9adcd06895387a57d98384f892342b2ca3dd83a",
+     "size": 91438
+    },
+    {
+     "path": "media/azure-dreams-monster-tower-town.webp",
+     "sha256": "7b2f217e13f4f6fc683d625ccbab02c5bd35417df6fd004f9a78682b123d2909",
+     "size": 65294
+    },
+    {
+     "path": "media/azure-dreams-monster-tower.webp",
+     "sha256": "7a3ae9d7adc6e1b1febcbecd9dfa4abe6021d1a6f1bd3862a9f5c9cae23e9026",
+     "size": 40574
+    },
+    {
+     "path": "media/baroque-neuro-tower-box-pal.webp",
+     "sha256": "aa04ec01e06bfb21c2a9c87d0335573483aeb0600f6390fbe98c0c687dfa0b17",
+     "size": 53946
+    },
+    {
+     "path": "media/baroque-neuro-tower-ps1.webp",
+     "sha256": "36309e11892bec53fcbf143b7ff3f01fd7a00661261e163e8362b9dcf8471e79",
+     "size": 63748
+    },
+    {
+     "path": "media/baroque-neuro-tower.webp",
+     "sha256": "102486818ae6210fd46597325a9ae9c7c896fe04555abc6070732b235857cefe",
+     "size": 25300
+    },
+    {
+     "path": "media/cover.webp",
+     "sha256": "f91f1da576d6cbb396462cb1b62e7a849b08152d1e10b836be936bab1782c700",
+     "size": 193068
+    },
+    {
+     "path": "media/pmd-explorers-of-sky-box.webp",
+     "sha256": "e5e0d5d604ad4efd9ba186c167bfcdbdc128ba2375bc3b6734ea4fc7f73e87f9",
+     "size": 55434
+    },
+    {
+     "path": "media/pmd-explorers-of-sky.webp",
+     "sha256": "d5dea4ba4019eb0849fb483073011936f31f41f9a2893aa15aac67272726e0bb",
+     "size": 81194
+    },
+    {
+     "path": "media/zhp-shadowgram-hero-box.webp",
+     "sha256": "6690673886db78d0afcdbf72d5a7627017bed756151d52ccdd5d0c2af23f1c80",
+     "size": 60980
+    },
+    {
+     "path": "media/zhp-shadowgram-hero-stage.webp",
+     "sha256": "366d476a46124d763814c9d8eb81385f50ca7377c57dee69a79437920970f567",
+     "size": 132624
+    },
+    {
+     "path": "media/zhp-shadowgram-hero-status.webp",
+     "sha256": "9acfaac37976e3524007770649d444a8d1dd9c44277743fae5dadcd4e7f4b362",
+     "size": 106942
+    },
+    {
+     "path": "media/zhp-shadowgram-hero.webp",
+     "sha256": "db362e6cf8e46edffdfa6c08ab45c8dcc836779a19084dcf040a3b5f281338e5",
+     "size": 109146
+    },
+    {
+     "path": "sources.json",
+     "sha256": "dd457fbc5ff888ca554305b7d45291035b47133024923b483a1ad4a1a1cf9cbd",
+     "size": 8853
+    }
+   ],
+   "id": "field-notes-003",
+   "revision": 2
+  },
+  {
+   "digest": "cf4be2c24bb77edc5f709d7e684afbbadb9631dec7012262cac70b3c8b1f36c3",
+   "files": [
+    {
+     "path": "articles/deception-iii-trap-chains.md",
+     "sha256": "ab63d954a4e0f87dcf0562b298b72cb08b2d186330365079ca0f47110b8b87ec",
+     "size": 12479
+    },
+    {
+     "path": "articles/mgs3-subsistence-camera.md",
+     "sha256": "68cf5555097f040b3ce9a6dfc99097e265c6a5853df1313e4f89b550683faa15",
+     "size": 11540
+    },
+    {
+     "path": "articles/shinobido-contract-war.md",
+     "sha256": "127b59560b1d30105da68c60f13e3d0513429d68b0b7fb1273ba5a4b031308ee",
+     "size": 12237
+    },
+    {
+     "path": "articles/tenchu-ki-meter.md",
+     "sha256": "d2a5b774ee522cc59e412145c6cc684d7749c1714932aeff02373cd373ba7cc8",
+     "size": 12524
+    },
+    {
+     "path": "issue.json",
+     "sha256": "5aa04bac39cf64b50f2a903a20687dd42a6efe2a1303d1f17c5c9205c5c4927b",
+     "size": 9238
+    },
+    {
+     "path": "media/cover.webp",
+     "sha256": "60a18398c374fde7ed40623ff2fd87cd4a12eb1cdfc974d3d4e9e4456ccb9772",
+     "size": 155940
+    },
+    {
+     "path": "media/deception-iii-trap-chains-box.webp",
+     "sha256": "c158dd85649f35a530c2834d8b3f401cdf2b8281671b7294cda8c835a72093c1",
+     "size": 35490
+    },
+    {
+     "path": "media/deception-iii-trap-chains-menu.webp",
+     "sha256": "490282664b9496298a53e7576854e90c34620ef3ac07c8d1802659bf5ba6b2b6",
+     "size": 34556
+    },
+    {
+     "path": "media/deception-iii-trap-chains.webp",
+     "sha256": "b58e7c6e301acb33e133e55fa37c27441350d333f8377e0af2d849ba31c0b19a",
+     "size": 29632
+    },
+    {
+     "path": "media/mgs3-subsistence-camera-box.webp",
+     "sha256": "855db7366fa905c733916b7105e803aacc2e674e68e73928696c4adbbc83c83d",
+     "size": 51290
+    },
+    {
+     "path": "media/mgs3-subsistence-camera.webp",
+     "sha256": "f4e79e1377abf8d60c31e015c6cf7217ad62e17d93b30ee9c9e356a84854fe3a",
+     "size": 74390
+    },
+    {
+     "path": "media/shinobido-contract-war-box.webp",
+     "sha256": "d9ddfa0058305bfc3b4d637002ec7cf6f62eee1a8828b7a66de98ab1764612b0",
+     "size": 47518
+    },
+    {
+     "path": "media/shinobido-contract-war-stalk.webp",
+     "sha256": "39a7bda04f591b4bcabc2b8afc000dfe053fc7c634134c962e6ad40587dfac5e",
+     "size": 39606
+    },
+    {
+     "path": "media/shinobido-contract-war.webp",
+     "sha256": "f5d52df98823d879e896c439efac80da3cca6479e1d8150085febde5adbf70fd",
+     "size": 49054
+    },
+    {
+     "path": "media/tenchu-ki-meter-box.webp",
+     "sha256": "113e648fa62fe4c030728df8452b820ff7dad961c0d96989af2fc0725554391e",
+     "size": 50964
+    },
+    {
+     "path": "media/tenchu-ki-meter.webp",
+     "sha256": "b0cb9585b4255cdfb48f162a0e80fd266ac0b8579b0737855bbc30a871dca553",
+     "size": 46876
+    },
+    {
+     "path": "sources.json",
+     "sha256": "ff6b8a03ef06645467aa67e3ccfdd202de1e5a402c2dea3bd3870c5ec6e3ec4b",
+     "size": 7580
+    }
+   ],
+   "id": "field-notes-004",
+   "revision": 2
+  },
+  {
+   "digest": "5ea26dd6df42d217deb8a9d16789a7e0fb95805bdcdc1dde7360e3406dcc71c4",
+   "files": [
+    {
+     "path": "articles/alien-soldier-boss-gauntlet.md",
+     "sha256": "f0962f6dda8d2cb484512a4111958e7c1d17cf38f54bbe93a7b14587e6bcdb6d",
+     "size": 10509
+    },
+    {
+     "path": "articles/batrider-team-rank-roulette.md",
+     "sha256": "94501413d0378d198c0e5582c4ececc67fe31e50b87cf4cff7a64b50d8e5396d",
+     "size": 11306
+    },
+    {
+     "path": "articles/god-hand-difficulty-dial.md",
+     "sha256": "3013b289c6d1e10c6888429e0f191c646a728b9ae18901af9eec39cd0b513242",
+     "size": 10293
+    },
+    {
+     "path": "articles/soldier-blade-caravan-rediscovery.md",
+     "sha256": "7220d1b29282295c8a9634c5a4b42515f8a2cd4dd3c791c359b145998d442144",
+     "size": 10836
+    },
+    {
+     "path": "issue.json",
+     "sha256": "5dbfdd76b60a89e7db67543f0e6e601000c25eb54016530568eb3e8b00e628f6",
+     "size": 6718
+    },
+    {
+     "path": "media/alien-soldier-boss-gauntlet-box-jp.webp",
+     "sha256": "1fd92efc19437ddd584f10bdc960f91267f4e8278d443d44382aec36fda3b82d",
+     "size": 86308
+    },
+    {
+     "path": "media/alien-soldier-boss-gauntlet-title-jp.webp",
+     "sha256": "c591aa0664ec6887be51c4e6141240806af7c5b314f753e1b531ff12f51c949c",
+     "size": 10762
+    },
+    {
+     "path": "media/alien-soldier-boss-gauntlet.webp",
+     "sha256": "a5a13bfc8b7e268e69fae1804dce375bcb079c451e4712796515afed880a5920",
+     "size": 13092
+    },
+    {
+     "path": "media/batrider-team-rank-roulette-flyer-jp.webp",
+     "sha256": "ddfb005b09de7a8b1c75b50e3011c23b589dd495b4f4ea88eb74d46528eb86cd",
+     "size": 194970
+    },
+    {
+     "path": "media/batrider-team-rank-roulette-select.webp",
+     "sha256": "494b54085806e3c1b7d70a445daddc2d830fb0ec4090457860ec0ff1579452fd",
+     "size": 19500
+    },
+    {
+     "path": "media/batrider-team-rank-roulette.webp",
+     "sha256": "d52b7591b1355ec39b85aef00e9e997888bb8706527646ffd20458e596365993",
+     "size": 58168
+    },
+    {
+     "path": "media/cover.webp",
+     "sha256": "39893ccc177ec1c4d1c1ab5eff2a349d942220398efda855100e5c37bcce3539",
+     "size": 214658
+    },
+    {
+     "path": "media/god-hand-difficulty-dial-box-us.webp",
+     "sha256": "681a218c3e4048782a48b54e0c7bedf91bc00d1f8ed9c879b9b3bb5b6b01377a",
+     "size": 67012
+    },
+    {
+     "path": "media/god-hand-difficulty-dial-level3.webp",
+     "sha256": "b313a2fada7b993a7e34be54a53f1055f86fbae3378afcfa97b29204bd0b553b",
+     "size": 24238
+    },
+    {
+     "path": "media/god-hand-difficulty-dial.webp",
+     "sha256": "c073afd3d2d6cf5fe195355f1c796436954f70043b1f8fa53f6b7eee79288a0c",
+     "size": 50274
+    },
+    {
+     "path": "media/soldier-blade-caravan-rediscovery-box.webp",
+     "sha256": "7cb8d031cc3458b9cdf32c5b8954edaafbb08316fbb913eee792212324f7df43",
+     "size": 99196
+    },
+    {
+     "path": "media/soldier-blade-caravan-rediscovery-caravan.webp",
+     "sha256": "0db64891fab9a7f2618402f523879edbb2c5dcbb1a90ce8759e486647f1b596b",
+     "size": 8286
+    },
+    {
+     "path": "media/soldier-blade-caravan-rediscovery.webp",
+     "sha256": "1f878fb1fd573538b7eb20d4374ff5bfd83d4f6fbf96e5fca15b3003cb3bee35",
+     "size": 13378
+    },
+    {
+     "path": "sources.json",
+     "sha256": "dc7cdbb8723f36640a11ef332888f9ff36353c86c551a6ced041fd788c6517f0",
+     "size": 14355
+    }
+   ],
+   "id": "field-notes-005",
+   "revision": 2
+  },
+  {
+   "digest": "8663ca5177e4fd8eb3f4a17c880d3bf5b5451ff4e8f765893c2f8a6b070926d2",
+   "files": [
+    {
+     "path": "articles/culdcept-land-chains.md",
+     "sha256": "2ed8a5b45388c1d2554459ef57b392f56096000fa2b2698a9e9711ce6733b36f",
+     "size": 9597
+    },
+    {
+     "path": "articles/monster-rancher-2-shrine-calendar.md",
+     "sha256": "0762f1e3f36f5cb4eb62af9a0f4b8bc53ac58e63d3ac2ef58eeb982a0fb9b06a",
+     "size": 11069
+    },
+    {
+     "path": "articles/new-horizons-trade-winds.md",
+     "sha256": "b87a0f8d2734fc2dc7d7435d80aa7edd39cd191e8fc5cc7fdf471edd0bfc8738",
+     "size": 9730
+    },
+    {
+     "path": "articles/steambot-chronicles-trotmobile-life.md",
+     "sha256": "db6605f5ca956c1f1bed230ddb0a4032ec9a5cf34231e601e27313f72440fad8",
+     "size": 10126
+    },
+    {
+     "path": "issue.json",
+     "sha256": "222fb52afcc90b2efa64b7fa2dd7c8db48fcf4eba9cfec84a20597a1f8b49ec5",
+     "size": 5862
+    },
+    {
+     "path": "media/cover.webp",
+     "sha256": "6d41644e6685e8b4582a51ae40889f0924a60b5fb8c76028092f9fec9218bfd2",
+     "size": 210354
+    },
+    {
+     "path": "media/culdcept-box.webp",
+     "sha256": "daa1d376bcbe34693cd7fc355bdf922e2c2208f23918bb70fc34a9c9323ad3bf",
+     "size": 79220
+    },
+    {
+     "path": "media/culdcept-land-chains.webp",
+     "sha256": "8e5f2ed0488e1275044eec65d8dca1253b8464633bb88b37b330dab0bd1d6ad2",
+     "size": 94948
+    },
+    {
+     "path": "media/culdcept-toll-board.webp",
+     "sha256": "e96ef2637a39da994bf65009c9d0ecfae581ec5cdf1b45f58bc98d186dab68f8",
+     "size": 55420
+    },
+    {
+     "path": "media/monster-rancher-2-box.webp",
+     "sha256": "e22eeb816d79c6ffaa20e460d65660454dd740182a9b44167301b4d63445f36b",
+     "size": 56550
+    },
+    {
+     "path": "media/monster-rancher-2-new-arrival.webp",
+     "sha256": "311c63bcba074ff08c5c4f523ceb1769ce7fab643850aaad94347ae8d4cc7879",
+     "size": 38312
+    },
+    {
+     "path": "media/monster-rancher-2-ranch.webp",
+     "sha256": "6cfecc2a656b3a977a82a9188d7fed3d14cee3d6667b95c02895b35cd212b8b8",
+     "size": 32524
+    },
+    {
+     "path": "media/new-horizons-controls.webp",
+     "sha256": "d850bed1972655bf9fef596445627312463d45b8ce20b69493058091e305034a",
+     "size": 46140
+    },
+    {
+     "path": "media/new-horizons-duel.webp",
+     "sha256": "92b85032e26617843c3731a60a50864f913e62070bac19ed3de6efa134814b4e",
+     "size": 127756
+    },
+    {
+     "path": "media/new-horizons-supplies.webp",
+     "sha256": "28bb03239bd6a9bbedc991543eaac3744e7af44c87cec78ad585e9b73049f09e",
+     "size": 187410
+    },
+    {
+     "path": "media/new-horizons-trade-winds.webp",
+     "sha256": "b08e279fdc5fbed89671c8c3be931d2c6581bc26994f87dd7e2784f543dd1fd3",
+     "size": 172084
+    },
+    {
+     "path": "media/steambot-chronicles-box.webp",
+     "sha256": "63691fd94834acd76eb4214349417f4033665a7c21c34bc12d2f7fd2ebc2e0fa",
+     "size": 84874
+    },
+    {
+     "path": "media/steambot-chronicles-trotmobile-101.webp",
+     "sha256": "76ab7bbb96092a6cf897c7d60f1b650270aa19b01f2792293ba0baaf15373c59",
+     "size": 119256
+    },
+    {
+     "path": "media/steambot-chronicles-trotmobile-life.webp",
+     "sha256": "91cc223eb15eaef36c56928f8a6f6e7f31000f395bddb9a0dd7ef56a050d9a27",
+     "size": 29802
+    },
+    {
+     "path": "sources.json",
+     "sha256": "9d3390c2fa5c46240a9758385c07c5b83a126aafe126c946e6c2f5584f86f942",
+     "size": 12902
+    }
+   ],
+   "id": "field-notes-006",
+   "revision": 2
+  },
+  {
+   "digest": "1515232646db83fd76c2dcb66acfab0ffae0aa4fcd7249e4092a54a0cac5b286",
+   "files": [
+    {
+     "path": "articles/bayonetta-witch-time.md",
+     "sha256": "ebc0a5047b62add860acf8c8757300783451c48f70c47a0cdb4c5d79ff4f2b55",
+     "size": 12884
+    },
+    {
+     "path": "articles/blood-will-tell-48-fiends.md",
+     "sha256": "ed9008a9051b702d131c4347a6101186180cbc0b7e68abe885bdf6913582c087",
+     "size": 10941
+    },
+    {
+     "path": "articles/character-action-history.md",
+     "sha256": "0a32f7abc35502ec451d395a9388fd4e371d0845e785cd060b396059ec98330a",
+     "size": 22275
+    },
+    {
+     "path": "articles/dmc3-special-edition-styles.md",
+     "sha256": "aaafd6dac34e67801fa9f40ba6b0fca4da004c762683ce70a4f34d19bb34d946",
+     "size": 12407
+    },
+    {
+     "path": "articles/ghost-of-sparta-pocket-epic.md",
+     "sha256": "e6b4c39895a6e2885ec2be4ef975e8cb12a60af5a09eb9bb9f4760aa3778b7d0",
+     "size": 12009
+    },
+    {
+     "path": "articles/onimusha-warlords-issen.md",
+     "sha256": "2501f8d07fe8624298c7b95e7368131cdea3a2282d3aa7cb612393fcb7167b88",
+     "size": 11133
+    },
+    {
+     "path": "articles/zoe2-jehuty-momentum.md",
+     "sha256": "39e2c41571a0367ae4a81b82a6a6bf9de40fad1506886b7009eb2bd3b747a3d7",
+     "size": 12797
+    },
+    {
+     "path": "issue.json",
+     "sha256": "e5cfea948ad914a9d144b61c8ef758c6532f27827e29cd848669e8f236fdb780",
+     "size": 20622
+    },
+    {
+     "path": "media/bayonetta-witch-time-hud.webp",
+     "sha256": "a2344875ffe975f80acbb5389cc91c4869c6a37b96761b400619f96217d07d2b",
+     "size": 74678
+    },
+    {
+     "path": "media/bayonetta-witch-time-jeanne.webp",
+     "sha256": "d15a1fdd66ab81ac04f723d9cc9ba47d4ab1cc35863cdc78524a897c8deaccad",
+     "size": 36100
+    },
+    {
+     "path": "media/bayonetta-witch-time.webp",
+     "sha256": "08802e60f73adbbe346eaee6c0cc4585ebd17deb2aed477a87b8501ce4dac6fd",
+     "size": 55782
+    },
+    {
+     "path": "media/blood-will-tell-48-fiends-cover.webp",
+     "sha256": "8001dbde7f59d0a2da36cfbf6ae39f6be6ba4a720c21e4d42eb6bb9a0fc57714",
+     "size": 50008
+    },
+    {
+     "path": "media/blood-will-tell-48-fiends-map.webp",
+     "sha256": "258d199508663e93de847f14ea52047985f59660357695849e29034b0a7cabf5",
+     "size": 82356
+    },
+    {
+     "path": "media/blood-will-tell-48-fiends.webp",
+     "sha256": "b4d18a455a8f69eb2624d1b289bb780063f7b37bc55de1ed50c8b0afcd1cc772",
+     "size": 41010
+    },
+    {
+     "path": "media/character-action-history-godofwar.webp",
+     "sha256": "be14f8faa0245d8fd1ca0bd6ce76547ac796491ef4f10079671e28771819fb79",
+     "size": 22476
+    },
+    {
+     "path": "media/character-action-history-onimusha.webp",
+     "sha256": "123e14f81c4a706577da22a626caa61f3bc5b02cd11eaf330ddb7be06a130e72",
+     "size": 35546
+    },
+    {
+     "path": "media/character-action-history-strider2.webp",
+     "sha256": "ee750a85c35b13bf4ff3a7f279c26dde24675c74a49cfe2935022b5f2d508ca6",
+     "size": 86158
+    },
+    {
+     "path": "media/character-action-history.webp",
+     "sha256": "bf3d65c963e6226f04cc5801bd1bda102de262360eaf28256edb569831c4451f",
+     "size": 82580
+    },
+    {
+     "path": "media/cover.webp",
+     "sha256": "809f6d2551969c1d811dc11b7f350cc3234e7135b673e7249b35d8d84cda2c6c",
+     "size": 127940
+    },
+    {
+     "path": "media/dmc3-special-edition-styles-boxart.webp",
+     "sha256": "a70edf8d480805839ba4886d3f6f882aa9931105a526814695b5f1b5e5e4dc3e",
+     "size": 56216
+    },
+    {
+     "path": "media/dmc3-special-edition-styles-character-select.webp",
+     "sha256": "aff2f37d281102e3507dea2af6e9d26c01f3905b9081f930773699e38d662e2b",
+     "size": 45336
+    },
+    {
+     "path": "media/dmc3-special-edition-styles-style-menu.webp",
+     "sha256": "3d4978c2aec60c2a68cf37eb33e5046d6988bbbef57fa306d1d6c3355cb394ff",
+     "size": 24152
+    },
+    {
+     "path": "media/dmc3-special-edition-styles.webp",
+     "sha256": "c0a89f6514494d040470e0e1ced0ffb84d9bcc2ea3d4d00e06c701198550de88",
+     "size": 42052
+    },
+    {
+     "path": "media/ghost-of-sparta-pocket-epic-chains.webp",
+     "sha256": "a4f4e9986d48cefd48fa87b4ac105f7060ffc3d49c88e30538d492d91b7c2916",
+     "size": 43846
+    },
+    {
+     "path": "media/ghost-of-sparta-pocket-epic-combat.webp",
+     "sha256": "5ae75ef749c9ef776e4967f7e517a3ef5258bd2b3acd2adac54272763114feef",
+     "size": 44756
+    },
+    {
+     "path": "media/ghost-of-sparta-pocket-epic-ps2.webp",
+     "sha256": "1273e7919357fbcbcb42aba068a466077145eb256c622301a8d43722327cb6ac",
+     "size": 32152
+    },
+    {
+     "path": "media/ghost-of-sparta-pocket-epic.webp",
+     "sha256": "41677b4efd5cbc4773f7a1fe9dc08e7e6cdbcc84ea0b164797c4d56c3780e688",
+     "size": 38844
+    },
+    {
+     "path": "media/onimusha-warlords-issen-castle-fight.webp",
+     "sha256": "c519eab45de0d3b870dff125226ba94833fed7073ae5a2f358e176471292cb04",
+     "size": 85478
+    },
+    {
+     "path": "media/onimusha-warlords-issen-manual-controls.webp",
+     "sha256": "5d571873b49e8284596fe967c2e99389dedf4aed6deef8025128277f9017cdb9",
+     "size": 124156
+    },
+    {
+     "path": "media/onimusha-warlords-issen.webp",
+     "sha256": "ce411a9345fe895e96e6c21b67b5f1f1842a2679ab276441d98f4aaf9d89608e",
+     "size": 46514
+    },
+    {
+     "path": "media/zoe2-jehuty-momentum-covers.webp",
+     "sha256": "2daa5f2fb24f19ac7204a1d3ee42699228d8856c2f8b5be58bc72169f930867b",
+     "size": 104458
+    },
+    {
+     "path": "media/zoe2-jehuty-momentum-homing-laser.webp",
+     "sha256": "f446696f7a2d85613632684c890f50f7dae865644d2b93477262b0e7bc6e7d69",
+     "size": 36132
+    },
+    {
+     "path": "media/zoe2-jehuty-momentum.webp",
+     "sha256": "c08db330d0df4e13c4ce58fa5e4f703a791a675275f4524ae65b5d6c0f3cda34",
+     "size": 45326
+    },
+    {
+     "path": "sources.json",
+     "sha256": "af9670ee10af5a3fb6a84f7964f1df14db395063a727b34b5891043efef1944c",
+     "size": 77116
+    }
+   ],
+   "id": "field-notes-007",
+   "revision": 2
+  },
+  {
+   "digest": "5ce210e08203e382b91679a65bbecb6cef120b8b271da1b22278b4bf224bf2a7",
+   "files": [
+    {
+     "path": "articles/dw-gundam-2-pilot-and-suit.md",
+     "sha256": "eed83af43759555578296af3b287ff4e5098fea0b19dcf15f1fd14d93b3bf13c",
+     "size": 10688
+    },
+    {
+     "path": "articles/dw5-empires-map-decisions.md",
+     "sha256": "660bc72040cec3287b6a6a02beae6c2f928ac6b8d8d1cf02a855de37c6e385e0",
+     "size": 10492
+    },
+    {
+     "path": "articles/dw5-xtreme-legends-officer-runs.md",
+     "sha256": "4667e2432c701b62268762664f91354245350dac4419723937cb53abdd1601f8",
+     "size": 10981
+    },
+    {
+     "path": "articles/musou-battlefield-history.md",
+     "sha256": "f87184cb9c4f6c69d2b8729a14039b307a98478ccb190d774a7d8fd14414da7f",
+     "size": 14086
+    },
+    {
+     "path": "articles/strikeforce-hunting-party.md",
+     "sha256": "4c8b6e3ce460f3cc3bed61c67850048856e23aca841649ef42c84ecba2bfacc6",
+     "size": 10329
+    },
+    {
+     "path": "articles/warriors-orochi-2-three-on-the-field.md",
+     "sha256": "fc6336ab1045b877c8ad1ef4b47d5a4bc89e9248aa2d9f97ce4f2393e3e838b8",
+     "size": 9959
+    },
+    {
+     "path": "issue.json",
+     "sha256": "e26dd94f44c4049c681a9d642cdca17c14b024afbb8d37729be930aeda23a34f",
+     "size": 14224
+    },
+    {
+     "path": "media/cover.webp",
+     "sha256": "b040ffbcc1f5be5399719514f8ad0ba171f6c8bf874c6fe8e267f022f7875362",
+     "size": 228464
+    },
+    {
+     "path": "media/dw-gundam-2-pilot-and-suit-manual-lab-friendship.webp",
+     "sha256": "060c6f7531570489ab742ccf0df865ffb8ba9b88983b1b6b6dbcb2136d1ef0ac",
+     "size": 167302
+    },
+    {
+     "path": "media/dw-gundam-2-pilot-and-suit-manual-parts-licenses.webp",
+     "sha256": "a1348d22ccabf46acfd796a1c0da91ed1f1927a974b52046ae7544db0a164424",
+     "size": 120926
+    },
+    {
+     "path": "media/dw-gundam-2-pilot-and-suit.webp",
+     "sha256": "1045597c587fe4c7315ee656f8d4b02fd0a981466d8eba6544df97576edb0fd2",
+     "size": 72352
+    },
+    {
+     "path": "media/dw5-empires-map-decisions-consult.webp",
+     "sha256": "27745b3f13283b73034b6b4b81bb0755b56253303a58a8d76682c1321db3eb97",
+     "size": 67736
+    },
+    {
+     "path": "media/dw5-empires-map-decisions-manual-orders.webp",
+     "sha256": "fcb44f4d3cf39618068d4d17d6e5dc8c9f1044287ac66a33dde8169e4608731d",
+     "size": 81708
+    },
+    {
+     "path": "media/dw5-empires-map-decisions.webp",
+     "sha256": "a75461a13e45c7b7734a6db0b053719663d59517226b176a294115308567856f",
+     "size": 105140
+    },
+    {
+     "path": "media/dw5-xtreme-legends-officer-runs-manual-controls.webp",
+     "sha256": "1f33825c87eb54dcdfab768f6c7e6f72ee6e9ddc1cc4dc9a37473270d22cb40b",
+     "size": 153590
+    },
+    {
+     "path": "media/dw5-xtreme-legends-officer-runs-xtreme-blacksmith.webp",
+     "sha256": "e31d1844427772afa1772d68511697024ce3be0acd7488acfe2e8987edd2cd2a",
+     "size": 76600
+    },
+    {
+     "path": "media/dw5-xtreme-legends-officer-runs.webp",
+     "sha256": "b563e054cf8996ffb68690fe3fd177c2e8a181c6a88afa3699b9122f62cd0285",
+     "size": 116534
+    },
+    {
+     "path": "media/musou-battlefield-history-1997-fighter.webp",
+     "sha256": "2b8d79784646d2cd7103129e93fc87acdccddccf935f4b8a2a0e94d3a5bc5582",
+     "size": 125658
+    },
+    {
+     "path": "media/musou-battlefield-history-devil-kings.webp",
+     "sha256": "05b650617b206918c931526d8df17835e012d86337dea9f6a4ea62283931c232",
+     "size": 40540
+    },
+    {
+     "path": "media/musou-battlefield-history.webp",
+     "sha256": "5ac13cb73ce1614d6c131b056493aac72cfa137c3f5fe062b1a3f725951ec5d0",
+     "size": 98916
+    },
+    {
+     "path": "media/strikeforce-hunting-party-city.webp",
+     "sha256": "a6ee73f088697812a8bd057e599b5963c2a82cf53a77bed9234787d078d48e16",
+     "size": 118646
+    },
+    {
+     "path": "media/strikeforce-hunting-party-coop-boss.webp",
+     "sha256": "17664ec070b14cf58b569b63651d7d9d58b9c5e34b8a068344c336bcccb7ce60",
+     "size": 100682
+    },
+    {
+     "path": "media/strikeforce-hunting-party.webp",
+     "sha256": "830f9f7156b8038fd693be83386c97d643cfd9fd9715abe959ce135094d85057",
+     "size": 88600
+    },
+    {
+     "path": "media/warriors-orochi-2-three-on-the-field-manual-team-actions.webp",
+     "sha256": "f901b6c92aec9c334f8602e4b55584bc5015b3e41beb5337f090d771bbca69f3",
+     "size": 210712
+    },
+    {
+     "path": "media/warriors-orochi-2-three-on-the-field-manual-weapons.webp",
+     "sha256": "c79896511204c23d5adf013ed708e360069f1d4a11b322016c45eb44b68f3561",
+     "size": 204700
+    },
+    {
+     "path": "media/warriors-orochi-2-three-on-the-field.webp",
+     "sha256": "83ea11f3318125fcc427e755e0df21581e6d6b4a6857914c206f730e3e081b14",
+     "size": 77778
+    },
+    {
+     "path": "sources.json",
+     "sha256": "107aa30a86db6414de218b6165f3c96868fa46379a47e0756ee94e2fa8f8276a",
+     "size": 58890
+    }
+   ],
+   "id": "field-notes-008",
+   "revision": 2
+  },
+  {
+   "digest": "614282a475f22ce6569dfed6b6dccbdb00db4416b15974fad792451c6c86c557",
+   "files": [
+    {
+     "path": "articles/neo-turf-masters-wind-and-club.md",
+     "sha256": "d7ca98ee497cae1f8fdc5b20ffe362946f01dfc8d2a020f0b43a3805644d7166",
+     "size": 12279
+    },
+    {
+     "path": "articles/ssx3-mountain-lines.md",
+     "sha256": "6304b3131434196f01ab6e8b8b13b89965f3b882e4f4f0869d2b26744e9b5beb",
+     "size": 9549
+    },
+    {
+     "path": "articles/thug2-bank-or-bail.md",
+     "sha256": "b300087eec6ff64b8c4119a953feaa5ff889976dbd5a4877b0da6ebe73bf3b4e",
+     "size": 10634
+    },
+    {
+     "path": "articles/windjammers-disc-duel.md",
+     "sha256": "e97708fa303aff1d6c0f68ab61850c05634fb02b411b989ab35a787d2691d2c6",
+     "size": 10867
+    },
+    {
+     "path": "issue.json",
+     "sha256": "930130828cafc4e9e6f568fce5bca643d68b3256f05519368dcfae65bc9b8b46",
+     "size": 8045
+    },
+    {
+     "path": "media/cover.webp",
+     "sha256": "88812a8cbe436aa5257262c513621cd42ceacd8132a92e3a05a0dfd270e17d2f",
+     "size": 141366
+    },
+    {
+     "path": "media/neo-turf-masters-wind-and-club-instruction-card.webp",
+     "sha256": "7671528a71449cf79c866c24cd00a14017fd99da91fb631cc8d11bcdfe060121",
+     "size": 181416
+    },
+    {
+     "path": "media/neo-turf-masters-wind-and-club-ngpc.webp",
+     "sha256": "0ade8b000049486ec5a86e3122c29cd67d4987a8c719e83c852221aff02f0b6f",
+     "size": 22094
+    },
+    {
+     "path": "media/neo-turf-masters-wind-and-club.webp",
+     "sha256": "8a860018fc03b193593dd996dfd80d874e23c0a0231abe0a5dbf8af393e331ac",
+     "size": 126134
+    },
+    {
+     "path": "media/ssx3-mountain-lines-handplant.webp",
+     "sha256": "0418a7ea934ecfb84e849ef30fcb4988f663bbfe9603c4fbd2619f66f29ebcf9",
+     "size": 71082
+    },
+    {
+     "path": "media/ssx3-mountain-lines-manual-controls.webp",
+     "sha256": "6ae3308044dd9ec44362b484b76409b9d539683a5faa380c920801e842caf5cc",
+     "size": 249248
+    },
+    {
+     "path": "media/ssx3-mountain-lines.webp",
+     "sha256": "f32be593fe7fc8bc4b901e580f667c867711fc3d5fe1da7fccd95c424c8e145a",
+     "size": 110862
+    },
+    {
+     "path": "media/thug2-bank-or-bail-create-a-graphic.webp",
+     "sha256": "7b4a27d1db82977b2a4d31c24cf2151387241fce7b1b1d38b88e1f3d80d31836",
+     "size": 54262
+    },
+    {
+     "path": "media/thug2-bank-or-bail-manual-controls.webp",
+     "sha256": "6dbaa5d0aea277da057dc68308d56a8c8556839406eafac596d8717a0a0753e4",
+     "size": 338654
+    },
+    {
+     "path": "media/thug2-bank-or-bail.webp",
+     "sha256": "1d921f440de7ade13289ec6bf1a0a1b9ef22664eb2439f7281903875be2f3f97",
+     "size": 58320
+    },
+    {
+     "path": "media/windjammers-disc-duel-beach.webp",
+     "sha256": "a93b5691bd4e7395949373632b5533fd9e8122edc9c09bc43401c6bd2bfcbe70",
+     "size": 181910
+    },
+    {
+     "path": "media/windjammers-disc-duel-select.webp",
+     "sha256": "b854c6e914ccb4d389938239685125b7a8382a3f38492e0a060626068be812a7",
+     "size": 87580
+    },
+    {
+     "path": "media/windjammers-disc-duel.webp",
+     "sha256": "d20d623d743d66ca4d1725f7bc34d1bb63e2d77f0135c194677d9e9f7d5bca18",
+     "size": 119768
+    },
+    {
+     "path": "sources.json",
+     "sha256": "0a4c22ac3539cf27e2ac312c6bed31bb1fc47cc62ad9be845f0dd8606438b72a",
+     "size": 41465
+    }
+   ],
+   "id": "field-notes-009",
+   "revision": 2
+  }
+ ]
+}

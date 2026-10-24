@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 2,
+  "id": "field-notes-008",
+  "revision": 2,
+  "title": "The Battle Is the Map",
+  "subtitle": "Field Notes No. 008 · Musou beyond the kill count",
+  "published": "2026-10-24",
+  "cover": "media/cover.webp",
+  "rightsNotice": "Game images and quoted material belong to their respective rights holders. Included for commentary and criticism; no endorsement or ownership is implied.",
+  "editorial": "Musou games have a reputation as the place where depth goes to die: one officer, a thousand soldiers and a kill counter climbing past four digits. That reputation is earned, but it misses what the better games ask you to watch. It is not the crowd in front of you. It is the minimap in the corner.\n\nThis issue looks at Koei's Warriors games as routing problems. A base about to fall, a gate captain who opens the next area, an ally commander out of position, a morale bar starting to tip: once you can beat almost anyone, the only real decision left is where to be. The history article follows that idea from a 1997 PlayStation fighting game through Shin Sangoku Musou, Xtreme Legends and Empires, Capcom's rival Sengoku Basara and the licensed spin-offs, up to Dynasty Warriors: Origins in 2025.\n\nThe five deep dives are PS2 and PSP games, and each puts its strategy somewhere different. Dynasty Warriors 5 and Xtreme Legends offer per-officer campaigns plus a survival run in which your health does not refill between battles. Empires puts a territory map and proposals around the fighting. Dynasty Warriors: Gundam 2 makes pilots and mobile suits interchangeable parts. Warriors Orochi 2 adds three-character teams that recover off the field. Strikeforce turns the formula into a PSP hunting game built around ad-hoc co-op.\n\nSome of this will not suit everyone. Expect long campaigns, repeated maps, licensed stories that need homework and multiplayer modes built for a second controller or a second PSP. Each article is explicit about those costs. None of these games was played for this issue: the articles draw on manuals, contemporary reviews and fan references, and the expansion-disc links in Xtreme Legends and Strikeforce's ad-hoc play remain untested under emulation. These are researched recommendations, not playtests.",
+  "articles": [
+    {
+      "id": "musou-battlefield-history",
+      "title": "From Duel to Battlefield: How Musou Learned to Read the Map",
+      "gameTitle": "Musou: a history",
+      "system": "Various",
+      "games": [
+        {
+          "id": "psx-dynasty-warriors",
+          "title": "Dynasty Warriors",
+          "systemId": "psx",
+          "edition": "PlayStation one-on-one fighting game (1997)"
+        },
+        {
+          "id": "ps2-dynasty-warriors-2",
+          "title": "Dynasty Warriors 2",
+          "systemId": "ps2"
+        },
+        {
+          "id": "ps2-dynasty-warriors-3",
+          "title": "Dynasty Warriors 3",
+          "systemId": "ps2"
+        },
+        {
+          "id": "ps2-dynasty-warriors-3-xtreme-legends",
+          "title": "Dynasty Warriors 3: Xtreme Legends",
+          "systemId": "ps2",
+          "matchNames": [
+            "Dynasty Warriors 3 - Xtreme Legends"
+          ]
+        },
+        {
+          "id": "ps2-dynasty-warriors-4",
+          "title": "Dynasty Warriors 4",
+          "systemId": "ps2"
+        },
+        {
+          "id": "ps2-dynasty-warriors-4-empires",
+          "title": "Dynasty Warriors 4: Empires",
+          "systemId": "ps2",
+          "matchNames": [
+            "Dynasty Warriors 4 - Empires"
+          ]
+        },
+        {
+          "id": "ps2-dynasty-warriors-5",
+          "title": "Dynasty Warriors 5",
+          "systemId": "ps2",
+          "edition": "Original PS2 release"
+        },
+        {
+          "id": "ps2-dynasty-warriors-5-xtreme-legends",
+          "title": "Dynasty Warriors 5: Xtreme Legends",
+          "systemId": "ps2",
+          "edition": "Original PS2 release",
+          "matchNames": [
+            "Dynasty Warriors 5 - Xtreme Legends"
+          ]
+        },
+        {
+          "id": "ps2-dynasty-warriors-5-empires",
+          "title": "Dynasty Warriors 5: Empires",
+          "systemId": "ps2",
+          "edition": "Original PS2 release",
+          "matchNames": [
+            "Dynasty Warriors 5 - Empires"
+          ]
+        },
+        {
+          "id": "ps2-samurai-warriors",
+          "title": "Samurai Warriors",
+          "systemId": "ps2"
+        },
+        {
+          "id": "ps2-sengoku-basara",
+          "title": "Sengoku Basara",
+          "systemId": "ps2",
+          "edition": "Japanese original (2005)"
+        },
+        {
+          "id": "ps2-devil-kings",
+          "title": "Devil Kings",
+          "systemId": "ps2",
+          "edition": "Western localisation of Sengoku Basara (2005)"
+        },
+        {
+          "id": "ps2-dynasty-warriors-gundam-2",
+          "title": "Dynasty Warriors: Gundam 2",
+          "systemId": "ps2",
+          "edition": "PS2 port (2009)",
+          "matchNames": [
+            "Dynasty Warriors - Gundam 2"
+          ]
+        },
+        {
+          "id": "ps2-warriors-orochi-2",
+          "title": "Warriors Orochi 2",
+          "systemId": "ps2",
+          "edition": "Original PS2 release"
+        },
+        {
+          "id": "psp-dynasty-warriors-strikeforce",
+          "title": "Dynasty Warriors: Strikeforce",
+          "systemId": "psp",
+          "edition": "Original PSP release (2009)",
+          "matchNames": [
+            "Dynasty Warriors - Strikeforce"
+          ]
+        },
+        {
+          "id": "dynasty-warriors-gundam",
+          "title": "Dynasty Warriors: Gundam"
+        },
+        {
+          "id": "fist-of-the-north-star-kens-rage",
+          "title": "Fist of the North Star: Ken's Rage"
+        },
+        {
+          "id": "one-piece-pirate-warriors",
+          "title": "One Piece: Pirate Warriors"
+        },
+        {
+          "id": "persona-5-strikers",
+          "title": "Persona 5 Strikers"
+        },
+        {
+          "id": "hyrule-warriors",
+          "title": "Hyrule Warriors",
+          "edition": "Wii U original (2014)"
+        },
+        {
+          "id": "fire-emblem-warriors",
+          "title": "Fire Emblem Warriors"
+        },
+        {
+          "id": "dynasty-warriors-origins",
+          "title": "Dynasty Warriors: Origins"
+        }
+      ],
+      "deck": "Dynasty Warriors began as a 1997 PlayStation fighter. From Shin Sangoku Musou onward, the series and its relatives (Xtreme Legends, Empires, Samurai Warriors, Capcom's rival Sengoku Basara, the licensed games and 2025's Origins) kept asking how much the map should matter.",
+      "body": "articles/musou-battlefield-history.md",
+      "image": "media/musou-battlefield-history.webp",
+      "imageCaption": "Dynasty Warriors 5 (PS2): Dian Wei, identified by his portrait at lower left, rides through Zhang Liang's infantry as the banner reports that the enemy unit's morale is dropping; the minimap at upper right shows red and blue territory. English HUD; region not determinable from pixels. © Koei Tecmo. Screenshot from Alex Navarro's 2005 GameSpot review, letterbox cropped, GameSpot watermark visible.",
+      "readingMinutes": 8
+    },
+    {
+      "id": "dw5-xtreme-legends-officer-runs",
+      "title": "Officer Runs: Dynasty Warriors 5 and Its Xtreme Legends",
+      "gameTitle": "Dynasty Warriors 5 / Dynasty Warriors 5: Xtreme Legends",
+      "system": "PS2",
+      "games": [
+        {
+          "id": "ps2-dynasty-warriors-5",
+          "title": "Dynasty Warriors 5",
+          "systemId": "ps2",
+          "edition": "Original PS2 release"
+        },
+        {
+          "id": "ps2-dynasty-warriors-5-xtreme-legends",
+          "title": "Dynasty Warriors 5: Xtreme Legends",
+          "systemId": "ps2",
+          "edition": "Original PS2 release",
+          "matchNames": [
+            "Dynasty Warriors 5 - Xtreme Legends"
+          ]
+        }
+      ],
+      "deck": "DW5 has the officer campaigns. Its expansion adds a create-a-soldier career and a survival run where health doesn't automatically refill between missions. Here is exactly which disc does what.",
+      "body": "articles/dw5-xtreme-legends-officer-runs.md",
+      "image": "media/dw5-xtreme-legends-officer-runs.webp",
+      "imageCaption": "Xing Cai (portrait, bottom left) fights a crowd in a timed Xtreme Legends battle. English-language PS2 build from GameSpot's November 2005 review gallery; the mode and region can't be confirmed from the pixels. © Koei; GameSpot watermark visible",
+      "readingMinutes": 7
+    },
+    {
+      "id": "dw5-empires-map-decisions",
+      "title": "Paperwork Before the Slaughter",
+      "gameTitle": "Dynasty Warriors 5: Empires",
+      "system": "PS2",
+      "games": [
+        {
+          "id": "ps2-dynasty-warriors-5-empires",
+          "title": "Dynasty Warriors 5: Empires",
+          "systemId": "ps2",
+          "edition": "Original PS2 release",
+          "matchNames": [
+            "Dynasty Warriors 5 - Empires"
+          ]
+        },
+        {
+          "id": "ps2-dynasty-warriors-5",
+          "title": "Dynasty Warriors 5",
+          "systemId": "ps2",
+          "edition": "Original PS2 release"
+        },
+        {
+          "id": "ps2-dynasty-warriors-5-xtreme-legends",
+          "title": "Dynasty Warriors 5: Xtreme Legends",
+          "systemId": "ps2",
+          "edition": "Original PS2 release",
+          "matchNames": [
+            "Dynasty Warriors 5 - Xtreme Legends"
+          ]
+        }
+      ],
+      "deck": "A standalone 2006 disc where seasonal orders, bundled officer advice, alliances and supply lines decide what kind of battle you get to fight. Its weakness is that every decision still ends in the same kind of Musou slog.",
+      "body": "articles/dw5-empires-map-decisions.md",
+      "image": "media/dw5-empires-map-decisions.webp",
+      "imageCaption": "Guan Yu orders \"Forward!\" while fighting Yuan Shao's archers. The Empires battle HUD shows each side's revival count (10 vs 10) beside the force bars, the remaining time and the colour-coded minimap. English-language build; PS2 according to GameSpot's PS2 review gallery (region not provable from pixels). © Koei / Koei Tecmo, screenshot via GameSpot.",
+      "readingMinutes": 7
+    },
+    {
+      "id": "dw-gundam-2-pilot-and-suit",
+      "title": "Pilot and Suit",
+      "gameTitle": "Dynasty Warriors: Gundam 2",
+      "system": "PS2",
+      "games": [
+        {
+          "id": "ps2-dynasty-warriors-gundam-2",
+          "title": "Dynasty Warriors: Gundam 2",
+          "systemId": "ps2",
+          "edition": "PS2 port (2009)",
+          "matchNames": [
+            "Dynasty Warriors - Gundam 2"
+          ]
+        },
+        {
+          "id": "ps3-dynasty-warriors-gundam-2",
+          "title": "Dynasty Warriors: Gundam 2",
+          "systemId": "ps3",
+          "edition": "PS3 version (2009)"
+        }
+      ],
+      "deck": "Any pilot in any suit, eventually. Behind a repetitive brawler sits a web of parts, licences and friendships. It isn't an Armored Core garage, and the PS2 port is the weakest version.",
+      "body": "articles/dw-gundam-2-pilot-and-suit.md",
+      "image": "media/dw-gundam-2-pilot-and-suit.webp",
+      "imageCaption": "Dynasty Warriors: Gundam 2 gameplay: a white, shield-carrying mobile suit faces a squad of dark mobile suits, with field minimap and a 416 SHOT DOWN counter. 4:3 640x480 frame catalogued as PS2 by ScreenScraper (and duplicated in libretro-thumbnails' PS2 USA snap); English HUD, but NTSC-U vs PAL can't be told from pixels. © Sotsu, Sunrise / Koei Tecmo / Bandai Namco; via ScreenScraper.",
+      "readingMinutes": 7
+    },
+    {
+      "id": "warriors-orochi-2-three-on-the-field",
+      "title": "Three on the Field",
+      "gameTitle": "Warriors Orochi 2",
+      "system": "PS2",
+      "games": [
+        {
+          "id": "ps2-warriors-orochi-2",
+          "title": "Warriors Orochi 2",
+          "systemId": "ps2",
+          "edition": "Original PS2 release"
+        },
+        {
+          "id": "psp-warriors-orochi-2",
+          "title": "Warriors Orochi 2",
+          "systemId": "psp",
+          "edition": "PSP port (2009)"
+        }
+      ],
+      "deck": "Omega Force's 2008 crossover has a thin story, but its three-character teams, the reserves who heal while benched, and Growth Points that pay for either levels or weapon fusion give you real decisions between battles.",
+      "body": "articles/warriors-orochi-2-three-on-the-field.md",
+      "image": "media/warriors-orochi-2-three-on-the-field.webp",
+      "imageCaption": "English-language battle screenshot printed in the North American PS2 manual (page 28): a three-character team HUD, KO count and the message for the Shield strategy. 4:3 frame; the manual implies the PS2 version, but the platform can't be confirmed from the pixels alone. Warriors Orochi 2, © 2008 Koei, scan via gamesdatabase.org, upscaled 2x.",
+      "readingMinutes": 6
+    },
+    {
+      "id": "strikeforce-hunting-party",
+      "title": "The Hunting Party",
+      "gameTitle": "Dynasty Warriors: Strikeforce",
+      "system": "PSP",
+      "games": [
+        {
+          "id": "psp-dynasty-warriors-strikeforce",
+          "title": "Dynasty Warriors: Strikeforce",
+          "systemId": "psp",
+          "edition": "Original PSP release (2009)",
+          "matchNames": [
+            "Dynasty Warriors - Strikeforce"
+          ]
+        },
+        {
+          "id": "ps3-dynasty-warriors-strikeforce",
+          "title": "Dynasty Warriors: Strikeforce",
+          "systemId": "ps3",
+          "edition": "PS3 port (2010)"
+        }
+      ],
+      "deck": "Omega Force traded the battlefield for a village, a noticeboard and a forge: a Monster Hunter-shaped Musou game with Fury transformations, aerial fights and a deep loadout garage, built for four PSPs and brutal for one.",
+      "body": "articles/strikeforce-hunting-party.md",
+      "image": "media/strikeforce-hunting-party.webp",
+      "imageCaption": "Zhao Yun in Fury form strikes an enemy Private mid-combo; PSP, English HUD, pre-release press screenshot (March 2009), region not determinable from pixels. © Koei; via GameSpot",
+      "readingMinutes": 6
+    }
+  ]
+}

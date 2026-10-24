@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 2,
+  "revision": 2,
+  "id": "field-notes-003",
+  "title": "One More Descent",
+  "subtitle": "Field Notes No. 003: four roguelike traditions, four prices for dying",
+  "published": "2026-10-24",
+  "cover": "media/cover.webp",
+  "rightsNotice": "Game images and quoted material belong to their respective rights holders. Included for commentary and criticism; no endorsement or ownership is implied.",
+  "editorial": "Field Notes No. 003 is about the moment after a run ends. Every game here is a turn-based dungeon descent, but each answers the genre's central question differently: what survives when you fall? In Azure Dreams the hero forgets every level he gained while the monsters he raised remember theirs, so a failed climb still feeds the stable at home. In Baroque, death takes your items and levels and gives you the next piece of a deliberately withheld story. Sometimes the right move is to die on purpose. Z.H.P. banks every level you earned into a permanent total and hands you a body-shaped grid of chips to wire, which makes it the issue's closest thing to a mech garage and its deepest long-haul game. Pokémon Mystery Dungeon: Explorers of Sky barely punishes failure at all. It's included as the gentle tradition, with an honest warning about its long, earnest dialogue. Each article explains which edition it describes and keeps reviews from release separate from later reassessments and fan reputation; where a contemporary English review doesn't exist, the article says so. Field Notes did not play-test these games on any emulator or device for this issue. Keep paper handy for notes. Two of these games reward remembering who said what after you died.",
+  "articles": [
+    {
+      "id": "azure-dreams-monster-tower",
+      "title": "Azure Dreams: The Hero Forgets, the Monsters Remember",
+      "gameTitle": "Azure Dreams",
+      "system": "PlayStation",
+      "games": [
+        {
+          "id": "psx-azure-dreams",
+          "title": "Azure Dreams",
+          "systemId": "psx",
+          "edition": "North American PlayStation release (Konami, SLUS-00614)"
+        }
+      ],
+      "deck": "Konami's 1998 tower crawler resets Koh to level 1 on every exit and lets his hatched familiars keep everything. Here's how its egg, fusion and Sand economy works, what a death costs, and what to ignore in town.",
+      "body": "articles/azure-dreams-monster-tower.md",
+      "image": "media/azure-dreams-monster-tower.webp",
+      "imageCaption": "Koh, shield raised, while a familiar attacks a monster on a stone tower floor. North American PlayStation release; GameFAQs reader screenshot by KFHEWUI. © Konami.",
+      "readingMinutes": 7
+    },
+    {
+      "id": "baroque-neuro-tower",
+      "title": "Baroque: Dying Is the Key, Not the Lesson",
+      "gameTitle": "Baroque",
+      "system": "PS2",
+      "games": [
+        {
+          "id": "ps2-baroque",
+          "title": "Baroque",
+          "systemId": "ps2",
+          "edition": "PS2 remake; 2008 North American release by Atlus"
+        },
+        {
+          "id": "psx-baroque-yuganda-mousou-english-translation",
+          "title": "Baroque: Yuganda Mousou (English fan translation)",
+          "systemId": "psx",
+          "edition": "1999 PlayStation port with Plissken's English fan translation, v1.0.2",
+          "matchNames": [
+            "Baroque - Yuganda Mousou (v1.02 Translation)",
+            "Baroque - Yuganda Mousou (v1.0.2 Translation)",
+            "Baroque - Yuganda Mousou (Translated En)"
+          ]
+        }
+      ],
+      "deck": "Sting's surreal roguelike pushes its story forward through your deaths. It reached English as the 2008 Atlus PS2 remake and, much later, as a fan translation of the 1999 PlayStation port. This covers which to play, how VT and item banking work, and why critics split.",
+      "body": "articles/baroque-neuro-tower.md",
+      "image": "media/baroque-neuro-tower.webp",
+      "imageCaption": "The PS2 remake: the protagonist in a rust-brown Neuro Tower corridor, with level 5, HP 95/116 and VT 73/99 on the HUD. Screenshot © Sting / Atlus, via ScreenScraper.",
+      "readingMinutes": 7
+    },
+    {
+      "id": "zhp-shadowgram-hero",
+      "title": "Z.H.P.: A Mech Garage Disguised as a Superhero Sitcom",
+      "gameTitle": "Z.H.P. Unlosing Ranger VS Darkdeath Evilman",
+      "system": "PSP",
+      "games": [
+        {
+          "id": "psp-zhp-unlosing-ranger-vs-darkdeath-evilman",
+          "title": "Z.H.P. Unlosing Ranger VS Darkdeath Evilman",
+          "systemId": "psp",
+          "edition": "Original PSP release (NIS America, 2010)",
+          "matchNames": [
+            "Z.H.P. - Unlosing Ranger vs. Darkdeath Evilman"
+          ]
+        }
+      ],
+      "deck": "Nippon Ichi's 2010 PSP roguelike resets you to level 1 in every dungeon, then turns every failed run into permanent Total Level, bolted-on body parts and chip wiring. It's the issue's deepest build, provided you can stand the comedy.",
+      "body": "articles/zhp-shadowgram-hero.md",
+      "image": "media/zhp-shadowgram-hero.webp",
+      "imageCaption": "The Shadowgram chip grid with base stats, multipliers and part bonuses. North American PSP release; GameFAQs reader screenshot by SA_Tatami. © Nippon Ichi Software / NIS America.",
+      "readingMinutes": 8
+    },
+    {
+      "id": "pmd-explorers-of-sky",
+      "title": "Explorers of Sky: The Gentlest Descent, With a Warning Label",
+      "gameTitle": "Pokémon Mystery Dungeon: Explorers of Sky",
+      "system": "Nintendo DS",
+      "games": [
+        {
+          "id": "nds-pokemon-mystery-dungeon-explorers-of-sky",
+          "title": "Pokémon Mystery Dungeon: Explorers of Sky",
+          "systemId": "nds",
+          "edition": "Original DS release",
+          "matchNames": [
+            "Pokemon Mystery Dungeon - Explorers of Sky"
+          ]
+        },
+        {
+          "id": "nds-pokemon-mystery-dungeon-explorers-of-time",
+          "title": "Pokémon Mystery Dungeon: Explorers of Time",
+          "systemId": "nds",
+          "edition": "Original DS release",
+          "matchNames": [
+            "Pokemon Mystery Dungeon - Explorers of Time"
+          ]
+        },
+        {
+          "id": "nds-pokemon-mystery-dungeon-explorers-of-darkness",
+          "title": "Pokémon Mystery Dungeon: Explorers of Darkness",
+          "systemId": "nds",
+          "edition": "Original DS release",
+          "matchNames": [
+            "Pokemon Mystery Dungeon - Explorers of Darkness"
+          ]
+        },
+        {
+          "id": "gba-pokemon-mystery-dungeon-rogue-rescue-team",
+          "title": "Pokémon Mystery Dungeon: Rogue Rescue Team",
+          "systemId": "gba",
+          "edition": "Fan hack of Red Rescue Team by FourBolt",
+          "matchNames": [
+            "Pokemon Mystery Dungeon - Rogue Rescue Team"
+          ]
+        },
+        {
+          "id": "nds-pokemon-mystery-dungeon-explorers-of-the-spirit",
+          "title": "Pokémon Mystery Dungeon: Explorers of the Spirit",
+          "systemId": "nds",
+          "edition": "Fan hack on the Explorers of Sky engine by MaxSchersey and team",
+          "matchNames": [
+            "Pokemon Mystery Dungeon - Explorers of the Spirit"
+          ]
+        },
+        {
+          "id": "nds-mystery-dungeon-shiren-the-wanderer",
+          "title": "Mystery Dungeon: Shiren the Wanderer",
+          "systemId": "nds",
+          "edition": "2008 DS remake, Sega's English release",
+          "matchNames": [
+            "Mystery Dungeon - Shiren the Wanderer"
+          ]
+        }
+      ],
+      "deck": "Chunsoft's Mystery Dungeon engine at its most child-friendly and heavily narrated. Failure costs half your money and a few items, the dialogue never stops, and the Special Episodes are the real draw. Read this before you commit a long session to it.",
+      "body": "articles/pmd-explorers-of-sky.md",
+      "image": "media/pmd-explorers-of-sky.webp",
+      "imageCaption": "Both DS screens: the button-controls reference on top, the hero and partner on floor B1 below. Screenshot © Nintendo / The Pokémon Company / Spike Chunsoft, via ScreenScraper.",
+      "readingMinutes": 7
+    }
+  ]
+}

@@ -1,0 +1,1118 @@
+{
+ "issue": "field-notes-008",
+ "compiled": "2026-10-24",
+ "revised": "2026-10-24",
+ "rightsNote": "Original editorial prose and cover layouts were written for Sortie Field Notes. Game images and quoted material belong to their respective rights holders. Included for commentary and criticism; no endorsement or ownership is implied. Third-party media is not covered by the Sortie app's MIT licence. Per-image credits and sources follow.",
+ "researchNote": "No game was launched or played for this issue. Mechanics come from manuals, official sites, contemporary reviews and credited fan references; emulator compatibility figures cite upstream project data and are not test results.",
+ "media": [
+  {
+   "file": "media/cover.webp",
+   "kind": "original 1600x1000 composite cover",
+   "derivedFrom": [
+    "media/musou-battlefield-history.webp",
+    "media/dw5-xtreme-legends-officer-runs.webp",
+    "media/dw5-empires-map-decisions.webp",
+    "media/dw-gundam-2-pilot-and-suit.webp",
+    "media/warriors-orochi-2-three-on-the-field.webp",
+    "media/strikeforce-hunting-party.webp"
+   ],
+   "source": "Authored composition from this pack's credited gameplay images; see their entries.",
+   "rights": "Game images © Koei Tecmo; Gundam © Sotsu, Sunrise (Dynasty Warriors: Gundam 2 published by Namco Bandai Games); original layout by Sortie Field Notes",
+   "processing": "ImageMagick: tiles resized to fill 372x279 with centre crop (Strikeforce 16:9 frame centre-cropped to 4:3), blue 5px frames, 50px map grid background, Noto Serif Condensed Black title, Noto Sans Condensed text, WebP q88, 232162 bytes; visually inspected Revised 2026-10-24: one line of blurb text was repainted in the same typeface (Noto Sans Condensed) to remove device-specific wording; layout otherwise unchanged."
+  },
+  {
+   "file": "media/musou-battlefield-history.webp",
+   "source": "https://www.gamespot.com/wp-content/uploads/original/gamespot/images/2005/088/reviews/650018-925558_20050330_003.jpg (embedded in Alex Navarro, GameSpot Dynasty Warriors 5 review)",
+   "edition": "Dynasty Warriors 5, PS2 per GameSpot review; English HUD; Dian Wei (portrait/kanji lower left, level 25) on horseback vs Zhang Liang Infantry, \"unit's morale is dropping!\" banner, minimap; NTSC-U vs PAL not determinable from pixels; GameSpot watermark",
+   "rights": "© Koei Tecmo; screenshot hosted by GameSpot",
+   "processing": "Cropped 640x446+40+7 to remove letterbox, Lanczos 2x to 1280x892, WebP q86, 98916 bytes; visually inspected"
+  },
+  {
+   "file": "media/musou-battlefield-history-1997-fighter.webp",
+   "source": "ScreenScraper media retrieved through a Skyscraper scraper cache (database title 'Dynasty Warriors', PlayStation; resource d5001292a95712594ee06612071208cfb578a5e8)",
+   "edition": "Dynasty Warriors (PlayStation, 1997) one-on-one fight, HUD names Zhao Yun (趙雲) and Lu Xun (陸遜) in kanji; region not determinable from pixels",
+   "rights": "© Koei Tecmo",
+   "processing": "Point-scaled 2x to 1280x960, WebP q88, 125658 bytes; visually inspected"
+  },
+  {
+   "file": "media/musou-battlefield-history-devil-kings.webp",
+   "source": "ScreenScraper media retrieved through a Skyscraper scraper cache (database title 'Devil Kings', PS2; resource 482128150b56c5c0fb96817f883a409457837424)",
+   "edition": "Devil Kings (PS2) battle with English HUD (Ally Strength, Slain, exp, HP/Fury gauges); English HUD indicates Western Devil Kings release, NTSC-U vs PAL not determinable",
+   "rights": "© Capcom",
+   "processing": "Lanczos 1.6x to 1024x768, WebP q86, 40540 bytes; visually inspected"
+  },
+  {
+   "file": "media/dw5-xtreme-legends-officer-runs.webp",
+   "source": "https://www.gamespot.com/wp-content/uploads/original/gamespot/images/2005/307/reviews/697698-928820_20051104_002.jpg (from https://www.gamespot.com/reviews/dynasty-warriors-5-xtreme-legends-review/1900-6139212/)",
+   "edition": "PS2 Dynasty Warriors 5: Xtreme Legends gameplay from GameSpot's XL review gallery (Nov 2005). English HUD: Xing Cai portrait (kanji 星彩) bottom left, timer 0'57\"36, enemy name bar 'Lu Bu / Sergeant / Yuan Shao / Xiahou Dun'. English text; NTSC/PAL and exact mode not determinable from pixels. Chosen over a scraper frame that is byte-identical for DW3 XL and DW5 XL and so cannot be attributed.",
+   "rights": "© Koei (Koei Tecmo); screenshot via GameSpot (watermark visible)",
+   "processing": "magick 512x384 JPEG -filter Lanczos -resize 200% -quality 86 → 1024x768 WebP, 116,534 bytes; decoded with magick identify and visually inspected."
+  },
+  {
+   "file": "media/dw5-xtreme-legends-officer-runs-xtreme-blacksmith.webp",
+   "source": "https://www.gamespot.com/wp-content/uploads/original/gamespot/images/2005/307/reviews/697699-928820_20051104_003.jpg (from the same GameSpot review)",
+   "edition": "PS2 Dynasty Warriors 5: Xtreme Legends, Xtreme Mode Blacksmith screen ('XTREME MODE', Mission 3, iron 1200, Twin Blade Power 3 / Attacks 4 / Medium; upgrade list Power+4/+8, Heavy, Add Attack, Add Move, Add Musou Fill). English text; region not determinable from pixels.",
+   "rights": "© Koei (Koei Tecmo); screenshot via GameSpot (watermark visible)",
+   "processing": "magick 512x384 JPEG -filter Lanczos -resize 200% -quality 86 → 1024x768 WebP, 76,600 bytes; decoded and visually inspected."
+  },
+  {
+   "file": "media/dw5-xtreme-legends-officer-runs-manual-controls.webp",
+   "source": "https://archive.org/details/ps2_Dynasty_Warriors_5_USA (jp2.zip pages Dynasty_Warriors_5_USA_0005 and _0006 rendered as JPEG 682x1080 each)",
+   "edition": "Dynasty Warriors 5 US (NTSC-U) manual, printed pages 4–5 'Controls' spread; manual text states disc is for NTSC U/C consoles.",
+   "rights": "© Koei; manual scan via Internet Archive (Kirkland's Manual Labor collection)",
+   "processing": "magick page4 page5 +append -resize 1280x -quality 82 → 1280x1013 WebP, 153,590 bytes; decoded and visually inspected (text legible)."
+  },
+  {
+   "file": "media/dw5-empires-map-decisions.webp",
+   "source": "https://www.gamespot.com/wp-content/uploads/original/gamespot/images/2006/086/reviews/720252-931416_20060328_001.jpg (embedded in GameSpot's PS2 review 1900-6146756)",
+   "edition": "Genuine Empires battle HUD: revival counts 10 vs 10 beside the force bars, timer 13'50\"56, colour-coded minimap, English text (\"Guan Yu 'Forward!'\", 'Yuan Shao Archer'). PS2 attribution comes from GameSpot: 931416 is the PS2 product ID, the image is native 512x384 4:3, and the Xbox 360 review's images (931415) are 1024x576. The region (USA vs PAL English) cannot be proven from the pixels. This is not the duplicated Skyscraper frame 8b984c0d.",
+   "rights": "© 2006 Koei Co., Ltd. (now Koei Tecmo); screenshot published by GameSpot, which applied its watermark",
+   "processing": "magick Lanczos upscale 512x384 -> 960x720 (1.875x), -strip, WebP q86; 960x720, 105140 bytes; decoded with magick identify and visually inspected"
+  },
+  {
+   "file": "media/dw5-empires-map-decisions-consult.webp",
+   "source": "https://www.gamespot.com/wp-content/uploads/original/gamespot/images/2006/086/reviews/720253-931416_20060328_002.jpg (embedded in GameSpot's PS2 review 1900-6146756)",
+   "edition": "Empire Mode Consult screen: 208 AD Spring, 8000 gold, total cost 1500. Zhao Yun's highlighted proposal pairs Weaponsmith (500) with a 'New!' Long Alliance with Sun Quan (1000). Guan Ping, Guan Yu and Liu Bei are also listed. English text. PS2 attribution is the same as for the lead image; region not provable from the pixels.",
+   "rights": "© 2006 Koei Co., Ltd. (now Koei Tecmo); screenshot published by GameSpot, which applied its watermark",
+   "processing": "magick Lanczos upscale 512x384 -> 960x720, -strip, WebP q88; 960x720, 67736 bytes; decoded and visually inspected"
+  },
+  {
+   "file": "media/dw5-empires-map-decisions-manual-orders.webp",
+   "source": "https://archive.org/download/ps2_Dynasty_Warriors_5-_Empires_USA/Dynasty_Warriors_5-_Empires_USA_jp2.zip member Dynasty_Warriors_5-_Empires_USA_0012.jp2 (printed page 11)",
+   "edition": "US (NTSC-U) PS2 manual, page 11: Policy Phase, Consult/Delegate/Assign, and the Order Limits table. The manual is NTSC U/C (the disc-handling text says the disc is for NTSC U/C consoles).",
+   "rights": "© 2006 Koei Co., Ltd. (now Koei Tecmo); scan hosted by Internet Archive",
+   "processing": "magick crop 1260x1140+40+830 from the 1364x2160 JP2, trimmed to 1205 px wide to remove the grey page edge, resized to 1000 px wide, WebP q82; 1000x946, 81708 bytes; decoded and visually inspected (a small grey sliver remains in the bottom-right corner)"
+  },
+  {
+   "file": "media/dw-gundam-2-pilot-and-suit.webp",
+   "source": "ScreenScraper media retrieved through a Skyscraper scraper cache (PS2 entry 'Dynasty Warriors : Gundam 2'; resource 49f784af541008232f6a3465bd10fae5bc5493dc); identical frame also at https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Snaps/Dynasty%20Warriors%20-%20Gundam%202%20(USA).png",
+   "edition": "In-game gameplay with English HUD ('SHOT DOWN'); HUD layout matches the US PS2 manual's game-screen diagram. 4:3 640x480 SD frame with low-detail terrain, consistent with PS2 rather than the 16:9 HD versions, and catalogued as PS2 by both ScreenScraper and libretro-thumbnails. Not independently proven PS2; NTSC-U vs PAL can't be determined from pixels. Specific suit models not identified.",
+   "rights": "© Sotsu, Sunrise / Koei Tecmo / Bandai Namco Entertainment",
+   "processing": "magick: alpha removed on black, Lanczos 200% upscale, WebP q84 method 6; 1280x960, 72352 bytes; decoded with magick identify and visually inspected"
+  },
+  {
+   "file": "media/dw-gundam-2-pilot-and-suit-manual-lab-friendship.webp",
+   "source": "https://archive.org/download/ps2_Dynasty_Warriors-_Gundam_2_USA/Dynasty_Warriors-_Gundam_2_USA.pdf (PDF page 20 = printed manual page 18)",
+   "edition": "US/Canada PS2 manual (NTSC-U/C, Namco Bandai Games America). The printed menu screenshots don't say which console build they were captured from.",
+   "rights": "© Sotsu, Sunrise / Koei / Namco Bandai Games; scan via Internet Archive",
+   "processing": "pdftoppm -r 90 page 20, magick crop 1040x1420+168+268 to the content panel, WebP q80 method 6; 1040x1420, 167302 bytes; decoded and visually inspected (text legible)"
+  },
+  {
+   "file": "media/dw-gundam-2-pilot-and-suit-manual-parts-licenses.webp",
+   "source": "https://archive.org/download/ps2_Dynasty_Warriors-_Gundam_2_USA/Dynasty_Warriors-_Gundam_2_USA.pdf (PDF page 14 = printed manual page 12)",
+   "edition": "US/Canada PS2 manual (NTSC-U/C). Printed Change Skill, Parts Info and Learning Skill screenshots; capture build not stated.",
+   "rights": "© Sotsu, Sunrise / Koei / Namco Bandai Games; scan via Internet Archive",
+   "processing": "pdftoppm -r 90 page 14, magick crop 1060x1265+168+268, WebP q80 method 6; 1060x1265, 120926 bytes; decoded and visually inspected"
+  },
+  {
+   "file": "media/warriors-orochi-2-three-on-the-field.webp",
+   "source": "https://www.gamesdatabase.org/Media/SYSTEM/Sony_Playstation_2/manual/Formated/Warriors_Orochi_2_-_2008_-_Koei.pdf (PDF page 30 = printed manual page 28, 'Team Battle'; embedded page scan 909x1440 extracted with pdfimages)",
+   "edition": "English-language in-game screenshot (Shield strategy message, enemy officer 'Li Ru', three-portrait team HUD, 241 KO count, 52'49\" timer) printed in the North American PS2 manual (ESRB Teen cover, NTSC U/C disc notice). The 4:3 frame and the PS2 manual point to the PS2 version, but neither pixels nor region can be verified beyond 'English-language'. NOT the Japanese Skyscraper frame ce78ee76, which was rejected because it has a Japanese HUD (the libretro Named_Snap is the same Japanese frame; the libretro Named_Title has French 'APPUYER SUR START' text; Worthplaying gallery images are Japanese press shots).",
+   "rights": "© 2008 Koei (Koei Tecmo); manual scan hosted by gamesdatabase.org",
+   "processing": "pdfimages -j -f 30 -l 30; magick crop 460x345+73+634; -filter Lanczos -resize 200%; -quality 88 WebP. Final 920x690, 77778 bytes; decoded with magick identify and visually inspected."
+  },
+  {
+   "file": "media/warriors-orochi-2-three-on-the-field-manual-team-actions.webp",
+   "source": "https://www.gamesdatabase.org/Media/SYSTEM/Sony_Playstation_2/manual/Formated/Warriors_Orochi_2_-_2008_-_Koei.pdf (PDF page 13 = printed page 11, 'Team Actions')",
+   "edition": "North American PS2 manual page, English text; Musou Chain team-property table, Triple Attack, Support Attack, Stunned/Weapon Deadlocks",
+   "rights": "© 2008 Koei (Koei Tecmo); scan via gamesdatabase.org",
+   "processing": "pdfimages -j native page scan; magick -quality 82 WebP, native size 909x1440, 210712 bytes; decoded and visually inspected (text legible)."
+  },
+  {
+   "file": "media/warriors-orochi-2-three-on-the-field-manual-weapons.webp",
+   "source": "https://www.gamesdatabase.org/Media/SYSTEM/Sony_Playstation_2/manual/Formated/Warriors_Orochi_2_-_2008_-_Koei.pdf (PDF page 24 = printed page 22, 'Customize Weapon')",
+   "edition": "North American PS2 manual page, English text; Upgrade Skills, Weapon Fusion (Growth Point cost), Weapon Upgrade",
+   "rights": "© 2008 Koei (Koei Tecmo); scan via gamesdatabase.org",
+   "processing": "pdfimages -j native page scan; magick -quality 82 WebP, native size 909x1440, 204700 bytes; decoded and visually inspected (text legible)."
+  },
+  {
+   "file": "media/strikeforce-hunting-party.webp",
+   "source": "https://www.gamespot.com/wp-content/uploads/original/gamespot/images/2009/069/937240-953877_20090311_021.jpg (embedded in GameSpot PSP review 1900-6214766, captioned 'The new Fury transformations make battles more satisfying')",
+   "edition": "Native 480x272 PSP frame: Zhao Yun in Fury form attacking a 'Private', '8 Combo!', '419 POINTS', item 'Meatbun ++', English HUD. Upload path dated 2009-03-11, i.e. pre-release press capture; US vs EU region not determinable (both English).",
+   "rights": "© Koei / Koei Tecmo; screenshot via GameSpot",
+   "processing": "magick 480x272 JPEG -filter Lanczos -resize 200% -quality 86 → 960x544 WebP, 88600 bytes; decoded with magick identify; visually inspected."
+  },
+  {
+   "file": "media/strikeforce-hunting-party-coop-boss.webp",
+   "source": "https://www.gamespot.com/wp-content/uploads/original/gamespot/images/2009/069/937224-953877_20090311_005.jpg (embedded in GameSpot PSP review 1900-6214766, captioned 'Every battle is easier with a friend or three')",
+   "edition": "Native 480x272 PSP frame: Zhao Yun with three other player status bars and name tags 'MUSOU', 'Leo', 'Gemini'; enemy officers Diao Chan and Zhang Liao; large creature labelled 'Bi Xie'; '7 Combo!', '613 POINTS', 'Hover Ring'. English HUD; pre-release (2009-03-11 path); region not determinable.",
+   "rights": "© Koei / Koei Tecmo; screenshot via GameSpot",
+   "processing": "magick -filter Lanczos -resize 200% -quality 86 → 960x544 WebP, 100682 bytes; decoded; visually inspected."
+  },
+  {
+   "file": "media/strikeforce-hunting-party-city.webp",
+   "source": "ScreenScraper media retrieved through a Skyscraper scraper cache (database title 'Dynasty Warriors : Strikeforce', PSP, release 2009-04-28; resource 14ed60f6936a122fa4ee740a80d05830c0be9736)",
+   "edition": "Native 480x272 PNG: 'Lou Sang Village' hub, player name 'AA' as Zhao Yun, English text. Same village as the e-manual's City screen illustration. Region not determinable from pixels (EU and US both English).",
+   "rights": "© Koei / Koei Tecmo; capture via ScreenScraper",
+   "processing": "magick -filter Lanczos -resize 200% -quality 88 → 960x544 WebP, 118646 bytes; decoded; visually inspected."
+  }
+ ],
+ "articles": {
+  "musou-battlefield-history": {
+   "games": [
+    "psx-dynasty-warriors",
+    "ps2-dynasty-warriors-2",
+    "ps2-dynasty-warriors-3",
+    "ps2-dynasty-warriors-3-xtreme-legends",
+    "ps2-dynasty-warriors-4",
+    "ps2-dynasty-warriors-4-empires",
+    "ps2-dynasty-warriors-5",
+    "ps2-dynasty-warriors-5-xtreme-legends",
+    "ps2-dynasty-warriors-5-empires",
+    "ps2-samurai-warriors",
+    "ps2-sengoku-basara",
+    "ps2-devil-kings",
+    "ps2-dynasty-warriors-gundam-2",
+    "ps2-warriors-orochi-2",
+    "psp-dynasty-warriors-strikeforce",
+    "dynasty-warriors-gundam",
+    "fist-of-the-north-star-kens-rage",
+    "one-piece-pirate-warriors",
+    "persona-5-strikers",
+    "hyrule-warriors",
+    "fire-emblem-warriors",
+    "dynasty-warriors-origins"
+   ],
+   "sources": [
+    {
+     "title": "Omega Force",
+     "author": "Koei Tecmo America",
+     "publisher": "Koei Tecmo America",
+     "date": "2026-10-24",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "url": "https://www.koeitecmoamerica.com/teams/omega-force",
+     "type": "official",
+     "reviewedEdition": ""
+    },
+    {
+     "title": "Omega Force: The 'five or six guys' that spawned the Dynasty Warriors juggernaut",
+     "author": "Kevin Gifford",
+     "publisher": "Polygon",
+     "date": "2013-02-20",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "url": "https://www.polygon.com/2013/2/20/4008072/omega-force-the-five-or-six-guys-that-spawned-the-warriors-juggernaut",
+     "type": "interview",
+     "reviewedEdition": "Report on a Famitsu interview with Akihiro Suzuki and Kenichi Ogasawara"
+    },
+    {
+     "title": "Dynasty Warriors Review",
+     "author": "Joe Fielder",
+     "publisher": "GameSpot",
+     "date": "2026-10-24",
+     "accessDate": "2026-10-24",
+     "score": "7.2",
+     "url": "https://www.gamespot.com/reviews/dynasty-warriors-review/1900-2547380/",
+     "type": "contemporary review",
+     "reviewedEdition": "PlayStation (1997)",
+     "dateNote": "Publication date unverified: live page shows 2000-04-28 (archive migration); page metadata says 1997-04-01."
+    },
+    {
+     "title": "Dynasty Warriors 2 Review",
+     "author": "Ike Sato",
+     "publisher": "GameSpot",
+     "date": "2000-08-16",
+     "accessDate": "2026-10-24",
+     "score": "7.8",
+     "url": "https://www.gamespot.com/reviews/dynasty-warriors-2-review/1900-2616507/",
+     "type": "contemporary review",
+     "reviewedEdition": "Japanese PS2 release (Shin Sangoku Musou); byline shows 2000-10-30 update"
+    },
+    {
+     "title": "Dynasty Warriors 4 for PlayStation 2 Review",
+     "author": "Brad Shoemaker",
+     "publisher": "GameSpot UK (Internet Archive copy)",
+     "date": "2003-03-26",
+     "accessDate": "2026-10-24",
+     "score": "7.1",
+     "url": "https://web.archive.org/web/20070920165734/http://uk.gamespot.com/ps2/action/dynastywarriors4/review.html",
+     "type": "contemporary review",
+     "reviewedEdition": "PS2"
+    },
+    {
+     "title": "Dynasty Warriors 4: Empires Preview",
+     "author": "Bethany Massimilla",
+     "publisher": "GameSpot",
+     "date": "2004-07-02",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "url": "https://www.gamespot.com/articles/dynasty-warriors-4-empires-preview/1100-6101856/",
+     "type": "preview",
+     "reviewedEdition": "PS2 preview build"
+    },
+    {
+     "title": "Dynasty Warriors 5 Review",
+     "author": "Alex Navarro",
+     "publisher": "GameSpot",
+     "date": "2005-03-30",
+     "accessDate": "2026-10-24",
+     "score": "6.8",
+     "url": "https://www.gamespot.com/reviews/dynasty-warriors-5-review/1900-6121339/",
+     "type": "contemporary review",
+     "reviewedEdition": "PS2; byline shows 2006-05-17 update; source of history lead image 650018"
+    },
+    {
+     "title": "Dynasty Warriors 5: Xtreme Legends review",
+     "author": "Tony Horgan",
+     "publisher": "Eurogamer",
+     "date": "2006-03-21",
+     "accessDate": "2026-10-24",
+     "score": "6/10",
+     "url": "https://www.eurogamer.net/r-dw5xtremelegends-ps2",
+     "type": "contemporary review",
+     "reviewedEdition": "PS2 (PAL release)"
+    },
+    {
+     "title": "Samurai Warriors (review)",
+     "author": "Justin Leeper",
+     "publisher": "GameSpy (Internet Archive copy)",
+     "date": "2004-05-08",
+     "accessDate": "2026-10-24",
+     "score": "3/5",
+     "url": "https://web.archive.org/web/20140125221753/http://ps2.gamespy.com/playstation-2/samurai-warriors/512422p1.html",
+     "type": "contemporary review",
+     "reviewedEdition": "PS2"
+    },
+    {
+     "title": "The Story behind Development of 'Sengoku BASARA' (2)",
+     "author": "Capcom",
+     "publisher": "Capcom IR",
+     "date": "2015-12-24",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "url": "https://www.capcom.co.jp/ir/english/feature/2015_basara01_02.html",
+     "type": "official",
+     "reviewedEdition": "Series feature; page metadata 2021-05-07"
+    },
+    {
+     "title": "Devil Kings Review",
+     "author": "Greg Mueller",
+     "publisher": "GameSpot",
+     "date": "2005-10-11",
+     "accessDate": "2026-10-24",
+     "score": "7.5",
+     "url": "https://www.gamespot.com/reviews/devil-kings-review/1900-6135475/",
+     "type": "contemporary review",
+     "reviewedEdition": "PS2"
+    },
+    {
+     "title": "Hyrule Warriors Review (Wii U)",
+     "author": "Damien McFerran",
+     "publisher": "Nintendo Life",
+     "date": "2014-09-17",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "url": "https://www.nintendolife.com/reviews/wiiu/hyrule_warriors",
+     "type": "contemporary review",
+     "reviewedEdition": "Wii U, European version; score not used"
+    },
+    {
+     "title": "Fire Emblem Warriors review",
+     "author": "Simon Parkin",
+     "publisher": "Eurogamer",
+     "date": "2017-10-18",
+     "accessDate": "2026-10-24",
+     "score": "Recommended",
+     "url": "https://www.eurogamer.net/fire-emblem-warriors-review",
+     "type": "contemporary review",
+     "reviewedEdition": "Switch"
+    },
+    {
+     "title": "DYNASTY WARRIORS: ORIGINS official site",
+     "author": "Koei Tecmo America",
+     "publisher": "Koei Tecmo America",
+     "date": "2026-10-24",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "url": "https://www.koeitecmoamerica.com/dw_origins/us",
+     "type": "official",
+     "reviewedEdition": ""
+    },
+    {
+     "title": "Dynasty Warriors: Origins review — One player hack and slash",
+     "author": "Henry Viola",
+     "publisher": "GamingTrend",
+     "date": "2025-01-13",
+     "accessDate": "2026-10-24",
+     "score": "70/100",
+     "url": "https://gamingtrend.com/reviews/dynasty-warriors-origins-review-one-player-hack-and-slash/",
+     "type": "contemporary review",
+     "reviewedEdition": "PS5"
+    },
+    {
+     "title": "Dynasty Warriors",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Dynasty_Warriors",
+     "type": "reference",
+     "reviewedEdition": ""
+    },
+    {
+     "title": "Dynasty Warriors (1997 video game)",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Dynasty_Warriors_(1997_video_game)",
+     "type": "reference",
+     "reviewedEdition": ""
+    },
+    {
+     "title": "Dynasty Warriors 2",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Dynasty_Warriors_2",
+     "type": "reference",
+     "reviewedEdition": ""
+    },
+    {
+     "title": "Dynasty Warriors 3",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Dynasty_Warriors_3",
+     "type": "reference",
+     "reviewedEdition": ""
+    },
+    {
+     "title": "Dynasty Warriors 4",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Dynasty_Warriors_4",
+     "type": "reference",
+     "reviewedEdition": ""
+    },
+    {
+     "title": "Samurai Warriors",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Samurai_Warriors",
+     "type": "reference",
+     "reviewedEdition": ""
+    },
+    {
+     "title": "Sengoku Basara",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "accessDate": "2026-10-24",
+     "score": "",
+     "url": "https://en.wikipedia.org/wiki/Sengoku_Basara",
+     "type": "reference",
+     "reviewedEdition": ""
+    }
+   ],
+   "notes": [
+    "GameSpot's Dynasty Warriors (1997) review shows 2000-04-28 on the live page and a 1997-04-01 metadata date; the original publication date is unverified.",
+    "DW3 morale/gate-captain/two-player and Samurai Warriors combat-difference claims rely on Wikipedia; Sengoku Basara/Devil Kings localisation change also from Wikipedia.",
+    "The Skyscraper screenshots for Dynasty Warriors 3: Xtreme Legends and Dynasty Warriors 5: Xtreme Legends are byte-identical (Meng Huo frame), so that frame's game is ambiguous; it was not used anywhere in the pack.",
+    "Nothing in this article was played; history and design claims are sourced research."
+   ]
+  },
+  "dw5-xtreme-legends-officer-runs": {
+   "games": [
+    "ps2-dynasty-warriors-5",
+    "ps2-dynasty-warriors-5-xtreme-legends"
+   ],
+   "sources": [
+    {
+     "title": "Dynasty Warriors 5 instruction manual (NTSC-U)",
+     "author": "Koei",
+     "publisher": "Koei",
+     "date": "2005",
+     "accessDate": "2026-10-24",
+     "score": null,
+     "url": "https://archive.org/details/ps2_Dynasty_Warriors_5_USA",
+     "type": "manual",
+     "reviewedEdition": "PS2 NTSC-U (Dynasty Warriors 5, USA)"
+    },
+    {
+     "title": "Dynasty Warriors 5: Xtreme Legends instruction manual (NTSC-U)",
+     "author": "Koei",
+     "publisher": "Koei",
+     "date": "2005",
+     "accessDate": "2026-10-24",
+     "score": null,
+     "url": "https://archive.org/details/ps2_Dynasty_Warriors_5-_Xtreme_Legends_USA",
+     "type": "manual",
+     "reviewedEdition": "PS2 NTSC-U (Dynasty Warriors 5: Xtreme Legends, USA)"
+    },
+    {
+     "title": "Dynasty Warriors 5 Review",
+     "author": "Alex Navarro",
+     "publisher": "GameSpot",
+     "date": "2005-03-30",
+     "accessDate": "2026-10-24",
+     "score": "6.8/10",
+     "url": "https://web.archive.org/web/20131110220030/http://www.gamespot.com/reviews/dynasty-warriors-5-review/1900-6121339/",
+     "type": "contemporary review",
+     "reviewedEdition": "PS2 (US)"
+    },
+    {
+     "title": "Dynasty Warriors 5",
+     "author": "Ed Lewis",
+     "publisher": "IGN",
+     "date": "2005-03-22",
+     "accessDate": "2026-10-24",
+     "score": "7.7/10",
+     "url": "https://web.archive.org/web/20140727080109/http://www.ign.com/articles/2005/03/22/dynasty-warriors-5-3",
+     "type": "contemporary review",
+     "reviewedEdition": "PS2 (US)"
+    },
+    {
+     "title": "Dynasty Warriors 5: Xtreme Legends Review",
+     "author": "Alex Navarro",
+     "publisher": "GameSpot",
+     "date": "2005-11-04",
+     "accessDate": "2026-10-24",
+     "score": "6.3/10",
+     "url": "https://www.gamespot.com/reviews/dynasty-warriors-5-xtreme-legends-review/1900-6139212/",
+     "type": "contemporary review",
+     "reviewedEdition": "PS2 (US); page metadata pub-date 2005-11-05T01:01Z (2005-11-04 US Pacific), byline shows 2005-11-17 update"
+    },
+    {
+     "title": "Dynasty Warriors 5: Xtreme Legends",
+     "author": "Chris Roper",
+     "publisher": "IGN",
+     "date": "2005-11-15",
+     "accessDate": "2026-10-24",
+     "score": "5.2/10",
+     "url": "https://web.archive.org/web/20140727074448/http://www.ign.com/articles/2005/11/16/dynasty-warriors-5-xtreme-legends",
+     "type": "contemporary review",
+     "reviewedEdition": "PS2 (US)"
+    },
+    {
+     "title": "Dynasty Warriors 5: Xtreme Legends review",
+     "author": "Tony Horgan",
+     "publisher": "Eurogamer",
+     "date": "2006-03-21",
+     "accessDate": "2026-10-24",
+     "score": "6/10",
+     "url": "https://www.eurogamer.net/r-dw5xtremelegends-ps2",
+     "type": "contemporary review",
+     "reviewedEdition": "PS2 (UK/PAL release)"
+    },
+    {
+     "title": "Game Changes and Release Information – Dynasty Warriors 5",
+     "author": "Kongming's Archives",
+     "publisher": "Kongming's Archives",
+     "date": "2026-10-24",
+     "accessDate": "2026-10-24",
+     "score": null,
+     "url": "https://kongming.net/dw5/info/",
+     "type": "reference",
+     "reviewedEdition": "Dynasty Warriors 5 (fan reference; duels removed, deadlocks retained)"
+    },
+    {
+     "title": "Dynasty Warriors 5",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "accessDate": "2026-10-24",
+     "score": null,
+     "url": "https://en.wikipedia.org/wiki/Dynasty_Warriors_5",
+     "type": "reference",
+     "reviewedEdition": "Series article; Musou Mode stage counts, XL NA release date"
+    },
+    {
+     "title": "GameIndex.yaml (SLUS-21153, SLUS-21299)",
+     "author": "PCSX2 project",
+     "publisher": "GitHub",
+     "date": "2026-10-21",
+     "accessDate": "2026-10-24",
+     "score": null,
+     "url": "https://github.com/PCSX2/pcsx2/blob/master/bin/resources/GameIndex.yaml",
+     "type": "compatibility",
+     "reviewedEdition": "Upstream desktop PCSX2 commit b3402c13: SLUS-21153 compat 5; SLUS-21299 compat 5 with gsHWFixes autoFlush 2 ('Fixes sun luminosity'). Upstream data, not a tested result."
+    },
+    {
+     "title": "Dynasty Warriors 5 (SLUS 21153) and Dynasty Warriors 5: Xtreme Legends (SLUS-21299)",
+     "author": "Redump",
+     "publisher": "Redump",
+     "date": "2026-10-24",
+     "accessDate": "2026-10-24",
+     "score": null,
+     "url": "http://redump.org/disc/19857/ ; http://redump.org/disc/11292/",
+     "type": "reference",
+     "reviewedEdition": "PS2 disc serial verification"
+    },
+    {
+     "title": "Dynasty Warriors 5: Xtreme Legends review gallery images 697698 and 697699",
+     "author": "GameSpot",
+     "publisher": "GameSpot",
+     "date": "2005",
+     "accessDate": "2026-10-24",
+     "score": null,
+     "url": "https://www.gamespot.com/reviews/dynasty-warriors-5-xtreme-legends-review/1900-6139212/",
+     "type": "contemporary review",
+     "reviewedEdition": "PS2 English build screenshots (region unverifiable)"
+    }
+   ],
+   "notes": [
+    "Nothing was launched or played; neither disc, the controls, the Load Original disc swap, memory-card save import nor two-controller split-screen was tested.",
+    "Whether all 48 officers are selectable in Xtreme Legends standalone without DW5 save import is not verified; GameSpot says Xtreme lets you pick 'any of the available 48 warriors' but unlock state is unclear, so the article avoids the claim.",
+    "Lead screenshot mode unidentified (Legend vs Xtreme vs Destiny); GameSpot gallery images may be from a pre-release/review build; region not verifiable.",
+    "Wikipedia's claim that Xtreme Mode gold 'regains health and increases stats temporarily' is a simplification; article follows the US manual (gold buys healing/boosters at the Shop; iron funds Blacksmith).",
+    "Wikipedia states Evolution attacks need a full Musou gauge; the US DW5 manual p.34 confirms (Evolution-capable weapon + full gauge; does not consume gauge).",
+    "Eurogamer DW5 review (Martin Coxall, 2005-10-09, 5/10) was read but not used/cited because the page is tagged Xbox while the URL says PS2; edition ambiguous.",
+    "GameSpot XL review date: page metadata pub-date 2005-11-05T01:01Z (2005-11-04 Pacific, matching Wikipedia), byline shows 2005-11-17 (update).",
+    "No later reassessment/remaster review found for these PS2 editions; Shin Sangokumusou 4 Special (Japan-only PC/360) not discussed."
+   ]
+  },
+  "dw5-empires-map-decisions": {
+   "games": [
+    "ps2-dynasty-warriors-5-empires",
+    "ps2-dynasty-warriors-5",
+    "ps2-dynasty-warriors-5-xtreme-legends"
+   ],
+   "sources": [
+    {
+     "title": "Dynasty Warriors 5 Empires instruction manual (NTSC-U, PS2)",
+     "author": "Koei",
+     "publisher": "Koei (scan hosted by Internet Archive, item ps2_Dynasty_Warriors_5-_Empires_USA)",
+     "date": "2006",
+     "accessDate": "2026-10-24",
+     "score": null,
+     "url": "https://archive.org/details/ps2_Dynasty_Warriors_5-_Empires_USA",
+     "type": "manual",
+     "reviewedEdition": "PS2 NTSC-U manual"
+    },
+    {
+     "title": "Dynasty Warriors 5 Empires Review",
+     "author": "Alex Navarro",
+     "publisher": "GameSpot",
+     "date": "2006-03-28",
+     "accessDate": "2026-10-24",
+     "score": "7.2",
+     "url": "https://www.gamespot.com/reviews/dynasty-warriors-5-empires-review/1900-6146756/",
+     "type": "contemporary review",
+     "reviewedEdition": "PS2 (the page's metadata gives a publication time of 2006-03-29T01:44Z, which is 2006-03-28 Pacific; the byline now shows a 2007-06-25 update)"
+    },
+    {
+     "title": "PS2 Review - 'Dynasty Warriors 5 Empires'",
+     "author": "Agustin",
+     "publisher": "WorthPlaying",
+     "date": "2006-05-22",
+     "accessDate": "2026-10-24",
+     "score": "8.2/10",
+     "url": "https://worthplaying.com/article/2006/5/22/reviews/33416-ps2-review-dynasty-warriors-5-empires/",
+     "type": "contemporary review",
+     "reviewedEdition": "PS2"
+    },
+    {
+     "title": "Review: Dynasty Warriors 5: Empires",
+     "author": "Johnny K.",
+     "publisher": "GamePro (Wayback Machine archive)",
+     "date": "2006-03-28",
+     "accessDate": "2026-10-24",
+     "score": "Fun Factor 3.5/5 (Graphics 4.0, Sound 3.5, Control 3.5)",
+     "url": "https://web.archive.org/web/20060523094211/http://gamepro.com/sony/ps2/games/reviews/52942.shtml",
+     "type": "contemporary review",
+     "reviewedEdition": "PS2 (the text also discusses the Xbox 360 version)"
+    },
+    {
+     "title": "Dynasty Warriors 5: Empires review",
+     "author": "Greg Sewart",
+     "publisher": "GamesRadar",
+     "date": "2006-04-01",
+     "accessDate": "2026-10-24",
+     "score": null,
+     "url": "https://www.gamesradar.com/dynasty-warriors-5-empires-review/",
+     "type": "contemporary review",
+     "reviewedEdition": "Not stated; the current page shows no numeric score or platform and its tags mention Xbox. Used only for comments on alliances, battle pacing and the camera."
+    },
+    {
+     "title": "Dynasty Warriors 5 Empires PlayStation 2 Critic Reviews",
+     "author": "Metacritic",
+     "publisher": "Metacritic",
+     "date": "2026-10-24",
+     "accessDate": "2026-10-24",
+     "score": "Metascore 62 (23 critic reviews)",
+     "url": "https://www.metacritic.com/game/dynasty-warriors-5-empires/critic-reviews/?platform=playstation-2",
+     "type": "reference",
+     "reviewedEdition": "PS2 aggregate; PALGN's 'standalone add-on pack' excerpt"
+    },
+    {
+     "title": "Dynasty Warriors 5",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "accessDate": "2026-10-24",
+     "score": "Famitsu 8/8/8/8 (PS2), as reported by Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Dynasty_Warriors_5",
+     "type": "reference",
+     "reviewedEdition": "PS2 and Xbox 360 release information"
+    },
+    {
+     "title": "Dynasty Warriors 5 Empires FAQ/Walkthrough v1.3",
+     "author": "Robert Dohner (Rampidzier)",
+     "publisher": "GameFAQs",
+     "date": "2006-08-02",
+     "accessDate": "2026-10-24",
+     "score": null,
+     "url": "https://gamefaqs.gamespot.com/ps2/931416-dynasty-warriors-5-empires/faqs/44060",
+     "type": "reference",
+     "reviewedEdition": "PS2"
+    },
+    {
+     "title": "Dynasty Warriors 5: Empires (Playstation 2) Co-Op Information",
+     "author": "Co-Optimus",
+     "publisher": "Co-Optimus",
+     "date": "2026-10-24",
+     "accessDate": "2026-10-24",
+     "score": null,
+     "url": "https://www.co-optimus.com/game/10900/playstation-2/dynasty-warriors-5-empires.html",
+     "type": "reference",
+     "reviewedEdition": "PS2"
+    },
+    {
+     "title": "GameIndex.yaml entry SLUS-21398 (commit b3402c13, 2026-10-21)",
+     "author": "PCSX2 project",
+     "publisher": "GitHub",
+     "date": "2026-10-21",
+     "accessDate": "2026-10-24",
+     "score": "compat 5 (upstream desktop PCSX2 data; not a tested result)",
+     "url": "https://github.com/PCSX2/pcsx2/blob/master/bin/resources/GameIndex.yaml",
+     "type": "compatibility",
+     "reviewedEdition": "NTSC-U SLUS-21398"
+    }
+   ],
+   "notes": [
+    "Nothing was played. Two-controller split-screen and DW5/XL save-data import are untested.",
+    "Standalone status rests on the US manual (setup asks only for the Empires disc; importing DW5/XL data is optional and only possible before an Empires save exists) and on PALGN's 'standalone add-on pack' wording, quoted via Metacritic. Wikipedia calls it an expansion.",
+    "No officer loyalty stat is described in the US manual or the sources used. The article only covers recruitment, hiring captured officers for 400 to 4000 gold, bribing with items, and defection policies.",
+    "The policy names (e.g. Weaponsmith, Long Alliance) are confirmed only from the Consult screenshot. In the archive.org OCR the manual's policy-name column did not come through, so the article describes policies by their manual descriptions.",
+    "Co-Optimus reproduces Koei's blurb claiming 75 policies, 25 of them new. That figure was not independently verified and is not used in the article.",
+    "The GamesRadar (Sewart) page shows no score or platform. Metacritic lists a GamesRadar+ 70 for PS2 with a different excerpt, so that score is not attributed to Sewart. The IGN review was not located. The Famitsu score is taken from Wikipedia, not from Famitsu directly.",
+    "Rejected media: the Skyscraper screenshot 8b984c0d... duplicates the DW5 base-game frame. The libretro Named_Snaps (sha1 6ede94cf...) shows a generic DW5-style battle (Cheng Yuanzhi, 50 K.O. message) that cannot be tied to Empires. The libretro Named_Titles is a French PAL title screen ('APPUYER SUR START'). MobyGames was behind a Cloudflare challenge, WorthPlaying's press images return HTML, and the GamePro gallery images are not archived. No genuine strategy-map (territory map) screenshot of the PS2 version was found; the Consult screen and the manual's Orders page illustrate the strategy layer instead.",
+    "Session/campaign length is an authorial inference from the rules (25 areas, one battle per turn, reviewers' roughly 20-minute battles). No HowLongToBeat-style data for the PS2 version was used.",
+    "Redump verification of serial SLUS-21398 was not completed (redump.org quicksearch returned an error page). The serial comes from the PCSX2 GameIndex NTSC-U entry."
+   ]
+  },
+  "dw-gundam-2-pilot-and-suit": {
+   "games": [
+    "ps2-dynasty-warriors-gundam-2",
+    "ps3-dynasty-warriors-gundam-2"
+   ],
+   "sources": [
+    {
+     "title": "Dynasty Warriors: Gundam 2 instruction manual (PS2, NTSC-U/C, English/French)",
+     "author": "Namco Bandai Games America",
+     "publisher": "Namco Bandai Games America (scan: Internet Archive, Kirkland's Manual Labor collection)",
+     "date": "2009",
+     "accessDate": "2026-10-24",
+     "score": null,
+     "url": "https://archive.org/details/ps2_Dynasty_Warriors-_Gundam_2_USA",
+     "type": "manual",
+     "reviewedEdition": "PS2 NTSC-U/C manual; English pages 1-23 read (PDF pages 1-25)"
+    },
+    {
+     "title": "Dynasty Warriors: Gundam 2 Review (PS2)",
+     "author": "Ryan Clements",
+     "publisher": "IGN",
+     "date": "2009-04-24",
+     "accessDate": "2026-10-24",
+     "score": "4.9/10 (Presentation 3.0, Graphics 4.5, Lasting Appeal 6.0; read on 2009 archive of ps2.ign.com/articles/976/976486p1.html)",
+     "url": "https://www.ign.com/articles/2009/04/24/dynasty-warriors-gundam-2-review-2",
+     "type": "contemporary review",
+     "reviewedEdition": "PS2"
+    },
+    {
+     "title": "Dynasty Warriors: Gundam 2 Review (PS2) — archived original with score box",
+     "author": "Ryan Clements",
+     "publisher": "IGN (Internet Archive snapshot 2009-04-28)",
+     "date": "2009-04-24",
+     "accessDate": "2026-10-24",
+     "score": "4.9/10",
+     "url": "https://web.archive.org/web/20090428113208/http://ps2.ign.com:80/articles/976/976486p1.html",
+     "type": "contemporary review",
+     "reviewedEdition": "PS2"
+    },
+    {
+     "title": "Dynasty Warriors: Gundam 2 Review (PS3/Xbox 360)",
+     "author": "Ryan Clements",
+     "publisher": "IGN",
+     "date": "2009-04-25",
+     "accessDate": "2026-10-24",
+     "score": null,
+     "url": "https://www.ign.com/articles/2009/04/25/dynasty-warriors-gundam-2-review",
+     "type": "contemporary review",
+     "reviewedEdition": "PS3/Xbox 360 (used only as labelled comparison: online multiplayer on HD versions; score not checked)"
+    },
+    {
+     "title": "Dynasty Warriors: Gundam 2 Review (PS2)",
+     "author": "Kevin VanOrd",
+     "publisher": "GameSpot",
+     "date": "2009-04-22",
+     "accessDate": "2026-10-24",
+     "score": "4.0/10",
+     "url": "https://web.archive.org/web/20111025055208/http://www.gamespot.com:80/ps2/action/gundammusou2/review.html",
+     "type": "contemporary review",
+     "reviewedEdition": "PS2"
+    },
+    {
+     "title": "Dynasty Warriors: Gundam 2 review",
+     "author": "Dakota Grabowski",
+     "publisher": "GameZone",
+     "date": "2009-06-19",
+     "accessDate": "2026-10-24",
+     "score": "6.6/10 (difficulty listed as Easy)",
+     "url": "https://web.archive.org/web/20100124214942/http://ps2.gamezone.com:80/gzreviews/r36405.htm",
+     "type": "contemporary review",
+     "reviewedEdition": "Filed under GameZone PS2 section; text mentions achievement points, so tested platform unclear"
+    },
+    {
+     "title": "Dynasty Warriors: Gundam 2 PlayStation 2 critic reviews",
+     "author": "Metacritic",
+     "publisher": "Fandom / Metacritic",
+     "date": "2026-10-24",
+     "accessDate": "2026-10-24",
+     "score": "Metascore 52 from 8 PS2 critic reviews (aggregate, not an outlet score)",
+     "url": "https://www.metacritic.com/game/dynasty-warriors-gundam-2/critic-reviews/?platform=playstation-2",
+     "type": "reference",
+     "reviewedEdition": "PS2"
+    },
+    {
+     "title": "Dynasty Warriors: Gundam 2",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "accessDate": "2026-10-24",
+     "score": null,
+     "url": "https://en.wikipedia.org/wiki/Dynasty_Warriors:_Gundam_2",
+     "type": "reference",
+     "reviewedEdition": "All platforms; release dates, Official Mode series, pilot/suit 'any combination' claim, aggregates (PS3 54, 360 49, PS2 52)"
+    },
+    {
+     "title": "Dynasty Warriors: Gundam 2",
+     "author": "Koei Tecmo Wiki contributors (fan wiki)",
+     "publisher": "Koei Tecmo Wiki",
+     "date": "2026-10-24",
+     "accessDate": "2026-10-24",
+     "score": null,
+     "url": "https://koeitecmo.wiki/wiki/Dynasty_Warriors:_Gundam_2",
+     "type": "reference",
+     "reviewedEdition": "All platforms; roster, Official Mode pilots, Smash/Partial Destruction, License affinity, Download Missions (PS3/360 only)"
+    },
+    {
+     "title": "Dynasty Warriors : Gundam 2 (PlayStation 2) — product description and screenshot",
+     "author": "ScreenScraper contributors",
+     "publisher": "ScreenScraper",
+     "date": "2026-10-24",
+     "accessDate": "2026-10-24",
+     "score": null,
+     "url": "https://www.screenscraper.fr/",
+     "type": "reference",
+     "reviewedEdition": "PS2 entry; English description, release date 2009-04-21"
+    },
+    {
+     "title": "Dynasty Warriors: Gundam 2 (PS2, USA, SLUS 21873)",
+     "author": "Redump",
+     "publisher": "Redump",
+     "date": "2026-10-24",
+     "accessDate": "2026-10-24",
+     "score": null,
+     "url": "http://redump.org/disc/34025/",
+     "type": "reference",
+     "reviewedEdition": "PS2 USA, serial SLUS 21873, version 1.01"
+    },
+    {
+     "title": "PCSX2 GameIndex.yaml entry SLUS-21873 (commit b3402c13, 2026-10-21)",
+     "author": "PCSX2 project",
+     "publisher": "GitHub",
+     "date": "2026-10-21",
+     "accessDate": "2026-10-24",
+     "score": null,
+     "url": "https://github.com/PCSX2/pcsx2/blob/master/bin/resources/GameIndex.yaml",
+     "type": "compatibility",
+     "reviewedEdition": "NTSC-U SLUS-21873: compat 5, no fixes listed; upstream desktop data, not a tested result"
+    }
+   ],
+   "notes": [
+    "Nothing was played or launched.",
+    "Pilot/suit freedom: Wikipedia's 'any combination' is overstated. The PS2 manual gates suits by full part sets, licences (Mission Mode License Missions) and Newtype-only restrictions; Versus skips licences. Exact starting rosters per mode weren't verified.",
+    "The manual says Mission Mode has 'seven different categories' but names six. The fan wiki's seventh, Download Missions, is PS3/360-only.",
+    "Mobile armor list: only the Psyco Gundam (product description) and the Big Zam (fan wiki roster, MA-08) are named. A fuller community list (Psyco Gundam Mk-II, Quin Mantha, Alpha Azieru, Dark Gundam) surfaced in search summaries, but PlayStationTrophies/TrueAchievements pages were blocked by Cloudflare/JS, so it is unverified and not used.",
+    "Smash Attack's armor-breaking role and Partial Destruction come from the fan wiki, not the manual. The manual only lists long-press Square = Smash Attack.",
+    "That parts never change a suit's weapons or silhouette is an inference from the manual's descriptions (stats, SP level, skills), labelled as such in the article.",
+    "PS2 online play: GameSpot's 2011 game-stats box lists 'Online Modes: Competitive' for the PS2 page, but the PS2 manual describes only local Versus and IGN's PS2 review mentions only split-screen. The article says only that online play is documented for PS3/360 (IGN PS3/360 review). PS2 online status is unresolved.",
+    "GameZone's 6.6 review is filed under PS2 but mentions achievement points; the platform actually played is unclear.",
+    "IGN's PS3/360 score wasn't checked; only that review's multiplayer statement is used.",
+    "Lead screenshot: PS2 provenance rests on ScreenScraper/libretro cataloguing plus 4:3 SD pixels; the region (NTSC-U vs PAL) is undeterminable. The libretro PS2 USA snap is the same frame, not independent evidence.",
+    "No substantial later critical reassessment of the PS2 version was found."
+   ]
+  },
+  "warriors-orochi-2-three-on-the-field": {
+   "games": [
+    "ps2-warriors-orochi-2",
+    "psp-warriors-orochi-2"
+   ],
+   "sources": [
+    {
+     "title": "Warriors Orochi 2 instruction manual (NTSC-U/C, PlayStation 2)",
+     "author": "Koei",
+     "publisher": "Koei Corporation",
+     "date": "2008",
+     "accessDate": "2026-10-24",
+     "score": null,
+     "url": "https://www.gamesdatabase.org/Media/SYSTEM/Sony_Playstation_2/manual/Formated/Warriors_Orochi_2_-_2008_-_Koei.pdf",
+     "type": "manual",
+     "reviewedEdition": "PS2 North America (ESRB T, NTSC U/C)"
+    },
+    {
+     "title": "Warriors Orochi 2 Review",
+     "author": "Carolyn Petit",
+     "publisher": "GameSpot",
+     "date": "2008-09-26",
+     "accessDate": "2026-10-24",
+     "score": "4.0/10",
+     "url": "https://www.gamespot.com/reviews/warriors-orochi-2-review/1900-6198248/",
+     "type": "contemporary review",
+     "reviewedEdition": "PS2 (review page filed under PS2; text also compares Xbox 360); read via Wayback capture 20140809165841"
+    },
+    {
+     "title": "Warriors Orochi 2 Review",
+     "author": "Ryan Clements",
+     "publisher": "IGN",
+     "date": "2008-09-25",
+     "accessDate": "2026-10-24",
+     "score": "4.5/10",
+     "url": "https://www.ign.com/articles/2008/09/25/warriors-orochi-2-review-3",
+     "type": "contemporary review",
+     "reviewedEdition": "PS2 review page (text discusses PS2 and Xbox 360); page shows 'Updated May 12, 2012'"
+    },
+    {
+     "title": "Warriors Orochi 2 Review - PlayStation 2",
+     "author": "Angelina Sandoval",
+     "publisher": "GameZone",
+     "date": "2008-09-23",
+     "accessDate": "2026-10-24",
+     "score": "5.5/10",
+     "url": "https://web.archive.org/web/20080926044409/http://ps2.gamezone.com/gzreviews/r35461.htm",
+     "type": "contemporary review",
+     "reviewedEdition": "PS2"
+    },
+    {
+     "title": "PS2 Review - 'Warriors Orochi 2'",
+     "author": "Matt Olsen",
+     "publisher": "Worthplaying",
+     "date": "2008-10-10",
+     "accessDate": "2026-10-24",
+     "score": "6.5/10",
+     "url": "https://worthplaying.com/article/2008/10/10/reviews/55624-ps2-review-warriors-orochi-2/",
+     "type": "contemporary review",
+     "reviewedEdition": "PS2"
+    },
+    {
+     "title": "Warriors Orochi 2 - PlayStation 2 critic reviews",
+     "author": "Metacritic",
+     "publisher": "Metacritic",
+     "date": "2026-10-24",
+     "accessDate": "2026-10-24",
+     "score": "Metascore 52 (9 critic reviews)",
+     "url": "https://www.metacritic.com/game/warriors-orochi-2/critic-reviews/?platform=playstation-2",
+     "type": "reference",
+     "reviewedEdition": "PS2 aggregate"
+    },
+    {
+     "title": "Warriors Orochi 2",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "accessDate": "2026-10-24",
+     "score": null,
+     "url": "https://en.wikipedia.org/wiki/Warriors_Orochi_2",
+     "type": "reference",
+     "reviewedEdition": "All versions; used for NA release date, 92-character roster, Dream Mode stage count, PSP-port additions, Japanese sales, IGN PSP score of 5.2"
+    },
+    {
+     "title": "Warriors Orochi 2 (PS2, USA, SLUS 21803)",
+     "author": "Redump (dumper GreyFox)",
+     "publisher": "Redump",
+     "date": "2026-10-24",
+     "accessDate": "2026-10-24",
+     "score": null,
+     "url": "http://redump.org/disc/33638/",
+     "type": "reference",
+     "reviewedEdition": "PS2 USA SLUS 21803 v1.00; track size 3,971,383,296 bytes"
+    },
+    {
+     "title": "GameIndex.yaml entries SLUS-21803 and SLES-55382",
+     "author": "PCSX2 project",
+     "publisher": "GitHub",
+     "date": "2026-10-21",
+     "accessDate": "2026-10-24",
+     "score": null,
+     "url": "https://github.com/PCSX2/pcsx2/blob/master/bin/resources/GameIndex.yaml",
+     "type": "compatibility",
+     "reviewedEdition": "Commit b3402c13; SLUS-21803 NTSC-U has no compat rating or fixes; SLES-55382 PAL-E compat 5. Upstream desktop data, not a tested result"
+    }
+   ],
+   "notes": [
+    "Nothing was played or launched. Controls come from the US manual; two-player co-op and VS are untested.",
+    "There are only three attack types in WO2 (Power/Speed/Technique) per the US manual p.8. No fourth type exists in this game.",
+    "The PCSX2 GameIndex has no compat rating for SLUS-21803; the PAL SLES-55382 rating of 5 is not evidence for the US disc.",
+    "No English PS2 gameplay frame was obtained from Skyscraper, libretro or review galleries: the Skyscraper and libretro snaps are Japanese, GameZone gallery images couldn't be retrieved because the Internet Archive was temporarily offline, and MobyGames/GameSpot/GameFAQs galleries were blocked. The lead image is therefore a manual-printed screenshot.",
+    "The manual date is year-only (2008), from the printed copyright. Survival's preset ('fixed') character data is interpreted from the manual's rule text.",
+    "Wikipedia is the source for the IGN PSP score (5.2), the Dream Mode 28-stage count, the PSP-port additions and the Japanese sales figure; those primary pages weren't opened. No substantial later reassessment was found.",
+    "The Metacritic PS2 aggregate of 52 from 9 reviews was confirmed on the live page and in a 2014 Wayback capture."
+   ]
+  },
+  "strikeforce-hunting-party": {
+   "games": [
+    "psp-dynasty-warriors-strikeforce",
+    "ps3-dynasty-warriors-strikeforce"
+   ],
+   "sources": [
+    {
+     "title": "Dynasty Warriors: Strikeforce instruction manual (PSP e-manual, Europe, ULES01221), English pages",
+     "author": "Koei",
+     "publisher": "Koei (scan hosted by Internet Archive, 'PSP instruction manuals and document.dat' collection)",
+     "date": "2009",
+     "accessDate": "2026-10-24",
+     "score": null,
+     "url": "https://archive.org/details/PSP-instruction-manuals-and-document-dat/",
+     "type": "manual",
+     "reviewedEdition": "PSP, European digital e-manual (warns digital owners not to use the UMD install feature); controls, City screen, City Menu, battle screen, Fury gauge, lock-on compatibility colours, Multi Attack gauge, friendship/Spoils. Used as proxy for US ULUS-10416; US manual not inspected."
+    },
+    {
+     "title": "Review: Dynasty Warriors: Strikeforce, 04/28/09",
+     "author": "James Stephanie Sterling",
+     "publisher": "Destructoid",
+     "date": "2009-04-28",
+     "accessDate": "2026-10-24",
+     "score": "7.5/10",
+     "url": "https://www.destructoid.com/review-dynasty-warriors-strikeforce/",
+     "type": "contemporary review",
+     "reviewedEdition": "PSP (US release 2009-04-28)"
+    },
+    {
+     "title": "Dynasty Warriors: Strikeforce Review",
+     "author": "Ryan Clements",
+     "publisher": "IGN",
+     "date": "2009-05-05",
+     "accessDate": "2026-10-24",
+     "score": "7.0/10 (Decent); live page displays 7",
+     "url": "https://www.ign.com/articles/2009/05/05/dynasty-warriors-strikeforce-review-2",
+     "type": "contemporary review",
+     "reviewedEdition": "PSP. Live page 403 to direct fetch; read via Wayback snapshot 20260304104318; score breakdown verified on 2009 archive page http://web.archive.org/web/20090509065558/http://psp.ign.com:80/articles/979/979916p2.html"
+    },
+    {
+     "title": "Dynasty Warriors: Strikeforce Review",
+     "author": "Tracy Erickson",
+     "publisher": "Pocket Gamer",
+     "date": "2009-05-05",
+     "accessDate": "2026-10-24",
+     "score": "3.5/5",
+     "url": "https://www.pocketgamer.com/dynasty-warriors-strikeforce/review/",
+     "type": "contemporary review",
+     "reviewedEdition": "PSP"
+    },
+    {
+     "title": "Dynasty Warriors: Strikeforce Review",
+     "author": "Brian Fishman",
+     "publisher": "GameSpot",
+     "date": "2009-08-05",
+     "accessDate": "2026-10-24",
+     "score": "6.5/10 (Fair)",
+     "url": "https://www.gamespot.com/reviews/dynasty-warriors-strikeforce-review/1900-6214766/",
+     "type": "contemporary review",
+     "reviewedEdition": "PSP (review text describes PSP ad hoc and Memory Stick install; 2016 page labels it PSP). Date uncertain: 2016 Wayback snapshot http://web.archive.org/web/20160505114740/http://www.gamespot.com:80/reviews/dynasty-warriors-strikeforce-review/1900-6214766/ shows 'August 5, 2009'; live page byline shows March 15, 2010 (article modified_time 2010-03-15)."
+    },
+    {
+     "title": "Dynasty Warriors: Strikeforce Review",
+     "author": "Sam Bishop",
+     "publisher": "IGN",
+     "date": "2010-03-19",
+     "accessDate": "2026-10-24",
+     "score": "8 as displayed on current page (original decimal not verified)",
+     "url": "https://www.ign.com/articles/2010/03/19/dynasty-warriors-strikeforce-review",
+     "type": "contemporary review",
+     "reviewedEdition": "PS3/Xbox 360 console port, used only as labelled comparison (AI-controlled teammates, online co-op, Ninja Gaiden guests). Read via Wayback snapshot 20260224201441."
+    },
+    {
+     "title": "Dynasty Warriors: Strikeforce Guide and Walkthrough (Hammerin' Heroes FAQ)",
+     "author": "Leyviur (Abraham Liu)",
+     "publisher": "GameFAQs",
+     "date": "2009-05-02",
+     "accessDate": "2026-10-24",
+     "score": null,
+     "url": "https://gamefaqs.gamespot.com/psp/953877-dynasty-warriors-strikeforce/faqs/56436",
+     "type": "reference",
+     "reviewedEdition": "PSP; fan guide v1.00: controls list, request structure (Bandit Trap conditions/bonus), solo strategy, weapon-type weaknesses, wood/poison orbs, Fury items"
+    },
+    {
+     "title": "Dynasty Warriors: Strikeforce Material Location List",
+     "author": "Kracov Samhain and ShrieKingRodent",
+     "publisher": "GameFAQs",
+     "date": "2009-07-11",
+     "accessDate": "2026-10-24",
+     "score": null,
+     "url": "https://gamefaqs.gamespot.com/psp/953877-dynasty-warriors-strikeforce/faqs/57084",
+     "type": "reference",
+     "reviewedEdition": "PSP; fan material list (material names per mission)"
+    },
+    {
+     "title": "Dynasty Warriors: Strikeforce",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "2026-10-24",
+     "accessDate": "2026-10-24",
+     "score": null,
+     "url": "https://en.wikipedia.org/wiki/Dynasty_Warriors:_Strikeforce",
+     "type": "reference",
+     "reviewedEdition": "General; used for Japanese title Shin Sangoku Musou Multi Raid and February 2009 Japanese release. Its reception section misattributes IGN's PSP review to Sam Bishop; not relied on."
+    },
+    {
+     "title": "Dynasty Warriors: Strikeforce",
+     "author": "Koei Wiki contributors",
+     "publisher": "Fandom",
+     "date": "2026-10-24",
+     "accessDate": "2026-10-24",
+     "score": null,
+     "url": "https://koei.fandom.com/wiki/Dynasty_Warriors:_Strikeforce",
+     "type": "reference",
+     "reviewedEdition": "Mixes PSP and console ports; used only for Fury gauge draining while active"
+    },
+    {
+     "title": "Dynasty Warriors: Strikeforce (PSP, USA)",
+     "author": "Redump contributors",
+     "publisher": "Redump",
+     "date": "2026-10-24",
+     "accessDate": "2026-10-24",
+     "score": null,
+     "url": "http://redump.org/disc/19802/",
+     "type": "reference",
+     "reviewedEdition": "PSP USA UMD, serial ULUS-10416, languages English/French (Europe is ULES-01221)"
+    }
+   ],
+   "notes": [
+    "Nothing was played or launched; ad hoc multiplayer under emulation is untested and no workaround is given.",
+    "Controls and menu terms come from the European PSP e-manual (ULES01221) English pages; US manual (ULUS-10416) not inspected.",
+    "GameSpot PSP review date uncertain: 2016 archive shows 2009-08-05; live page shows 2010-03-15 (modified). Recorded as 2009-08-05 with caveat.",
+    "IGN 2010 console review score shown as 8 on current page; original decimal not verified. Used only as port comparison.",
+    "Fury draining while active is from Koei Wiki (mixed-platform fan wiki) and inferred from Leyviur's item strategy; not in the e-manual pages read.",
+    "Hub facility names beyond blacksmith/storehouse/Exchange/Market not verified for PSP; Wikipedia/Koei Wiki 'academy, workshop, shrine' lists not used.",
+    "Whether the UMD 300 MB install option matters under PPSSPP, and whether 2009 free download quests are still obtainable, are unverified.",
+    "Wikipedia misattributes IGN's 2009 PSP review to Sam Bishop; actual author Ryan Clements (verified on IGN/Wayback).",
+    "Both GameSpot screenshots are pre-release press captures (March 2009 paths); may differ slightly from retail. Cover in Skyscraper cache is PAL (PEGI 12) and was not used."
+   ]
+  }
+ }
+}

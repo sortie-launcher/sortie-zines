@@ -1,0 +1,105 @@
+{
+  "issue": "field-notes-004",
+  "revision": 2,
+  "compiled": "2026-10-24",
+  "rights": "Game images and quoted material belong to their respective rights holders. Included for commentary and criticism; no endorsement or ownership is implied. Third-party screenshots, video frames and box art are not covered by the Sortie app's MIT licence. Original prose and cover layout are by Sortie Field Notes.",
+  "testing": "No game in this issue was played, launched or control-tested for this issue. Emulator notes summarise the cited emulator databases and wikis; they are not test results.",
+  "media": [
+    {
+      "path": "media/cover.webp",
+      "source": "Authored composite cover: crops of the four lead gameplay images (Tenchu, MGS3 Subsistence, Deception III video frame, Shinobido) on an original typographic layout.",
+      "rightsHolder": "Sortie Field Notes composition; underlying screenshots © Activision/Acquire, Konami, Tecmo/Koei Tecmo, Acquire/Spike Chunsoft",
+      "notes": "Built with ImageMagick 2026-10-24; Noto Serif/Noto Sans fonts (SIL OFL). Cover text reviewed for revision 2: masthead, title, subtitle, game labels and credit line only.",
+      "dimensions": "1600x1000",
+      "sha256": "60a18398c374fde7ed40623ff2fd87cd4a12eb1cdfc974d3d4e9e4456ccb9772"
+    },
+    {
+      "path": "media/tenchu-ki-meter.webp",
+      "source": "ScreenScraper screenshot for Tenchu: Stealth Assassins (USA) (PlayStation), retrieved via the Skyscraper scraper",
+      "rightsHolder": "© Activision / Acquire",
+      "notes": "Native 640x480 PNG re-encoded WebP q90. English HUD; inspected visually.",
+      "dimensions": "640x480",
+      "sha256": "b0cb9585b4255cdfb48f162a0e80fd266ac0b8579b0737855bbc30a871dca553"
+    },
+    {
+      "path": "media/tenchu-ki-meter-box.webp",
+      "source": "libretro-thumbnails, Sony - PlayStation, Named_Boxarts 'Tenchu - Stealth Assassins (USA) (Rev 1)'",
+      "rightsHolder": "© Activision / Acquire",
+      "notes": "US NTSC U/C box showing SLUS-00706; native size. A ScreenScraper cover offered for the same title was the PAL UK box and was rejected.",
+      "dimensions": "512x507",
+      "sha256": "113e648fa62fe4c030728df8452b820ff7dad961c0d96989af2fc0725554391e"
+    },
+    {
+      "path": "media/mgs3-subsistence-camera.webp",
+      "source": "ScreenScraper screenshot for 'Metal Gear Solid 3 : Subsistence' (PS2), fetched 2026-10-24 with Skyscraper 3.21.1 (name search, publisher Konami, release 2006-10-06)",
+      "rightsHolder": "© Konami",
+      "notes": "Native 640x480; camo readout 'SPLITTER / TIGER STRIPE 0%' inspected at 4x.",
+      "dimensions": "640x480",
+      "sha256": "f4e79e1377abf8d60c31e015c6cf7217ad62e17d93b30ee9c9e356a84854fe3a"
+    },
+    {
+      "path": "media/mgs3-subsistence-camera-box.webp",
+      "source": "ScreenScraper cover for the same Subsistence entry",
+      "rightsHolder": "© Konami",
+      "notes": "NTSC U/C North American box, downscaled from 486x680 to 429x600.",
+      "dimensions": "429x600",
+      "sha256": "855db7366fa905c733916b7105e803aacc2e674e68e73928696c4adbbc83c83d"
+    },
+    {
+      "path": "media/deception-iii-trap-chains.webp",
+      "source": "Frame at ~8 s of ScreenScraper gameplay video for 'Deception III : Dark Delusion' (PS1), fetched 2026-10-24 with Skyscraper",
+      "rightsHolder": "© Tecmo / Koei Tecmo",
+      "notes": "US English build (HUD 'Jade', 'MEGA ROCK', '50 Dmg'); 640x480 frame extracted with ffmpeg.",
+      "dimensions": "640x480",
+      "sha256": "b58e7c6e301acb33e133e55fa37c27441350d333f8377e0af2d849ba31c0b19a"
+    },
+    {
+      "path": "media/deception-iii-trap-chains-menu.webp",
+      "source": "Frame at ~4.5 s of the same ScreenScraper video",
+      "rightsHolder": "© Tecmo / Koei Tecmo",
+      "notes": "US English in-battle map 'HADES JAIL / DUNGEON', 'TRAP SET', 'INTRUDER DATA', 'Rein'/'Jade'. ScreenScraper's still screenshot for this entry is the Japanese Somato build (katakana HUD) and was not used.",
+      "dimensions": "640x480",
+      "sha256": "490282664b9496298a53e7576854e90c34620ef3ac07c8d1802659bf5ba6b2b6"
+    },
+    {
+      "path": "media/deception-iii-trap-chains-box.webp",
+      "source": "ScreenScraper cover for the same Deception III entry",
+      "rightsHolder": "© Tecmo / Koei Tecmo",
+      "notes": "US NTSC U/C box showing SLUS-01067, downscaled from 792x680 to 560 wide.",
+      "dimensions": "560x481",
+      "sha256": "c158dd85649f35a530c2834d8b3f401cdf2b8281671b7294cda8c835a72093c1"
+    },
+    {
+      "path": "media/shinobido-contract-war.webp",
+      "source": "ScreenScraper screenshot for Shinobido: Way of the Ninja (Europe) (PS2), retrieved via the Skyscraper scraper",
+      "rightsHolder": "© Acquire / Spike Chunsoft; EU publisher Sony Computer Entertainment Europe",
+      "notes": "Native 640x480.",
+      "dimensions": "640x480",
+      "sha256": "f5d52df98823d879e896c439efac80da3cca6479e1d8150085febde5adbf70fd"
+    },
+    {
+      "path": "media/shinobido-contract-war-stalk.webp",
+      "source": "Frame at 10.5 s of ScreenScraper gameplay video for 'Shinobido : Way of the Ninja', fetched 2026-10-24 with Skyscraper",
+      "rightsHolder": "© Acquire / Spike Chunsoft",
+      "notes": "640x480 frame; same HUD as PAL screenshot.",
+      "dimensions": "640x480",
+      "sha256": "39a7bda04f591b4bcabc2b8afc000dfe053fc7c634134c962e6ad40587dfac5e"
+    },
+    {
+      "path": "media/shinobido-contract-war-box.webp",
+      "source": "ScreenScraper cover for Shinobido: Way of the Ninja (Europe) (En,Fr,De,Es,It), retrieved via the ES-DE scraper",
+      "rightsHolder": "© Acquire / Spike; published by Sony Computer Entertainment Europe",
+      "notes": "PAL box, native 357x500 (not upscaled).",
+      "dimensions": "357x500",
+      "sha256": "d9ddfa0058305bfc3b4d637002ec7cf6f62eee1a8828b7a66de98ab1764612b0"
+    }
+  ],
+  "research": "Per-article sources (with authors, dates, scores and context) are listed in each article's Sources section. Research fact sheets were compiled 2026-10-24 from the cited URLs.",
+  "caveats": [
+    "Tenchu: exact US street date disputed (31 Aug 1998 per GameSpot/Metacritic vs. 'in stores by 9/16' per IGN). Existence of a level editor on the US disc unverified. Rev 1 vs original pressing differences undocumented. Mechanics came from the PAL English manual, not the US manual. EGM individual scores and Next Generation star ratings only via Wikipedia.",
+    "MGS3 Subsistence: GameSpot review's original publication date uncertain (page shows 2007). JP and EU MGO shutdown dates from Wikipedia only. Foxhound rank thresholds fan-derived. Whether Android PS2 emulators offer a pressure-modifier binding was not checked; the full-pressure consequence is labelled inference.",
+    "Deception III: no confirmed PAL release (HG101 claim unsupported by serial). Japanese title is Somato, not Kagero II (that is Trapt). Game Informer 'Deception III Undergoes Change' news item not found, so localisation changes unknown. EGM individual scores only via Wikipedia. No chapter-length data.",
+    "Shinobido: OPS2 UK, Edge and Famitsu scores only second-hand. No English manual scan found; faction/trust terminology from fan FAQs and Japanese sources. Takumi release date conflicts. PAL-only kill/combo changes come from one fan FAQ.",
+    "Revision 2 (public edition): personal-library, device and travel framing removed; prose reworked for a general audience; article game references added. Research facts unchanged. Shinobido box and Tenchu box provenance restated as their public origin (ScreenScraper via ES-DE; libretro-thumbnails)."
+  ]
+}

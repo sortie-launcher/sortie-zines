@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 2,
+  "id": "field-notes-004",
+  "revision": 2,
+  "title": "Unseen, Unfair, Unscripted",
+  "subtitle": "Field Notes No. 004 · Stealth routes, manipulation and traps",
+  "published": "2026-10-24",
+  "cover": "media/cover.webp",
+  "rightsNotice": "Game images and quoted material belong to their respective rights holders. Included for commentary and criticism; no endorsement or ownership is implied.",
+  "editorial": "Field Notes No. 004 is about games that let you win dishonestly. Not by cheating, but by reading people: noticing where a guard looks, what he eats, who he works for, and which floor tile he's about to step on. Tenchu: Stealth Assassins is where to start. It's the 1998 PlayStation original, with one gauge and ten missions, and its Western release is actually more complete than the Japanese one. Metal Gear Solid 3: Subsistence turns survival into stealth tools: camouflage you manage by percentage, food you can poison, and bosses you can outwait instead of outfight. Shinobido: Way of the Ninja, from the original Tenchu team, hands you a three-sided war and lets your contracts decide who wins. Deception III: Dark Delusion turns the whole idea around: you're the one being invaded, and the building is your only weapon. Each article names the edition it describes, because here the edition matters: an extra two missions, a third disc, an English dub, a disc that never left North America. Edition details, reviews and control advice come from the cited manuals, reviews, databases and fan guides, and each article separates what those sources say from our own judgement and inference. None of these games was played for this issue. Four short warnings, one per game: Tenchu ignores the analog stick; Subsistence relies on pressure-sensitive buttons; Shinobido's camera was unpopular even in 2006; and Deception III's 2000 translation was widely mocked.",
+  "articles": [
+    {
+      "id": "tenchu-ki-meter",
+      "title": "Tenchu: Read the Gauge, Take the Roof, Strike Once",
+      "gameTitle": "Tenchu: Stealth Assassins",
+      "system": "PS1",
+      "games": [
+        {"id": "psx-tenchu-stealth-assassins", "title": "Tenchu: Stealth Assassins", "systemId": "psx", "edition": "North American release (SLUS-00706), original or Greatest Hits Rev 1 pressing; ten missions", "matchNames": ["Tenchu - Stealth Assassins"]},
+        {"id": "psx-rittai-ninja-katsugeki-tenchu", "title": "Rittai Ninja Katsugeki Tenchu", "systemId": "psx", "edition": "Japanese original (Sony Music Entertainment, 1998); eight stages", "matchNames": ["Tenchu", "Rittai Ninja Katsugeki Tenchu"]},
+        {"id": "psx-tenchu-shinobi-gaisen", "title": "Tenchu: Shinobi Gaisen", "systemId": "psx", "edition": "Japanese 1999 release of the Western build, with mission editor", "matchNames": ["Tenchu - Shinobi Gaisen"]},
+        {"id": "psx-tenchu-2-birth-of-the-stealth-assassins", "title": "Tenchu 2: Birth of the Stealth Assassins", "systemId": "psx", "matchNames": ["Tenchu 2 - Birth of the Stealth Assassins"]},
+        {"id": "ps2-tenchu-wrath-of-heaven", "title": "Tenchu: Wrath of Heaven", "systemId": "ps2", "matchNames": ["Tenchu - Wrath of Heaven"]}
+      ],
+      "deck": "The 1998 original that made a single awareness gauge the whole game. The North American release is the expanded Western cut, with ten missions and three random layouts each. Here's what changed from Japan, how the ranks pay you back, and why the D-pad is your only controller.",
+      "body": "articles/tenchu-ki-meter.md",
+      "image": "media/tenchu-ki-meter.webp",
+      "imageCaption": "A ninja fights a guard in a dark courtyard, blood on the stones. At lower left, the ki meter's red \"!!\" icon means the guard has identified you. US PlayStation screenshot © Activision / Acquire, via ScreenScraper.",
+      "readingMinutes": 7
+    },
+    {
+      "id": "mgs3-subsistence-camera",
+      "title": "Metal Gear Solid 3: Subsistence and the Art of Unfair Victory",
+      "gameTitle": "Metal Gear Solid 3: Subsistence",
+      "system": "PS2",
+      "games": [
+        {"id": "ps2-metal-gear-solid-3-subsistence", "title": "Metal Gear Solid 3: Subsistence", "systemId": "ps2", "edition": "2005–06 re-release with player camera; disc count varies by region (all PAL copies have three)", "matchNames": ["Metal Gear Solid 3 - Subsistence"]},
+        {"id": "ps2-metal-gear-solid-3-snake-eater", "title": "Metal Gear Solid 3: Snake Eater", "systemId": "ps2", "edition": "Original 2004 release with fixed overhead camera", "matchNames": ["Metal Gear Solid 3 - Snake Eater"]},
+        {"id": "psp-metal-gear-solid-peace-walker", "title": "Metal Gear Solid: Peace Walker", "systemId": "psp", "edition": "Original PSP release", "matchNames": ["Metal Gear Solid - Peace Walker"]},
+        {"id": "metal-gear-solid-v-the-phantom-pain", "title": "Metal Gear Solid V: The Phantom Pain"}
+      ],
+      "deck": "The re-release that gave Snake Eater a camera you control, plus a disc of extras. A buyer's guide to the regional disc sets, the camouflage-and-hunger loop, bosses you can exhaust or simply outwait, and the pressure-sensitive buttons most modern pads can't press gently.",
+      "body": "articles/mgs3-subsistence-camera.md",
+      "image": "media/mgs3-subsistence-camera.webp",
+      "imageCaption": "Snake crouches against a tree stump while a Soviet soldier patrols away down the trail; at top right his Splitter face paint and Tiger Stripe uniform read 0 percent on the camo index. PS2 screenshot © Konami, via ScreenScraper.",
+      "readingMinutes": 7
+    },
+    {
+      "id": "shinobido-contract-war",
+      "title": "Shinobido: Take Every Side's Money, Then Decide the War",
+      "gameTitle": "Shinobido: Way of the Ninja",
+      "system": "PS2",
+      "games": [
+        {"id": "ps2-shinobido-way-of-the-ninja", "title": "Shinobido: Way of the Ninja", "systemId": "ps2", "edition": "European PAL release (SCES-53931), five languages, English dub with Japanese voice option", "matchNames": ["Shinobido - Way of the Ninja"]},
+        {"id": "ps2-shinobido-imashime", "title": "Shinobido: Imashime", "systemId": "ps2", "edition": "Japanese original (Spike, 2005); no subtitles", "matchNames": ["Shinobido - Imashime"]},
+        {"id": "psx-tenchu-stealth-assassins", "title": "Tenchu: Stealth Assassins", "systemId": "psx", "edition": "North American release (SLUS-00706), original or Greatest Hits Rev 1 pressing; ten missions", "matchNames": ["Tenchu - Stealth Assassins"]},
+        {"id": "psp-shinobido-tales-of-the-ninja", "title": "Shinobido: Tales of the Ninja", "systemId": "psp", "matchNames": ["Shinobido - Tales of the Ninja"]},
+        {"id": "psvita-shinobido-2-revenge-of-zen", "title": "Shinobido 2: Revenge of Zen", "systemId": "psvita", "matchNames": ["Shinobido 2 - Revenge of Zen"]}
+      ],
+      "deck": "Acquire's PS2 ninja game never reached North America. The European disc is the friendlier edition, with subtitles and a Japanese voice option. Three factions post contracts, and every job you take shifts the war. The camera is as bad as reviewers said; the system underneath is worth the fight.",
+      "body": "articles/shinobido-contract-war.md",
+      "image": "media/shinobido-contract-war.webp",
+      "imageCaption": "Goh crouches at the foot of a wooden bridge at night while a guard crosses at right; the eye icon at top centre tracks enemy awareness and the compass at top right points toward the nearest guard. PAL PS2 screenshot © Acquire / Spike Chunsoft, via ScreenScraper.",
+      "readingMinutes": 7
+    },
+    {
+      "id": "deception-iii-trap-chains",
+      "title": "Deception III: Stealth from the Other Side of the Wall",
+      "gameTitle": "Deception III: Dark Delusion",
+      "system": "PS1",
+      "games": [
+        {"id": "psx-deception-iii-dark-delusion", "title": "Deception III: Dark Delusion", "systemId": "psx", "edition": "North American release (SLUS-01067); Japanese voices, English subtitles", "matchNames": ["Deception III - Dark Delusion"]},
+        {"id": "psx-somato", "title": "Sōmatō", "systemId": "psx", "edition": "Japanese original (1999) of Deception III", "matchNames": ["Somato", "Soumatou"]},
+        {"id": "psx-tecmos-deception-invitation-to-darkness", "title": "Tecmo's Deception: Invitation to Darkness", "systemId": "psx", "matchNames": ["Tecmo's Deception - Invitation to Darkness"]},
+        {"id": "psx-kagero-deception-ii", "title": "Kagero: Deception II", "systemId": "psx", "matchNames": ["Kagero - Deception II"]},
+        {"id": "ps2-trapt", "title": "Trapt", "systemId": "ps2"}
+      ],
+      "deck": "Tecmo's 1999 trap game puts you on the defending side. Set ceiling, wall and floor traps, chain them into fifteen-hit combos, and build new traps from parts. It was probably never released in Europe: here's which disc to look for and what its split 2000 reviews got right.",
+      "body": "articles/deception-iii-trap-chains.md",
+      "image": "media/deception-iii-trap-chains.webp",
+      "imageCaption": "A Mega Rock ceiling trap rolls over the soldier Jade in the Chapter I dungeon, scoring 50 damage. Frame from ScreenScraper's gameplay video of the US release; © Tecmo / Koei Tecmo.",
+      "readingMinutes": 7
+    }
+  ]
+}

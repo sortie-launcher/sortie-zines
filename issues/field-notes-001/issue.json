@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 2,
+  "revision": 2,
+  "id": "field-notes-001",
+  "title": "Field Notes",
+  "subtitle": "Short sorties, deep systems",
+  "published": "2026-10-24",
+  "cover": "media/cover.webp",
+  "rightsNotice": "Game images and quoted material belong to their respective rights holders. Included for commentary and criticism; no endorsement or ownership is implied.",
+  "editorial": "The first Field Notes is about depth that survives interruption. Each of these four games keeps its systems intact when you can only play in short, broken-up sessions: a commute, a lunch break, twenty minutes before bed. Metal Gear Solid: Peace Walker is Metal Gear Solid V's recruit-research-redeploy loop in its original pocket form, as long as you keep its long story missions for a proper sitting. Shiren the Wanderer on DS offers thirty floors, one life and a warehouse, and rewards the same patience as the best computer roguelikes. Carnage Heart EXA swaps reflexes for flowcharts, which makes it the rare mech game that suits a cramped seat. Battle Garegga is the arcade shooter that taxes your success and refunds your deaths. Each article separates what reviewers, manuals and community references say from editorial judgement. Field Notes did not play-test these games on any particular emulator or device for this issue, so control and version notes describe the games as documented, not as a compatibility promise. Every score has a named source; the few taken from Wikipedia's reception summaries are marked as such. Every image and word is stored with the issue, and the web addresses in each sources list are attribution only: you never need a connection to read them. Cover: composite of in-game screenshots, credited on the cover itself.",
+  "articles": [
+    {
+      "id": "peace-walker-extra-ops",
+      "title": "Peace Walker: Mother Base in Short Sessions",
+      "gameTitle": "Metal Gear Solid: Peace Walker",
+      "system": "PSP",
+      "games": [
+        {"id": "psp-metal-gear-solid-peace-walker", "title": "Metal Gear Solid: Peace Walker", "systemId": "psp", "edition": "Original PSP release", "matchNames": ["Metal Gear Solid - Peace Walker"]},
+        {"id": "metal-gear-solid-v-the-phantom-pain", "title": "Metal Gear Solid V: The Phantom Pain"}
+      ],
+      "deck": "Before MGS V's open world, Kojima's PSP game built the same recruit, research and redeploy loop around missions small enough for a coffee break. Here's how to play it in short sessions without letting the long story missions eat your evening.",
+      "body": "articles/peace-walker-extra-ops.md",
+      "image": "media/peace-walker-extra-ops.webp",
+      "imageCaption": "Snake crouches in jungle cover while a Peace Sentinels guard stands watch; the camouflage index at top right reads 30 percent. PSP screenshot © Konami, via ScreenScraper.",
+      "readingMinutes": 7
+    },
+    {
+      "id": "shiren-ds-thirty-floors",
+      "title": "Shiren the Wanderer: Thirty Floors, One Life, No Excuses",
+      "gameTitle": "Mystery Dungeon: Shiren the Wanderer",
+      "system": "DS",
+      "games": [
+        {"id": "nds-mystery-dungeon-shiren-the-wanderer", "title": "Mystery Dungeon: Shiren the Wanderer", "systemId": "nds", "edition": "2008 DS remake, Sega's English release", "matchNames": ["Mystery Dungeon - Shiren the Wanderer"]},
+        {"id": "snes-fushigi-no-dungeon-2-furai-no-shiren", "title": "Fushigi no Dungeon 2: Fūrai no Shiren", "systemId": "snes", "edition": "1995 Super Famicom original, Japanese release", "matchNames": ["Fushigi no Dungeon 2 - Fuurai no Shiren", "Fushigi no Dungeon 2 - Furai no Shiren"]}
+      ],
+      "deck": "The 1995 design that later Shiren games grew from, remade for DS. Every run starts from the same village under the same rules. What changes is the map, the drops, and what you learned last time.",
+      "body": "articles/shiren-ds-thirty-floors.md",
+      "image": "media/shiren-ds-thirty-floors.webp",
+      "imageCaption": "The opening area across both DS screens: the route map titled \"Road to the Hamlet\" on top, and Shiren on floor 1 at level 1 with 13/15 HP beside an early monster below. Screenshot © Sega / Spike Chunsoft, via ScreenScraper.",
+      "readingMinutes": 6
+    },
+    {
+      "id": "carnage-heart-exa-flowchart-pilot",
+      "title": "Carnage Heart EXA: Write the Pilot, Then Watch It Fight",
+      "gameTitle": "Carnage Heart EXA",
+      "system": "PSP",
+      "games": [
+        {"id": "psp-carnage-heart-exa", "title": "Carnage Heart EXA", "systemId": "psp", "edition": "PSP; North American PlayStation Network release by Natsume, 2013", "matchNames": ["Carnage Heart EXA"]},
+        {"id": "psx-carnage-heart", "title": "Carnage Heart", "systemId": "psx", "edition": "Original PlayStation release"}
+      ],
+      "deck": "Artdink's PSP sequel turns mech combat into flowchart programming. It's the opposite of a twitch game, which makes it ideal for the moments when your reflexes are spent but your patience isn't.",
+      "body": "articles/carnage-heart-exa-flowchart-pilot.md",
+      "image": "media/carnage-heart-exa-flowchart-pilot.webp",
+      "imageCaption": "A walker-type OKE stands in an enclosed test arena facing two numbered targets. PSP screenshot © Artdink, via ScreenScraper.",
+      "readingMinutes": 6
+    },
+    {
+      "id": "battle-garegga-rank-economy",
+      "title": "Battle Garegga: The Shooter That Charges Interest on Success",
+      "gameTitle": "Battle Garegga",
+      "system": "Arcade",
+      "games": [
+        {"id": "arcade-battle-garegga", "title": "Battle Garegga", "systemId": "arcade", "edition": "Original 1996 arcade release (February 3, 1996 set)", "matchNames": ["bgaregga"]},
+        {"id": "battle-garegga-rev-2016", "title": "Battle Garegga Rev.2016", "edition": "M2's PS4 and Xbox One release"}
+      ],
+      "deck": "Raizing's 1996 arcade game hides a difficulty economy under every shot, pickup and spare life. Each credit is a self-contained lesson in restraint, and this is how to spend your first two.",
+      "body": "articles/battle-garegga-rank-economy.md",
+      "image": "media/battle-garegga-rank-economy.webp",
+      "imageCaption": "A huge enemy bomber fills the top of the screen while the player's fighter sits near the bottom; enemy fire is drawn as dull, realistic shells rather than bright orbs. Arcade screenshot © Raizing / Eighting, via Arcade Database.",
+      "readingMinutes": 6
+    }
+  ]
+}

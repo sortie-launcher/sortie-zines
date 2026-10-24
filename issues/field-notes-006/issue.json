@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 2,
+  "id": "field-notes-006",
+  "revision": 2,
+  "title": "Strange Little Worlds",
+  "subtitle": "Field Notes No. 006 · Build a life or bend a system",
+  "published": "2026-10-24",
+  "cover": "media/cover.webp",
+  "rightsNotice": "Game images and quoted material belong to their respective rights holders. Included for commentary and criticism; no endorsement or ownership is implied.",
+  "editorial": "Field Notes No. 006 is for the long stretch of free time when you want something to tend rather than something to beat. None of these four games points you at the next objective. Monster Rancher 2 gives you a calendar and a creature that won't live forever. Culdcept turns a fantasy card game into property development with dice. New Horizons hands you a ship in the 1520s and lets prices, distances and the food supply write the plot. Steambot Chronicles makes your mech your job, your rent and your ride home. They reward the same habit: work out how the system ticks, then use it. Each article names the edition it describes and keeps what manuals, guides and reviews say separate from our own judgement. None of these games was played for this issue. Each article says where emulation is known to get in the way, especially Monster Rancher 2's CD shrine and Steambot's open PCSX2-family issues. Release-era reviews are dated and credited. Where the only source is a later retrospective, a fan repost or an aggregator's conversion, the article says so.",
+  "articles": [
+    {
+      "id": "monster-rancher-2-shrine-calendar",
+      "title": "Monster Rancher 2: The Calendar Is the Dungeon",
+      "gameTitle": "Monster Rancher 2",
+      "system": "PS1",
+      "games": [
+        {"id": "psx-monster-rancher-2", "title": "Monster Rancher 2", "systemId": "psx", "edition": "North American release (Tecmo, 1999; SLUS-00917)"},
+        {"id": "monster-rancher-1-and-2-dx", "title": "Monster Rancher 1 & 2 DX", "edition": "2021 re-release; shrine uses a song and album database instead of discs"}
+      ],
+      "deck": "Tecmo's 1999 ranch sim turns a monster's lifespan into the budget you spend. Its famous CD shrine is the part emulation handles worst. Here's what the community has documented, which emulators the shrine tools support, and how to start without it.",
+      "body": "articles/monster-rancher-2-shrine-calendar.md",
+      "image": "media/monster-rancher-2-ranch.webp",
+      "imageCaption": "The ranch in the North American PlayStation release: year 1000, second week of April, and Colt reports that \"BOJO is well.\" Screenshot © Koei Tecmo (Tecmo), via ScreenScraper.",
+      "readingMinutes": 7
+    },
+    {
+      "id": "culdcept-land-chains",
+      "title": "Culdcept: Property Law With Dragons",
+      "gameTitle": "Culdcept",
+      "system": "PS2",
+      "games": [
+        {"id": "ps2-culdcept", "title": "Culdcept", "systemId": "ps2", "edition": "North American release (NEC Interchannel, 2003; SLUS-20774), the English version of Culdcept II Expansion"}
+      ],
+      "deck": "Omiya Soft's card-and-dice board game is an economy, not a duel. Elements, land chains, fort timing and symbol buying reward planning ahead, and the Story mode's Suspend command makes hour-long matches survivable in short sittings.",
+      "body": "articles/culdcept-land-chains.md",
+      "image": "media/culdcept-land-chains.webp",
+      "imageCaption": "North American PS2 release: a Cepter stops on an unclaimed square, and Land Info shows value 100, toll 20, level 1. Screenshot © Omiya Soft / NEC Interchannel, via ScreenScraper.",
+      "readingMinutes": 7
+    },
+    {
+      "id": "new-horizons-trade-winds",
+      "title": "New Horizons: Buy Low, Sail Far, Save Often",
+      "gameTitle": "Uncharted Waters: New Horizons",
+      "system": "Genesis",
+      "games": [
+        {"id": "genesis-uncharted-waters-new-horizons", "title": "Uncharted Waters: New Horizons", "systemId": "genesis", "edition": "North American Genesis cartridge (Koei, 1994), boxed as New Horizons", "matchNames": ["New Horizons", "Uncharted Waters - New Horizons"]},
+        {"id": "snes-uncharted-waters-new-horizons", "title": "Uncharted Waters: New Horizons", "systemId": "snes", "edition": "SNES version; later on Wii and Wii U Virtual Console", "matchNames": ["Uncharted Waters - New Horizons"]}
+      ],
+      "deck": "Koei's Age of Discovery sandbox, in its North American Genesis edition. Six careers share one economy of prices, investment, diplomacy and food. Its manual's beginner tips are still the best way in, and you get exactly one save slot.",
+      "body": "articles/new-horizons-trade-winds.md",
+      "image": "media/new-horizons-trade-winds.webp",
+      "imageCaption": "Sailing in the Genesis version: fleet and crew status on the left; date, fleet and supplies on the right, with a two-day estimate. Screenshot © Koei Tecmo (Koei), via Sega-16.",
+      "readingMinutes": 7
+    },
+    {
+      "id": "steambot-chronicles-trotmobile-life",
+      "title": "Steambot Chronicles: The Mech Is Also Your Job",
+      "gameTitle": "Steambot Chronicles",
+      "system": "PS2",
+      "games": [
+        {"id": "ps2-steambot-chronicles", "title": "Steambot Chronicles", "systemId": "ps2", "edition": "North American release (Atlus, 2006; SLUS-21344)"}
+      ],
+      "deck": "Irem's walking-machine life sim makes frame weight, fuel and the right attachments decide how you earn a living. It's charming, wordy and slow to travel, and there are known emulation problems to plan around.",
+      "body": "articles/steambot-chronicles-trotmobile-life.md",
+      "image": "media/steambot-chronicles-trotmobile-life.webp",
+      "imageCaption": "Vanilla at a hotel front desk in the North American PS2 release, with the Easy Map in the corner. Screenshot © Irem Software Engineering, via ScreenScraper.",
+      "readingMinutes": 7
+    }
+  ]
+}

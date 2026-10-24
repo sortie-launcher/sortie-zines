@@ -1,0 +1,480 @@
+{
+  "schemaVersion": 2,
+  "id": "field-notes-007",
+  "revision": 2,
+  "title": "The Art of the Fight",
+  "subtitle": "Field Notes No. 007 · A history of character action",
+  "published": "2026-10-24",
+  "cover": "media/cover.webp",
+  "rightsNotice": "Game images and quoted material belong to their respective rights holders. Included for commentary and criticism; no endorsement or ownership is implied.",
+  "editorial": "Winning a fight and making a fight your own are different pleasures. Character action lives in the gap: the enemy might fall to a safe repeated attack, but the game offers another weapon, a counter, a launch, a dodge that keeps the next move alive. The reward is not only a larger number. It is learning to make decisions faster without reducing them to one answer.\n\nThis issue follows that idea from arcade action to the style-driven games associated with Capcom, Team Ninja and PlatinumGames. It is a family history, not a claim that every sword game belongs to one fixed genre. Onimusha still carries survival horror's rooms and puzzles. Blood Will Tell is an action-adventure relative, with an unusually literal model of rebuilding a character. The 2nd Runner puts combat expression into a flying mech. Ghost of Sparta pursues spectacle and pace on a portable system. Their differences matter as much as their resemblance.\n\nFour deep dives cover the PS2 and PSP years: Onimusha, The 2nd Runner, Blood Will Tell and Ghost of Sparta. Devil May Cry 3: Special Edition and Bayonetta get full features too, because a history without their ideas would be missing much of its subject. God Hand already has a deep dive in Field Notes No. 005, so it returns here as part of the lineage rather than a repeated recommendation.\n\nStart with the history for the map, or with The 2nd Runner to see the genre's ideas applied to a flying robot. Each deep dive includes an opening-session plan and the friction that a glowing reputation can hide. This is researched criticism built from manuals, contemporary reviews and developer interviews, not a playtest: no game was launched for this issue, and emulation notes cite upstream project data only. Screenshots, sources and their credits are bundled for offline reading.",
+  "articles": [
+    {
+      "id": "character-action-history",
+      "title": "Launch, Juggle, Grade: A History of Character Action",
+      "gameTitle": "Character action: a history",
+      "system": "Various",
+      "games": [
+        {
+          "id": "arcade-strider",
+          "title": "Strider",
+          "systemId": "arcade",
+          "edition": "Capcom CPS1 arcade original (1989)",
+          "matchNames": [
+            "Strider Hiryu",
+            "strider"
+          ]
+        },
+        {
+          "id": "genesis-strider",
+          "title": "Strider",
+          "systemId": "genesis",
+          "edition": "Sega Mega Drive/Genesis port (1990)"
+        },
+        {
+          "id": "arcade-shinobi",
+          "title": "Shinobi",
+          "systemId": "arcade",
+          "edition": "Sega System 16 arcade original (1987)",
+          "matchNames": [
+            "shinobi"
+          ]
+        },
+        {
+          "id": "genesis-the-revenge-of-shinobi",
+          "title": "The Revenge of Shinobi",
+          "systemId": "genesis",
+          "matchNames": [
+            "Revenge of Shinobi, The"
+          ]
+        },
+        {
+          "id": "genesis-shinobi-iii-return-of-the-ninja-master",
+          "title": "Shinobi III: Return of the Ninja Master",
+          "systemId": "genesis",
+          "matchNames": [
+            "Shinobi III - Return of the Ninja Master"
+          ]
+        },
+        {
+          "id": "nes-ninja-gaiden",
+          "title": "Ninja Gaiden",
+          "systemId": "nes",
+          "edition": "NES original (1988)"
+        },
+        {
+          "id": "psx-strider-2",
+          "title": "Strider 2",
+          "systemId": "psx",
+          "edition": "North American release, Strider 2 disc (SLUS-01163)"
+        },
+        {
+          "id": "ps2-onimusha-warlords",
+          "title": "Onimusha: Warlords",
+          "systemId": "ps2",
+          "edition": "Original PS2 release",
+          "matchNames": [
+            "Onimusha - Warlords"
+          ]
+        },
+        {
+          "id": "ps2-devil-may-cry",
+          "title": "Devil May Cry",
+          "systemId": "ps2",
+          "edition": "Original PS2 release"
+        },
+        {
+          "id": "ps2-shinobi",
+          "title": "Shinobi",
+          "systemId": "ps2",
+          "edition": "PS2 game by Overworks (2002)"
+        },
+        {
+          "id": "ps2-nightshade",
+          "title": "Nightshade",
+          "systemId": "ps2"
+        },
+        {
+          "id": "xbox-ninja-gaiden",
+          "title": "Ninja Gaiden",
+          "systemId": "xbox",
+          "edition": "Original Xbox release (2004)"
+        },
+        {
+          "id": "ps2-devil-may-cry-3-dantes-awakening",
+          "title": "Devil May Cry 3: Dante's Awakening",
+          "systemId": "ps2",
+          "edition": "Original 2005 release",
+          "matchNames": [
+            "Devil May Cry 3 - Dante's Awakening"
+          ]
+        },
+        {
+          "id": "ps2-devil-may-cry-3-dantes-awakening-special-edition",
+          "title": "Devil May Cry 3: Dante's Awakening Special Edition",
+          "systemId": "ps2",
+          "edition": "Special Edition (2006)",
+          "matchNames": [
+            "Devil May Cry 3 - Dante's Awakening (Special Edition)",
+            "Devil May Cry 3 - Dante's Awakening - Special Edition"
+          ]
+        },
+        {
+          "id": "ps2-god-of-war",
+          "title": "God of War",
+          "systemId": "ps2",
+          "edition": "Original PS2 release"
+        },
+        {
+          "id": "psp-god-of-war-chains-of-olympus",
+          "title": "God of War: Chains of Olympus",
+          "systemId": "psp",
+          "matchNames": [
+            "God of War - Chains of Olympus"
+          ]
+        },
+        {
+          "id": "psp-god-of-war-ghost-of-sparta",
+          "title": "God of War: Ghost of Sparta",
+          "systemId": "psp",
+          "edition": "US UMD release (UCUS-98737)",
+          "matchNames": [
+            "God of War - Ghost of Sparta"
+          ]
+        },
+        {
+          "id": "gc-viewtiful-joe",
+          "title": "Viewtiful Joe",
+          "systemId": "gc",
+          "edition": "Original GameCube release (2003)"
+        },
+        {
+          "id": "ps2-god-hand",
+          "title": "God Hand",
+          "systemId": "ps2"
+        },
+        {
+          "id": "xbox360-bayonetta",
+          "title": "Bayonetta",
+          "systemId": "xbox360",
+          "edition": "Original Xbox 360 release"
+        },
+        {
+          "id": "ps2-zone-of-the-enders-the-2nd-runner",
+          "title": "Zone of the Enders: The 2nd Runner",
+          "systemId": "ps2",
+          "edition": "Original North American release (2003), before the Special Edition additions",
+          "matchNames": [
+            "Zone of the Enders - The 2nd Runner"
+          ]
+        },
+        {
+          "id": "ps2-blood-will-tell-tezuka-osamus-dororo",
+          "title": "Blood Will Tell: Tezuka Osamu's Dororo",
+          "systemId": "ps2",
+          "edition": "North American release (SLUS-20782)",
+          "matchNames": [
+            "Blood Will Tell - Tezuka Osamu's Dororo",
+            "Blood Will Tell"
+          ]
+        },
+        {
+          "id": "ps2-devil-kings",
+          "title": "Devil Kings",
+          "systemId": "ps2",
+          "edition": "Western localisation of Sengoku Basara (2005)"
+        },
+        {
+          "id": "wii-muramasa-the-demon-blade",
+          "title": "Muramasa: The Demon Blade",
+          "systemId": "wii",
+          "edition": "Original Wii release (2009)",
+          "matchNames": [
+            "Muramasa - The Demon Blade"
+          ]
+        },
+        {
+          "id": "metal-gear-rising-revengeance",
+          "title": "Metal Gear Rising: Revengeance"
+        },
+        {
+          "id": "devil-may-cry-4",
+          "title": "Devil May Cry 4"
+        },
+        {
+          "id": "dmc-devil-may-cry",
+          "title": "DmC: Devil May Cry"
+        },
+        {
+          "id": "devil-may-cry-5",
+          "title": "Devil May Cry 5"
+        },
+        {
+          "id": "hi-fi-rush",
+          "title": "Hi-Fi Rush"
+        },
+        {
+          "id": "ninja-gaiden-4",
+          "title": "Ninja Gaiden 4"
+        }
+      ],
+      "deck": "From Strider's one-lever, two-button ninja to an Onimusha bug that taught Devil May Cry to juggle, then Ninja Gaiden, God of War, Bayonetta and Devil May Cry 5: how the 'stylish action' genre took shape, what it asks of a player, and where to start.",
+      "body": "articles/character-action-history.md",
+      "image": "media/character-action-history.webp",
+      "imageCaption": "Strider (Capcom CPS1 arcade, 1989): Hiryu faces a hulking wrestler enemy in an industrial interior, in-game arcade gameplay with the 1-PLAYER/HI-SCORE/TIME HUD. © Capcom. Screenshot via ScreenScraper.",
+      "readingMinutes": 10
+    },
+    {
+      "id": "onimusha-warlords-issen",
+      "title": "Onimusha: Warlords and the Art of the One Cut",
+      "gameTitle": "Onimusha: Warlords",
+      "system": "PS2",
+      "games": [
+        {
+          "id": "ps2-onimusha-warlords",
+          "title": "Onimusha: Warlords",
+          "systemId": "ps2",
+          "edition": "Original PS2 release",
+          "matchNames": [
+            "Onimusha - Warlords"
+          ]
+        },
+        {
+          "id": "xbox-genma-onimusha",
+          "title": "Genma Onimusha",
+          "systemId": "xbox",
+          "edition": "Xbox remix (2002)"
+        },
+        {
+          "id": "onimusha-warlords-remaster",
+          "title": "Onimusha: Warlords (2019 remaster)",
+          "edition": "2019 remaster"
+        },
+        {
+          "id": "ps2-onimusha-2-samurais-destiny",
+          "title": "Onimusha 2: Samurai's Destiny",
+          "systemId": "ps2",
+          "matchNames": [
+            "Onimusha 2 - Samurai's Destiny"
+          ]
+        },
+        {
+          "id": "ps2-onimusha-3-demon-siege",
+          "title": "Onimusha 3: Demon Siege",
+          "systemId": "ps2",
+          "matchNames": [
+            "Onimusha 3 - Demon Siege"
+          ]
+        },
+        {
+          "id": "ps2-devil-may-cry",
+          "title": "Devil May Cry",
+          "systemId": "ps2",
+          "edition": "Original PS2 release"
+        }
+      ],
+      "deck": "Capcom's 2001 samurai game puts a timing-based sword fighter inside a Resident Evil shell of fixed cameras, tank controls, key hunts and mirror saves. The core is a hidden counter-kill called Issen, a soul economy that also opens doors, and a 20-floor Dark Realm, all in a campaign of about five hours.",
+      "body": "articles/onimusha-warlords-issen.md",
+      "image": "media/onimusha-warlords-issen-castle-fight.webp",
+      "imageCaption": "Gameplay: a fight on one of Onimusha: Warlords' pre-rendered, fixed-camera outdoor screens, with the vitality bar and soul counter top-left. PS2 in-game capture catalogued for the USA release (region can't be told from the frame), © Capcom, via ScreenScraper.",
+      "readingMinutes": 6
+    },
+    {
+      "id": "zoe2-jehuty-momentum",
+      "title": "Zone of the Enders: The 2nd Runner — Character Action at Mech Scale",
+      "gameTitle": "Zone of the Enders: The 2nd Runner",
+      "system": "PS2",
+      "games": [
+        {
+          "id": "ps2-zone-of-the-enders-the-2nd-runner",
+          "title": "Zone of the Enders: The 2nd Runner",
+          "systemId": "ps2",
+          "edition": "Original North American release (2003), before the Special Edition additions",
+          "matchNames": [
+            "Zone of the Enders - The 2nd Runner"
+          ]
+        },
+        {
+          "id": "ps2-zone-of-the-enders-the-2nd-runner-special-edition",
+          "title": "Zone of the Enders: The 2nd Runner Special Edition",
+          "systemId": "ps2",
+          "edition": "European PAL Special Edition (2003)",
+          "matchNames": [
+            "Zone of the Enders - The 2nd Runner (Special Edition)"
+          ]
+        },
+        {
+          "id": "ps2-zone-of-the-enders",
+          "title": "Zone of the Enders",
+          "systemId": "ps2"
+        },
+        {
+          "id": "ps3-zone-of-the-enders-hd-collection",
+          "title": "Zone of the Enders HD Collection",
+          "systemId": "ps3",
+          "edition": "PS3 release (2012)"
+        },
+        {
+          "id": "zone-of-the-enders-the-2nd-runner-mars",
+          "title": "Zone of the Enders: The 2nd Runner M∀RS",
+          "edition": "2018 remaster by Konami and Cygames"
+        }
+      ],
+      "deck": "Kojima produced and Shuyo Murata directed this 2003 sequel, which turns a giant robot into a character-action lead: one attack button that switches between blade and gun by range, dash and burst variants, grabs that make enemies into weapons, and a dozen sub-weapons built around set pieces. This guide covers what the North American disc does and lacks, and what is known (and untested) about emulating it.",
+      "body": "articles/zoe2-jehuty-momentum.md",
+      "image": "media/zoe2-jehuty-momentum.webp",
+      "imageCaption": "Jehuty during the Callisto opening, locked on to a Raptor with the GRAB/NRG/SUB HUD and the subtitle 'Be careful not to get surrounded.' English-language PS2 gameplay frame (NA or PAL disc not distinguishable from the frame), © Konami, via ScreenScraper.",
+      "readingMinutes": 7
+    },
+    {
+      "id": "blood-will-tell-48-fiends",
+      "title": "Blood Will Tell: Forty-Eight Fiends, One Body",
+      "gameTitle": "Blood Will Tell: Tezuka Osamu's Dororo",
+      "system": "PS2",
+      "games": [
+        {
+          "id": "ps2-blood-will-tell-tezuka-osamus-dororo",
+          "title": "Blood Will Tell: Tezuka Osamu's Dororo",
+          "systemId": "ps2",
+          "edition": "North American release (SLUS-20782)",
+          "matchNames": [
+            "Blood Will Tell - Tezuka Osamu's Dororo",
+            "Blood Will Tell"
+          ]
+        },
+        {
+          "id": "ps2-dororo",
+          "title": "Dororo",
+          "systemId": "ps2",
+          "edition": "Japanese release (2004)"
+        }
+      ],
+      "deck": "Sega and Red Entertainment's 2004 Tezuka adaptation inverts action-game progression: Hyakkimaru starts armed with prosthetic blades and cannons and wins back his real body one fiend at a time. Here's what those parts actually do (mostly stats, with a few famous exceptions), how its arm-blade, gun and Slice combat works, and why its slow start is the catch.",
+      "body": "articles/blood-will-tell-48-fiends.md",
+      "image": "media/blood-will-tell-48-fiends.webp",
+      "imageCaption": "Gameplay: Slice Attack in progress, with button-sequence gauge, slice counter and Finish prompt over a paralysed demon. English-language PS2 build captured for GameSpot's US review (21 September 2004), © SEGA / Tezuka Productions, via GameSpot.",
+      "readingMinutes": 7
+    },
+    {
+      "id": "ghost-of-sparta-pocket-epic",
+      "title": "Ghost of Sparta: The Western Branch, Pocket-Sized",
+      "gameTitle": "God of War: Ghost of Sparta",
+      "system": "PSP",
+      "games": [
+        {
+          "id": "psp-god-of-war-ghost-of-sparta",
+          "title": "God of War: Ghost of Sparta",
+          "systemId": "psp",
+          "edition": "US UMD release (UCUS-98737)",
+          "matchNames": [
+            "God of War - Ghost of Sparta"
+          ]
+        },
+        {
+          "id": "psp-god-of-war-chains-of-olympus",
+          "title": "God of War: Chains of Olympus",
+          "systemId": "psp",
+          "matchNames": [
+            "God of War - Chains of Olympus"
+          ]
+        },
+        {
+          "id": "ps2-god-of-war",
+          "title": "God of War",
+          "systemId": "ps2",
+          "edition": "Original PS2 release"
+        }
+      ],
+      "deck": "Ready at Dawn squeezed God of War's crowd-control combat, red-orb upgrades and grab finishers onto one analog nub, then added Thera's Bane fire blades and the Arms of Sparta to make up for the missing buttons. A sourced look at the US PSP release, how it differs from Chains of Olympus and the PS2 original, and what upstream PPSSPP data says about emulating it.",
+      "body": "articles/ghost-of-sparta-pocket-epic.md",
+      "image": "media/ghost-of-sparta-pocket-epic.webp",
+      "imageCaption": "God of War: Ghost of Sparta (PSP) gameplay: Kratos facing two enemies in a wrecked wooden hull, probably the ship's hold in the opening level. Raw in-game screenshot, region-neutral, 2x point-scaled. © Sony Interactive Entertainment, via ScreenScraper.",
+      "readingMinutes": 6
+    },
+    {
+      "id": "dmc3-special-edition-styles",
+      "title": "Devil May Cry 3 Special Edition: Where the Genre's Rules Were Set",
+      "gameTitle": "Devil May Cry 3: Dante's Awakening Special Edition",
+      "system": "PS2",
+      "games": [
+        {
+          "id": "ps2-devil-may-cry-3-dantes-awakening-special-edition",
+          "title": "Devil May Cry 3: Dante's Awakening Special Edition",
+          "systemId": "ps2",
+          "edition": "Special Edition (2006)",
+          "matchNames": [
+            "Devil May Cry 3 - Dante's Awakening (Special Edition)",
+            "Devil May Cry 3 - Dante's Awakening - Special Edition"
+          ]
+        },
+        {
+          "id": "ps2-devil-may-cry-3-dantes-awakening",
+          "title": "Devil May Cry 3: Dante's Awakening",
+          "systemId": "ps2",
+          "edition": "Original 2005 release",
+          "matchNames": [
+            "Devil May Cry 3 - Dante's Awakening"
+          ]
+        },
+        {
+          "id": "switch-devil-may-cry-3-special-edition",
+          "title": "Devil May Cry 3 Special Edition",
+          "systemId": "switch",
+          "edition": "Nintendo Switch release (2020) with Free Style mode"
+        },
+        {
+          "id": "devil-may-cry-hd-collection",
+          "title": "Devil May Cry HD Collection",
+          "edition": "Multi-platform collection (2012, 2018)"
+        },
+        {
+          "id": "ps2-devil-may-cry",
+          "title": "Devil May Cry",
+          "systemId": "ps2",
+          "edition": "Original PS2 release"
+        }
+      ],
+      "deck": "Styles, weapon swaps mid-combo, a live style meter and graded missions: Devil May Cry 3 set the rules character action still follows. The 2006 Special Edition is also the one that made its notorious difficulty fair. Here is what changed, how to start, and where it is sold today.",
+      "body": "articles/dmc3-special-edition-styles.md",
+      "image": "media/dmc3-special-edition-styles.webp",
+      "imageCaption": "Vergil, playable only in Special Edition, attacks a scythe-wielding demon, with the style meter at \"Dope!\". PS2 Special Edition, © Capcom, screenshot via GameSpot's 2006 review.",
+      "readingMinutes": 7
+    },
+    {
+      "id": "bayonetta-witch-time",
+      "title": "Bayonetta: Dodge Late, Keep the Combo",
+      "gameTitle": "Bayonetta",
+      "system": "Xbox 360 / PS3",
+      "games": [
+        {
+          "id": "xbox360-bayonetta",
+          "title": "Bayonetta",
+          "systemId": "xbox360",
+          "edition": "Original Xbox 360 release"
+        },
+        {
+          "id": "ps3-bayonetta",
+          "title": "Bayonetta",
+          "systemId": "ps3",
+          "edition": "PS3 port (2010)"
+        },
+        {
+          "id": "switch-bayonetta",
+          "title": "Bayonetta",
+          "systemId": "switch",
+          "edition": "Nintendo Switch release (2018)"
+        },
+        {
+          "id": "ps2-god-hand",
+          "title": "God Hand",
+          "systemId": "ps2"
+        }
+      ],
+      "deck": "Hideki Kamiya's 2009 reworking of the Devil May Cry template is built on Witch Time, the dodge offset and a medal for every fight. This covers how those systems fit together, why the PS3 port was marked down, and where a God Hand fan may hit friction. Researched from the manual, the official guide and reviews; nothing was playtested.",
+      "body": "articles/bayonetta-witch-time.md",
+      "image": "media/bayonetta-witch-time.webp",
+      "imageCaption": "Gameplay: a demon summoned from Bayonetta's hair mauls a large angel during Verse 4, with the verse number and halo count on screen. © Sega / PlatinumGames. Screenshot supplied with GameSpot's Xbox 360 review (January 2010); capture platform not independently verified.",
+      "readingMinutes": 7
+    }
+  ]
+}

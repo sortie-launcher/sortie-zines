@@ -1,0 +1,166 @@
+{
+  "issue": "field-notes-006",
+  "revision": 2,
+  "compiled": "2026-10-24",
+  "rightsNote": "Game images and quoted material belong to their respective rights holders. Included for commentary and criticism; no endorsement or ownership is implied. Third-party screenshots, box art and manual scans are not covered by the Sortie app's MIT licence; original prose and cover layout are by Sortie Field Notes.",
+  "media": [
+    {
+      "file": "media/cover.webp",
+      "kind": "authored composite cover, 1600x1000",
+      "source": "Composed for this issue from the ScreenScraper Monster Rancher 2 screenshot, the ScreenScraper Culdcept screenshot, Sega-16 New Horizons screenshot nh-8 and the ScreenScraper Steambot Chronicles screenshot; Noto Serif/Noto Sans type",
+      "rights": "Screenshots © Koei Tecmo (Tecmo, Koei), Omiya Soft / NEC Interchannel, Irem Software Engineering",
+      "review": "Cover text reviewed for revision 2: masthead, date, title, standfirst, game list, panel captions and credit line only.",
+      "sha256": "6d41644e6685e8b4582a51ae40889f0924a60b5fb8c76028092f9fec9218bfd2"
+    },
+    {
+      "file": "media/monster-rancher-2-ranch.webp",
+      "source": "ScreenScraper screenshot for Monster Rancher 2 (USA) (PlayStation), retrieved via the Skyscraper scraper",
+      "edition": "North American PS1; English text, same assistant portrait as the libretro MR2 (USA) snapshot",
+      "rights": "© Koei Tecmo (Tecmo)",
+      "processing": "640x480 PNG to WebP, no resize",
+      "sha256": "6cfecc2a656b3a977a82a9188d7fed3d14cee3d6667b95c02895b35cd212b8b8"
+    },
+    {
+      "file": "media/monster-rancher-2-new-arrival.webp",
+      "source": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation/master/Named_Snaps/Monster%20Rancher%202%20(USA).png",
+      "edition": "Named for Monster Rancher 2 (USA); English text",
+      "rights": "© Koei Tecmo (Tecmo); community snapshot set",
+      "processing": "320x240, 2x nearest-neighbour to 640x480",
+      "sha256": "311c63bcba074ff08c5c4f523ceb1769ce7fab643850aaad94347ae8d4cc7879"
+    },
+    {
+      "file": "media/monster-rancher-2-box.webp",
+      "source": "libretro-thumbnails, Sony - PlayStation, Named_Boxarts 'Monster Rancher 2 (USA)'",
+      "edition": "US front cover, SLUS-00917, ESRB E (a ScreenScraper cover offered for the same title was PAL and was not used)",
+      "rights": "© Koei Tecmo (Tecmo)",
+      "processing": "resized to 480x480; shown after the article introduction",
+      "sha256": "e22eeb816d79c6ffaa20e460d65660454dd740182a9b44167301b4d63445f36b"
+    },
+    {
+      "file": "media/culdcept-land-chains.webp",
+      "source": "ScreenScraper screenshot for Culdcept (USA) (PS2), retrieved via the Skyscraper scraper",
+      "edition": "English UI (Land Information, Owner/Value/Toll/Level), consistent with NA SLUS-20774; the libretro snapshot was Japanese and was rejected",
+      "rights": "© Omiya Soft / NEC Interchannel",
+      "processing": "640x480 JPEG to WebP",
+      "sha256": "8e5f2ed0488e1275044eec65d8dca1253b8464633bb88b37b330dab0bd1d6ad2"
+    },
+    {
+      "file": "media/culdcept-toll-board.webp",
+      "source": "https://upload.wikimedia.org/wikipedia/en/2/25/Culdcept_PS2_Screenshot.png (English Wikipedia non-free screenshot)",
+      "edition": "PS2 per Wikipedia; the board shows numbers only, so region can't be checked visually",
+      "rights": "© Omiya Soft / NEC Interchannel",
+      "processing": "365x274 native",
+      "sha256": "e96ef2637a39da994bf65009c9d0ecfae581ec5cdf1b45f58bc98d186dab68f8"
+    },
+    {
+      "file": "media/culdcept-box.webp",
+      "source": "libretro-thumbnails, Sony - PlayStation 2, Named_Boxarts 'Culdcept (USA)'",
+      "edition": "US NTSC U/C front cover, ESRB T, NEC",
+      "rights": "© Omiya Soft / NEC Interchannel",
+      "processing": "resized to 420 wide; shown after the article introduction",
+      "sha256": "daa1d376bcbe34693cd7fc355bdf922e2c2208f23918bb70fc34a9c9323ad3bf"
+    },
+    {
+      "file": "media/new-horizons-trade-winds.webp",
+      "source": "https://www.sega-16.com/wp-content/uploads/2010/04/Uncharted-Waters-New-Horizons-8.gif",
+      "edition": "Genesis 320x224 output, English HUD, date 1522",
+      "rights": "© Koei Tecmo (Koei); screenshot from Sebastian Sponsel's Sega-16 review",
+      "processing": "3x nearest-neighbour to 960x672",
+      "sha256": "b08e279fdc5fbed89671c8c3be931d2c6581bc26994f87dd7e2784f543dd1fd3"
+    },
+    {
+      "file": "media/new-horizons-supplies.webp",
+      "source": "https://www.sega-16.com/wp-content/uploads/2010/04/Uncharted-Waters-New-Horizons-4.gif",
+      "edition": "Genesis, English text",
+      "rights": "© Koei Tecmo (Koei); via Sega-16",
+      "processing": "3x nearest-neighbour",
+      "sha256": "28bb03239bd6a9bbedc991543eaac3744e7af44c87cec78ad585e9b73049f09e"
+    },
+    {
+      "file": "media/new-horizons-duel.webp",
+      "source": "https://www.sega-16.com/wp-content/uploads/2010/04/Uncharted-Waters-New-Horizons-6.gif",
+      "edition": "Genesis, English text",
+      "rights": "© Koei Tecmo (Koei); via Sega-16",
+      "processing": "3x nearest-neighbour",
+      "sha256": "92b85032e26617843c3731a60a50864f913e62070bac19ed3de6efa134814b4e"
+    },
+    {
+      "file": "media/new-horizons-controls.webp",
+      "source": "https://segaretro.org/images/6/6b/New_Horizons_MD_US_Manual.pdf, PDF page 8 (manual page 12)",
+      "edition": "North American Genesis manual",
+      "rights": "© Koei Tecmo (Koei); scan hosted by Sega Retro",
+      "processing": "rendered at 200 dpi, cropped to the button table, 640 wide",
+      "sha256": "d850bed1972655bf9fef596445627312463d45b8ce20b69493058091e305034a"
+    },
+    {
+      "file": "media/steambot-chronicles-trotmobile-life.webp",
+      "source": "ScreenScraper screenshot for Steambot Chronicles (USA) (PS2), retrieved via the Skyscraper scraper",
+      "edition": "matches the libretro Steambot Chronicles (USA) snapshot",
+      "rights": "© Irem Software Engineering",
+      "processing": "640x480 PNG to WebP",
+      "sha256": "91cc223eb15eaef36c56928f8a6f6e7f31000f395bddb9a0dd7ef56a050d9a27"
+    },
+    {
+      "file": "media/steambot-chronicles-trotmobile-101.webp",
+      "source": "https://archive.org/download/ps2_Steambot_Chronicles_USA/Steambot_Chronicles_USA.pdf, PDF page 40 (manual page 38)",
+      "edition": "North American Atlus manual",
+      "rights": "© Irem Software Engineering / Atlus",
+      "processing": "rendered at 150 dpi, top section cropped, 900 wide",
+      "sha256": "76ab7bbb96092a6cf897c7d60f1b650270aa19b01f2792293ba0baaf15373c59"
+    },
+    {
+      "file": "media/steambot-chronicles-box.webp",
+      "source": "libretro-thumbnails, Sony - PlayStation 2, Named_Boxarts 'Steambot Chronicles (USA)'",
+      "edition": "US NTSC U/C cover, ESRB T, Atlus (a ScreenScraper cover offered for the same title was the PAL 505 GameStreet release and was not used)",
+      "rights": "© Irem Software Engineering / Atlus",
+      "processing": "resized to 420 wide; shown after the article introduction",
+      "sha256": "63691fd94834acd76eb4214349417f4033665a7c21c34bc12d2f7fd2ebc2e0fa"
+    }
+  ],
+  "research": {
+    "monster-rancher-2-shrine-calendar": [
+      {"source": "LegendCup MR2 beginner guide", "url": "https://legendcup.com/faqmr2walkthrough.php", "access": "Wayback 20261013011238 (live site behind a Cloudflare check)"},
+      {"source": "LegendCup, How Monster Rancher generates monsters", "url": "https://legendcup.com/faq-generate-monsters.php", "access": "Wayback 20250804072113"},
+      {"source": "LegendCup, MR2 Make-A-Monster", "url": "https://legendcup.com/make-a-monster-mr2.php", "access": "Wayback 20250515155706"},
+      {"source": "NGEmu, Monster Rancher 2 shrine issue (2011)", "url": "https://www.ngemu.com/threads/monster-rancher-2-shrine-issue.142025/", "access": "direct"},
+      {"source": "IGN review, Loro & Perry, 1999-10-07, 8.8", "url": "http://psx.ign.com/articles/161/161227p1.html", "access": "Wayback 20120817150106"},
+      {"source": "GamesFirst!, Shawn Rider, 1999-10-05, 4/5", "url": "https://gamesfirst.com/articles/1999/monster-rancher-2/", "access": "direct"},
+      {"source": "Metacritic critic reviews", "url": "https://www.metacritic.com/game/monster-rancher-2/critic-reviews/?platform=playstation", "access": "direct"},
+      {"source": "GameSpot review, Ben Stahl, 1999-09-27", "url": "https://www.gamespot.com/reviews/monster-rancher-2-review/1900-2546013/", "access": "not read (HTTP 403); score via Wikipedia/Metacritic"},
+      {"source": "Wikipedia, Monster Rancher 2", "url": "https://en.wikipedia.org/wiki/Monster_Rancher_2", "access": "API"},
+      {"source": "GameFAQs walkthrough by KurasuSoratobu", "url": "https://gamefaqs.gamespot.com/ps/197977-monster-rancher-2/faqs/41786", "access": "Wayback 20250804012946"},
+      {"source": "Romhacking.net hack 3482", "url": "https://www.romhacking.net/hacks/3482", "access": "search-result description only (HTTP 403)"}
+    ],
+    "culdcept-land-chains": [
+      {"source": "Culdcept NA PS2 manual scan", "url": "https://archive.org/details/culdcept-ps2-hiresscans", "access": "OCR text plus rendered pages 5-6 and 34"},
+      {"source": "IGN, Jeremy Dunham, 2003-12-05, 8.7 Editors' Choice", "url": "https://www.ign.com/articles/2003/12/05/culdcept", "access": "Wayback 20251003015742"},
+      {"source": "GameSpot, Greg Kasavin, 2003-12-15, 7.9", "url": "https://www.gamespot.com/reviews/culdcept-review/1900-6085672/", "access": "Wayback 20150311070906"},
+      {"source": "GameSpy, Christian Nutt, 4/5 (Culdcept Central repost, 2009)", "url": "http://culdceptcentral.com/culdcept-ps2dc/culdcept-ps2dc-reviews/126-cps2-reviews-gamespy", "access": "direct"},
+      {"source": "Wikipedia, Culdcept (2001 video game)", "url": "https://en.wikipedia.org/wiki/Culdcept_(2001_video_game)", "access": "API"},
+      {"source": "PCSX2 Wiki, Culdcept", "url": "https://wiki.pcsx2.net/Culdcept", "access": "Wayback 20250820053647"}
+    ],
+    "new-horizons-trade-winds": [
+      {"source": "New Horizons NA Genesis manual", "url": "https://segaretro.org/File:New_Horizons_MD_US_Manual.pdf", "access": "PDF rendered; pages 8-9 and 35-36 read visually"},
+      {"source": "GamePro #65 (Dec 1994), Bro' Buzz, Genesis review", "url": "https://archive.org/details/GamePro_Issue_065_December_1994", "access": "CBR scan page image 239 read visually"},
+      {"source": "Sega-16, Sebastian Sponsel, 2010-04-05, 8/10", "url": "https://www.sega-16.com/2010/04/uncharted-waters-2-new-horizons/", "access": "direct; note: it gives 1552 as the start year, but its own screenshot and Sega Retro show 1522"},
+      {"source": "Sega Retro, Daikoukai Jidai II", "url": "https://segaretro.org/Daikoukai_Jidai_II", "access": "direct; magazine scores are Sega Retro's normalised percentages, magazines not read"},
+      {"source": "Wikipedia, Uncharted Waters", "url": "https://en.wikipedia.org/wiki/Uncharted_Waters", "access": "API"}
+    ],
+    "steambot-chronicles-trotmobile-life": [
+      {"source": "Steambot Chronicles NA PS2 manual", "url": "https://archive.org/details/ps2_Steambot_Chronicles_USA", "access": "OCR text plus rendered pages 27-29 and 40"},
+      {"source": "GameSpot, Bethany Massimilla, 2006-05-24, 7.1", "url": "https://www.gamespot.com/reviews/steambot-chronicles-review/1900-6151812/", "access": "Wayback 20241203145836"},
+      {"source": "RPGFan, Patrick Gann, 2006-09-18, 79", "url": "https://www.rpgfan.com/review/steambot-chronicles/", "access": "Wayback 20260209141005"},
+      {"source": "Metacritic critic reviews", "url": "https://www.metacritic.com/game/steambot-chronicles/critic-reviews/?platform=playstation-2", "access": "direct"},
+      {"source": "PCSX2 Wiki, Steambot Chronicles", "url": "https://wiki.pcsx2.net/Steambot_Chronicles", "access": "Wayback 20251011201051"},
+      {"source": "GameFAQs release data", "url": "https://gamefaqs.gamespot.com/ps2/924661-steambot-chronicles/data", "access": "search-result excerpt (US 05/23/06, SLUS-21344)"}
+    ]
+  },
+  "caveats": [
+    "Nothing in this issue was played or tested.",
+    "Monster Rancher 2 shrine: DuckStation is supported according to LegendCup's May 2025 capture; whether DuckStation passes the table of contents of compressed CHD images through correctly is unverified.",
+    "The Culdcept Metacritic score (78) comes from the PCSX2 wiki only; the Metacritic page returned HTTP 410.",
+    "Steambot Chronicles: the PCSX2 desktop known issues may or may not apply to Android PCSX2 forks.",
+    "New Horizons: the SNES version was not examined; article details are Genesis-specific.",
+    "Revision 2 (public edition): personal-library, device and travel framing removed and prose reworked for a general audience; article game references added. Research facts unchanged. Box art provenance restated as public origin (libretro-thumbnails Named_Boxarts)."
+  ]
+}

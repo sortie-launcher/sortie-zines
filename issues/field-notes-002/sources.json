@@ -1,0 +1,29 @@
+{
+  "issue": "field-notes-002",
+  "revision": 2,
+  "prepared": "2026-10-24",
+  "rightsNotice": "Game images and quoted material belong to their respective rights holders. Included for commentary and criticism; no endorsement or ownership is implied.",
+  "rightsHolders": "Screenshots and box art: FromSoftware / Agetec; Square Enix (originally Square / Square Electronic Arts); Konami; Game Arts / Working Designs. Original prose, layout and cover composition are by Sortie Field Notes; third-party images are not covered by the Sortie app's MIT license.",
+  "media": [
+    {"file": "media/cover.webp", "kind": "authored composite cover", "inputs": ["libretro-thumbnails Sony_-_PlayStation_2 Named_Snaps 'Armored Core 3 (USA)' (black border trimmed)", "ScreenScraper screenshot for Front Mission 3", "ScreenScraper screenshot for Ring of Red", "GameFAQs reader screenshot 5774982 (Gungriffon Blaze US, contributor CRON)"], "fonts": "Noto Sans/Serif/Mono (OFL)", "note": "Cover blurb text revised in revision 2 for a general audience; images unchanged."},
+    {"file": "media/armored-core-3-weight-and-wages.webp", "role": "lead", "source": "https://raw.githubusercontent.com/libretro-thumbnails/Sony_-_PlayStation_2/master/Named_Snaps/Armored%20Core%203%20(USA).png", "rights": "FromSoftware", "edition": "archived under USA name; HUD English; region not independently confirmed"},
+    {"file": "media/armored-core-3-weight-and-wages-underground.webp", "role": "inline", "source": "ScreenScraper screenshot (screenscraper.fr)", "rights": "FromSoftware", "edition": "ScreenScraper record lists PAL publisher Metro3D; region of frame not identified"},
+    {"file": "media/armored-core-3-weight-and-wages-box.webp", "role": "inline", "source": "libretro-thumbnails Sony_-_PlayStation_2 Named_Boxarts 'Armored Core 3 (USA)'", "rights": "FromSoftware / Agetec", "edition": "North American (Agetec, ESRB T) verified visually"},
+    {"file": "media/front-mission-3-wanzer-workshop.webp", "role": "lead", "source": "ScreenScraper screenshot (screenscraper.fr)", "rights": "Square Enix (Square)", "edition": "English text; region not identified"},
+    {"file": "media/front-mission-3-wanzer-workshop-network.webp", "role": "inline", "source": "https://gamefaqs.gamespot.com/a/screen/full/1/5/0/34051.jpg (page https://gamefaqs.gamespot.com/ps/250588-front-mission-3/images, labelled 'Front Mission 3 (US, 2000-02-29)', contributor Unos_Hambalos)", "rights": "Square Enix (Square)", "edition": "US per GameFAQs label"},
+    {"file": "media/front-mission-3-wanzer-workshop-box.webp", "role": "inline", "source": "libretro-thumbnails Sony_-_PlayStation Named_Boxarts 'Front Mission 3 (USA)'", "rights": "Square Enix / Square Electronic Arts", "edition": "North American (ESRB T, SLUS-01011 spine) verified visually"},
+    {"file": "media/ring-of-red-crew-and-caliber.webp", "role": "lead", "source": "ScreenScraper screenshot (screenscraper.fr); identical to libretro-thumbnails Named_Snaps 'Ring of Red (USA)'", "rights": "Konami", "edition": "region not identified"},
+    {"file": "media/ring-of-red-crew-and-caliber-box.webp", "role": "inline", "source": "libretro-thumbnails Sony_-_PlayStation_2 Named_Boxarts 'Ring of Red (USA)'", "rights": "Konami", "edition": "North American (ESRB T) verified visually"},
+    {"file": "media/ring-of-red-crew-and-caliber-title.webp", "role": "inline", "source": "libretro-thumbnails Sony_-_PlayStation_2 Named_Titles 'Ring of Red (USA)'", "rights": "Konami", "edition": "copyright line ©2000 2001 Konami consistent with Western release"},
+    {"file": "media/gungriffon-blaze-spent-stock.webp", "role": "lead", "source": "https://gamefaqs.gamespot.com/a/screen/full/0/8/9/5774980.jpg (page https://gamefaqs.gamespot.com/ps2/250593-gungriffon-blaze/images?pid=250593&img=7, labelled 'Gungriffon Blaze (US, 2000-10-24)', contributor CRON)", "rights": "Game Arts / Working Designs", "edition": "US; localised message 'Blitzed the combat vehicle!'"},
+    {"file": "media/gungriffon-blaze-spent-stock-objective.webp", "role": "inline", "source": "https://gamefaqs.gamespot.com/a/screen/full/1/8/9/5774981.jpg (same GameFAQs US set, contributor CRON)", "rights": "Game Arts / Working Designs", "edition": "US per GameFAQs label"},
+    {"file": "media/gungriffon-blaze-spent-stock-box.webp", "role": "inline", "source": "https://gamefaqs.gamespot.com/a/box/2/9/8/9298_front.jpg (page https://gamefaqs.gamespot.com/ps2/250593-gungriffon-blaze/boxes/50577)", "rights": "Game Arts / Working Designs", "edition": "North American 'Working Designs Ultra Series', ESRB T, verified visually"}
+  ],
+  "rejectedMedia": [
+    "Front-end 'screenshot' assets for all four games were composites (screenshot + box + logo), not raw frames; not used.",
+    "ScreenScraper/libretro 'Gungriffon Blaze (USA)' box art and snap are the PAL Swing! release (PAL box, French HUD words TEMPS/CAISSE); replaced with GameFAQs US images.",
+    "ScreenScraper covers for Front Mission 3 and Ring of Red are PAL; US libretro box art used instead."
+  ],
+  "research": "Each article ends with its own offline Sources section (authors, dates, scores as published, archive URLs). Quotes and scores were cross-checked against the pages opened during research. Wikipedia-only figures are labelled as such in the articles.",
+  "testing": "Field Notes did not play-test these games on any emulator or device for this issue. Compatibility statements cite the emulator projects' databases or community reports."
+}
