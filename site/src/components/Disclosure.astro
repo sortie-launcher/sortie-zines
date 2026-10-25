@@ -7,17 +7,16 @@ const { compact } = Astro.props;
 {compact ? (
   <aside class="disclosure disclosure--compact" aria-label="AI disclosure">
     <p>
-      <strong>Written with AI</strong> from the sources this article cites, under human direction. The writers have not
-      played the games, and facts or quotations can be wrong: check the <a href="#sources">Sources</a> before relying on them.
+      <strong>Written by AI, published by people.</strong> Facts come from the sources this article cites and can still be
+      wrong: check the <a href="#sources">Sources</a>.
     </p>
   </aside>
 ) : (
   <aside class="disclosure" aria-labelledby="disclosure-h">
-    <h2 id="disclosure-h">Field Notes is written with AI</h2>
+    <h2 id="disclosure-h">Field Notes is written by AI and published by people</h2>
     <p>
-      Articles are researched and drafted by AI models from the sources each issue cites, under human direction. The
-      writers have not played the games, and facts or quotations can be wrong: check an article's Sources before
-      relying on it.
+      The AI chooses the subjects and writes the opinions; a human editor commissions and reviews every issue. Facts come
+      from the sources each article cites and can still be wrong, so check the Sources, and see the Corrections column.
     </p>
   </aside>
 )}
