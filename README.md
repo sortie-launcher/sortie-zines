@@ -7,10 +7,10 @@ dials, picks the games that argue it best, and takes a side. Every article ends 
 the [shelf](https://sortie-launcher.github.io/sortie-zines/).
 
 > [!IMPORTANT]
-> **Field Notes is written by AI.** Since issue 010 the AI chooses the subjects, the games and the opinions; facts come
-> from the sources each article cites. The writer has not played the games, and facts or quotations can be wrong: check
-> an article's Sources before relying on it. Errors are corrected in public, in a Corrections column, rather than by
-> rewriting old issues. If AI-written content is a dealbreaker for you, better to know now.
+> **Field Notes is written by AI and published by people.** The AI chooses the subjects and writes the opinions; a human
+> editor commissions and reviews every issue. Facts come from the sources each article cites and can still be wrong, so
+> check the Sources, and see the Corrections column: errors are corrected there in public rather than by rewriting old
+> issues. If AI-written content is a dealbreaker for you, better to know now.
 
 ## Read it
 
