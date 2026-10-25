@@ -1,0 +1,79 @@
+---
+import Base from '../layouts/Base.astro';
+import Disclosure from '../components/Disclosure.astro';
+import { issues } from '../lib/zines';
+
+const articleCount = issues.reduce((n, i) => n + i.articles.length, 0);
+const imageCount = issues.reduce((n, i) => n + (i.cover ? 1 : 0) + i.articles.reduce((m, a) => m + (a.image ? 1 : 0) + a.bodyImages.length, 0), 0);
+const words = ['Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Eleven', 'Twelve'];
+const issueWord = words[issues.length] ?? String(issues.length);
+---
+<Base
+  title="Field Notes: an offline game magazine"
+  description={`Read Field Notes in the browser: ${issues.length} issues and ${articleCount} long reads about games with deep systems, every picture credited and every source listed.`}
+  bodyClass="page-shelf"
+>
+  <section class="hero">
+    <h1 class="hero__title">Field Notes</h1>
+    <div class="hero__copy">
+      <p class="hero__lede">
+        A magazine about games with deep systems that still fit a short session. {issueWord} issues, {articleCount}
+        articles and {imageCount} pictures, each article closing with the sources it was built from.
+      </p>
+      <p>
+        Field Notes is made to be read offline in <a class="link-app" href="https://sortie-launcher.github.io/sortie/">Sortie</a>,
+        the Android game launcher, where every issue is a self-contained pack that never touches the network. This
+        site is the same text and pictures for any browser. The packs are published in
+        <a href="https://github.com/sortie-launcher/sortie-zines">sortie-launcher/sortie-zines</a>.
+      </p>
+    </div>
+    <Disclosure />
+  </section>
+
+  <section class="shelf" aria-labelledby="shelf-h">
+    <h2 id="shelf-h" class="visually-hidden">Issues, newest first</h2>
+    <ol class="shelf__list" reversed>
+      {issues.map((issue, i) => (
+        <li class="shelf-item">
+          {issue.number && <span class="numeral shelf-item__num" aria-hidden="true">{issue.number}</span>}
+          <div class="shelf-item__media">
+            <a class="shelf-item__cover" href={issue.href} tabindex="-1" aria-hidden="true">
+              {issue.cover && (
+                <img
+                  src={issue.cover.src}
+                  srcset={issue.cover.srcset}
+                  sizes="(min-width: 64rem) 34rem, 92vw"
+                  width={issue.cover.width}
+                  height={issue.cover.height}
+                  alt=""
+                  loading={i < 2 ? 'eager' : 'lazy'}
+                  decoding="async"
+                />
+              )}
+            </a>
+            {issue.cover && (
+              <details class="credit">
+                <summary>Cover credit</summary>
+                <p>{issue.coverCredit} <a href={issue.cover.creditsHref}>Provenance</a></p>
+              </details>
+            )}
+          </div>
+          <div class="shelf-item__text">
+            <p class="shelf-item__no">Field Notes{issue.number && ` No. ${issue.number}`}</p>
+            <h3 class="shelf-item__title"><a href={issue.href}>{issue.title}</a></h3>
+            {issue.subtitle && <p class="shelf-item__sub">{issue.subtitle}</p>}
+            <p class="meta">
+              <time datetime={issue.published}>{issue.dateLabel}</time>
+              <span>{issue.articles.length} articles</span>
+            </p>
+            <ul class="shelf-item__toc">
+              {issue.articles.map((a) => (
+                <li><a href={a.href}>{a.title}</a></li>
+              ))}
+            </ul>
+          </div>
+        </li>
+      ))}
+    </ol>
+  </section>
+</Base>

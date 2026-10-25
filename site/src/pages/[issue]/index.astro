@@ -1,0 +1,79 @@
+---
+import Base from '../../layouts/Base.astro';
+import Disclosure from '../../components/Disclosure.astro';
+import { BASE, figureHtml, issues, paragraphsHtml, type Issue } from '../../lib/zines';
+import { inlineHtml, inlinePlain } from '../../lib/markdown';
+
+export function getStaticPaths() {
+  return issues.map((issue) => ({ params: { issue: issue.id }, props: { issue } }));
+}
+const { issue } = Astro.props as { issue: Issue };
+const name = `Field Notes${issue.number ? ` No. ${issue.number}` : ''}`;
+const minutes = issue.articles.reduce((n, a) => n + (a.readingMinutes ?? 0), 0);
+const coverCaption = `Cover of ${name}, “${issue.title}”.${issue.coverCredit ? ` ${issue.coverCredit}` : ''}`;
+---
+<Base title={`${issue.title}: ${name}`} description={inlinePlain(issue.subtitle || issue.editorial.split('\n')[0])} bodyClass="page-issue">
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href={BASE}>Field Notes</a>
+    <span aria-current="page">{issue.number ? `No. ${issue.number}` : issue.title}</span>
+  </nav>
+
+  <header class="issue-head">
+    {issue.number && <span class="numeral issue-head__num" aria-hidden="true">{issue.number}</span>}
+    <div class="issue-head__text">
+      <p class="issue-head__no">{name}</p>
+      <h1 class="issue-head__title">{issue.title}</h1>
+      {issue.subtitle && <p class="issue-head__sub">{issue.subtitle}</p>}
+      <p class="meta">
+        <time datetime={issue.published}>{issue.dateLabel}</time>
+        <span>Revision {issue.revision}</span>
+        <span>{issue.articles.length} articles</span>
+        {minutes > 0 && <span>About {minutes} minutes of reading</span>}
+      </p>
+    </div>
+  </header>
+
+  {issue.cover && <Fragment set:html={figureHtml(issue.cover, coverCaption, '(min-width: 76rem) 72rem, 100vw', 'fig--cover', true)} />}
+
+  <div class="issue-body">
+    <section class="editorial" aria-labelledby="editorial-h">
+      <h2 id="editorial-h">Editorial</h2>
+      <Fragment set:html={paragraphsHtml(issue.editorial)} />
+      <Disclosure />
+    </section>
+
+    <section class="contents" aria-labelledby="contents-h">
+      <h2 id="contents-h">In this issue</h2>
+      <ol class="contents__list">
+        {issue.articles.map((a) => (
+          <li class="entry">
+            {a.image && (
+              <div class="entry__media">
+                <a class="entry__img" href={a.href} tabindex="-1" aria-hidden="true">
+                  <img src={a.image.src} srcset={a.image.srcset} sizes="(min-width: 48rem) 15rem, 92vw" width={a.image.width} height={a.image.height} alt="" loading="lazy" decoding="async" />
+                </a>
+                <details class="credit">
+                  <summary>Picture credit</summary>
+                  <p><span set:html={inlineHtml(a.imageCaption)} /> <a href={a.image.creditsHref}>Provenance</a></p>
+                </details>
+              </div>
+            )}
+            <div class="entry__text">
+              <p class="kicker">
+                <span>{a.gameTitle}</span>
+                {a.system && <span class="sys">{a.system}</span>}
+              </p>
+              <h3 class="entry__title"><a href={a.href}>{a.title}</a></h3>
+              {a.deck && <p class="entry__deck" set:html={inlineHtml(a.deck)} />}
+              {a.readingMinutes && <p class="meta"><span>{a.readingMinutes} minute read</span></p>}
+            </div>
+          </li>
+        ))}
+      </ol>
+      <p class="contents__credits">
+        Every picture in this issue is credited beside it. The full provenance, from source and rights holder to
+        processing, is on the <a href={issue.creditsHref}>credits page</a>.
+      </p>
+    </section>
+  </div>
+</Base>

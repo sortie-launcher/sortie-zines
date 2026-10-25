@@ -1,0 +1,120 @@
+---
+import Base from '../../layouts/Base.astro';
+import Disclosure from '../../components/Disclosure.astro';
+import { BASE, articleBodyHtml, figureHtml, issues, type Article, type Issue } from '../../lib/zines';
+import { inlineHtml, inlinePlain } from '../../lib/markdown';
+
+export function getStaticPaths() {
+  return issues.flatMap((issue) =>
+    issue.articles.map((article) => ({ params: { issue: issue.id, article: article.id }, props: { issue, article } })),
+  );
+}
+const { issue, article } = Astro.props as { issue: Issue; article: Article };
+const prev = issue.articles[article.index - 1];
+const next = issue.articles[article.index + 1];
+const name = `Field Notes${issue.number ? ` No. ${issue.number}` : ''}`;
+const { html, outline } = articleBodyHtml(issue, article);
+---
+<Base
+  title={`${article.title}: ${name}`}
+  description={inlinePlain(article.deck || article.title)}
+  prev={prev?.href}
+  next={next?.href}
+  bodyClass="page-article"
+>
+  <div class="progress" aria-hidden="true"></div>
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href={BASE}>Field Notes</a>
+    <a href={issue.href}>{issue.number ? `No. ${issue.number}: ` : ''}{issue.title}</a>
+  </nav>
+
+  <article class="article">
+    <header class="article-head">
+      <p class="kicker">
+        <span>{article.gameTitle}</span>
+        {article.system && <span class="sys">{article.system}</span>}
+      </p>
+      <h1 class="article-head__title">{article.title}</h1>
+      {article.deck && <p class="article-head__deck" set:html={inlineHtml(article.deck)} />}
+      <p class="meta">
+        <span>Article {article.index + 1} of {issue.articles.length}</span>
+        {article.readingMinutes && <span>{article.readingMinutes} minute read</span>}
+        <time datetime={issue.published}>{issue.dateLabel}</time>
+      </p>
+    </header>
+
+    {article.image && <Fragment set:html={figureHtml(article.image, article.imageCaption, '(min-width: 72rem) 68rem, 100vw', 'fig--lead', true)} />}
+
+    <div class="article-grid">
+      {outline.length > 2 && (
+        <nav class="outline" aria-label="In this article">
+          <p class="outline__h">In this article</p>
+          <ol>
+            {outline.map((o) => <li><a href={`#${o.id}`}>{o.text}</a></li>)}
+          </ol>
+        </nav>
+      )}
+      <div class="prose">
+        <Disclosure compact />
+        <Fragment set:html={html} />
+        {article.games.length > 0 && (
+          <section class="games-box" aria-labelledby="games-h">
+            <h2 id="games-h">Games discussed</h2>
+            <ul>
+              {article.games.map((g) => (
+                <li>
+                  <span class="games-box__title">{g.title}</span>
+                  {g.systemId && <span class="sys">{g.systemId}</span>}
+                  {g.edition && <span class="games-box__ed">{g.edition}</span>}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+        <p class="article-credits">
+          Pictures are credited beside each image. Full provenance for this issue's images and research:
+          <a href={issue.creditsHref}>credits and sources for {name}</a>.
+        </p>
+      </div>
+    </div>
+  </article>
+
+  <nav class="pager" aria-label="More from this issue">
+    {prev ? (
+      <a class="pager__link pager__link--prev" href={prev.href} rel="prev">
+        <span class="pager__dir">Previous article</span>
+        <span class="pager__title">{prev.title}</span>
+      </a>
+    ) : (
+      <a class="pager__link pager__link--prev" href={issue.href}>
+        <span class="pager__dir">Back to the issue</span>
+        <span class="pager__title">{issue.title}</span>
+      </a>
+    )}
+    {next ? (
+      <a class="pager__link pager__link--next" href={next.href} rel="next">
+        <span class="pager__dir">Next article</span>
+        <span class="pager__title">{next.title}</span>
+      </a>
+    ) : (
+      <a class="pager__link pager__link--next" href={issue.href}>
+        <span class="pager__dir">End of the issue</span>
+        <span class="pager__title">Back to {issue.title}</span>
+      </a>
+    )}
+  </nav>
+  <p class="pager__foot">
+    <a href={issue.href}>All articles in {name}</a>
+    <span class="keys-hint">Left and right arrow keys move between articles.</span>
+  </p>
+
+  <script is:inline>
+    addEventListener('keydown', (e) => {
+      if (e.defaultPrevented || e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) return;
+      if (e.target instanceof Element && e.target.closest('input, textarea, select, [contenteditable]')) return;
+      const rel = e.key === 'ArrowLeft' ? 'prev' : e.key === 'ArrowRight' ? 'next' : null;
+      const link = rel && document.querySelector(`link[rel="${rel}"]`);
+      if (link) location.href = link.href;
+    });
+  </script>
+</Base>

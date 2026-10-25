@@ -1,0 +1,91 @@
+---
+import Base from '../../layouts/Base.astro';
+import { BASE, creditsModel, issues, type Issue } from '../../lib/zines';
+
+export function getStaticPaths() {
+  return issues.map((issue) => ({ params: { issue: issue.id }, props: { issue } }));
+}
+const { issue } = Astro.props as { issue: Issue };
+const name = `Field Notes${issue.number ? ` No. ${issue.number}` : ''}`;
+const model = creditsModel(issue);
+---
+<Base
+  title={`Credits and sources: ${name}`}
+  description={`Where every picture in ${name}, “${issue.title}”, came from, who holds its rights and how it was processed, with the research behind each article.`}
+  bodyClass="page-credits"
+>
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href={BASE}>Field Notes</a>
+    <a href={issue.href}>{issue.number ? `No. ${issue.number}: ` : ''}{issue.title}</a>
+  </nav>
+
+  <header class="credits-head">
+    <h1>Credits and sources</h1>
+    <p class="credits-head__sub">{name}, “{issue.title}”, rendered from the pack's <code>sources.json</code> as written.</p>
+    {model.meta.length > 0 && (
+      <dl class="kv kv--inline">
+        {model.meta.map((m) => <div><dt>{m.key}</dt><dd>{m.value}</dd></div>)}
+      </dl>
+    )}
+  </header>
+
+  <div class="credits">
+    <section aria-labelledby="rights">
+      <h2 id="rights">Rights</h2>
+      {model.rights.map((r) => (
+        <div class="note"><h3>{r.key}</h3><Fragment set:html={r.html} /></div>
+      ))}
+      {issue.rightsNotice && issue.rightsNotice !== issue.sources.rightsNotice && (
+        <div class="note"><h3>Rights notice in issue.json</h3><p>{issue.rightsNotice}</p></div>
+      )}
+    </section>
+
+    <section aria-labelledby="images">
+      <h2 id="images">Images</h2>
+      <p class="credits__intro">{model.media.length} files, in the order the pack lists them.</p>
+      <ol class="media-list">
+        {model.media.map((m) => (
+          <li class="media-item" id={m.anchor}>
+            {m.pic && (
+              <a class="media-item__thumb" href={m.pic.src}>
+                <img src={m.pic.src} srcset={m.pic.srcset} sizes="10rem" width={m.pic.width} height={m.pic.height} alt={`Thumbnail of ${m.file}`} loading="lazy" decoding="async" />
+              </a>
+            )}
+            <div class="media-item__text">
+              <h3 class="media-item__file">{m.file}</h3>
+              {m.pic && <p class="media-item__dims">{m.pic.width} × {m.pic.height} pixels</p>}
+              {m.file === issue.cover?.path && <p class="media-item__used">Cover of <a href={issue.href}>this issue</a></p>}
+              {m.usedIn.length > 0 && (
+                <p class="media-item__used">
+                  Used in {m.usedIn.map((a, i) => <>{i > 0 && ', '}<a href={a.href}>{a.title}</a></>)}
+                </p>
+              )}
+              <Fragment set:html={m.html} />
+            </div>
+          </li>
+        ))}
+      </ol>
+    </section>
+
+    {model.perArticle.length > 0 && (
+      <section aria-labelledby="by-article">
+        <h2 id="by-article">{model.perArticleHeading}</h2>
+        {model.perArticle.map((p) => (
+          <section class="by-article" aria-label={p.article?.title ?? p.key}>
+            <h3>{p.article ? <a href={p.article.href}>{p.article.title}</a> : p.key}</h3>
+            <Fragment set:html={p.html} />
+          </section>
+        ))}
+      </section>
+    )}
+
+    {model.notes.length > 0 && (
+      <section aria-labelledby="notes">
+        <h2 id="notes">Research notes</h2>
+        {model.notes.map((n) => (
+          <div class="note"><h3>{n.key}</h3><Fragment set:html={n.html} /></div>
+        ))}
+      </section>
+    )}
+  </div>
+</Base>
