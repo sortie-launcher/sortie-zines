@@ -1,5 +1,5 @@
 {
- "digest": "aacc00fc7f6bc8bcf44f9f68475fbd7f24e4de2e6c5ec61ecedb94c3c382975c",
+ "digest": "2b64815c7386da22e38901361dadaf2df5b5765042dd27a5fee515e003356353",
  "format": 1,
  "issues": [
   {
@@ -1014,6 +1014,128 @@
    ],
    "id": "field-notes-009",
    "revision": 2
+  },
+  {
+   "digest": "2278d536e123f2a1f61ba5dbc6dabb07428f0629fe43012625976d69b5c3df39",
+   "files": [
+    {
+     "path": "articles/corrections.md",
+     "sha256": "da6d2be04e49313b22bdd0baaf51f86d64cf148e7e79b207187e5cfa20619991",
+     "size": 15201
+    },
+    {
+     "path": "articles/crash-bandicoot-secret-mercy.md",
+     "sha256": "9aa99ae7ef1d5e812a64c078ac85b9011b616f8715fce1c5fe0713c8e516992f",
+     "size": 12553
+    },
+    {
+     "path": "articles/left-4-dead-the-director.md",
+     "sha256": "ad5607f2d02ca10ba0acfe5ebb4a9c41746698fd34c6c348aaa6e3bd52146403",
+     "size": 11703
+    },
+    {
+     "path": "articles/reading-the-manual-zanac.md",
+     "sha256": "9cdd04834a24877a91bea969391640dededde5b9d1356f6b83b8643104aa3266",
+     "size": 8041
+    },
+    {
+     "path": "articles/resident-evil-4-thermostat.md",
+     "sha256": "02de22ffadde26981bb01e24ccd845e02966012acea939317ddc30debc505a8f",
+     "size": 10085
+    },
+    {
+     "path": "articles/review-archaeology-re4.md",
+     "sha256": "eae680106ea4f8b46642fd4c3a7b4ab7110b517bfd4705002d7f2716650a9cae",
+     "size": 7669
+    },
+    {
+     "path": "articles/the-case-against-battle-garegga.md",
+     "sha256": "db3b804537770a18c7701ff1a81f9994398217abb4e56d71c45f16b8966ecf75",
+     "size": 7174
+    },
+    {
+     "path": "articles/who-turns-the-dial.md",
+     "sha256": "3fb031b00379c457a0fb3c0ad8f52af8765495d85be1d9e5ebce317ab4b0cde2",
+     "size": 20090
+    },
+    {
+     "path": "issue.json",
+     "sha256": "14b2968a9a69a878e918b246fafaab456b9ea5df40c43063b4ec1f45d50cc860",
+     "size": 15964
+    },
+    {
+     "path": "media/cover.webp",
+     "sha256": "8185e758653114d047de5b8b4d38600cf7b5ee4426b2da56e926e6276ebcd46c",
+     "size": 94688
+    },
+    {
+     "path": "media/crash-bandicoot-secret-mercy-aku-aku.webp",
+     "sha256": "d274268855b3f4082b9a09099a3ba4d5227102b26aac900de94a2c8b8d0fb8ea",
+     "size": 70532
+    },
+    {
+     "path": "media/crash-bandicoot-secret-mercy.webp",
+     "sha256": "0d3bb09b0885a066c10bf6274f130605b21cd1f1bfa27d523f7b805a2f6a4377",
+     "size": 86156
+    },
+    {
+     "path": "media/left-4-dead-the-director-pacing-loop.webp",
+     "sha256": "78764483219a23683be0fc9a7bd4ea73a107c27ff9ff28f185fc82bdccbe1b05",
+     "size": 66472
+    },
+    {
+     "path": "media/left-4-dead-the-director.webp",
+     "sha256": "2afa74e9f15d042ad2af95506b74649a0ed4547ed828c82b5c7f833cd8527a78",
+     "size": 179154
+    },
+    {
+     "path": "media/reading-the-manual-zanac-page4.webp",
+     "sha256": "957d6a37faf73305e2ddc94bda9ccf321643175e87f456d7f0d91c8411fbd324",
+     "size": 127308
+    },
+    {
+     "path": "media/reading-the-manual-zanac.webp",
+     "sha256": "b814e6cb945f6c0c9972ba01d9aac7bc1af430f6d38b5efe2f88fd6898199217",
+     "size": 7886
+    },
+    {
+     "path": "media/resident-evil-4-thermostat-rank-chart.webp",
+     "sha256": "db065e372dcddfd1190fe4c26413afb72cd3a04d8f5866297fe58845a023c4a3",
+     "size": 39694
+    },
+    {
+     "path": "media/resident-evil-4-thermostat.webp",
+     "sha256": "69d640120884afe8d2adee4eeb63f735c4b3efbfbca14698b5f93e458dfcd62f",
+     "size": 45240
+    },
+    {
+     "path": "media/review-archaeology-re4.webp",
+     "sha256": "55c12ea9b6512af8ac28238996f0295e717ef4bd13af0f6cecb89fe5a518d854",
+     "size": 73556
+    },
+    {
+     "path": "media/the-case-against-battle-garegga.webp",
+     "sha256": "9c33132fe1d32b3cbe029eaa1876d64fa62895429e72d738a4daf0e888530542",
+     "size": 34906
+    },
+    {
+     "path": "media/who-turns-the-dial-grid.webp",
+     "sha256": "7ae6f9188ec5791ec356f6995e3f2a40415ab99e2433b16e24ff1280afa76847",
+     "size": 59866
+    },
+    {
+     "path": "media/who-turns-the-dial.webp",
+     "sha256": "6bbbaee22dde7ec44dae2f6aa4f239ea83b02a440816405042bcf786c66f5dec",
+     "size": 57276
+    },
+    {
+     "path": "sources.json",
+     "sha256": "9f55e17d53f48c179c46febeb36c16f10e9f95a3a95dcbaa9c5c6279c78a2815",
+     "size": 42049
+    }
+   ],
+   "id": "field-notes-010",
+   "revision": 1
   }
  ]
 }
