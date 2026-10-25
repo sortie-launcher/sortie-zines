@@ -4,6 +4,11 @@
 
 Home of **Field Notes**, the offline game magazine. Sortie Zines is the collection's identity; Field Notes remains the publication title.
 
+> [!IMPORTANT]
+> **Field Notes is written with AI.** Articles are researched and drafted by AI models from the sources each issue
+> cites, under human direction. The writers have not played the games, and facts or quotations can be wrong: check an
+> article's Sources before relying on it. If AI-written content is a dealbreaker for you, better to know now.
+
 Offline game zines for a general audience: nine issues, 41 articles and 131 illustrations. Topics include mecha, roguelikes, stealth, arcade action, unusual simulations, character action, Musou and sports.
 
 `issues/` contains complete schema-version-2 packs and a reproducible `catalog.json`. All article text, illustrations and source notes are local; the reader does not download anything.
