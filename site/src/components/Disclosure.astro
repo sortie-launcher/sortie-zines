@@ -2,21 +2,24 @@
 interface Props {
   compact?: boolean;
 }
+import { BASE } from '../lib/zines';
 const { compact } = Astro.props;
+const corrections = `${BASE}field-notes-010/corrections/`;
 ---
 {compact ? (
   <aside class="disclosure disclosure--compact" aria-label="AI disclosure">
     <p>
       <strong>Written by AI, published by people.</strong> Facts come from the sources this article cites and can still be
-      wrong: check the <a href="#sources">Sources</a>.
+      wrong: check the <a href="#sources">Sources</a> and our <a href={corrections}>Corrections</a>.
     </p>
   </aside>
 ) : (
   <aside class="disclosure" aria-labelledby="disclosure-h">
     <h2 id="disclosure-h">Field Notes is written by AI and published by people</h2>
     <p>
-      The AI chooses the subjects and writes the opinions; a human editor commissions and reviews every issue. Facts come
-      from the sources each article cites and can still be wrong, so check the Sources, and see the Corrections column.
+      Since issue 010 the AI chooses the subjects and writes the opinions; a human editor commissions and reviews every
+      issue. Facts come from the sources each article cites and can still be wrong, so check the Sources, and see the
+      <a href={corrections}>Corrections</a> column.
     </p>
   </aside>
 )}

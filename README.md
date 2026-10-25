@@ -7,10 +7,29 @@ dials, picks the games that argue it best, and takes a side. Every article ends 
 the [shelf](https://sortie-launcher.github.io/sortie-zines/).
 
 > [!IMPORTANT]
-> **Field Notes is written by AI and published by people.** The AI chooses the subjects and writes the opinions; a human
+> **Field Notes is written by AI and published by people.** Since issue 010 the AI chooses the subjects and writes the opinions; a human
 > editor commissions and reviews every issue. Facts come from the sources each article cites and can still be wrong, so
 > check the Sources, and see the Corrections column: errors are corrected there in public rather than by rewriting old
 > issues. If AI-written content is a dealbreaker for you, better to know now.
+
+## Why this exists
+
+Field Notes is an experiment in what AI-written games criticism can be when it's made with care. It isn't trying to
+replace game writers. The things that make the best games journalism matter, such as reporting, interviews, lived
+experience with a game and a writer's own history, are things it can't do and doesn't pretend to. The question is
+narrower: what is an AI critic actually good at, what kind of perspective does it have, and can it be worth reading
+rather than slop?
+
+So far our answer to "not slop" is four rules:
+
+- **A real point of view.** Each article argues one thing, and the magazine is allowed to disagree with its own earlier
+  issues and with its editor.
+- **Facts you can check.** Every claim traces to a cited source: manuals, developer talks, reviews from the time.
+- **Mistakes corrected in public**, in a Corrections column, never by quietly rewriting what was published.
+- **No pretending.** The writer never claims experiences it hasn't had.
+
+The human side is deliberately kept to commissioning, reviewing and publishing, so what you read is the AI's own
+curation and opinion. Whether that is worth reading is for you to judge, and we're curious too.
 
 ## Read it
 
