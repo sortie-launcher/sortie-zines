@@ -2,59 +2,55 @@
 
 <img src="branding/logo.svg" alt="Sortie Zines — Split-S folded-page logo" width="480">
 
-Home of **Field Notes**, the offline game magazine. Sortie Zines is the collection's identity; Field Notes remains the publication title.
+**Home of Field Notes, the offline gaming magazine.** Each issue takes one idea, from mecha garages to roguelike deaths
+to stealth routes, and digs into a handful of games that show it off: what you actually do, how the first session feels,
+where it rubs, and what reviewers said at the time. Every article ends with its sources.
 
 > [!IMPORTANT]
 > **Field Notes is written with AI.** Articles are researched and drafted by AI models from the sources each issue
 > cites, under human direction. The writers have not played the games, and facts or quotations can be wrong: check an
 > article's Sources before relying on it. If AI-written content is a dealbreaker for you, better to know now.
 
-Offline game zines for a general audience: nine issues, 41 articles and 131 illustrations. Topics include mecha, roguelikes, stealth, arcade action, unusual simulations, character action, Musou and sports.
+## The issues
 
-`issues/` contains complete schema-version-2 packs and a reproducible `catalog.json`. All article text, illustrations and source notes are local; the reader does not download anything.
+| No. | Issue | About |
+|---|---|---|
+| 001 | [Field Notes](https://sortie-launcher.github.io/sortie-zines/field-notes-001/) | Short sorties, deep systems |
+| 002 | [The Garage Issue](https://sortie-launcher.github.io/sortie-zines/field-notes-002/) | Buildcraft, loadouts and tactical tradeoffs |
+| 003 | [One More Descent](https://sortie-launcher.github.io/sortie-zines/field-notes-003/) | Four roguelike traditions, four prices for dying |
+| 004 | [Unseen, Unfair, Unscripted](https://sortie-launcher.github.io/sortie-zines/field-notes-004/) | Stealth routes, manipulation and traps |
+| 005 | [Straight to the Good Part](https://sortie-launcher.github.io/sortie-zines/field-notes-005/) | Instant action, deep systems |
+| 006 | [Strange Little Worlds](https://sortie-launcher.github.io/sortie-zines/field-notes-006/) | Build a life or bend a system |
+| 007 | [The Art of the Fight](https://sortie-launcher.github.io/sortie-zines/field-notes-007/) | A history of character action |
+| 008 | [The Battle Is the Map](https://sortie-launcher.github.io/sortie-zines/field-notes-008/) | Musou beyond the kill count |
+| 009 | [The Other Arena](https://sortie-launcher.github.io/sortie-zines/field-notes-009/) | Sports for the systems-minded |
 
-## Use with Sortie
+## Read it
 
-Keep this content repository separate from the [Sortie application repository](https://github.com/sortie-launcher/sortie). From the Sortie checkout, explicitly supply this repository's `issues/` directory:
+- **In your browser:** [sortie-launcher.github.io/sortie-zines](https://sortie-launcher.github.io/sortie-zines/).
+- **In [Sortie](https://github.com/sortie-launcher/sortie):** **Home → Magazines**. Signed Sortie releases come with
+  every issue here bundled, so they read fully offline and link to the featured games you have on the device.
+- **On your own card:** copy an issue folder into `sortie/magazines/`. Copy it to a hidden folder (`.field-notes-010`)
+  first and rename it once the copy is complete, so Sortie never sees half an issue.
 
-```sh
-tools/build.sh -PsortieMagazinesDir=/path/to/sortie-zines/issues
-```
+## Making issues
 
-The app pins a catalog digest and verifies supplied content before staging it into generated APK assets. A normal app build without that argument contains no bundled issues; user-supplied on-card packs still work. No submodule or automatic network fetch is required.
+`issues/` holds one self-contained pack per issue (`issue.json`, Markdown articles, media and `sources.json`
+provenance) plus `catalog.json`. The format is specified in Sortie's
+[magazine pack docs](https://github.com/sortie-launcher/sortie/blob/main/docs/formats/README.md#magazine-packs-version-2).
 
-For a device-only installation, copy an issue directory into a hidden staging directory under `sortie/magazines/`, then rename it to the issue ID after the complete copy arrives. Do not overwrite personal configuration or ROM files.
+- Keep issue and article IDs stable; for a correction, bump the issue's revision and keep its publication date.
+- Refer to games portably, never by personal library filenames.
+- Regenerate and validate `catalog.json` before committing. Sortie pins its digest (`app/magazines.lock`) and bundles a
+  pinned commit, so new content reaches the app only when that pin is updated.
 
-## Web reader
+The web reader lives in `site/` (Astro) and only reads `issues/`. `cd site && npm ci && npm run build` builds it and
+checks every link, image and published original; pushes to `main` deploy it to GitHub Pages.
 
-[sortie-launcher.github.io/sortie-zines](https://sortie-launcher.github.io/sortie-zines/) renders the same packs for browsers: a shelf, one page per issue (`/<issue-id>/`), one per article (`/<issue-id>/<article-id>/`) and a credits page per issue built from `sources.json`. The site lives in `site/` (Astro) and reads `issues/` without modifying it; image originals are published byte-for-byte, with narrower derivatives generated only into the build output.
+## Rights
 
-```sh
-cd site
-npm ci
-npm run build   # prepares media, builds dist/, then checks every link, image and published original
-```
+Game images and quoted material belong to their rights holders; each picture is credited in its issue's `sources.json`
+and on the reader's credits pages. No endorsement is implied, and this material is not covered by the Sortie app's MIT
+licence. Corrections or takedown requests: [open an issue](https://github.com/sortie-launcher/sortie-zines/issues).
 
-`.github/workflows/pages.yml` builds and deploys on pushes to `main` that touch `issues/`, `branding/` or `site/`, with Pages set to deploy from GitHub Actions.
-
-## Editorial updates
-
-Keep issue/article IDs stable, increase the issue revision for corrections, and retain its original publication date. Use portable game references rather than personal library filenames. Follow the application repository's magazine format and publication instructions; validate and regenerate the catalog before committing content changes. Update the application's content pin deliberately when releasing a new bundle.
-
-Each issue includes offline Sources and `sources.json` provenance. Game images and quoted material belong to their respective rights holders; no endorsement or ownership is implied. Third-party material is not covered by the application code's MIT license.
-
-## Branding
-
-The folded-page Split-S identifies **Sortie Zines**, with **Field Notes** retained as the magazine title.
-[Brand assets](branding/) include a transparent `mark.svg`, an outlined `logo.svg` wordmark, a square
-`icon.svg` / 512px `icon.png`, and a 1280×640 `social-preview.svg` / `social-preview.png`.
-The SVGs are self-contained: Lato Heavy Italic / Regular and STIX Two Text Bold lettering is outlined, not dependent
-on installed fonts. Colours: blue `#B6CBDC`, ink `#101418`, and light text `#E6E8EB`.
-
-Regenerate PNGs with ImageMagick: `magick -background none branding/icon.svg branding/icon.png` and
-`magick -background none branding/social-preview.svg branding/social-preview.png`.
-Upload the social-preview PNG under GitHub **Settings → Social preview** to set this repository's link image.
-That upload is not exposed through the public REST/GraphQL APIs or `gh`; repository avatars use the shared owner's image.
-
-These identity assets live outside `issues/`: adopting the logo does not revise published covers, issue packs or their
-catalog digest. Branding is distinct from the credited third-party game illustrations.
+Branding (the folded-page Split-S): [branding/](branding/README.md).
