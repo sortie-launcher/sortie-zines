@@ -1,0 +1,14 @@
+---
+import Base from '../layouts/Base.astro';
+import { BASE } from '../lib/zines';
+---
+<Base title="Page not found: Field Notes" description="This address is not part of the Field Notes reader." bodyClass="page-missing" indexable={false}>
+  <section class="missing">
+    <span class="numeral" aria-hidden="true">404</span>
+    <h1>This page is not on the shelf</h1>
+    <p>
+      Issue and article addresses stay the same across corrections, so a link that used to work may have a typo.
+      Every issue is listed on the <a href={BASE}>Field Notes shelf</a>.
+    </p>
+  </section>
+</Base>

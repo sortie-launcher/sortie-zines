@@ -1,0 +1,126 @@
+---
+import '@fontsource/lato/400.css';
+import '@fontsource/lato/400-italic.css';
+import '@fontsource/lato/700.css';
+import '@fontsource/lato/900-italic.css';
+import '@fontsource-variable/stix-two-text/wght.css';
+import '@fontsource-variable/stix-two-text/wght-italic.css';
+import '../styles/site.css';
+import { BASE } from '../lib/zines';
+
+interface Props {
+  title: string;
+  description: string;
+  prev?: string;
+  next?: string;
+  bodyClass?: string;
+  /** Off for the 404 page, which has no address of its own. */
+  indexable?: boolean;
+}
+const { title, description, prev, next, bodyClass, indexable = true } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const social = new URL(`${BASE}social-preview.png`, Astro.site).href;
+const SORTIE_DOCS = 'https://sortie-launcher.github.io/sortie/';
+const REPO = 'https://github.com/sortie-launcher/sortie-zines';
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    {indexable ? <link rel="canonical" href={canonical} /> : <meta name="robots" content="noindex" />}
+    <link rel="icon" href={`${BASE}icon.svg`} type="image/svg+xml" />
+    <link rel="icon" href={`${BASE}icon.png`} type="image/png" sizes="512x512" />
+    <link rel="apple-touch-icon" href={`${BASE}icon.png`} />
+    {prev && <link rel="prev" href={prev} />}
+    {next && <link rel="next" href={next} />}
+    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="#101418" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="Sortie Zines" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    {indexable && <meta property="og:url" content={canonical} />}
+    <meta property="og:image" content={social} />
+    <meta property="og:image:width" content="1280" />
+    <meta property="og:image:height" content="640" />
+    <meta property="og:image:alt" content="Sortie Zines: the folded-page Split-S mark. Field Notes. Short sorties, deep systems." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script is:inline>
+      try {
+        const t = localStorage.getItem('zines-theme');
+        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+      } catch {}
+    </script>
+  </head>
+  <body class={bodyClass}>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="masthead">
+      <a class="brand" href={BASE} aria-label="Sortie Zines: Field Notes shelf">
+        <svg class="brand__mark" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+          <path d="M18 4H66L88 26V96H18Z" fill="none" stroke="currentColor" stroke-width="7" />
+          <path d="M64 5V28H87" fill="none" stroke="currentColor" stroke-width="7" />
+          <g transform="translate(28 35) scale(.53)" fill="currentColor"><path d="M28 8H94L80 26H36L28 36H66L74 44H8L4 40Z M16 52H82L86 56L62 88H0L14 70H54L62 60H24Z" /></g>
+        </svg>
+        <span class="brand__sortie">Sortie</span>
+        <span class="brand__zines">Zines</span>
+      </a>
+      <nav class="topnav" aria-label="Site">
+        <a href={BASE}>Shelf</a>
+        <a class="topnav__app" href={SORTIE_DOCS}>Sortie app</a>
+        <a href={REPO}>GitHub</a>
+        <button class="theme" type="button" data-theme-toggle aria-label="Switch to light theme">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3a9 9 0 1 0 0 18Z" fill="currentColor" /><circle cx="12" cy="12" r="8.25" fill="none" stroke="currentColor" stroke-width="1.5" /></svg>
+        </button>
+      </nav>
+    </header>
+    <main id="main">
+      <slot />
+    </main>
+    <footer class="colophon">
+      <div class="colophon__inner">
+        <section aria-labelledby="rights-h">
+          <h2 id="rights-h">Rights</h2>
+          <p>
+            Game images and quoted material belong to their respective rights holders and are credited beside each
+            image. They appear for commentary and criticism, are not covered by the Sortie app's MIT licence, and no
+            endorsement or ownership is implied. For a takedown or a correction, open an issue at
+            <a href={`${REPO}/issues`}>github.com/sortie-launcher/sortie-zines/issues</a>.
+          </p>
+        </section>
+        <section aria-labelledby="ai-h">
+          <h2 id="ai-h">Written with AI</h2>
+          <p>
+            Field Notes is written with AI. Articles are researched and drafted by AI models from the sources each issue
+            cites, under human direction. The writers have not played the games, and facts or quotations can be wrong:
+            check an article's Sources before relying on it.
+          </p>
+        </section>
+        <section aria-labelledby="site-h">
+          <h2 id="site-h">This site</h2>
+          <p>
+            No analytics, cookies or third-party requests: fonts and pictures are served from here. The same issues
+            read offline in <a href={SORTIE_DOCS}>Sortie</a>; the packs live in <a href={REPO}>sortie-launcher/sortie-zines</a>.
+          </p>
+        </section>
+      </div>
+    </footer>
+    <script is:inline>
+      (() => {
+        const root = document.documentElement;
+        const button = document.querySelector('[data-theme-toggle]');
+        const current = () => root.dataset.theme || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+        const sync = () => button.setAttribute('aria-label', current() === 'dark' ? 'Switch to light theme' : 'Switch to dark theme');
+        sync();
+        button.addEventListener('click', () => {
+          root.dataset.theme = current() === 'dark' ? 'light' : 'dark';
+          try { localStorage.setItem('zines-theme', root.dataset.theme); } catch {}
+          sync();
+        });
+        matchMedia('(prefers-color-scheme: light)').addEventListener('change', sync);
+      })();
+    </script>
+  </body>
+</html>

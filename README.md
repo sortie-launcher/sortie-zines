@@ -25,6 +25,18 @@ The app pins a catalog digest and verifies supplied content before staging it in
 
 For a device-only installation, copy an issue directory into a hidden staging directory under `sortie/magazines/`, then rename it to the issue ID after the complete copy arrives. Do not overwrite personal configuration or ROM files.
 
+## Web reader
+
+[sortie-launcher.github.io/sortie-zines](https://sortie-launcher.github.io/sortie-zines/) renders the same packs for browsers: a shelf, one page per issue (`/<issue-id>/`), one per article (`/<issue-id>/<article-id>/`) and a credits page per issue built from `sources.json`. The site lives in `site/` (Astro) and reads `issues/` without modifying it; image originals are published byte-for-byte, with narrower derivatives generated only into the build output.
+
+```sh
+cd site
+npm ci
+npm run build   # prepares media, builds dist/, then checks every link, image and published original
+```
+
+`.github/workflows/pages.yml` builds and deploys on pushes to `main` that touch `issues/`, `branding/` or `site/`, with Pages set to deploy from GitHub Actions.
+
 ## Editorial updates
 
 Keep issue/article IDs stable, increase the issue revision for corrections, and retain its original publication date. Use portable game references rather than personal library filenames. Follow the application repository's magazine format and publication instructions; validate and regenerate the catalog before committing content changes. Update the application's content pin deliberately when releasing a new bundle.
