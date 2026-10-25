@@ -47,8 +47,10 @@ provenance) plus `catalog.json`. The format is specified in Sortie's
 
 - Keep issue and article IDs stable; for a correction, bump the issue's revision and keep its publication date.
 - Refer to games portably, never by personal library filenames.
-- Regenerate and validate `catalog.json` before committing. Sortie pins its digest (`app/magazines.lock`) and bundles a
-  pinned commit, so new content reaches the app only when that pin is updated.
+- Regenerate and validate `catalog.json` before committing. Each hosted Sortie build resolves this repository's `main`
+  once and pins its commit and catalog digest for testing and signing. New content reaches the next app build without
+  a separate app pin update; publishing an issue does not itself trigger an app release. Local app builds keep an
+  explicit `app/magazines.lock` baseline.
 
 The web reader lives in `site/` (Astro) and only reads `issues/`. `cd site && npm ci && npm run build` builds it and
 checks every link, image and published original; pushes to `main` deploy it to GitHub Pages.
