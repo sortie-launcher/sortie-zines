@@ -1,0 +1,1071 @@
+{
+ "issue": "field-notes-010",
+ "compiled": "2026-10-25",
+ "revised": "2026-10-25",
+ "rightsNote": "Original editorial prose, diagrams and cover layout were written for Sortie Field Notes. Game images and quoted material belong to their respective rights holders. Included for commentary and criticism; no endorsement or ownership is implied. Third-party media is not covered by the Sortie app's MIT licence. Per-image credits and sources follow.",
+ "researchNote": "Written by an AI from the cited sources. No game was launched or played for this issue. Community research is labelled as such in each article's Sources.",
+ "media": [
+  {
+   "file": "media/cover.webp",
+   "kind": "original 1600x1000 composite cover",
+   "derivedFrom": [
+    "media/who-turns-the-dial.webp",
+    "media/crash-bandicoot-secret-mercy.webp",
+    "media/resident-evil-4-thermostat.webp",
+    "media/left-4-dead-the-director.webp"
+   ],
+   "source": "Authored composition: an original gauge drawing plus four of this pack's credited lead images; their source entries follow.",
+   "rights": "Game images © Nintendo, Activision (Crash Bandicoot), Capcom and Valve; original layout and gauge by Sortie Field Notes.",
+   "processing": "ImageMagick: leads cropped to 340x255, ink #101418 ground, gauge arcs amber #F2B134 / slate #2A3340 / red #C84B31, Noto Sans ExtraCondensed Black and Noto Sans Condensed, WebP quality 88"
+  },
+  {
+   "file": "media/who-turns-the-dial.webp",
+   "source": "https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_64/master/Named_Snaps/Mario%20Kart%2064%20(USA).png",
+   "edition": "Mario Kart 64, Nintendo 64; libretro label 'USA' (English HUD; region not otherwise distinguishable from pixels). Verified visually: LAP 1/3, TIME, Mario/Toad/Wario/Yoshi position column, large '3rd', Wario holding a green shell.",
+   "rights": "© Nintendo",
+   "processing": "Source PNG 320x240; ImageMagick point (nearest-neighbour) 4x to 1280x960, lossless WebP, 57276 bytes; sha256 6bbbaee22dde7ec44dae2f6aa4f239ea83b02a440816405042bcf786c66f5dec"
+  },
+  {
+   "file": "media/who-turns-the-dial-grid.webp",
+   "source": "Original diagram authored for Sortie Field Notes; placements follow the lead feature's text and sources.",
+   "edition": "2x2 taxonomy: designer holds it vs player can grab it; hidden vs named or shown.",
+   "rights": "Original diagram by Sortie Field Notes",
+   "processing": "ImageMagick-drawn 1200x900 (Noto Sans), lossless WebP, 59866 bytes; output visually inspected; sha256 7ae6f9188ec5791ec356f6995e3f2a40415ab99e2433b16e24ff1280afa76847"
+  },
+  {
+   "file": "media/crash-bandicoot-secret-mercy.webp",
+   "source": "libretro-thumbnails, Sony - PlayStation, Named_Snaps/Crash Bandicoot 2 - Cortex Strikes Back (USA).png (https://github.com/libretro-thumbnails/Sony_-_PlayStation)",
+   "edition": "Crash Bandicoot 2: Cortex Strikes Back, original 1997 PlayStation release, USA (per thumbnail name). Gameplay frame, no HUD: Crash on a snow-dusted stone column with a large boulder behind him and a carved tiki face in the background; the specific level is not identified.",
+   "rights": "Crash Bandicoot © Activision; game developed by Naughty Dog for Universal Interactive and Sony Computer Entertainment",
+   "processing": "512x348 PNG, 2x point scale to 1024x696, ImageMagick WebP q88, 86156 bytes; source and output decoded and visually inspected"
+  },
+  {
+   "file": "media/crash-bandicoot-secret-mercy-aku-aku.webp",
+   "source": "libretro-thumbnails, Sony - PlayStation, Named_Snaps/Crash Bandicoot (USA).png (https://github.com/libretro-thumbnails/Sony_-_PlayStation)",
+   "edition": "Crash Bandicoot, original 1996 PlayStation release, USA (per thumbnail name). Gameplay frame, no HUD: Crash in a jungle temple with an Aku Aku mask at his shoulder, a ? crate and a bounce (arrow) crate.",
+   "rights": "Crash Bandicoot © Activision; game developed by Naughty Dog for Universal Interactive and Sony Computer Entertainment",
+   "processing": "512x349 PNG, 2x point scale to 1024x698, ImageMagick WebP q88, 70532 bytes; source and output decoded and visually inspected (mask confirmed on a 4x crop)"
+  },
+  {
+   "file": "media/resident-evil-4-thermostat.webp",
+   "source": "libretro-thumbnails, Nintendo - GameCube, Named_Snaps/Resident Evil 4 (Europe) (En,Fr,De,Es,It) (Disc 1).png (https://github.com/libretro-thumbnails/Nintendo_-_GameCube)",
+   "edition": "Resident Evil 4, GameCube, filed under the European release; the identical frame is also filed under the European Disc 2 and Japanese (Biohazard 4) Disc 1 entries, so region isn't identifiable from pixels. Gameplay frame in the 16:9 letterbox: Leon in the brown jacket facing villagers in autumn woods, one raising a weapon behind a tree; handgun counter 01.",
+   "rights": "© Capcom",
+   "processing": "512x384 PNG, 2x Lanczos to 1024x768 (aspect preserved, letterbox kept), ImageMagick WebP q88, 45240 bytes; source and output decoded and visually inspected"
+  },
+  {
+   "file": "media/resident-evil-4-thermostat-rank-chart.webp",
+   "source": "Original chart by Sortie Field Notes from community measurements: damage multipliers by rank from cheezeit's GameFAQs notes (2023, https://gamefaqs.gamespot.com/boards/931851-resident-evil-4-2005/80452842); Normal start rank and Professional lock from Skullbot's speedrun.com analysis (2016, https://www.speedrun.com/re4console/guides/3sahj)",
+   "edition": "Data measured on the Steam release (multipliers) and a GameCube debug build checked against PC releases (start and lock points); no game imagery",
+   "rights": "Original diagram © Sortie Field Notes; underlying data credited to the community researchers named",
+   "processing": "Hand-written SVG (Noto Sans Condensed) rasterized with ImageMagick at 1200x740, WebP q90, 39694 bytes; decoded and visually inspected"
+  },
+  {
+   "file": "media/review-archaeology-re4.webp",
+   "source": "libretro-thumbnails, Sony - PlayStation 2, Named_Snaps/Resident Evil 4 (USA).png (https://github.com/libretro-thumbnails/Sony_-_PlayStation_2)",
+   "edition": "Resident Evil 4, PlayStation 2, filed under the USA release; the identical frame is filed under the Europe, Japan (Biohazard 4) and USA Demo entries, so region isn't identifiable from pixels. Gameplay frame: Leon without his jacket, Ashley behind him, laser sight on a burning villager on the ground, two villagers by a burning cart; Ashley and Leon health rings, ammo 30.",
+   "rights": "© Capcom",
+   "processing": "320x240 PNG, 3x Lanczos to 960x720 (aspect preserved), ImageMagick WebP q88, 73556 bytes; source and output decoded and visually inspected"
+  },
+  {
+   "file": "media/left-4-dead-the-director.webp",
+   "source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/500/0000006029.1920x1080.jpg (Left 4 Dead Steam store screenshot 2 of 12, app 500)",
+   "edition": "Valve promotional screenshot for Left 4 Dead on the PC Steam store page: staged third-person shot of Zoey, Francis and Bill in a subway tunnel with Infected on a tanker car; no HUD. Not a first-person gameplay frame; platform not identifiable from pixels beyond its PC store context.",
+   "rights": "© Valve Corporation",
+   "processing": "Source JPEG 1600x900; ImageMagick resize to 1280x720 (aspect preserved), WebP quality 86, 179154 bytes; source and output decoded and visually inspected."
+  },
+  {
+   "file": "media/left-4-dead-the-director-pacing-loop.webp",
+   "source": "Original diagram authored for Sortie Field Notes, redrawn from the pacing rules in Michael Booth, 'The AI Systems of Left 4 Dead' (Valve, 2009), https://cdn.fastly.steamstatic.com/apps/valve/2009/ai_systems_of_l4d_mike_booth.pdf",
+   "edition": "Schematic illustration of the Build Up / Sustain Peak (3–5 s) / Peak Fade / Relax (30–45 s) loop and the full vs minimal threat population; curve shape is illustrative, not game data.",
+   "rights": "Original diagram by Sortie Field Notes; underlying design described by Valve.",
+   "processing": "Hand-written SVG (Noto Sans) rendered with librsvg to 1200x660 PNG, ImageMagick WebP quality 92, 66472 bytes; output visually inspected."
+  },
+  {
+   "file": "media/reading-the-manual-zanac.webp",
+   "source": "libretro-thumbnails, Microsoft - MSX Named_Snaps, \"Zanac (Japan).png\" (https://github.com/libretro-thumbnails/Microsoft_-_MSX)",
+   "edition": "MSX original, Japan (Pony Canyon ROM, 1986), showing the on-screen ALC counter",
+   "rights": "© Compile / Pony Canyon; used for commentary and criticism",
+   "processing": "512x452 snap point-scaled 2x to 1024x904, lossless WebP; no other edits"
+  },
+  {
+   "file": "media/reading-the-manual-zanac-page4.webp",
+   "source": "Zanac NES instruction manual (FCI, NES-ZA-USA), page 4; gamesdatabase.org scan (EmuMovies watermark) hosted at https://www.thegameisafootarcade.com/wp-content/uploads/2017/03/Zanac-Game-Manual.pdf",
+   "edition": "US NES manual, page 4 (POWER PLAY FEATURE)",
+   "rights": "© FCI / Compile / Pony Canyon; scan by its credited archivists; used for commentary and criticism",
+   "processing": "Cropped to page 4's text block (372x245 from the 777x288 embedded spread), Lanczos-scaled 3x to 1116x735, WebP quality 90; no other edits"
+  },
+  {
+   "file": "media/the-case-against-battle-garegga.webp",
+   "source": "libretro-thumbnails, MAME Named_Snaps, \"Battle Garegga (Europe - USA - Japan - Asia) (Sat Feb 3 1996).png\" (https://github.com/libretro-thumbnails/MAME)",
+   "edition": "Arcade, February 3, 1996 set (bgaregga)",
+   "rights": "© Raizing / Eighting; used for commentary and criticism",
+   "processing": "240x320 native capture point-scaled 5x to 1200x1600, lossless WebP; no other edits"
+  }
+ ],
+ "articles": {
+  "who-turns-the-dial": {
+   "games": [
+    "arcade-xevious",
+    "msx-zanac",
+    "nes-zanac",
+    "psx-crash-bandicoot-2-cortex-strikes-back",
+    "psx-crash-bandicoot",
+    "crash-bandicoot-n-sane-trilogy",
+    "max-payne",
+    "n64-mario-kart-64",
+    "n3ds-mario-kart-7",
+    "gc-resident-evil-4",
+    "ps2-resident-evil-4",
+    "ps2-god-hand",
+    "left-4-dead",
+    "xbox360-left-4-dead",
+    "arcade-battle-garegga",
+    "battle-garegga-rev-2016",
+    "arcade-armed-police-batrider",
+    "hades",
+    "celeste"
+   ],
+   "sources": [
+    {
+     "title": "Xevious",
+     "author": "Carlo Savorelli, with additions by Sam Derboo",
+     "publisher": "Hardcore Gaming 101",
+     "date": "2006-02-12 (updated 2014-05-22)",
+     "score": null,
+     "url": "http://hg101.kontek.net/xevious/xevious.htm",
+     "type": "retrospective"
+    },
+    {
+     "title": "Xevious – Developer Interview Collection (incl. Masanobu Endo, 2014, No Con Kid)",
+     "author": "shmuplations (translator)",
+     "publisher": "shmuplations",
+     "date": "2022-01-13",
+     "score": null,
+     "url": "https://shmuplations.com/xevious/",
+     "type": "developer interview (translation)"
+    },
+    {
+     "title": "Zanac instruction manual (NES-ZA-USA), p. 4 'Power Play Feature'",
+     "author": "FCI",
+     "publisher": "FCI (scan hosted by The Game Is Afoot Arcade, from gamesdatabase.org)",
+     "date": "1987",
+     "score": null,
+     "url": "https://www.thegameisafootarcade.com/wp-content/uploads/2017/03/Zanac-Game-Manual.pdf",
+     "type": "manual"
+    },
+    {
+     "title": "Zanac – 2015 Developer Interview (Takayuki Hirono)",
+     "author": "shmuplations (translator)",
+     "publisher": "shmuplations",
+     "date": "2022-01-14",
+     "score": null,
+     "url": "https://shmuplations.com/zanac/",
+     "type": "developer interview (translation)"
+    },
+    {
+     "title": "Zanac",
+     "author": "Kurt Kalata",
+     "publisher": "Hardcore Gaming 101 (via Wayback Machine)",
+     "date": "2016-12-09",
+     "score": null,
+     "url": "https://web.archive.org/web/20240225185047/http://www.hardcoregaming101.net/zanac/",
+     "type": "retrospective"
+    },
+    {
+     "title": "Making Crash Bandicoot – part 6 (Jason Rubin's section)",
+     "author": "Andy Gavin and Jason Rubin",
+     "publisher": "All Things Andy Gavin",
+     "date": "2011-02-07",
+     "score": null,
+     "url": "https://all-things-andy-gavin.com/2011/02/07/making-crash-bandicoot-part-6/",
+     "type": "developer blog (retrospective)"
+    },
+    {
+     "title": "Go Ahead and Jump!",
+     "author": "Vicarious Visions Staff (posted by Kevin Kelly)",
+     "publisher": "Activision Blog",
+     "date": "2017-07-17",
+     "score": null,
+     "url": "https://blog.activision.com/de/crash-bandicoot/archives/go-ahead-and-jump",
+     "type": "developer blog"
+    },
+    {
+     "title": "Weapon and Enemy stats (Max Payne guide)",
+     "author": "Mostly Harmless",
+     "publisher": "Steam Community",
+     "date": "2020-10-15 (updated 2024-07-07)",
+     "score": null,
+     "url": "https://steamcommunity.com/sharedfiles/filedetails?id=2258742156",
+     "type": "community research (game data)"
+    },
+    {
+     "title": "Max Payne (video game)",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "accessed 2026-10-25",
+     "score": null,
+     "url": "https://en.wikipedia.org/wiki/Max_Payne_(video_game)",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "Mario Kart 64 instruction manual (European English), Items",
+     "author": "Nintendo",
+     "publisher": "Nintendo",
+     "date": "1997",
+     "score": null,
+     "url": "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_8/Manual_Nintendo64_MarioKart64_EN.pdf",
+     "type": "manual"
+    },
+    {
+     "title": "Mario Kart 7 item probability distributions",
+     "author": "Super Mario Wiki contributors",
+     "publisher": "Super Mario Wiki",
+     "date": "accessed 2026-10-25",
+     "score": null,
+     "url": "https://www.mariowiki.com/Mario_Kart_7_item_probability_distributions",
+     "type": "community research (game data)"
+    },
+    {
+     "title": "The Maker Of Mario Kart Justifies The Blue Shell",
+     "author": "Stephen Totilo",
+     "publisher": "Kotaku",
+     "date": "2011-03-09",
+     "score": null,
+     "url": "https://kotaku.com/the-maker-of-mario-kart-justifies-the-blue-shell-5780082",
+     "type": "interview"
+    },
+    {
+     "title": "Iwata Asks: Mario Kart 7, Volume 2: In-house Staff, page 1",
+     "author": "Satoru Iwata with Hideki Konno, Kosuke Yabuki and staff",
+     "publisher": "Nintendo",
+     "date": "2011",
+     "score": null,
+     "url": "https://iwataasks.nintendo.com/interviews/3ds/mario-kart-7/1/0/",
+     "type": "developer interview"
+    },
+    {
+     "title": "Rank / Difficulty adjustment analysis (v0.3.1)",
+     "author": "Skullbot",
+     "publisher": "Speedrun.com (Resident Evil 4 guides)",
+     "date": "2016-04",
+     "score": null,
+     "url": "https://www.speedrun.com/re4console/guides/3sahj",
+     "type": "community research"
+    },
+    {
+     "title": "Resident Evil 4 Review",
+     "author": "Greg Kasavin",
+     "publisher": "GameSpot",
+     "date": "2005-01-10",
+     "score": "9.6/10",
+     "url": "https://www.gamespot.com/reviews/resident-evil-4-review/1900-6115968/",
+     "type": "review"
+    },
+    {
+     "title": "'Resident Evil 4' secretly adjusted its difficulty for you",
+     "author": "Nick Summers",
+     "publisher": "Engadget",
+     "date": "2015-06-03",
+     "score": null,
+     "url": "https://www.engadget.com/2015-06-03-resident-evil-4-difficulty.html",
+     "type": "news"
+    },
+    {
+     "title": "Resident Evil 4",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "accessed 2026-10-25",
+     "score": null,
+     "url": "https://en.wikipedia.org/wiki/Resident_Evil_4",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "God Hand",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "accessed 2026-10-25",
+     "score": null,
+     "url": "https://en.wikipedia.org/wiki/God_Hand",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "God Hand: The Brawler That Grades You Live (Field Notes No. 005)",
+     "author": "Sortie Field Notes",
+     "publisher": "Sortie Field Notes",
+     "date": "2026",
+     "score": null,
+     "url": "https://sortie-launcher.github.io/sortie-zines/",
+     "type": "earlier issue"
+    },
+    {
+     "title": "Left 4 Dead (Steam store page)",
+     "author": "Valve",
+     "publisher": "Valve / Steam",
+     "date": "read 2026-10-25",
+     "score": null,
+     "url": "https://store.steampowered.com/app/500/Left_4_Dead/",
+     "type": "publisher description"
+    },
+    {
+     "title": "The AI Systems of Left 4 Dead",
+     "author": "Michael Booth",
+     "publisher": "Valve (AIIDE, Stanford University)",
+     "date": "2009",
+     "score": null,
+     "url": "https://steamcdn-a.akamaihd.net/apps/valve/2009/ai_systems_of_l4d_mike_booth.pdf",
+     "type": "developer talk (slides)"
+    },
+    {
+     "title": "Battle Garegga",
+     "author": "Shmups Wiki contributors",
+     "publisher": "Shmups Wiki",
+     "date": "2026-10-09 (revision 39652)",
+     "score": null,
+     "url": "https://shmups.wiki/library/Battle_Garegga",
+     "type": "community reference"
+    },
+    {
+     "title": "Battle Garegga Rev.2016: Features",
+     "author": "M2",
+     "publisher": "M2",
+     "date": "undated",
+     "score": null,
+     "url": "https://m2stg.com/en/battle-garegga/ps4/feature.php",
+     "type": "publisher description"
+    },
+    {
+     "title": "Battle Garegga: The Shooter That Charges Interest on Success (No. 001); Armed Police Batrider: Pick Three Pilots, Then Pay for It (No. 005)",
+     "author": "Sortie Field Notes",
+     "publisher": "Sortie Field Notes",
+     "date": "2026",
+     "score": null,
+     "url": "https://sortie-launcher.github.io/sortie-zines/",
+     "type": "earlier issues"
+    },
+    {
+     "title": "'Hades' devs reveal how God Mode solves the worst thing about the genre",
+     "author": "Tomas Franzese",
+     "publisher": "Inverse",
+     "date": "2021-08-11",
+     "score": null,
+     "url": "https://www.inverse.com/gaming/hades-god-mode-interview",
+     "type": "developer interview"
+    },
+    {
+     "title": "Greg Kasavin",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "accessed 2026-10-25",
+     "score": null,
+     "url": "https://en.wikipedia.org/wiki/Greg_Kasavin",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "Hades (video game)",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "accessed 2026-10-25",
+     "score": null,
+     "url": "https://en.wikipedia.org/wiki/Hades_(video_game)",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "Assist Mode",
+     "author": "Celeste Wiki contributors",
+     "publisher": "Celeste Wiki",
+     "date": "accessed 2026-10-25 (revision 11696)",
+     "score": null,
+     "url": "https://celeste.ink/wiki/Assist_Mode",
+     "type": "community reference"
+    },
+    {
+     "title": "Celeste (video game)",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "accessed 2026-10-25",
+     "score": null,
+     "url": "https://en.wikipedia.org/wiki/Celeste_(video_game)",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "Crash Bandicoot 2: Cortex Strikes Back",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "accessed 2026-10-25",
+     "score": null,
+     "url": "https://en.wikipedia.org/wiki/Crash_Bandicoot_2:_Cortex_Strikes_Back",
+     "type": "encyclopedia"
+    }
+   ]
+  },
+  "crash-bandicoot-secret-mercy": {
+   "games": [
+    "psx-crash-bandicoot-2-cortex-strikes-back",
+    "psx-crash-bandicoot",
+    "crash-bandicoot-n-sane-trilogy"
+   ],
+   "sources": [
+    {
+     "title": "Making Crash Bandicoot – part 6 (Jason Rubin's section)",
+     "author": "Andy Gavin, with Jason Rubin",
+     "publisher": "All Things Andy Gavin",
+     "date": "2011-02-07",
+     "score": null,
+     "url": "https://all-things-andy-gavin.com/2011/02/07/making-crash-bandicoot-part-6/",
+     "type": "developer retrospective"
+    },
+    {
+     "title": "Go Ahead and Jump!",
+     "author": "Vicarious Visions staff",
+     "publisher": "Activision Blog",
+     "date": "2017-07-17",
+     "score": null,
+     "url": "https://blog.activision.com/de/crash-bandicoot/archives/go-ahead-and-jump",
+     "type": "developer blog"
+    },
+    {
+     "title": "PlayStation Review: Crash Bandicoot 2: Cortex Strikes Back (issue 55, pp. 14–15)",
+     "author": "Paul Anderson, Andrew Reiner, Andy McNamara",
+     "publisher": "Game Informer",
+     "date": "1997-11",
+     "score": null,
+     "url": "https://archive.org/details/game-informer-issue-55-november-1997",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Crash Bandicoot 2: Cortex Strikes Back Review",
+     "author": "John Broady",
+     "publisher": "GameSpot",
+     "date": "1997-11-25",
+     "score": "8.6/10",
+     "url": "https://web.archive.org/web/20090203234800/http://www.gamespot.com/ps/action/crashbandicoot2csb/review.html",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Crash Bandicoot",
+     "author": "IGN Staff",
+     "publisher": "IGN",
+     "date": "1996-11-22",
+     "score": "7.5/10",
+     "url": "https://www.ign.com/articles/1996/11/22/crash-bandicoot",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Crash Bandicoot: An oral history",
+     "author": "Polygon",
+     "publisher": "Polygon",
+     "date": "2017-06-22",
+     "score": null,
+     "url": "https://web.archive.org/web/20170624112707/https://www.polygon.com/2017/6/22/15820540/crash-bandicoot-an-oral-history",
+     "type": "retrospective interviews"
+    },
+    {
+     "title": "How One Crash Bandicoot Level Helped Build Naughty Dog",
+     "author": "Dale Driver",
+     "publisher": "IGN (IGN Pakistan edition)",
+     "date": "2026-09-25",
+     "score": null,
+     "url": "https://pk.ign.com/crash-bandicoot/261667/how-one-crash-bandicoot-level-helped-build-naughty-dog",
+     "type": "retrospective"
+    },
+    {
+     "title": "Dynamic game difficulty balancing",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "undated (read 2026-10-25)",
+     "score": null,
+     "url": "https://en.wikipedia.org/wiki/Dynamic_game_difficulty_balancing",
+     "type": "community reference"
+    },
+    {
+     "title": "Crash Bandicoot 2: Cortex Strikes Back",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "undated (read 2026-10-25)",
+     "score": null,
+     "url": "https://en.wikipedia.org/wiki/Crash_Bandicoot_2:_Cortex_Strikes_Back",
+     "type": "community reference"
+    },
+    {
+     "title": "Crash Bandicoot (video game)",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "undated (read 2026-10-25)",
+     "score": null,
+     "url": "https://en.wikipedia.org/wiki/Crash_Bandicoot_(video_game)",
+     "type": "community reference"
+    },
+    {
+     "title": "Dynamic Difficulty Adjustment",
+     "author": "Bandipedia contributors",
+     "publisher": "Bandipedia (Fandom)",
+     "date": "undated",
+     "score": null,
+     "url": "https://crashbandicoot.fandom.com/wiki/Dynamic_Difficulty_Adjustment",
+     "type": "community research"
+    }
+   ]
+  },
+  "resident-evil-4-thermostat": {
+   "games": [
+    "gc-resident-evil-4",
+    "ps2-resident-evil-4",
+    "ps2-god-hand"
+   ],
+   "sources": [
+    {
+     "title": "Rank / Difficulty adjustment analysis (v0.3.1)",
+     "author": "Skullbot (credits Pacaya_fr)",
+     "publisher": "speedrun.com, Resident Evil 4 (Console) guides",
+     "date": "2016-04",
+     "score": null,
+     "url": "https://www.speedrun.com/re4console/guides/3sahj",
+     "type": "community research"
+    },
+    {
+     "title": "RE4 (2005) Health & Damage Mechanics Notes",
+     "author": "cheezeit",
+     "publisher": "GameFAQs, Resident Evil 4 (2005) PC board",
+     "date": "2023",
+     "score": null,
+     "url": "https://gamefaqs.gamespot.com/boards/931851-resident-evil-4-2005/80452842",
+     "type": "community research (testing on the Steam release)"
+    },
+    {
+     "title": "Game Rank (RE4)",
+     "author": "Resident Evil Wiki contributors",
+     "publisher": "Fandom",
+     "date": "undated (accessed 2026-10-25)",
+     "score": null,
+     "url": "https://residentevil.fandom.com/wiki/Game_Rank_(RE4)",
+     "type": "community wiki, citing Biohazard 4 Kaitai Shinsho (Famitsu/Enterbrain, 2005), pp. 24-25"
+    },
+    {
+     "title": "biohazard 4 Kaitai Shinsho",
+     "author": "Project Umbrella",
+     "publisher": "Project Umbrella RE:Digest",
+     "date": "undated",
+     "score": null,
+     "url": "https://www.projectumbrella.net/biohazard-4-kaitai-shinsho.html",
+     "type": "fan reference (guidebook details)"
+    },
+    {
+     "title": "Resident Evil 4 Review",
+     "author": "Greg Kasavin",
+     "publisher": "GameSpot",
+     "date": "2005-01-10",
+     "score": "9.6/10",
+     "url": "https://www.gamespot.com/reviews/resident-evil-4-review/1900-6115968/",
+     "type": "contemporary review (GameCube)"
+    },
+    {
+     "title": "Resident Evil 4 Official Strategy Guide",
+     "author": "Dan Birlew",
+     "publisher": "BradyGames",
+     "date": "2005",
+     "score": null,
+     "url": "https://archive.org/details/residentevil4off0000birl",
+     "type": "official strategy guide (read via Internet Archive full-text search)"
+    },
+    {
+     "title": "God Hand review",
+     "author": "Quintin Smith",
+     "publisher": "Eurogamer",
+     "date": "2007-02-12",
+     "score": "8/10",
+     "url": "https://www.eurogamer.net/god-hand-review",
+     "type": "contemporary review (PAL)"
+    },
+    {
+     "title": "Resident Evil 4",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "accessed 2026-10-25",
+     "score": null,
+     "url": "https://en.wikipedia.org/wiki/Resident_Evil_4",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "God Hand",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "accessed 2026-10-25",
+     "score": null,
+     "url": "https://en.wikipedia.org/wiki/God_Hand",
+     "type": "encyclopedia"
+    },
+    {
+     "title": "God Hand: The Brawler That Grades You Live",
+     "author": "Sortie Field Notes",
+     "publisher": "Field Notes 005",
+     "date": "2026-10-24",
+     "score": null,
+     "url": null,
+     "type": "cross-reference (prior issue)"
+    },
+    {
+     "title": "Resident Evil 4 (Europe) (En,Fr,De,Es,It) (Disc 1).png",
+     "author": "libretro-thumbnails",
+     "publisher": "GitHub, Nintendo - GameCube Named_Snaps",
+     "date": "undated",
+     "score": null,
+     "url": "https://github.com/libretro-thumbnails/Nintendo_-_GameCube",
+     "type": "image source"
+    }
+   ]
+  },
+  "review-archaeology-re4": {
+   "games": [
+    "gc-resident-evil-4",
+    "ps2-resident-evil-4"
+   ],
+   "sources": [
+    {
+     "title": "Resident Evil 4 Review",
+     "author": "Greg Kasavin",
+     "publisher": "GameSpot",
+     "date": "2005-01-10",
+     "score": "9.6/10",
+     "url": "https://www.gamespot.com/reviews/resident-evil-4-review/1900-6115968/",
+     "type": "contemporary review (GameCube)"
+    },
+    {
+     "title": "Resident Evil 4 (review, pages 1-3)",
+     "author": "Ryan O'Donnell",
+     "publisher": "GameSpy",
+     "date": "2005-01-06",
+     "score": "5/5",
+     "url": "http://cube.gamespy.com/gamecube/resident-evil-4/577819p2.html",
+     "type": "contemporary review (GameCube)"
+    },
+    {
+     "title": "Resident Evil 4",
+     "author": "Matt Casamassina",
+     "publisher": "IGN",
+     "date": "2005-01-07",
+     "score": "9.8/10",
+     "url": "https://www.ign.com/articles/2005/01/07/resident-evil-4-7",
+     "type": "contemporary review (GameCube)"
+    },
+    {
+     "title": "Resident Evil 4 PlayStation 2 Review",
+     "author": "Fran Mirabella III",
+     "publisher": "IGN",
+     "date": "2005-10-21",
+     "score": "9.5/10",
+     "url": "https://www.ign.com/articles/2005/10/21/resident-evil-4",
+     "type": "contemporary review (PS2)"
+    },
+    {
+     "title": "Resident Evil 4 (Review Crew), issue 189, pp. 130-131",
+     "author": "Mark, Shane and Milkman (as credited)",
+     "publisher": "Electronic Gaming Monthly",
+     "date": "2005-03",
+     "score": "10 / 9.5 / 10; Game of the Month",
+     "url": "https://archive.org/details/electronic-gaming-monthly-issue-189-march-2005",
+     "type": "contemporary magazine review (GameCube), page scan"
+    },
+    {
+     "title": "Resident Evil 4 review scores (Metacritic listing on GameFAQs)",
+     "author": "Weekly Famitsu",
+     "publisher": "Enterbrain, as listed by Metacritic on GameFAQs",
+     "date": "2005-01",
+     "score": "10 / 9 / 9 / 10 (38/40)",
+     "url": "https://gamefaqs.gamespot.com/gamecube/535840-resident-evil-4/reviews",
+     "type": "contemporary review score (GameCube)"
+    },
+    {
+     "title": "Resident Evil 4 (review, March 2005, p. 76); The Ten Amendments (Edge 258, August 2013)",
+     "author": "Edge staff",
+     "publisher": "Edge, as recorded by Wikipedia ('Resident Evil 4', 'Edge (magazine)'), accessed 2026-10-25",
+     "date": "2005-03",
+     "score": "9/10, amended to 10 in 2013",
+     "url": "https://en.wikipedia.org/wiki/Edge_(magazine)",
+     "type": "contemporary magazine score and later amendment (second-hand)"
+    },
+    {
+     "title": "Resident Evil 4 - 2005 Developer Interview (Hiroyuki Kobayashi, from Nintendo Dream)",
+     "author": "shmuplations (translation)",
+     "publisher": "shmuplations.com",
+     "date": "undated (interview 2005)",
+     "score": null,
+     "url": "https://shmuplations.com/residentevil4/",
+     "type": "developer interview (translation)"
+    },
+    {
+     "title": "Resident Evil 4 Official Strategy Guide",
+     "author": "Dan Birlew",
+     "publisher": "BradyGames",
+     "date": "2005",
+     "score": null,
+     "url": "https://archive.org/details/residentevil4off0000birl",
+     "type": "official strategy guide (read via Internet Archive full-text search)"
+    },
+    {
+     "title": "Game Rank (RE4)",
+     "author": "Resident Evil Wiki contributors",
+     "publisher": "Fandom",
+     "date": "undated (accessed 2026-10-25)",
+     "score": null,
+     "url": "https://residentevil.fandom.com/wiki/Game_Rank_(RE4)",
+     "type": "community wiki, citing Biohazard 4 Kaitai Shinsho (Famitsu/Enterbrain, 2005), pp. 24-25"
+    },
+    {
+     "title": "Dynamic game difficulty balancing",
+     "author": "Wikipedia contributors",
+     "publisher": "Wikipedia",
+     "date": "accessed 2026-10-25",
+     "score": null,
+     "url": "https://en.wikipedia.org/wiki/Dynamic_game_difficulty_balancing",
+     "type": "encyclopedia (Future Press guide claim, unconfirmed)"
+    },
+    {
+     "title": "What Capcom Didn't Tell You About Resident Evil 4",
+     "author": "Game Maker's Toolkit",
+     "publisher": "YouTube",
+     "date": "2015-06-02",
+     "score": null,
+     "url": "https://www.youtube.com/watch?v=zFv6KAdQ5SE",
+     "type": "retrospective video"
+    },
+    {
+     "title": "Rank / Difficulty adjustment analysis (v0.3.1)",
+     "author": "Skullbot (credits Pacaya_fr)",
+     "publisher": "speedrun.com, Resident Evil 4 (Console) guides",
+     "date": "2016-04",
+     "score": null,
+     "url": "https://www.speedrun.com/re4console/guides/3sahj",
+     "type": "community research"
+    },
+    {
+     "title": "RE4 (2005) Health & Damage Mechanics Notes",
+     "author": "cheezeit",
+     "publisher": "GameFAQs, Resident Evil 4 (2005) PC board",
+     "date": "2023",
+     "score": null,
+     "url": "https://gamefaqs.gamespot.com/boards/931851-resident-evil-4-2005/80452842",
+     "type": "community research (testing on the Steam release)"
+    },
+    {
+     "title": "Resident Evil 4 (USA).png",
+     "author": "libretro-thumbnails",
+     "publisher": "GitHub, Sony - PlayStation 2 Named_Snaps",
+     "date": "undated",
+     "score": null,
+     "url": "https://github.com/libretro-thumbnails/Sony_-_PlayStation_2",
+     "type": "image source"
+    }
+   ]
+  },
+  "left-4-dead-the-director": {
+   "games": [
+    "left-4-dead",
+    "xbox360-left-4-dead"
+   ],
+   "sources": [
+    {
+     "title": "The AI Systems of Left 4 Dead",
+     "author": "Michael Booth",
+     "publisher": "Valve (Artificial Intelligence and Interactive Digital Entertainment Conference, Stanford University)",
+     "date": "2009",
+     "score": null,
+     "url": "https://cdn.fastly.steamstatic.com/apps/valve/2009/ai_systems_of_l4d_mike_booth.pdf",
+     "type": "developer talk (slides)"
+    },
+    {
+     "title": "Replayable Cooperative Game Design: Left 4 Dead",
+     "author": "Michael Booth",
+     "publisher": "Valve (Game Developers Conference)",
+     "date": "2009-03",
+     "score": null,
+     "url": "https://cdn.fastly.steamstatic.com/apps/valve/2009/GDC2009_ReplayableCooperativeGameDesign_Left4Dead.pdf",
+     "type": "developer talk (slides)"
+    },
+    {
+     "title": "Publications",
+     "author": "Valve",
+     "publisher": "Valve",
+     "date": "undated",
+     "score": null,
+     "url": "https://www.valvesoftware.com/en/publications",
+     "type": "official index"
+    },
+    {
+     "title": "Left 4 Dead on Steam",
+     "author": "Valve",
+     "publisher": "Valve / Steam",
+     "date": "undated (current copy)",
+     "score": null,
+     "url": "https://store.steampowered.com/app/500/Left_4_Dead/",
+     "type": "official store page"
+    },
+    {
+     "title": "Left 4 Dead 2 on Steam",
+     "author": "Valve",
+     "publisher": "Valve / Steam",
+     "date": "undated (current copy)",
+     "score": null,
+     "url": "https://store.steampowered.com/app/550/Left_4_Dead_2/",
+     "type": "official store page"
+    },
+    {
+     "title": "Valve Acquires Turtle Rock Studios",
+     "author": "Valve",
+     "publisher": "Valve / Steam",
+     "date": "2008-01-10",
+     "score": null,
+     "url": "https://store.steampowered.com/news/1401",
+     "type": "press release"
+    },
+    {
+     "title": "Left 4 Dead (interview with Chet Faliszek)",
+     "author": "Tom Bramwell",
+     "publisher": "Eurogamer",
+     "date": "2007-08-07",
+     "score": null,
+     "url": "https://www.eurogamer.net/i-left4dead-pc360",
+     "type": "pre-release interview"
+    },
+    {
+     "title": "Left 4 Dead review",
+     "author": "Kieron Gillen",
+     "publisher": "Eurogamer",
+     "date": "2008-11-19",
+     "score": "9/10",
+     "url": "https://www.eurogamer.net/left-4-dead-review",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Left 4 Dead Review",
+     "author": "Chris Watters",
+     "publisher": "GameSpot",
+     "date": "2008-11-19",
+     "score": "8.5",
+     "url": "https://www.gamespot.com/reviews/left-4-dead-review/1900-6201402/",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Review: Left 4 Dead Delivers Definitive Team Zombie War",
+     "author": "Nate Ralph",
+     "publisher": "Wired (Game|Life)",
+     "date": "2008-11-21",
+     "score": "9/10 (nine-circle rating graphic; PC version)",
+     "url": "https://www.wired.com/2008/11/review-left-4-d/",
+     "type": "contemporary review"
+    },
+    {
+     "title": "Developer Commentary (Left 4 Dead)",
+     "author": "Left 4 Dead Wiki contributors",
+     "publisher": "Fandom",
+     "date": "undated",
+     "score": null,
+     "url": "https://left4dead.fandom.com/wiki/Developer_Commentary_(Left_4_Dead)",
+     "type": "community transcription of in-game developer commentary"
+    },
+    {
+     "title": "Making Crash Bandicoot – part 6 (Jason Rubin's section)",
+     "author": "Jason Rubin (in Andy Gavin's blog series)",
+     "publisher": "All Things Andy Gavin (blog)",
+     "date": "2011-02-07",
+     "score": null,
+     "url": "https://all-things-andy-gavin.com/2011/02/07/making-crash-bandicoot-part-6/",
+     "type": "developer retrospective"
+    },
+    {
+     "title": "Go Ahead and Jump!",
+     "author": "Kevin Kelly (with Vicarious Visions)",
+     "publisher": "Activision Blog",
+     "date": "2017-07-17",
+     "score": null,
+     "url": "https://blog.activision.com/crash-bandicoot/archives/go-ahead-and-jump",
+     "type": "developer blog"
+    }
+   ]
+  },
+  "reading-the-manual-zanac": {
+   "games": [
+    "nes-zanac",
+    "fds-zanac",
+    "msx-zanac"
+   ],
+   "sources": [
+    {
+     "title": "Zanac instruction manual (NES, NES-ZA-USA), pages 3, 4, 9 and 11",
+     "author": "FCI",
+     "publisher": "Fujisankei Communications International (FCI); scan via gamesdatabase.org",
+     "date": "undated",
+     "score": null,
+     "url": "https://www.thegameisafootarcade.com/wp-content/uploads/2017/03/Zanac-Game-Manual.pdf",
+     "type": "primary: game manual"
+    },
+    {
+     "title": "ザナック (Zanac) instruction manual, Famicom Disk System, PNF-ZAN, pages 7 and 10",
+     "author": "Pony Canyon",
+     "publisher": "Pony Canyon; 600-DPI scan on the Internet Archive",
+     "date": "1986",
+     "score": null,
+     "url": "https://archive.org/details/zanac-pnf-zan-fds-jp-manual-600-dpi",
+     "type": "primary: game manual"
+    },
+    {
+     "title": "Zanac X Zanac instruction manual (PlayStation, Japan), page 36",
+     "author": "Compile",
+     "publisher": "Compile; scan on the Internet Archive",
+     "date": "2001",
+     "score": null,
+     "url": "https://archive.org/details/zanac-x-zanac-playstation-manual",
+     "type": "primary: game manual"
+    },
+    {
+     "title": "仁井谷正充氏に訊く『ザナック』にAIが導入された理由：懐ゲーから辿るゲームAI技術史vol.2",
+     "author": "Morihiro Shigihara (鴫原盛之)",
+     "publisher": "Morikatron AI Lab",
+     "date": "2020-05-27",
+     "score": null,
+     "url": "https://morikatron.ai/2020/05/gameai_history_02/",
+     "type": "developer interview (Masamitsu Niitani) with retrospective analysis"
+    },
+    {
+     "title": "Zanac – 2015 Developer Interview (Takayuki Hirono; originally STG Gameside #12)",
+     "author": "shmuplations (translator)",
+     "publisher": "shmuplations.com",
+     "date": "2022-01-14",
+     "score": null,
+     "url": "https://shmuplations.com/zanac/",
+     "type": "developer interview (translation)"
+    },
+    {
+     "title": "Zanac",
+     "author": "Kurt Kalata",
+     "publisher": "Hardcore Gaming 101",
+     "date": "2016-12-09",
+     "score": null,
+     "url": "https://web.archive.org/web/20250118205830/http://www.hardcoregaming101.net/zanac/",
+     "type": "retrospective"
+    },
+    {
+     "title": "Zanac X Zanac FAQ v1.02",
+     "author": "Wayne Yoshida and Zach Keene",
+     "publisher": "GameFAQs",
+     "date": "2003-04-26",
+     "score": null,
+     "url": "https://gamefaqs.gamespot.com/ps/581466-zanac-x-zanac/faqs/21722",
+     "type": "community guide"
+    },
+    {
+     "title": "Zanac A.I. (1986, MSX, Compile Corporation et al.) – Releases",
+     "author": "Generation MSX",
+     "publisher": "Generation MSX",
+     "date": "undated",
+     "score": null,
+     "url": "https://generation-msx.nl/software/compile-ai-inc/zanac-ai/release/754",
+     "type": "community database"
+    },
+    {
+     "title": "Zanac (NES)",
+     "author": "Twentieth Century Gamer",
+     "publisher": "Twentieth Century Gamer",
+     "date": "2017-12-25",
+     "score": null,
+     "url": "https://twentiethcenturygamer.wordpress.com/2017/12/25/zanac-nes/",
+     "type": "retrospective review"
+    },
+    {
+     "title": "The Case Against: Battle Garegga",
+     "author": "Field Notes",
+     "publisher": "Field Notes 010",
+     "date": "2026-10-25",
+     "score": null,
+     "url": "https://sortie-launcher.github.io/sortie-zines/",
+     "type": "cross-reference (same issue)"
+    }
+   ]
+  },
+  "the-case-against-battle-garegga": {
+   "games": [
+    "arcade-battle-garegga",
+    "battle-garegga-rev-2016"
+   ],
+   "sources": [
+    {
+     "title": "Battle Garegga: The Shooter That Charges Interest on Success",
+     "author": "Field Notes",
+     "publisher": "Field Notes 001",
+     "date": "2026-10-24",
+     "score": null,
+     "url": "https://sortie-launcher.github.io/sortie-zines/",
+     "type": "cross-reference (position disputed)"
+    },
+    {
+     "title": "Battle Garegga",
+     "author": "Shmups Wiki contributors",
+     "publisher": "Shmups Wiki",
+     "date": "accessed 2026-10-25",
+     "score": null,
+     "url": "https://shmups.wiki/library/Battle_Garegga",
+     "type": "community reference"
+    },
+    {
+     "title": "Battle Garegga/Advanced Rank",
+     "author": "Shmups Wiki contributors",
+     "publisher": "Shmups Wiki",
+     "date": "accessed 2026-10-25",
+     "score": null,
+     "url": "https://shmups.wiki/library/Battle_Garegga/Advanced_Rank",
+     "type": "community research"
+    },
+    {
+     "title": "Battle Garegga Rev.2016 official site and Rev.2016 features page",
+     "author": "M2",
+     "publisher": "M2 Co., Ltd.",
+     "date": "undated (PS4 North American release 2017-10-06)",
+     "score": null,
+     "url": "https://m2stg.com/en/battle-garegga/ps4/feature.php",
+     "type": "official publisher material"
+    },
+    {
+     "title": "Battle Garegga Rev.2016 Review (PS4)",
+     "author": "Damien McFerran",
+     "publisher": "Push Square",
+     "date": "2017-01-02",
+     "score": null,
+     "url": "https://www.pushsquare.com/reviews/ps4/battle_garegga_rev_2016",
+     "type": "review"
+    },
+    {
+     "title": "バトルガレッガRev.2016",
+     "author": "VGF",
+     "publisher": "VGF (vgf2.g1.xrea.com)",
+     "date": "undated (c. 2017)",
+     "score": null,
+     "url": "http://vgf2.g1.xrea.com/contents/game/battlegaregga2016/battlegaregga2016.htm",
+     "type": "fan review (Japanese)"
+    },
+    {
+     "title": "バトルガレッガ (section 難度制御と自爆)",
+     "author": "Wikipedia contributors",
+     "publisher": "Japanese Wikipedia",
+     "date": "accessed 2026-10-25",
+     "score": null,
+     "url": "https://ja.wikipedia.org/wiki/バトルガレッガ",
+     "type": "community encyclopedia"
+    }
+   ]
+  },
+  "corrections": {
+   "games": [],
+   "sources": [
+    {
+     "title": "Field Notes 001-009 fact-check",
+     "author": "Sortie Field Notes",
+     "publisher": "Sortie Field Notes",
+     "date": "2026-10-25",
+     "score": "",
+     "url": "",
+     "type": "audit; evidence listed in the article's Sources"
+    }
+   ]
+  }
+ }
+}
