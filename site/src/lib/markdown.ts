@@ -1,14 +1,27 @@
 // A faithful port of Sortie's Markdown subset (app/.../data/markdown/Markdown.kt): `#`-`###` headings, paragraphs joined
 // across soft line breaks, `- ` bullets (an indented line continues a bullet), `>` quotes, standalone image lines, `---`
 // rules and inline **bold**, *italic* and [text](url). Raw HTML is never interpreted: everything is escaped as text.
+// Two or more image lines in a row (no blank line between) titled exactly "sequence" form one picture sequence; a lone one
+// is an ordinary image, and the title is a marker, never a caption.
+
+export type MdImage = { caption: string; src: string };
 
 export type MdBlock =
   | { kind: 'heading'; level: 1 | 2 | 3; text: string }
   | { kind: 'paragraph'; text: string }
   | { kind: 'bullet'; text: string }
   | { kind: 'quote'; text: string }
-  | { kind: 'image'; caption: string; src: string }
+  | ({ kind: 'image' } & MdImage)
+  | { kind: 'sequence'; panels: MdImage[] }
   | { kind: 'rule' };
+
+export const SEQUENCE_TITLE = 'sequence';
+
+/** The pictures a block shows, in order: an image's one, a sequence's panels, none for text. */
+export function blockImages(b: MdBlock): MdImage[] {
+  if (b.kind === 'image') return [{ caption: b.caption, src: b.src }];
+  return b.kind === 'sequence' ? b.panels : [];
+}
 
 const HEADING = /^(#{1,6})\s+(.*)$/;
 const IMAGE = /^!\[([^\]]*)]\(\s*([^)\s]+)(?:\s+"([^"]*)")?\s*\)$/;
@@ -20,7 +33,14 @@ export function parseMarkdown(md: string): MdBlock[] {
   const out: MdBlock[] = [];
   let para = '';
   let quote = '';
+  let panels: MdImage[] = [];
+  const endSequence = () => {
+    if (panels.length === 1) out.push({ kind: 'image', ...panels[0] });
+    else if (panels.length > 1) out.push({ kind: 'sequence', panels });
+    panels = [];
+  };
   const flush = () => {
+    endSequence();
     if (para) out.push({ kind: 'paragraph', text: para });
     para = '';
     if (quote) out.push({ kind: 'quote', text: quote });
@@ -30,9 +50,14 @@ export function parseMarkdown(md: string): MdBlock[] {
     const line = raw.trim();
     const heading = HEADING.exec(line);
     const image = IMAGE.exec(line);
+    const panel = image !== null && image[3] === SEQUENCE_TITLE;
+    if (!panel) endSequence();
     const last = out[out.length - 1];
     if (!line) flush();
-    else if (heading) {
+    else if (panel) {
+      if (!panels.length) flush();
+      panels.push({ caption: image[1].trim(), src: image[2] });
+    } else if (heading) {
       flush();
       out.push({ kind: 'heading', level: Math.min(heading[1].length, 3) as 1 | 2 | 3, text: heading[2].trim() });
     } else if (line.startsWith('>')) {

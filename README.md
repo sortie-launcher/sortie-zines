@@ -52,8 +52,16 @@ provenance) plus `catalog.json`. The format is specified in Sortie's
   a separate app pin update; publishing an issue does not itself trigger an app release. Local app builds keep an
   explicit `app/magazines.lock` baseline.
 
+For an ordered visual passage, place two to twelve captioned Markdown image lines together with the title `"sequence"`,
+without blank lines between them. Use it where the order matters, not as a gallery to hold spare images. The web reader
+shows a horizontal row on wide screens: focus it to use Left/Right, or use its previous/next buttons; Up/Down continues the
+article. It remembers the chosen panel. Narrow screens and print stack the same pictures vertically, and older Sortie
+readers still show them as ordinary images. Captions and provenance are required for every panel; no new issue schema is needed.
+
 The web reader lives in `site/` (Astro) and only reads `issues/`. `cd site && npm ci && npm run build` builds it and
-checks every link, image and published original; pushes to `main` deploy it to GitHub Pages.
+checks every link, image and published original; pushes to `main` deploy it to GitHub Pages. To preview unpublished packs,
+set `SORTIE_ZINES_ISSUES` to an absolute path of a folder holding issue folders (for example copies of `issues/*` plus a
+draft) for `npm run build` or `npm run dev`; nothing in `issues/` is read or written then.
 
 ## Rights
 

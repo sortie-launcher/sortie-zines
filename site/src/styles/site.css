@@ -710,7 +710,7 @@ main {
   max-width: 46rem;
   margin: 0 auto;
 }
-.prose > :not(.fig) {
+.prose > :not(.fig, .seq) {
   max-width: var(--measure);
   margin-inline: auto;
 }
@@ -770,7 +770,7 @@ main {
     grid-column: 2;
     margin: 0;
   }
-  .article .prose > :not(.fig) {
+  .article .prose > :not(.fig, .seq) {
     margin-inline: 0;
   }
   .article .prose .fig figcaption {
@@ -858,6 +858,119 @@ main {
   }
   .prose .fig--portrait figcaption {
     margin-left: 0;
+  }
+}
+
+/* ---- Picture sequences -----------------------------------------------------------------------------------------
+   A run of panels whose order is the point. Narrow screens and print stack them as ordinary figures with every caption;
+   from 40rem one row snaps panel by panel, the current panel centred and its neighbours showing at the edges. ← and → move
+   only while the strip has the focus (article page script); otherwise they keep turning articles. */
+
+.seq {
+  margin: 2.5rem 0;
+}
+.seq:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 0.6rem;
+}
+.seq__track {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.prose .seq__panel {
+  margin: 0;
+  padding: 0;
+}
+.seq__panel + .seq__panel {
+  margin-top: 2rem;
+}
+.prose .seq .fig {
+  margin: 0;
+}
+.seq__bar {
+  display: none;
+}
+@media (min-width: 40rem) {
+  .seq__track {
+    display: flex;
+    gap: 1rem;
+    padding-inline: 11%;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scroll-padding-inline: 11%;
+    scrollbar-width: thin;
+  }
+  .seq__panel {
+    flex: 0 0 78%;
+    scroll-snap-align: center;
+  }
+  .seq__panel + .seq__panel {
+    margin-top: 0;
+  }
+  .seq .fig img {
+    width: 100%;
+    height: min(24rem, 55vh);
+    object-fit: contain;
+  }
+  .seq .fig figcaption,
+  .article .prose .seq .fig figcaption {
+    max-width: none;
+    margin: 0.7rem 0 0;
+  }
+  .seq:is(:focus-visible, :has(:focus-visible)) .seq__panel:not([aria-current]) {
+    opacity: 0.5;
+  }
+  .seq__bar {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 11% 0;
+    font-family: var(--sans);
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  .seq__count {
+    font-variant-numeric: tabular-nums;
+    color: var(--text);
+  }
+  .seq__keys {
+    visibility: hidden;
+  }
+  .seq:is(:focus-visible, :has(:focus-visible)) .seq__keys {
+    visibility: visible;
+  }
+  .seq__nav {
+    display: flex;
+    gap: 0.4rem;
+    margin-left: auto;
+  }
+  .seq__nav[hidden] {
+    display: none;
+  }
+  .seq__btn {
+    width: 2.25rem;
+    height: 2.25rem;
+    font: inherit;
+    color: var(--text);
+    background: none;
+    border: 1px solid var(--line);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .seq__btn:hover:not(:disabled) {
+    border-color: var(--accent);
+  }
+  .seq__btn:disabled {
+    opacity: 0.35;
+    cursor: default;
+  }
+}
+@media (min-width: 40rem) and (prefers-reduced-motion: no-preference) {
+  .seq__track {
+    scroll-behavior: smooth;
   }
 }
 
@@ -1247,5 +1360,19 @@ code {
   body {
     background: #fff;
     color: #000;
+  }
+  .seq__track {
+    display: block;
+    overflow: visible;
+    padding: 0;
+  }
+  .seq__panel + .seq__panel {
+    margin-top: 2rem;
+  }
+  .seq .fig img {
+    height: auto;
+  }
+  .seq__bar {
+    display: none;
   }
 }
