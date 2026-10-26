@@ -53,7 +53,9 @@ provenance) plus `catalog.json`. The format is specified in Sortie's
   explicit `app/magazines.lock` baseline.
 
 The web reader lives in `site/` (Astro) and only reads `issues/`. `cd site && npm ci && npm run build` builds it and
-checks every link, image and published original; pushes to `main` deploy it to GitHub Pages.
+checks every link, image and published original; pushes to `main` deploy it to GitHub Pages. To preview unpublished packs,
+set `SORTIE_ZINES_ISSUES` to an absolute path of a folder holding issue folders (for example copies of `issues/*` plus a
+draft) for `npm run build` or `npm run dev`; nothing in `issues/` is read or written then.
 
 ## Rights
 

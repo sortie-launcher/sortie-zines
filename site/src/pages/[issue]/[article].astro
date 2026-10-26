@@ -14,6 +14,7 @@ const prev = issue.articles[article.index - 1];
 const next = issue.articles[article.index + 1];
 const name = `Field Notes${issue.number ? ` No. ${issue.number}` : ''}`;
 const { html, outline } = articleBodyHtml(issue, article);
+const hasSequence = article.blocks.some((b) => b.kind === 'sequence');
 ---
 <Base
   title={`${article.title}: ${name}`}
@@ -105,7 +106,7 @@ const { html, outline } = articleBodyHtml(issue, article);
   </nav>
   <p class="pager__foot">
     <a href={issue.href}>All articles in {name}</a>
-    <span class="keys-hint">Left and right arrow keys move between articles.</span>
+    <span class="keys-hint">{hasSequence ? 'Left and right arrow keys move between articles, or between pictures while a picture sequence has the focus.' : 'Left and right arrow keys move between articles.'}</span>
   </p>
 
   <script is:inline>
@@ -116,5 +117,80 @@ const { html, outline } = articleBodyHtml(issue, article);
       const link = rel && document.querySelector(`link[rel="${rel}"]`);
       if (link) location.href = link.href;
     });
+  </script>
+  <script is:inline>
+    // Picture sequences (see sequenceHtml): in the row layout, ← and → move between panels only while the strip (or one of its
+    // buttons or links) has the focus, and are then kept from the article navigation above; the chosen panel is remembered
+    // per article. In the stacked layout the strip is no focus stop and the arrows keep turning articles.
+    (() => {
+      const row = matchMedia('(min-width: 40rem)');
+      const still = matchMedia('(prefers-reduced-motion: reduce)');
+      const centre = (p) => p.offsetLeft + p.offsetWidth / 2;
+      for (const seq of document.querySelectorAll('.seq')) {
+        const track = seq.querySelector('.seq__track');
+        const panels = [...track.children];
+        const count = seq.querySelector('.seq__count');
+        const nav = seq.querySelector('.seq__nav');
+        const [prev, next] = nav.querySelectorAll('button');
+        const key = `field-notes:seq:${location.pathname}:${seq.dataset.seq}`;
+        let current = 0;
+        const show = (i) => {
+          current = i;
+          panels.forEach((p, j) => (j === i ? p.setAttribute('aria-current', 'true') : p.removeAttribute('aria-current')));
+          count.textContent = `${i + 1} of ${panels.length}`;
+          prev.disabled = i === 0;
+          next.disabled = i === panels.length - 1;
+          try {
+            localStorage.setItem(key, String(i));
+          } catch {}
+        };
+        const go = (i, smooth) => {
+          const to = Math.max(0, Math.min(panels.length - 1, i));
+          if (row.matches) {
+            track.scrollTo({ left: centre(panels[to]) - track.clientWidth / 2, behavior: smooth && !still.matches ? 'smooth' : 'instant' });
+          }
+          show(to);
+        };
+        let saved = 0;
+        try {
+          saved = Number(localStorage.getItem(key)) || 0;
+        } catch {}
+        const layout = () => {
+          seq.tabIndex = row.matches ? 0 : -1;
+          go(current, false);
+        };
+        current = Math.max(0, Math.min(panels.length - 1, saved));
+        nav.hidden = false;
+        layout();
+        row.addEventListener('change', layout);
+        prev.addEventListener('click', () => go(current - 1, true));
+        next.addEventListener('click', () => go(current + 1, true));
+        seq.addEventListener('keydown', (e) => {
+          if (!row.matches || e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) return;
+          const step = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
+          if (!step) return;
+          e.preventDefault(); // at either end too: the focused strip never turns the article
+          go(current + step, true);
+        });
+        // a swipe or scrollbar drag chooses the panel nearest the middle
+        let frame = 0;
+        track.addEventListener(
+          'scroll',
+          () => {
+            if (frame || !row.matches) return;
+            frame = requestAnimationFrame(() => {
+              frame = 0;
+              const mid = track.scrollLeft + track.clientWidth / 2;
+              let best = 0;
+              panels.forEach((p, j) => {
+                if (Math.abs(centre(p) - mid) < Math.abs(centre(panels[best]) - mid)) best = j;
+              });
+              if (best !== current) show(best);
+            });
+          },
+          { passive: true },
+        );
+      }
+    })();
   </script>
 </Base>

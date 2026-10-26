@@ -1,11 +1,12 @@
 // Reads the schema-version-2 packs in ../issues (read-only) and renders them to safe HTML for the web reader.
+// SORTIE_ZINES_ISSUES names another packs folder instead, to preview unpublished drafts; prepare-media and check-site follow it.
 import { readdirSync, readFileSync } from 'node:fs';
 import path from 'node:path';
-import { autolink, escapeHtml, inlineHtml, inlinePlain, parseMarkdown, type MdBlock } from './markdown';
+import { autolink, blockImages, escapeHtml, inlineHtml, inlinePlain, parseMarkdown, type MdBlock } from './markdown';
 
 export const BASE = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const SITE_ROOT = process.cwd();
-const ISSUES_DIR = path.resolve(SITE_ROOT, '..', 'issues');
+const ISSUES_DIR = process.env.SORTIE_ZINES_ISSUES ? path.resolve(process.env.SORTIE_ZINES_ISSUES) : path.resolve(SITE_ROOT, '..', 'issues');
 const MEDIA: Record<string, MediaInfo> = JSON.parse(readFileSync(path.join(SITE_ROOT, '.generated', 'media.json'), 'utf8'));
 const SLUG = /^[A-Za-z0-9][A-Za-z0-9_-]{0,79}$/;
 // "credits" is the per-issue provenance page, so no article may use that id.
@@ -118,7 +119,7 @@ function loadIssue(id: string): Issue {
     if (!isSafeIssuePath(a.body)) throw new Error(`${id}/${a.id}: unsafe body path`);
     const blocks = parseMarkdown(readFileSync(path.join(dir, a.body), 'utf8'));
     if (!blocks.length) throw new Error(`${id}/${a.id}: empty body`);
-    const bodyImages = blocks.flatMap((b) => (b.kind === 'image' ? [b.src] : []));
+    const bodyImages = blocks.flatMap((b) => blockImages(b).map((i) => i.src));
     for (const src of bodyImages) picture(id, src);
     return {
       id: a.id,
@@ -174,10 +175,34 @@ export function paragraphsHtml(text: string): string {
 
 export function figureHtml(pic: Picture, caption: string, sizes: string, extraClass = '', eager = false): string {
   const portrait = pic.height > pic.width * 1.1 ? ' fig--portrait' : '';
-  return `<figure class="fig${portrait}${extraClass ? ' ' + extraClass : ''}">
+  return figureMarkup(pic, caption, sizes, `fig${portrait}${extraClass ? ' ' + extraClass : ''}`, eager);
+}
+
+function figureMarkup(pic: Picture, caption: string, sizes: string, classes: string, eager = false): string {
+  return `<figure class="${classes}">
 <img src="${pic.src}" srcset="${pic.srcset}" sizes="${sizes}" width="${pic.width}" height="${pic.height}" alt="${escapeHtml(inlinePlain(caption))}" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">
 <figcaption><span class="fig__cap">${inlineHtml(caption)}</span> <a class="fig__prov" href="${pic.creditsHref}">Image provenance</a></figcaption>
 </figure>`;
+}
+
+const SEQUENCE_PANEL_SIZES = '(min-width: 52rem) 36rem, 100vw';
+
+/**
+ * A picture sequence: one row of captioned panels that snaps panel by panel (a stack on narrow screens, see site.css). The
+ * strip is focusable; the article page's script makes ← and → move between its panels only while it has the focus, and
+ * remembers the chosen panel. [n] numbers the article's sequences for that memory.
+ */
+function sequenceHtml(issue: Issue, panels: { caption: string; src: string }[], n: number): string {
+  const count = panels.length;
+  const items = panels
+    .map((p, i) => `<li class="seq__panel"${i === 0 ? ' aria-current="true"' : ''}>${figureMarkup(picture(issue.id, p.src), p.caption, SEQUENCE_PANEL_SIZES, 'fig fig--seq')}</li>`)
+    .join('\n');
+  return `<section class="seq" data-seq="${n}" tabindex="0" aria-roledescription="picture sequence" aria-label="Picture sequence, ${count} images">
+<ol class="seq__track">
+${items}
+</ol>
+<div class="seq__bar"><span class="seq__count" aria-live="polite">1 of ${count}</span><span class="seq__keys">← and → move between the pictures</span><span class="seq__nav" hidden><button type="button" class="seq__btn" data-step="-1" aria-label="Previous picture">←</button><button type="button" class="seq__btn" data-step="1" aria-label="Next picture">→</button></span></div>
+</section>`;
 }
 
 export const slugify = (s: string) =>
@@ -196,7 +221,7 @@ export function articleBodyHtml(issue: Issue, article: Article): { html: string;
   const outline: Outline[] = [];
   const ids = new Set<string>();
   let list: 'bullet' | null = null;
-  let inSources = false;
+  let sequences = 0;
   const closeList = () => {
     if (list) out.push('</ul>');
     list = null;
@@ -232,6 +257,9 @@ export function articleBodyHtml(issue: Issue, article: Article): { html: string;
         break;
       case 'image':
         out.push(figureHtml(picture(issue.id, b.src), b.caption, BODY_FIGURE_SIZES));
+        break;
+      case 'sequence':
+        out.push(sequenceHtml(issue, b.panels, sequences++));
         break;
       case 'rule':
         out.push('<hr>');

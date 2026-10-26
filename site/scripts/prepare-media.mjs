@@ -1,6 +1,6 @@
-// Prepares the site's generated public directory from the read-only issue packs in ../issues.
-// Originals are copied byte-for-byte; narrower WebP derivatives are written beside them under _w/.
-// Never writes inside ../issues.
+// Prepares the site's generated public directory from the read-only issue packs in ../issues (or SORTIE_ZINES_ISSUES, a
+// folder of unpublished draft packs to preview). Originals are copied byte-for-byte; narrower WebP derivatives are written
+// beside them under _w/. Never writes inside the packs folder.
 import { createHash } from 'node:crypto';
 import { copyFile, mkdir, readdir, readFile, rm, stat, writeFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -9,7 +9,7 @@ import sharp from 'sharp';
 
 const site = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const repo = path.resolve(site, '..');
-const issuesDir = path.join(repo, 'issues');
+const issuesDir = process.env.SORTIE_ZINES_ISSUES ? path.resolve(process.env.SORTIE_ZINES_ISSUES) : path.join(repo, 'issues');
 const out = path.join(site, '.generated');
 const pub = path.join(out, 'public');
 const WIDTHS = [480, 800, 1200];

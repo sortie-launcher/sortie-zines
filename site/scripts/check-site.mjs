@@ -1,5 +1,6 @@
 // Checks the built site in dist/: every internal link, image, srcset candidate and fragment resolves; nothing is loaded
-// from another origin; every issue, article and picture of ../issues is rendered; copied originals are byte-identical.
+// from another origin; every issue, article and picture of ../issues (or SORTIE_ZINES_ISSUES, as the build used) is
+// rendered; copied originals are byte-identical.
 import { createHash } from 'node:crypto';
 import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
 import path from 'node:path';
@@ -7,7 +8,7 @@ import { fileURLToPath } from 'node:url';
 
 const site = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dist = path.join(site, 'dist');
-const issuesDir = path.resolve(site, '..', 'issues');
+const issuesDir = process.env.SORTIE_ZINES_ISSUES ? path.resolve(process.env.SORTIE_ZINES_ISSUES) : path.resolve(site, '..', 'issues');
 const ORIGIN = 'https://sortie-launcher.github.io';
 const BASE = '/sortie-zines/';
 
@@ -115,13 +116,26 @@ for (const id of readdirSync(issuesDir).filter((n) => statSync(path.join(issuesD
       fail(`missing article page ${id}/${a.id}`);
       continue;
     }
-    const expected = [a.image, ...readFileSync(path.join(issuesDir, id, a.body), 'utf8').split(/\r?\n/).map((l) => IMG_LINE.exec(l.trim())?.[2]).filter(Boolean)].filter(Boolean);
+    const lines = readFileSync(path.join(issuesDir, id, a.body), 'utf8').split(/\r\n|\n|\r/);
+    const expected = [a.image, ...lines.map((l) => IMG_LINE.exec(l.trim())?.[2]).filter(Boolean)].filter(Boolean);
     imageRefs += expected.length;
     const rendered = [...page.matchAll(/<img\b[^>]*\ssrc="([^"]+)"/g)].map((m) => m[1]);
     const want = expected.map((p) => `${BASE}${id}/${p}`);
     if (JSON.stringify(rendered) !== JSON.stringify(want)) fail(`${id}/${a.id}: images ${JSON.stringify(rendered)} != ${JSON.stringify(want)}`);
     if (!/id="sources"/.test(page)) fail(`${id}/${a.id}: no Sources section`);
     if (!page.includes(`${BASE}${id}/credits/`)) fail(`${id}/${a.id}: no credits link`);
+    // every run of two or more consecutive image lines titled "sequence" is one picture sequence strip
+    let runs = 0;
+    let run = 0;
+    for (const l of [...lines, '']) {
+      if (IMG_LINE.exec(l.trim())?.[3] === 'sequence') run++;
+      else {
+        if (run > 1) runs++;
+        run = 0;
+      }
+    }
+    const strips = (page.match(/<section class="seq"/g) ?? []).length;
+    if (strips !== runs) fail(`${id}/${a.id}: ${strips} picture sequence strips rendered, ${runs} in the body`);
   }
   for (const name of readdirSync(path.join(issuesDir, id, 'media'))) {
     const src = readFileSync(path.join(issuesDir, id, 'media', name));
