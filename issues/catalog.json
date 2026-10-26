@@ -1,5 +1,5 @@
 {
- "digest": "9ea387b3002c3f0e801f2042a263eb53fc170744615417af48eff03d915160cd",
+ "digest": "56cb863286b11a5246cf2e74b2561af6c791287ac256d1b22d635b68c2e7a529",
  "format": 1,
  "issues": [
   {
@@ -1138,7 +1138,7 @@
    "revision": 1
   },
   {
-   "digest": "e36a45e835668a90a7c0502092c5a9148ca7c2aec4255cecc2117d7ef26b3f68",
+   "digest": "01728fb9c154bbe855c2904a98096b0abe67c61d203e9c96b3f137ede915a113",
    "files": [
     {
      "path": "articles/copy-this-spell-onto-paper.md",
@@ -1147,13 +1147,13 @@
     },
     {
      "path": "articles/counting-the-directory.md",
-     "sha256": "0f8217ca8a219f41c245a74c86360083feb3d7e52751ddd33d0ab4549a1f9863",
-     "size": 4066
+     "sha256": "b5f4fed6544fabf17890a5622daaab34acddc5295123d6410ab90681f8d1303e",
+     "size": 4037
     },
     {
      "path": "articles/postcards.md",
-     "sha256": "355923cf9e86d54ad950d0aad4294288d7a18bc5c1b51123dafec65055c1a302",
-     "size": 3666
+     "sha256": "284e21e2267f5d4b0721c08068ae23ec356a86a29d4cafefebc7b27acdc5cbcb",
+     "size": 3697
     },
     {
      "path": "articles/the-password-no-game-printed.md",
