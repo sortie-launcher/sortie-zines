@@ -1,0 +1,495 @@
+{
+ "issue": "field-notes-011",
+ "compiled": "2026-10-26",
+ "revised": "2026-10-26",
+ "rightsNote": "Original editorial prose, diagrams, chart and cover illustration were made for Sortie Field Notes. Game images, magazine and manual pages and quoted material belong to their respective rights holders. Included for commentary and criticism; no endorsement or ownership is implied. Third-party media is not covered by the Sortie app's MIT licence. Per-image credits and sources follow.",
+ "researchNote": "Written by an AI from the cited sources. No game was launched or played for this issue. Magazine and manual quotations were checked against page images, not only OCR. Password decodes are Field Notes' own computations from community reverse-engineering, labelled as such. Community research is labelled in each article's Sources.",
+ "media": [
+  {
+   "file": "media/cover.webp",
+   "kind": "original 1600x1000 cover illustration",
+   "source": "Authored vector illustration for Sortie Field Notes: a magazine page, a notebook and a television password screen, with character tiles carrying one string from page to paper to machine. The string Wq8-?B 7aK0dE was invented for the illustration and is not taken from any game. No game images, no third-party artwork, no image-generation model.",
+   "rights": "Original illustration and typography by Sortie Field Notes",
+   "processing": "Hand-written SVG rendered with ImageMagick/librsvg; palette ink #15171E, cream #F1E6D0, vermilion #D9532F, amber #E9B949, sky #6FA8DC; type Noto Sans ExtraCondensed Black, Noto Sans and Noto Sans Mono; WebP q90; checked at full size and 320 px shelf width; output 1600x1000 WebP, 81610 bytes, sha256 251bbabc9b0a3e4920efbb002362577f3bc0b94c604837699c58ed36a67b8495; decoded and visually inspected"
+  },
+  {
+   "file": "media/the-password-no-game-printed.webp",
+   "kind": "magazine page crop",
+   "source": "VideoGames & Computer Entertainment, July 1989, page 53 (\"Easter Egg Hunt\"), Internet Archive item video-games-computer-entertainment-july-1989, page image leaf n52 (https://archive.org/download/video-games-computer-entertainment-july-1989/page/n52.jpg); scanned at 600 dpi by the Video Game History Foundation",
+   "edition": "US magazine, July 1989; the photographed screen is the NES Metroid password entry screen with JUSTIN BAILEY in the first row",
+   "rights": "VG&CE © L.F.P., Inc.; Metroid © Nintendo",
+   "processing": "Crop of the Metroid tip (source 4838x6462 page) to 1742x2080, Lanczos downscale to 1200 wide, WebP q84; output 1200x1433 WebP, 336198 bytes, sha256 c1ff58f657c0ffc2cde675c4e4697b369b362faeb03f245d3c161100f024a876; decoded and visually inspected"
+  },
+  {
+   "file": "media/power-play-1988-11-metroid-tip.webp",
+   "kind": "magazine page crop",
+   "source": "Power Play, \"Happy-Computer Special 11/88\", page 36 (Videospiel-Tips), Internet Archive item powerplay_1988-11, page image leaf n35 (https://archive.org/download/powerplay_1988-11/page/n35.jpg)",
+   "edition": "German magazine, issue dated 11/88; tip concerns the European NES Metroid",
+   "rights": "Power Play © Markt & Technik (rights now with successors); Metroid © Nintendo",
+   "processing": "Crop of the Metroid tip (source 1801x2548 page) to 421x371, 2x Lanczos upscale for legibility (scan text, not pixel art), WebP q88; output 842x742 WebP, 47898 bytes, sha256 bbfe55c722c976f0e0855c8fd14b80aa495a843b20939cf413597ec502e2c1d6; decoded and visually inspected"
+  },
+  {
+   "file": "media/justin-bailey-decoded.webp",
+   "kind": "original explanatory diagram",
+   "source": "Original diagram by Sortie Field Notes. Values computed by Field Notes from the password routines in metroidret/m1disasm (commit 768c609): 6-bit packing, left rotation by the shift byte, byte-sum checksum; independently cross-checked against Ratliff's Metroid Password Format Guide.",
+   "edition": "Metroid, NES cartridge (US/Europe) password format",
+   "rights": "Original diagram by Sortie Field Notes; Metroid © Nintendo",
+   "processing": "Hand-written SVG (Noto Sans, Noto Sans Mono) rendered with ImageMagick/librsvg at 1600x1000, WebP q92; output 1600x1000 WebP, 112710 bytes, sha256 3d83ef570aa8d5131dc92294f24edec7a4ca004b3881bd5f70e36b4c958cdb2b; decoded and visually inspected"
+  },
+  {
+   "file": "media/deadly-towers-password-switch.webp",
+   "kind": "magazine page crop",
+   "source": "Nintendo Power No. 3, November/December 1988, page 55 (Classified Information), Internet Archive item nintendo-power-003-november-december-1988-kitsunebi, page image leaf n53; scanned and edited by kitsunebi",
+   "edition": "US magazine; four screenshots of the NES Deadly Towers (Broderbund) title room, password, password-entry and status screens",
+   "rights": "Nintendo Power © Nintendo of America; Deadly Towers © Broderbund",
+   "processing": "Crop of the Deadly Towers tip (source 2385x3200 page) to 2063x1424, Lanczos downscale to 1600 wide, WebP q84; output 1600x1104 WebP, 352454 bytes, sha256 84cc79c2a400608e6ed6b15ad8babc2766ae65919d6712cc8ca7f310e8fe177c; decoded and visually inspected"
+  },
+  {
+   "file": "media/copy-this-spell-onto-paper.webp",
+   "kind": "manual page crop",
+   "source": "Dragon Quest Famicom manual, page 39 (top), from \"Dragon Quest - Manual Page 6.tif\" (right half of an imposed sheet), Internet Archive item DragonQuestScans900dpi (https://archive.org/details/DragonQuestScans900dpi)",
+   "edition": "Original Japanese Famicom release, Enix, 1986",
+   "rights": "Dragon Quest © Enix (now Square Enix)",
+   "processing": "Right half of the 900 dpi sheet reduced to 1200x1829, cropped to the top 1200x590 (illustration and first paragraph), WebP q86; output 1200x590 WebP, 130908 bytes, sha256 1945474e9611aad3ce5b59a87c386774de9cb35898d349e168e46540701765e8; decoded and visually inspected"
+  },
+  {
+   "file": "media/dragon-quest-manual-p38.webp",
+   "kind": "manual page",
+   "source": "Dragon Quest Famicom manual, page 38, left half of \"Dragon Quest - Manual Page 38.tif\", via the Internet Archive IIIF service (https://iiif.archive.org/image/iiif/3/DragonQuestScans900dpi%2FDragon%20Quest%20-%20Manual%20Page%2038.tif/pct:0,0,50,100/1200,/0/default.jpg)",
+   "edition": "Original Japanese Famicom release, Enix, 1986",
+   "rights": "Dragon Quest © Enix (now Square Enix)",
+   "processing": "Full page 1200x1829, Lanczos downscale to 900 wide, WebP q84; output 900x1372 WebP, 191966 bytes, sha256 da8dd64b3d2affe7e715aa7d50331d74e5652eebc78c6c90f12a274b217b84d9; decoded and visually inspected"
+  },
+  {
+   "file": "media/metroid-check-board.webp",
+   "kind": "manual page",
+   "source": "Metroid NES instruction manual, page 43, Nintendo digital reproduction CLV-P-NAAQE.pdf (https://www.nintendo.co.jp/clv/manuals/en/pdf/CLV-P-NAAQE.pdf; PDF sha256 53904fde712e57db3bbae9ee38310ea3eaf6ec52e77c6d355144e8a76a0ff63a)",
+   "edition": "NES release manual (NES-MT-USA), as reproduced by Nintendo with \"a bare minimum of edits\"",
+   "rights": "Metroid © Nintendo",
+   "processing": "Embedded page raster extracted at native 1030x765 with pdfimages, WebP q90; output 1030x765 WebP, 36846 bytes, sha256 2fa0aa08b18ec781146a7c5a41315252a5e1d9a97d538c004d889eff0a7225f1; decoded and visually inspected"
+  },
+  {
+   "file": "media/dragon-warrior-password-to-battery.webp",
+   "kind": "composite of two magazine crops",
+   "derivedFrom": [
+    "Nintendo Fun Club News, Issue 4, Winter 1987, page 14 (leaf n13)",
+    "Nintendo Power No. 5, March/April 1989, page A-2 (leaf n69)"
+   ],
+   "source": "Crops from Internet Archive items nintendo-fun-club-news-issue-4-winter-1987 (page image n13.jpg, 1280x1713) and nintendo-power-005-march-april-1989-kitsunebi (page image n69.jpg, scanned and edited by kitsunebi); labels and red outline added by Sortie Field Notes",
+   "edition": "US Nintendo of America publications; Dragon Warrior preview text (Winter 1987) and directory row for the forthcoming NES Dragon Warrior (1989)",
+   "rights": "© Nintendo of America; Dragon Warrior © Enix; composite layout by Sortie Field Notes",
+   "processing": "Preview paragraph crop 400x228 upscaled 2x (Lanczos); directory header and row crops scaled to 1460 wide; assembled with PIL on cream #F3EBDD with Noto Sans Condensed labels; WebP q88; output 1600x818 WebP, 82472 bytes, sha256 e1a409d2e531c8dccb3ecd6cb8bf9dd56a4100fbac9c3132e14e2f20a6092d7d; decoded and visually inspected"
+  },
+  {
+   "file": "media/counting-the-directory.webp",
+   "kind": "original chart",
+   "source": "Original chart by Sortie Field Notes from a count of Nintendo Power No. 5 (March/April 1989), \"The Complete NES Game Pak Directory\", pages A-1 to A-6, Internet Archive item nintendo-power-005-march-april-1989-kitsunebi (leaves n68–n73)",
+   "edition": "179 titles with release dates (six dated April 1989); titles marked \"Future\" excluded; recounted independently",
+   "rights": "Original chart by Sortie Field Notes",
+   "processing": "Hand-written SVG (Noto Sans) rendered with ImageMagick/librsvg at 1600x900, WebP q92; output 1600x900 WebP, 114154 bytes, sha256 e9ab2a5b29ce0a1644ec443b86a3db1eaf72ecbfdae11adbc22ab652ec20ae14; decoded and visually inspected"
+  },
+  {
+   "file": "media/postcards.webp",
+   "kind": "crop of an official printable",
+   "source": "Play Nintendo, \"Rescue Request Password Postcard\" PDF (https://play.nintendo.com/documents/Pokemon_Mystery_Dungeon_RTDX_rRescue_request_postcard.pdf; created 2020-03-16; PDF sha256 f9ba3b9d0f8ffe1cc1e9e78f81b7aefc60da6f61ef82a75fc43c3cd55a84911f)",
+   "edition": "Printable for Pokémon Mystery Dungeon: Rescue Team DX (Nintendo Switch, 2020)",
+   "rights": "© 2020 Pokémon. © 1995–2020 Nintendo/Creatures Inc./GAME FREAK inc. © 1993–2020 Spike Chunsoft",
+   "processing": "Rendered with pdftoppm at 200 dpi (1700x2200), cropped to the postcard panel, Lanczos to 1600 wide, WebP q86; output 1600x980 WebP, 145280 bytes, sha256 f7485f71d73c73b22bfef2d3c5365f4c81cc1e9cde990463d82dde5e7529ff6e; decoded and visually inspected"
+  }
+ ],
+ "articles": {
+  "the-password-no-game-printed": {
+   "games": [
+    "nes-metroid",
+    "nes-dragon-quest-ii-akuryou-no-kamigami",
+    "nes-deadly-towers",
+    "nes-gauntlet"
+   ],
+   "sources": [
+    {
+     "title": "Videospiel-Tips: Metroid (Nintendo), page 36",
+     "author": "Helge Heiner (reader tip)",
+     "publisher": "Power Play / Happy-Computer Special (Markt & Technik)",
+     "date": "1988-11",
+     "url": "https://archive.org/details/powerplay_1988-11",
+     "type": "contemporary magazine"
+    },
+    {
+     "title": "Easter Egg Hunt: Metroid, page 53",
+     "author": "Steve Bland (reader tip)",
+     "publisher": "VideoGames & Computer Entertainment (L.F.P., Inc.)",
+     "date": "1989-07",
+     "url": "https://archive.org/details/video-games-computer-entertainment-july-1989",
+     "type": "contemporary magazine"
+    },
+    {
+     "title": "Letters page: Correction, page 14",
+     "author": "VG&CE staff",
+     "publisher": "VideoGames & Computer Entertainment (L.F.P., Inc.)",
+     "date": "1989-11",
+     "url": "https://archive.org/details/video-games-computer-entertainment-november-1989",
+     "type": "contemporary magazine"
+    },
+    {
+     "title": "Mastering Metroid: \"JUSTIN WHO?\" (Vol. 29)",
+     "author": "Nintendo Power staff",
+     "publisher": "Nintendo of America",
+     "date": "1991-10",
+     "url": "https://archive.org/details/nintendo-power-issue-029-october-1991",
+     "type": "official magazine"
+    },
+    {
+     "title": "Metroid's Justin Bailey Is A Real Person; Here's Why He Hasn't Spoken Up",
+     "author": "Kate Willaert",
+     "publisher": "A Critical Hit!",
+     "date": "2021-06-21",
+     "url": "https://www.acriticalhit.com/metroids-justin-bailey-is-a-real-person-heres-why-he-hasnt-spoken-up/",
+     "type": "retrospective research"
+    },
+    {
+     "title": "m1disasm: Metroid (NES) disassembly, commit 768c609",
+     "author": "metroidret and contributors",
+     "publisher": "GitHub",
+     "date": "read 2026-10-26",
+     "url": "https://github.com/metroidret/m1disasm",
+     "type": "community reverse-engineering"
+    },
+    {
+     "title": "Metroid Password Format Guide v1.1",
+     "author": "John David Ratliff",
+     "publisher": "technoplaza.net",
+     "date": "2012",
+     "url": "https://games.technoplaza.net/mpg/password.txt",
+     "type": "community technical document"
+    },
+    {
+     "title": "Metroid",
+     "author": "The Cutting Room Floor contributors",
+     "publisher": "The Cutting Room Floor (archived 2026-10-17)",
+     "date": "2026-10-17",
+     "url": "https://web.archive.org/web/20261017044541/https://tcrf.net/Metroid",
+     "type": "community wiki"
+    },
+    {
+     "title": "How Super Smash Bros. Melee introduced Fire Emblem to western audiences",
+     "author": "David L. Craddock",
+     "publisher": "Shacknews",
+     "date": "2017-02-03",
+     "url": "https://www.shacknews.com/article/98904/how-super-smash-bros-melee-introduced-fire-emblem-to-western-audiences",
+     "type": "retrospective journalism"
+    },
+    {
+     "title": "dq2pswd: Dragon Quest II password tool",
+     "author": "yoshi389111",
+     "publisher": "GitHub",
+     "date": "read 2026-10-26",
+     "url": "https://github.com/yoshi389111/dq2pswd",
+     "type": "community reverse-engineering"
+    },
+    {
+     "title": "Classified Information: Deadly Towers, page 55 (No. 3)",
+     "author": "Nintendo Power staff (\"Agent 705\")",
+     "publisher": "Nintendo of America",
+     "date": "1988-11",
+     "url": "https://archive.org/details/nintendo-power-003-november-december-1988-kitsunebi",
+     "type": "official magazine"
+    },
+    {
+     "title": "Classified Information: Gauntlet, page 53 (No. 4)",
+     "author": "Nintendo Power staff",
+     "publisher": "Nintendo of America",
+     "date": "1989-01",
+     "url": "https://archive.org/details/nintendo-power-004-january-february-1989-kitsunebi",
+     "type": "official magazine"
+    },
+    {
+     "title": "Cartridge and mappers' history",
+     "author": "NESdev Wiki contributors",
+     "publisher": "NESdev Wiki",
+     "date": "undated",
+     "url": "https://www.nesdev.org/wiki/Cartridge_and_mappers'_history",
+     "type": "community research"
+    }
+   ]
+  },
+  "copy-this-spell-onto-paper": {
+   "games": [
+    "nes-dragon-quest",
+    "nes-dragon-warrior",
+    "nes-metroid",
+    "fds-metroid",
+    "nes-mega-man-2",
+    "nes-rockman-2-dr-wily-no-nazo",
+    "nes-gauntlet",
+    "nes-kid-icarus",
+    "nes-the-legend-of-zelda",
+    "nes-zelda-ii-the-adventure-of-link",
+    "nes-castlevania"
+   ],
+   "sources": [
+    {
+     "title": "Dragon Quest instruction manual, pages 38–39",
+     "author": "Enix",
+     "publisher": "Enix",
+     "date": "1986",
+     "url": "https://archive.org/details/DragonQuestScans900dpi",
+     "type": "manual"
+    },
+    {
+     "title": "DQ1の「ふっかつのじゅもん」の仕組みを全解説",
+     "author": "musemyuzu",
+     "publisher": "Qiita",
+     "date": "undated",
+     "url": "https://qiita.com/musemyuzu/items/eb08f7790df356434e0f",
+     "type": "community reverse-engineering"
+    },
+    {
+     "title": "5月27日：初代「ドラゴンクエスト」の発売日",
+     "author": "ITmedia staff",
+     "publisher": "ITmedia PC USER",
+     "date": "2016-05-27",
+     "url": "https://www.itmedia.co.jp/pcuser/articles/1605/27/news007.html",
+     "type": "journalism"
+    },
+    {
+     "title": "Metroid NES instruction manual (digital reproduction), pages 10 and 43",
+     "author": "Nintendo",
+     "publisher": "Nintendo",
+     "date": "1987",
+     "url": "https://www.nintendo.co.jp/clv/manuals/en/pdf/CLV-P-NAAQE.pdf",
+     "type": "manual"
+    },
+    {
+     "title": "メトロイド Famicom Disk System manual (digital reproduction), pages 14–15",
+     "author": "Nintendo",
+     "publisher": "Nintendo",
+     "date": "1986",
+     "url": "https://www.nintendo.co.jp/clv/manuals/ja/pdf/CLV-P-HAAQJ.pdf",
+     "type": "manual"
+    },
+    {
+     "title": "Mega Man 2 NES manual (digital reproduction), page 9",
+     "author": "Capcom",
+     "publisher": "Nintendo (reproduction)",
+     "date": "1989",
+     "url": "https://www.nintendo.co.jp/clv/manuals/en/pdf/CLV-P-NABBE.pdf",
+     "type": "manual"
+    },
+    {
+     "title": "ロックマン2 Dr.ワイリーの謎 manual (digital reproduction)",
+     "author": "Capcom",
+     "publisher": "Nintendo (reproduction)",
+     "date": "1988",
+     "url": "https://www.nintendo.co.jp/clv/manuals/ja/pdf/CLV-P-HABBJ.pdf",
+     "type": "manual"
+    },
+    {
+     "title": "Gauntlet NES manual, page 27",
+     "author": "Tengen",
+     "publisher": "Tengen",
+     "date": "1988",
+     "url": "https://archive.org/details/GauntletNESHiResScans",
+     "type": "manual"
+    },
+    {
+     "title": "The World of Phantasy Star developer interview (translation)",
+     "author": "Toru Yoshida and the Phantasy Star team; translated by shmuplations",
+     "publisher": "shmuplations",
+     "date": "1993 (translation undated)",
+     "url": "https://shmuplations.com/phantasystar/",
+     "type": "developer testimony"
+    },
+    {
+     "title": "Rockman 9 arranged soundtrack liner notes (translation)",
+     "author": "Capcom developers; translated by shmuplations",
+     "publisher": "shmuplations",
+     "date": "2008 (translation undated)",
+     "url": "https://shmuplations.com/megaman9/",
+     "type": "developer testimony"
+    },
+    {
+     "title": "『ドラゴンクエスト』シリーズを生んだ堀井雄二氏のシナリオ執筆方法と歴代作品ごとの制作テーマが明らかに！【CEDEC＋KYUSHU 2018】",
+     "author": "Famitsu staff",
+     "publisher": "Famitsu.com",
+     "date": "2018-12",
+     "url": "https://www.famitsu.com/news/201812/08168586.html",
+     "type": "reported developer testimony"
+    },
+    {
+     "title": "The Complete NES Game Pak Directory (No. 5 insert), pages A-1 to A-6",
+     "author": "Nintendo Power staff",
+     "publisher": "Nintendo of America",
+     "date": "1989-03",
+     "url": "https://archive.org/details/nintendo-power-005-march-april-1989-kitsunebi",
+     "type": "official magazine"
+    },
+    {
+     "title": "ゼルダの伝説, リンクの冒険 and 悪魔城ドラキュラ Disk System manuals (digital reproductions)",
+     "author": "Nintendo; Konami",
+     "publisher": "Nintendo",
+     "date": "1986",
+     "url": "https://www.nintendo.co.jp/clv/manuals/ja/pdf/CLV-P-HAANJ.pdf",
+     "type": "manual"
+    },
+    {
+     "title": "Kid Icarus FAQ",
+     "author": "Daniel Remar",
+     "publisher": "GameFAQs",
+     "date": "2016-05-01",
+     "url": "https://gamefaqs.gamespot.com/nes/587380-kid-icarus/faqs/17485",
+     "type": "community guide"
+    },
+    {
+     "title": "I Am Error (doctoral dissertation), PDF page 163",
+     "author": "Nathan Altice",
+     "publisher": "Virginia Commonwealth University",
+     "date": "2012",
+     "url": "https://scholarscompass.vcu.edu/etd/405",
+     "type": "scholarship"
+    },
+    {
+     "title": "Sneak Peeks: Dragon Warrior, page 14 (Issue 4)",
+     "author": "Nintendo Fun Club News staff",
+     "publisher": "Nintendo of America",
+     "date": "1987 (Winter)",
+     "url": "https://archive.org/details/nintendo-fun-club-news-issue-4-winter-1987",
+     "type": "official magazine"
+    },
+    {
+     "title": "Dragon Warrior Explorer's Handbook, pages 2, 3 and 26",
+     "author": "Enix / Nintendo",
+     "publisher": "Nintendo of America",
+     "date": "1989",
+     "url": "https://archive.org/details/DragonWarriorNESHiResScans",
+     "type": "manual"
+    },
+    {
+     "title": "Wealth of New Titles for Nintendo System, page 11",
+     "author": "Computer Entertainer staff",
+     "publisher": "Computer Entertainer",
+     "date": "1987-06",
+     "url": "https://archive.org/details/computer-entertainer-6-3",
+     "type": "contemporary newsletter"
+    },
+    {
+     "title": "NesCartDB profiles: Metroid (USA), Kid Icarus (USA), The Legend of Zelda (USA)",
+     "author": "NesCartDB contributors",
+     "publisher": "NesCartDB",
+     "date": "undated",
+     "url": "https://nescartdb.com/profile/view/173/the-legend-of-zelda",
+     "type": "community hardware database"
+    }
+   ]
+  },
+  "counting-the-directory": {
+   "games": [
+    "nes-metroid",
+    "nes-kid-icarus",
+    "nes-the-legend-of-zelda",
+    "nes-mega-man-2",
+    "nes-deadly-towers",
+    "nes-tecmo-bowl"
+   ],
+   "sources": [
+    {
+     "title": "The Complete NES Game Pak Directory (No. 5 insert), pages A-1 to A-6",
+     "author": "Nintendo Power staff",
+     "publisher": "Nintendo of America",
+     "date": "1989-03",
+     "url": "https://archive.org/details/nintendo-power-005-march-april-1989-kitsunebi",
+     "type": "official magazine"
+    },
+    {
+     "title": "Tecmo Bowl NES manual (digital reproduction)",
+     "author": "Tecmo",
+     "publisher": "Nintendo (reproduction)",
+     "date": "1989",
+     "url": "https://www.nintendo.co.jp/clv/manuals/en/pdf/CLV-P-NACDE.pdf",
+     "type": "manual"
+    },
+    {
+     "title": "Classified Information, Nos. 1–7",
+     "author": "Nintendo Power staff",
+     "publisher": "Nintendo of America",
+     "date": "1988-07 to 1989-07",
+     "url": "https://archive.org/details/nintendo-power-001-july-august-1988-kitsunebi",
+     "type": "official magazine"
+    },
+    {
+     "title": "Sneak Peeks, page 5 (Issue 2)",
+     "author": "Nintendo Fun Club News staff",
+     "publisher": "Nintendo of America",
+     "date": "1987 (Summer)",
+     "url": "https://archive.org/details/nintendo-fun-club-news-issue-2-summer-1987",
+     "type": "official magazine"
+    },
+    {
+     "title": "PassWord Paks, page 4 (Issue 3)",
+     "author": "Nintendo Fun Club News staff",
+     "publisher": "Nintendo of America",
+     "date": "1987 (Fall)",
+     "url": "https://archive.org/details/nintendo-fun-club-news-issue-3-fall-1987",
+     "type": "official magazine"
+    },
+    {
+     "title": "Mega Man II feature, page 23 (No. 7)",
+     "author": "Nintendo Power staff",
+     "publisher": "Nintendo of America",
+     "date": "1989-07",
+     "url": "https://archive.org/details/nintendo-power-007-july-august-1989-kitsunebi",
+     "type": "official magazine"
+    }
+   ]
+  },
+  "postcards": {
+   "games": [
+    "switch-pokemon-mystery-dungeon-rescue-team-dx",
+    "gba-pokemon-mystery-dungeon-red-rescue-team",
+    "wiiu-super-mario-maker",
+    "nes-metroid"
+   ],
+   "sources": [
+    {
+     "title": "Super Mario Maker for Wii U Discontinuations FAQ",
+     "author": "Nintendo",
+     "publisher": "Nintendo Support",
+     "date": "undated",
+     "url": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/53854",
+     "type": "official notice"
+    },
+    {
+     "title": "Pokémon Mystery Dungeon: Rescue Team DX store page",
+     "author": "Nintendo",
+     "publisher": "Nintendo of America",
+     "date": "undated",
+     "url": "https://www.nintendo.com/us/store/products/pokemon-mystery-dungeon-rescue-team-dx-switch",
+     "type": "official store page"
+    },
+    {
+     "title": "Pokémon Mystery Dungeon: Red Rescue Team instruction manual (English, Europe)",
+     "author": "Nintendo",
+     "publisher": "Nintendo of Europe",
+     "date": "undated",
+     "url": "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/game_boy_advance_8/Manual_GameBoyAdvance_PokemonMysteryDungeonRedRescueTeam_EN.pdf",
+     "type": "manual"
+    },
+    {
+     "title": "Rescue Request Password Postcard",
+     "author": "Play Nintendo",
+     "publisher": "Nintendo of America",
+     "date": "2020-03-16",
+     "url": "https://play.nintendo.com/documents/Pokemon_Mystery_Dungeon_RTDX_rRescue_request_postcard.pdf",
+     "type": "official printable"
+    },
+    {
+     "title": "Metroid NES instruction manual (digital reproduction), page 10",
+     "author": "Nintendo",
+     "publisher": "Nintendo",
+     "date": "1987",
+     "url": "https://www.nintendo.co.jp/clv/manuals/en/pdf/CLV-P-NAAQE.pdf",
+     "type": "manual"
+    }
+   ]
+  }
+ }
+}

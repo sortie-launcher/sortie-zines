@@ -1,5 +1,5 @@
 {
- "digest": "2b64815c7386da22e38901361dadaf2df5b5765042dd27a5fee515e003356353",
+ "digest": "56cb863286b11a5246cf2e74b2561af6c791287ac256d1b22d635b68c2e7a529",
  "format": 1,
  "issues": [
   {
@@ -1135,6 +1135,98 @@
     }
    ],
    "id": "field-notes-010",
+   "revision": 1
+  },
+  {
+   "digest": "01728fb9c154bbe855c2904a98096b0abe67c61d203e9c96b3f137ede915a113",
+   "files": [
+    {
+     "path": "articles/copy-this-spell-onto-paper.md",
+     "sha256": "7bdf1db3d7a37aec9d5186d71c721535edb9cf25a7fa73b98e79d47149a5672c",
+     "size": 11839
+    },
+    {
+     "path": "articles/counting-the-directory.md",
+     "sha256": "b5f4fed6544fabf17890a5622daaab34acddc5295123d6410ab90681f8d1303e",
+     "size": 4037
+    },
+    {
+     "path": "articles/postcards.md",
+     "sha256": "284e21e2267f5d4b0721c08068ae23ec356a86a29d4cafefebc7b27acdc5cbcb",
+     "size": 3697
+    },
+    {
+     "path": "articles/the-password-no-game-printed.md",
+     "sha256": "14d3e49bffaa9503827e626fb06c56aad8e5785d51825f80c04cc19e3edee456",
+     "size": 13142
+    },
+    {
+     "path": "issue.json",
+     "sha256": "34ba5b561afcaf05be20bd6acd0478de91b877af73aee8ace4163a79431bb610",
+     "size": 10642
+    },
+    {
+     "path": "media/copy-this-spell-onto-paper.webp",
+     "sha256": "1945474e9611aad3ce5b59a87c386774de9cb35898d349e168e46540701765e8",
+     "size": 130908
+    },
+    {
+     "path": "media/counting-the-directory.webp",
+     "sha256": "e9ab2a5b29ce0a1644ec443b86a3db1eaf72ecbfdae11adbc22ab652ec20ae14",
+     "size": 114154
+    },
+    {
+     "path": "media/cover.webp",
+     "sha256": "251bbabc9b0a3e4920efbb002362577f3bc0b94c604837699c58ed36a67b8495",
+     "size": 81610
+    },
+    {
+     "path": "media/deadly-towers-password-switch.webp",
+     "sha256": "84cc79c2a400608e6ed6b15ad8babc2766ae65919d6712cc8ca7f310e8fe177c",
+     "size": 352454
+    },
+    {
+     "path": "media/dragon-quest-manual-p38.webp",
+     "sha256": "da8dd64b3d2affe7e715aa7d50331d74e5652eebc78c6c90f12a274b217b84d9",
+     "size": 191966
+    },
+    {
+     "path": "media/dragon-warrior-password-to-battery.webp",
+     "sha256": "e1a409d2e531c8dccb3ecd6cb8bf9dd56a4100fbac9c3132e14e2f20a6092d7d",
+     "size": 82472
+    },
+    {
+     "path": "media/justin-bailey-decoded.webp",
+     "sha256": "3d83ef570aa8d5131dc92294f24edec7a4ca004b3881bd5f70e36b4c958cdb2b",
+     "size": 112710
+    },
+    {
+     "path": "media/metroid-check-board.webp",
+     "sha256": "2fa0aa08b18ec781146a7c5a41315252a5e1d9a97d538c004d889eff0a7225f1",
+     "size": 36846
+    },
+    {
+     "path": "media/postcards.webp",
+     "sha256": "f7485f71d73c73b22bfef2d3c5365f4c81cc1e9cde990463d82dde5e7529ff6e",
+     "size": 145280
+    },
+    {
+     "path": "media/power-play-1988-11-metroid-tip.webp",
+     "sha256": "bbfe55c722c976f0e0855c8fd14b80aa495a843b20939cf413597ec502e2c1d6",
+     "size": 47898
+    },
+    {
+     "path": "media/the-password-no-game-printed.webp",
+     "sha256": "c1ff58f657c0ffc2cde675c4e4697b369b362faeb03f245d3c161100f024a876",
+     "size": 336198
+    },
+    {
+     "path": "sources.json",
+     "sha256": "e20c12695b9af2c642df1ebf869e98a42eb33a9f7ecac9230e6fabc11bc256e7",
+     "size": 23925
+    }
+   ],
+   "id": "field-notes-011",
    "revision": 1
   }
  ]
