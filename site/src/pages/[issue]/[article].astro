@@ -122,10 +122,13 @@ const hasSequence = article.blocks.some((b) => b.kind === 'sequence');
     // Picture sequences (see sequenceHtml): in the row layout, ← and → move between panels only while the strip (or one of its
     // buttons or links) has the focus, and are then kept from the article navigation above; the chosen panel is remembered
     // per article. In the stacked layout the strip is no focus stop and the arrows keep turning articles.
+    // A commanded move (key or button) owns the count until the strip reaches it, so quick repeated presses each step once;
+    // a touch, wheel or scrollbar drag takes over at once and the panel nearest the middle follows the reader's hand.
     (() => {
       const row = matchMedia('(min-width: 40rem)');
       const still = matchMedia('(prefers-reduced-motion: reduce)');
       const centre = (p) => p.offsetLeft + p.offsetWidth / 2;
+      const near = (a, b) => Math.abs(a - b) <= 2;
       for (const seq of document.querySelectorAll('.seq')) {
         const track = seq.querySelector('.seq__track');
         const panels = [...track.children];
@@ -134,20 +137,32 @@ const hasSequence = article.blocks.some((b) => b.kind === 'sequence');
         const [prev, next] = nav.querySelectorAll('button');
         const key = `field-notes:seq:${location.pathname}:${seq.dataset.seq}`;
         let current = 0;
+        // the panel a commanded smooth move is heading for, until the strip arrives there; null when the strip is free
+        let pending = null;
+        const leftOf = (i) => Math.max(0, Math.min(track.scrollWidth - track.clientWidth, centre(panels[i]) - track.clientWidth / 2));
         const show = (i) => {
           current = i;
           panels.forEach((p, j) => (j === i ? p.setAttribute('aria-current', 'true') : p.removeAttribute('aria-current')));
           count.textContent = `${i + 1} of ${panels.length}`;
-          prev.disabled = i === 0;
-          next.disabled = i === panels.length - 1;
+          // a button about to be disabled hands the focus back to the strip, so the arrows keep moving panels here rather
+          // than falling through to the article navigation
+          const atStart = i === 0;
+          const atEnd = i === panels.length - 1;
+          if ((atStart && document.activeElement === prev) || (atEnd && document.activeElement === next)) seq.focus({ preventScroll: true });
+          prev.disabled = atStart;
+          next.disabled = atEnd;
           try {
             localStorage.setItem(key, String(i));
           } catch {}
         };
         const go = (i, smooth) => {
           const to = Math.max(0, Math.min(panels.length - 1, i));
+          const animate = smooth && !still.matches;
           if (row.matches) {
-            track.scrollTo({ left: centre(panels[to]) - track.clientWidth / 2, behavior: smooth && !still.matches ? 'smooth' : 'instant' });
+            pending = animate && !near(track.scrollLeft, leftOf(to)) ? to : null;
+            track.scrollTo({ left: leftOf(to), behavior: animate ? 'smooth' : 'instant' });
+          } else {
+            pending = null;
           }
           show(to);
         };
@@ -172,24 +187,46 @@ const hasSequence = article.blocks.some((b) => b.kind === 'sequence');
           e.preventDefault(); // at either end too: the focused strip never turns the article
           go(current + step, true);
         });
-        // a swipe or scrollbar drag chooses the panel nearest the middle
+        // the reader's own scrolling releases a commanded move straight away
+        for (const type of ['pointerdown', 'wheel', 'touchstart']) {
+          track.addEventListener(type, () => (pending = null), { passive: true });
+        }
+        // while free, the panel nearest the middle is the chosen one; a commanded move is left alone until it arrives
+        const settle = () => {
+          if (!row.matches) return;
+          if (pending !== null) {
+            if (!near(track.scrollLeft, leftOf(pending))) return;
+            pending = null;
+          }
+          const mid = track.scrollLeft + track.clientWidth / 2;
+          let best = 0;
+          panels.forEach((p, j) => {
+            if (Math.abs(centre(p) - mid) < Math.abs(centre(panels[best]) - mid)) best = j;
+          });
+          if (best !== current) show(best);
+        };
         let frame = 0;
         track.addEventListener(
           'scroll',
           () => {
-            if (frame || !row.matches) return;
+            if (frame) return;
             frame = requestAnimationFrame(() => {
               frame = 0;
-              const mid = track.scrollLeft + track.clientWidth / 2;
-              let best = 0;
-              panels.forEach((p, j) => {
-                if (Math.abs(centre(p) - mid) < Math.abs(centre(panels[best]) - mid)) best = j;
-              });
-              if (best !== current) show(best);
+              settle();
             });
           },
           { passive: true },
         );
+        // where supported, a scroll that ends short of a commanded panel (a superseded smooth scroll the browser reports as
+        // ended) carries on to that panel rather than handing the count to whatever panel it stopped near; the reader's own
+        // input has already released it above
+        track.addEventListener('scrollend', () => {
+          if (row.matches && pending !== null && !near(track.scrollLeft, leftOf(pending))) {
+            track.scrollTo({ left: leftOf(pending), behavior: still.matches ? 'instant' : 'smooth' });
+          } else {
+            settle();
+          }
+        });
       }
     })();
   </script>
