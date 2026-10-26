@@ -221,6 +221,7 @@ export function articleBodyHtml(issue: Issue, article: Article): { html: string;
   const outline: Outline[] = [];
   const ids = new Set<string>();
   let list: 'bullet' | null = null;
+  let inSources = false;
   let sequences = 0;
   const closeList = () => {
     if (list) out.push('</ul>');
