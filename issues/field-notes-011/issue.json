@@ -1,0 +1,302 @@
+{
+ "schemaVersion": 2,
+ "id": "field-notes-011",
+ "revision": 1,
+ "number": 11,
+ "title": "Pass Word Please",
+ "subtitle": "Field Notes No. 011 · The save you wrote down, and the states nobody earned",
+ "published": "2026-10-26",
+ "cover": "media/cover.webp",
+ "editorial": "This issue began as a hunch and ended as a correction of it. I meant to argue that the password was the save of the 8-bit era, and an accident of localization. Nintendo's own 1989 directory marks most NES games with neither a password nor a battery. Dragon Quest went from password to battery on its way to America, while Metroid went the other way.\n\nWhat survived the research is stranger and, to me, more interesting. A password made a game state into text that someone other than the game could write. Manuals built the paper half of that system, players kept as many saves as their notebooks held, and magazines printed states that nobody had earned, including the most famous password of all. The earliest printing of it I could find is a German reader's tip from 1988.\n\nField Notes is written by an AI from the sources cited at the end of each article. I chose the subject and the games, and the opinions are mine. Magazine and manual pages are reproduced in part for criticism and credited in their captions; translations from Japanese and German are mine. None of these games was played or tested for this issue.",
+ "rightsNotice": "Game images and quoted material belong to their respective rights holders. Included for commentary and criticism; no endorsement or ownership is implied.",
+ "articles": [
+  {
+   "id": "the-password-no-game-printed",
+   "title": "The Password No Game Printed",
+   "gameTitle": "Metroid",
+   "system": "NES",
+   "games": [
+    {
+     "id": "nes-metroid",
+     "title": "Metroid",
+     "systemId": "nes",
+     "edition": "NES cartridge (US 1987, Europe 1988), password save",
+     "matchNames": [
+      "Metroid"
+     ]
+    },
+    {
+     "id": "nes-dragon-quest-ii-akuryou-no-kamigami",
+     "title": "Dragon Quest II: Akuryō no Kamigami",
+     "systemId": "nes",
+     "edition": "Original Famicom cartridge (Enix, 1987), password save",
+     "matchNames": [
+      "Dragon Quest II - Akuryou no Kamigami",
+      "Dragon Quest II: Akuryou no Kamigami",
+      "Dragon Quest II"
+     ]
+    },
+    {
+     "id": "nes-deadly-towers",
+     "title": "Deadly Towers",
+     "systemId": "nes",
+     "edition": "NES cartridge (Broderbund, 1987)",
+     "matchNames": [
+      "Deadly Towers"
+     ]
+    },
+    {
+     "id": "nes-gauntlet",
+     "title": "Gauntlet",
+     "systemId": "nes",
+     "edition": "NES cartridge (Tengen, 1988)",
+     "matchNames": [
+      "Gauntlet"
+     ]
+    }
+   ],
+   "deck": "JUSTIN BAILEY was never a save. It is a sentence Metroid's password grammar accepts and no ordinary game can reach, first printed, as far as I could find, in a German magazine's reader tip in 1988. What it reveals is who got to write game states.",
+   "body": "articles/the-password-no-game-printed.md",
+   "image": "media/the-password-no-game-printed.webp",
+   "imageCaption": "VideoGames & Computer Entertainment, July 1989, page 53, Easter Egg Hunt: the Metroid tip credited to Steve Bland, promising to \"turn Samus into a woman from the start\", above a photograph of the PASS WORD PLEASE screen with JUSTIN BAILEY entered and the second row empty. Crop of a magazine scan. VG&CE © L.F.P. Inc.; Metroid © Nintendo; scan via Internet Archive (video-games-computer-entertainment-july-1989).",
+   "readingMinutes": 6
+  },
+  {
+   "id": "copy-this-spell-onto-paper",
+   "title": "Copy This Spell Onto Paper",
+   "gameTitle": "Dragon Quest",
+   "system": "Famicom",
+   "games": [
+    {
+     "id": "nes-dragon-quest",
+     "title": "Dragon Quest",
+     "systemId": "nes",
+     "edition": "Original Famicom cartridge (Enix, 1986), password save",
+     "matchNames": [
+      "Dragon Quest"
+     ]
+    },
+    {
+     "id": "nes-dragon-warrior",
+     "title": "Dragon Warrior",
+     "systemId": "nes",
+     "edition": "NES cartridge (Nintendo, 1989), battery save",
+     "matchNames": [
+      "Dragon Warrior"
+     ]
+    },
+    {
+     "id": "nes-metroid",
+     "title": "Metroid",
+     "systemId": "nes",
+     "edition": "NES cartridge (US 1987, Europe 1988), password save",
+     "matchNames": [
+      "Metroid"
+     ]
+    },
+    {
+     "id": "fds-metroid",
+     "title": "Metroid",
+     "systemId": "fds",
+     "edition": "Famicom Disk System original (1986), disk save",
+     "matchNames": [
+      "Metroid",
+      "メトロイド"
+     ]
+    },
+    {
+     "id": "nes-mega-man-2",
+     "title": "Mega Man 2",
+     "systemId": "nes",
+     "edition": "NES cartridge (Capcom, 1989)",
+     "matchNames": [
+      "Mega Man 2",
+      "Mega Man II"
+     ]
+    },
+    {
+     "id": "nes-rockman-2-dr-wily-no-nazo",
+     "title": "Rockman 2: Dr. Wily no Nazo",
+     "systemId": "nes",
+     "edition": "Original Famicom cartridge (Capcom, 1988)",
+     "matchNames": [
+      "Rockman 2 - Dr. Wily no Nazo",
+      "Rockman 2"
+     ]
+    },
+    {
+     "id": "nes-gauntlet",
+     "title": "Gauntlet",
+     "systemId": "nes",
+     "edition": "NES cartridge (Tengen, 1988)",
+     "matchNames": [
+      "Gauntlet"
+     ]
+    },
+    {
+     "id": "nes-kid-icarus",
+     "title": "Kid Icarus",
+     "systemId": "nes",
+     "edition": "NES cartridge (1987), password save",
+     "matchNames": [
+      "Kid Icarus"
+     ]
+    },
+    {
+     "id": "nes-the-legend-of-zelda",
+     "title": "The Legend of Zelda",
+     "systemId": "nes",
+     "edition": "NES cartridge (1987), battery save",
+     "matchNames": [
+      "The Legend of Zelda",
+      "Legend of Zelda, The"
+     ]
+    },
+    {
+     "id": "nes-zelda-ii-the-adventure-of-link",
+     "title": "Zelda II: The Adventure of Link",
+     "systemId": "nes",
+     "edition": "NES cartridge (1988), battery save",
+     "matchNames": [
+      "Zelda II - The Adventure of Link",
+      "Zelda II: The Adventure of Link"
+     ]
+    },
+    {
+     "id": "nes-castlevania",
+     "title": "Castlevania",
+     "systemId": "nes",
+     "edition": "NES cartridge (Konami, 1987), no save",
+     "matchNames": [
+      "Castlevania"
+     ]
+    }
+   ],
+   "deck": "Manuals designed the half of the save that lived outside the machine: notebooks, a check board, warnings about H and K. Some players missed the paper when batteries came. And the password belonged to a medium, not to a country.",
+   "body": "articles/copy-this-spell-onto-paper.md",
+   "image": "media/copy-this-spell-onto-paper.webp",
+   "imageCaption": "Dragon Quest Famicom manual (Enix, 1986), top of page 39: a girl writes in a notebook while the king points, above the instruction to check the spell of resurrection character by character before entering it. Crop of a 900 dpi manual scan. Dragon Quest © Enix (now Square Enix); scan via Internet Archive (DragonQuestScans900dpi).",
+   "readingMinutes": 5
+  },
+  {
+   "id": "counting-the-directory",
+   "title": "Counting the Directory",
+   "gameTitle": "NES library, 1989",
+   "system": "NES",
+   "games": [
+    {
+     "id": "nes-metroid",
+     "title": "Metroid",
+     "systemId": "nes",
+     "edition": "NES cartridge (US 1987, Europe 1988), password save",
+     "matchNames": [
+      "Metroid"
+     ]
+    },
+    {
+     "id": "nes-kid-icarus",
+     "title": "Kid Icarus",
+     "systemId": "nes",
+     "edition": "NES cartridge (1987), password save",
+     "matchNames": [
+      "Kid Icarus"
+     ]
+    },
+    {
+     "id": "nes-the-legend-of-zelda",
+     "title": "The Legend of Zelda",
+     "systemId": "nes",
+     "edition": "NES cartridge (1987), battery save",
+     "matchNames": [
+      "The Legend of Zelda",
+      "Legend of Zelda, The"
+     ]
+    },
+    {
+     "id": "nes-mega-man-2",
+     "title": "Mega Man 2",
+     "systemId": "nes",
+     "edition": "NES cartridge (Capcom, 1989)",
+     "matchNames": [
+      "Mega Man 2",
+      "Mega Man II"
+     ]
+    },
+    {
+     "id": "nes-deadly-towers",
+     "title": "Deadly Towers",
+     "systemId": "nes",
+     "edition": "NES cartridge (Broderbund, 1987)",
+     "matchNames": [
+      "Deadly Towers"
+     ]
+    },
+    {
+     "id": "nes-tecmo-bowl",
+     "title": "Tecmo Bowl",
+     "systemId": "nes",
+     "edition": "NES cartridge (Tecmo, 1989)",
+     "matchNames": [
+      "Tecmo Bowl"
+     ]
+    }
+   ],
+   "deck": "Nintendo's own spring 1989 directory marks 22 of its 179 dated NES titles as Password and three as Battery. The password era is mostly a memory.",
+   "body": "articles/counting-the-directory.md",
+   "image": "media/counting-the-directory.webp",
+   "imageCaption": "Original chart by Sortie Field Notes: 179 squares, one per dated title in Nintendo Power's March/April 1989 Complete NES Game Pak Directory; 3 marked Battery, 22 Password, 154 with neither box marked.",
+   "readingMinutes": 2
+  },
+  {
+   "id": "postcards",
+   "title": "Postcards",
+   "gameTitle": "Pokémon Mystery Dungeon: Rescue Team DX",
+   "system": "Nintendo Switch",
+   "games": [
+    {
+     "id": "switch-pokemon-mystery-dungeon-rescue-team-dx",
+     "title": "Pokémon Mystery Dungeon: Rescue Team DX",
+     "systemId": "switch",
+     "edition": "Nintendo Switch (2020)",
+     "matchNames": [
+      "Pokemon Mystery Dungeon - Rescue Team DX",
+      "Pokemon Mystery Dungeon: Rescue Team DX"
+     ]
+    },
+    {
+     "id": "gba-pokemon-mystery-dungeon-red-rescue-team",
+     "title": "Pokémon Mystery Dungeon: Red Rescue Team",
+     "systemId": "gba",
+     "edition": "Game Boy Advance original",
+     "matchNames": [
+      "Pokemon Mystery Dungeon - Red Rescue Team",
+      "Pokemon Mystery Dungeon: Red Rescue Team"
+     ]
+    },
+    {
+     "id": "wiiu-super-mario-maker",
+     "title": "Super Mario Maker",
+     "systemId": "wiiu",
+     "edition": "Wii U (2015); online services ended 2024",
+     "matchNames": [
+      "Super Mario Maker"
+     ]
+    },
+    {
+     "id": "nes-metroid",
+     "title": "Metroid",
+     "systemId": "nes",
+     "edition": "NES cartridge (US 1987, Europe 1988), password save",
+     "matchNames": [
+      "Metroid"
+     ]
+    }
+   ],
+   "deck": "Many modern share codes are addresses that die with their servers. The password's true heir is a printable postcard with thirty empty boxes.",
+   "body": "articles/postcards.md",
+   "image": "media/postcards.webp",
+   "imageCaption": "The printable Rescue Request Password Postcard for Pokémon Mystery Dungeon: Rescue Team DX, with thirty empty boxes for a password under \"This rescue request password belongs to\". Crop of the official PDF. © 2020 Pokémon, Nintendo, Creatures, GAME FREAK, Spike Chunsoft; published by Play Nintendo.",
+   "readingMinutes": 2
+  }
+ ]
+}
