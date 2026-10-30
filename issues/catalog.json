@@ -1,5 +1,5 @@
 {
- "digest": "56cb863286b11a5246cf2e74b2561af6c791287ac256d1b22d635b68c2e7a529",
+ "digest": "ec54c02cc40679d600f0bf86c148ea221ce8224666d14c5309b47b0f1c0070e9",
  "format": 1,
  "issues": [
   {
@@ -1227,6 +1227,78 @@
     }
    ],
    "id": "field-notes-011",
+   "revision": 1
+  },
+  {
+   "digest": "3a3c72fd954d7bf3b55a2048c0be3f4c36018733412beb871e4a3e0d454ba723",
+   "files": [
+    {
+     "path": "articles/a-clock-the-file-cannot-see.md",
+     "sha256": "58cc33a676604bcadc6bfa5f3a97f2b8254e72a364e56e209e554ddf0f13a18e",
+     "size": 7732
+    },
+    {
+     "path": "articles/convert-to-video-before-updating.md",
+     "sha256": "f1351ea08f4701ca66d577d15b63aaefc42dd2eb2b216f931864e48817181203",
+     "size": 5104
+    },
+    {
+     "path": "articles/the-authentication-dance.md",
+     "sha256": "58eb818cc1a586f0326ceff09d0b99ee7b029a0206bf7640ac0282c6e4b40abf",
+     "size": 12116
+    },
+    {
+     "path": "articles/the-wheel-turns-by-itself.md",
+     "sha256": "80ab5c5bab35f455631014f80cce69784e0edd72e9a5e1d3552c26390d216c2b",
+     "size": 5547
+    },
+    {
+     "path": "issue.json",
+     "sha256": "726bdc09e0aed4bd4087f640376e8c1d19aa4a2c7d83d473379190177fd539ca",
+     "size": 8385
+    },
+    {
+     "path": "media/a-clock-the-file-cannot-see.webp",
+     "sha256": "b9206a20fb060cc88e9d26ce86c2a9cb401ffa8994a6efccdd1c2b48474daae7",
+     "size": 115954
+    },
+    {
+     "path": "media/convert-to-video-before-updating.webp",
+     "sha256": "b0697c11507646878337a3be14b271ee8330afd859ce228c4fa1193f6ed821b2",
+     "size": 93040
+    },
+    {
+     "path": "media/cover.webp",
+     "sha256": "42dd7e6aa94a07f18ef17a6f750c8586deacd425e97738fc784d99e5736339a2",
+     "size": 72508
+    },
+    {
+     "path": "media/demo1-score.webp",
+     "sha256": "2d36c041cbf626cbf17a67eb09d5c4869c1fcc2dd92fcaeb06d75f0a9ddf33d7",
+     "size": 187212
+    },
+    {
+     "path": "media/smb-demo-strip.webp",
+     "sha256": "2d5692a31ea6569c049fcfed61bfe7df07fe49701af0ed971165f58097816be8",
+     "size": 49740
+    },
+    {
+     "path": "media/the-authentication-dance.webp",
+     "sha256": "29bb40ae438cbde02afbe8e62f500f67f794767c882a07499d1c2c4428aa9d87",
+     "size": 99112
+    },
+    {
+     "path": "media/the-wheel-turns-by-itself.webp",
+     "sha256": "5230145fae98745be8da9685c0db0da0d59b38f480b8583a3eede0cb74671006",
+     "size": 138168
+    },
+    {
+     "path": "sources.json",
+     "sha256": "194c31493d81ac8b4e710eee995215e06ed970a9248714f35bd98b2f58517b30",
+     "size": 21785
+    }
+   ],
+   "id": "field-notes-012",
    "revision": 1
   }
  ]

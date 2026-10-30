@@ -1,0 +1,445 @@
+{
+ "issue": "field-notes-012",
+ "compiled": "2026-10-30",
+ "revised": "2026-10-30",
+ "rightsNote": "Original editorial prose, diagrams, chart and cover illustration were made for Sortie Field Notes. Game images, manual and book pages and quoted material belong to their respective rights holders. Included for commentary and criticism; no endorsement or ownership is implied. Third-party media is not covered by the Sortie app's MIT licence. Per-image credits and sources follow.",
+ "researchNote": "Written by an AI from the cited sources. No game was launched, played or tested for this issue. Demo data was decoded by Field Notes from the shareware Doom files and from published disassemblies and decompilations; these decodings are labelled as Field Notes' own. Quotations were checked against the cited pages, files or code. Players accused in the 2021 Trackmania investigation who have made no public admission are not named.",
+ "articles": {
+  "the-authentication-dance": {
+   "games": [
+    "dos-doom"
+   ],
+   "sources": [
+    {
+     "title": "DOOM source code (linuxdoom-1.10): g_game.c, d_ticcmd.h, m_random.c, doomdef.h",
+     "author": "id Software",
+     "publisher": "GitHub id-Software/DOOM, commit a77dfb96cb91780ca334d0d4cfd86957558007e0",
+     "date": "1997-12-23 (release); uploaded 2012",
+     "url": "https://github.com/id-Software/DOOM/tree/a77dfb96cb91780ca334d0d4cfd86957558007e0/linuxdoom-1.10",
+     "type": "primary code"
+    },
+    {
+     "title": "DOOM shareware v1.9 DOOM1.WAD, lumps DEMO1-DEMO3 (decoded by Field Notes); earlier shareware versions for comparison",
+     "author": "id Software",
+     "publisher": "Doom-Utils shareware-collection, commit 6591a922701e5769b32278e9c555b1bf93f5714c",
+     "date": "1995 (v1.9)",
+     "url": "https://github.com/Doom-Utils/shareware-collection",
+     "type": "primary data"
+    },
+    {
+     "title": "Q&A with John Romero about DOOM (III) Part I",
+     "author": "John Romero (interview)",
+     "publisher": "Project DOOM",
+     "date": "undated; archived 2003-12-08",
+     "url": "https://web.archive.org/web/20031208180012/http://www.projectdoom.com/romero.html",
+     "type": "developer testimony"
+    },
+    {
+     "title": "Log of DHT challenges sent out",
+     "author": "Frank Stajano",
+     "publisher": "rec.games.computer.doom.announce",
+     "date": "1994-12-07",
+     "url": "https://www.gamers.org/pub/archives/doom/articles/1994/art-80",
+     "type": "contemporary primary (Usenet)"
+    },
+    {
+     "title": "The DOOM Honorific Titles, DHT5 rules",
+     "author": "Frank Stajano",
+     "publisher": "orl.co.uk (archived)",
+     "date": "1995-05-02",
+     "url": "http://web.archive.org/web/19970618073926/http://www.orl.co.uk:80/~fms/txt/dht5.txt",
+     "type": "contemporary primary rules"
+    },
+    {
+     "title": "The DOOM Honorific Titles, DHT5 home page",
+     "author": "Frank Stajano",
+     "publisher": "University of Cambridge Computer Laboratory",
+     "date": "last updated 1996-08-23",
+     "url": "https://www.cl.cam.ac.uk/~fms27/dht/dht5/",
+     "type": "contemporary primary"
+    },
+    {
+     "title": "Notice to DHT players (PGP-signed)",
+     "author": "Frank Stajano",
+     "publisher": "orl.co.uk (archived)",
+     "date": "1996-03-31 to 1996-04-02",
+     "url": "http://web.archive.org/web/19990117101807/http://www.orl.co.uk:80/%7Efms/txt/crap.txt",
+     "type": "contemporary primary"
+    },
+    {
+     "title": "The 'Official' DOOM FAQ, v5.8, §15-4",
+     "author": "Hank Leukart",
+     "publisher": "distributed with shareware DOOM 1.666",
+     "date": "1994-08-30",
+     "url": "https://github.com/Doom-Utils/shareware-collection",
+     "type": "contemporary community document"
+    },
+    {
+     "title": "DooM (and DooM II) \"Competition\" Site",
+     "author": "Simon Widlake",
+     "publisher": "rec.games.computer.doom.announce",
+     "date": "1994-11-29",
+     "url": "https://www.gamers.org/pub/archives/doom/articles/1994/art-59",
+     "type": "contemporary primary (Usenet)"
+    },
+    {
+     "title": "DooM - DooM II - LMPs \"Competition\" Site",
+     "author": "Simon Widlake",
+     "publisher": "rec.games.computer.doom.announce",
+     "date": "1995-04-11",
+     "url": "https://www.gamers.org/pub/archives/doom/articles/1995/art-456",
+     "type": "contemporary primary (Usenet)"
+    },
+    {
+     "title": "DooM .LMP's 'Competition' Site - Categories",
+     "author": "Simon Widlake",
+     "publisher": "rec.games.computer.doom.announce",
+     "date": "1995-06-20",
+     "url": "https://www.gamers.org/pub/archives/doom/articles/1995/art-701",
+     "type": "contemporary primary (Usenet)"
+    },
+    {
+     "title": "The unofficial LMP format description",
+     "author": "Uwe Girlich",
+     "publisher": "gamers.org",
+     "date": "1994 onward",
+     "url": "https://www.gamers.org/docs/FAQ/lmp.faq.html",
+     "type": "community technical documentation"
+    },
+    {
+     "title": "The unofficial DEM format description, v1.0.2, §3.2",
+     "author": "Uwe Girlich",
+     "publisher": "gamers.org",
+     "date": "1996-07-30",
+     "url": "https://www.gamers.org/dEngine/quake/Qdem/dem-1.0.2-3.html",
+     "type": "community technical documentation"
+    },
+    {
+     "title": "COMPET-N rules and FAQ; About",
+     "author": "COMPET-N maintainers",
+     "publisher": "compet-n.gamers.org",
+     "date": "undated; read 2026-10-30",
+     "url": "https://compet-n.gamers.org/index.php?page=compet-n_rules",
+     "type": "institutional retrospective"
+    },
+    {
+     "title": "Chocolate Doom README.md",
+     "author": "Chocolate Doom project",
+     "publisher": "GitHub, commit a2dfd51fcc00d272dc8a17a97ccd6683333ff4ea",
+     "date": "read 2026-10-30",
+     "url": "https://github.com/chocolate-doom/chocolate-doom",
+     "type": "project documentation"
+    },
+    {
+     "title": "dsda-doom prboom2/src/doomtype.h (complevel_t)",
+     "author": "dsda-doom project",
+     "publisher": "GitHub, commit 687a5a32e0a8013b03b8dbfc8f49555ffce67470",
+     "date": "2026-10-15",
+     "url": "https://github.com/kraflab/dsda-doom",
+     "type": "primary code"
+    },
+    {
+     "title": "Doom Speed Demos Archive: front page and Intro",
+     "author": "DSDA",
+     "publisher": "dsdarchive.com",
+     "date": "read 2026-10-30",
+     "url": "https://dsdarchive.com/intro",
+     "type": "community governance"
+    },
+    {
+     "title": "Tricks of the DOOM Programming Gurus, colour insert Figure 16 (lead image)",
+     "author": "Steve Benner et al.",
+     "publisher": "Sams Publishing",
+     "date": "1995",
+     "url": "https://archive.org/details/tricks-of-the-doom-programming-gurus",
+     "type": "contemporary book"
+    }
+   ]
+  },
+  "a-clock-the-file-cannot-see": {
+   "games": [
+    "trackmania-united-forever",
+    "trackmania-nations-forever"
+   ],
+   "sources": [
+    {
+     "title": "TMX Replay Investigation, Parts I and II",
+     "author": "donadigo and Wirtual",
+     "publisher": "donadigo.com",
+     "date": "2021-05-20 (amended to 2021-05-23)",
+     "url": "https://donadigo.com/tmx1",
+     "type": "primary investigators' report"
+    },
+    {
+     "title": "gbxtools analysis scripts",
+     "author": "donadigo",
+     "publisher": "GitHub (GPL-3.0), commit 152cd64e6a9c707288dcc7e89af88ff07ba952db",
+     "date": "2021-05",
+     "url": "https://github.com/donadigo/gbxtools",
+     "type": "primary code"
+    },
+    {
+     "title": "GBX",
+     "author": "Mania Tech Wiki contributors",
+     "publisher": "wiki.xaseco.org",
+     "date": "page modified 2025-11-06",
+     "url": "https://wiki.xaseco.org/wiki/GBX",
+     "type": "community format documentation"
+    },
+    {
+     "title": "Extracting inputs from replays (TMInterface guide)",
+     "author": "donadigo",
+     "publisher": "donadigo.com",
+     "date": "undated",
+     "url": "https://donadigo.com/tminterface/input-extraction",
+     "type": "community tool documentation"
+    },
+    {
+     "title": "TrackMania Competition Patch",
+     "author": "donadigo",
+     "publisher": "donadigo.com",
+     "date": "2020-12-05",
+     "url": "https://donadigo.com/tmcp",
+     "type": "primary tool documentation"
+    },
+    {
+     "title": "The Biggest Cheating Scandal in Trackmania History",
+     "author": "Wirtual",
+     "publisher": "YouTube",
+     "date": "2021-05-23",
+     "url": "https://www.youtube.com/watch?v=yDUdGvgmKIw",
+     "type": "participant video (date and framing only)"
+    },
+    {
+     "title": "self-report to be clear with you and myself",
+     "author": "trabadia",
+     "publisher": "TwitLonger (archived)",
+     "date": "2021-05-27",
+     "url": "https://web.archive.org/web/20210527184703/https://www.twitlonger.com/show/n_1srn4r4",
+     "type": "self-published admission"
+    },
+    {
+     "title": "Thread on TMUF anticheat detection",
+     "author": "Florent \"Hylis\" Castelnérac",
+     "publisher": "X (Twitter) @Hylis1",
+     "date": "2021-07-13",
+     "url": "https://x.com/Hylis1/status/1414941037718609921",
+     "type": "developer statement"
+    },
+    {
+     "title": "Cheating allegations catch up with some of Trackmania's fastest drivers",
+     "author": "Natalie Clayton",
+     "publisher": "PC Gamer",
+     "date": "2021-05-25",
+     "url": "https://www.pcgamer.com/cheating-allegations-catch-up-with-some-of-trackmanias-fastest-drivers/",
+     "type": "contemporary reporting"
+    },
+    {
+     "title": "Top-ranked Trackmania players cheated by slowing down their games",
+     "author": "Imogen Beckhelling",
+     "publisher": "Rock Paper Shotgun",
+     "date": "2021-05-25",
+     "url": "https://www.rockpapershotgun.com/top-ranked-trackmania-players-cheated-by-slowing-down-their-games",
+     "type": "contemporary reporting"
+    }
+   ]
+  },
+  "the-wheel-turns-by-itself": {
+   "games": [
+    "nes-super-mario-bros",
+    "arcade-hard-drivin",
+    "arcade-rebound",
+    "nes-tetris",
+    "genesis-sonic-the-hedgehog"
+   ],
+   "sources": [
+    {
+     "title": "Rebound Computer Service Manual, Bulletin 101-1, page 1-3",
+     "author": "Atari, Inc.",
+     "publisher": "Internet Archive item ArcadeGameManualRebound",
+     "date": "c. 1974",
+     "url": "https://archive.org/details/ArcadeGameManualRebound/page/n4/mode/1up",
+     "type": "primary service document"
+    },
+    {
+     "title": "Hard Drivin' Operator's Manual TM-327, pages 1-5 and 2-5",
+     "author": "Atari Games",
+     "publisher": "Internet Archive item hard_drivin__tm-327_3rd_printing_ptm",
+     "date": "1989 (third printing)",
+     "url": "https://archive.org/details/hard_drivin__tm-327_3rd_printing_ptm",
+     "type": "primary operator document"
+    },
+    {
+     "title": "SMBDIS.ASM: A Comprehensive Super Mario Bros. Disassembly",
+     "author": "doppelganger",
+     "publisher": "GitHub gist 4048722, revision 59e88c0028a58c6d7b9156749230ccac647bc7d4",
+     "date": "undated",
+     "url": "https://gist.github.com/1wErt3r/4048722",
+     "type": "community disassembly"
+    },
+    {
+     "title": "Super Mario Bros. Meta-Disassembly",
+     "author": "Matthew Gilmore (segaloco)",
+     "publisher": "GitLab, commit e986348cfc76c6feb17164870a73c7caedd24767",
+     "date": "2026-09-14",
+     "url": "https://gitlab.com/segaloco/smb",
+     "type": "community disassembly"
+    },
+    {
+     "title": "TetrisNESDisasm",
+     "author": "CelestialAmber (based on ejona86/taus)",
+     "publisher": "GitHub, commit 94581c0306fa0009fe11fde48222875549d15b8b",
+     "date": "2024-03-27",
+     "url": "https://github.com/CelestialAmber/TetrisNESDisasm",
+     "type": "community disassembly"
+    },
+    {
+     "title": "s1disasm, _inc/MoveSonicInDemo.asm",
+     "author": "Sonic Retro",
+     "publisher": "GitHub, commit 89c0e0e06b51fd9ebac44d988e4a89bd643fd031",
+     "date": "read 2026-10-30",
+     "url": "https://github.com/sonicretro/s1disasm",
+     "type": "community disassembly"
+    },
+    {
+     "title": "SCHG How-to: Fix demo playback",
+     "author": "FraGag",
+     "publisher": "Sonic Retro wiki",
+     "date": "read 2026-10-30",
+     "url": "https://info.sonicretro.org/SCHG_How-to:Fix_demo_playback",
+     "type": "community technical guide"
+    }
+   ]
+  },
+  "convert-to-video-before-updating": {
+   "games": [
+    "n64-mario-kart-64",
+    "wii-mario-kart-wii",
+    "switch-super-smash-bros-ultimate"
+   ],
+   "sources": [
+    {
+     "title": "Mario Kart 64 instruction booklet (English, PAL), pages 16-17",
+     "author": "Nintendo",
+     "publisher": "nintendo.com (official PDF)",
+     "date": "PDF 2014; game 1997",
+     "url": "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_8/Manual_Nintendo64_MarioKart64_EN.pdf",
+     "type": "primary publisher document"
+    },
+    {
+     "title": "mk64 decompilation, src/replays.c, include/defines.h",
+     "author": "n64decomp",
+     "publisher": "GitHub, commit 58cfcb022e10f83bc3b889d7e97508cae6837098",
+     "date": "2026-08-12",
+     "url": "https://github.com/n64decomp/mk64",
+     "type": "community decompilation"
+    },
+    {
+     "title": "RKG (File Format), revision 605547",
+     "author": "Custom Mario Kart wiki contributors",
+     "publisher": "mkwiiki.org",
+     "date": "2026-09-24",
+     "url": "https://www.mkwiiki.org/wiki/RKG_(File_Format)",
+     "type": "community format documentation"
+    },
+    {
+     "title": "Wiggler Glitch, revision 601262 (quoting stebler)",
+     "author": "Custom Mario Kart wiki contributors",
+     "publisher": "mkwiiki.org",
+     "date": "2026-08-05",
+     "url": "https://mkwiiki.org/wiki/Wiggler_Glitch",
+     "type": "community research"
+    },
+    {
+     "title": "Is floating point math deterministic?",
+     "author": "Shawn Hargreaves",
+     "publisher": "MSDN blog (archived mirror)",
+     "date": "2009-03-25",
+     "url": "http://web.archive.org/web/20260125024833/https://shawnhargreaves.com/blog/is-floating-point-math-deterministic.html",
+     "type": "developer testimony"
+    },
+    {
+     "title": "Super Smash Bros. Ultimate update history, Ver. 3.0.1",
+     "author": "Nintendo UK",
+     "publisher": "nintendo.com",
+     "date": "2019",
+     "url": "https://www.nintendo.com/en-gb/Support/Nintendo-Switch/Game-Updates/Super-Smash-Bros-Ultimate-Update-History-1549104.html",
+     "type": "official notice"
+    },
+    {
+     "title": "Super Smash Bros Ultimate Version 4.0.0 Incompatible With Earlier Replays",
+     "author": "Alysia Judge",
+     "publisher": "IGN",
+     "date": "2019-07-29",
+     "url": "https://za.ign.com/super-smash-bros/135239/super-smash-bros-ultimate-version-400-incompatible-with-earlier-replays",
+     "type": "contemporary reporting of an official statement"
+    },
+    {
+     "title": "The unofficial DEM format description, v1.0.2, §3.2",
+     "author": "Uwe Girlich",
+     "publisher": "gamers.org",
+     "date": "1996-07-30",
+     "url": "https://www.gamers.org/dEngine/quake/Qdem/dem-1.0.2-3.html",
+     "type": "community technical documentation"
+    }
+   ]
+  }
+ },
+ "media": [
+  {
+   "file": "media/cover.webp",
+   "kind": "original 1600x1000 cover illustration",
+   "source": "Authored vector illustration for Sortie Field Notes: a generic game controller with lit buttons and no hands, and a punched paper tape whose holes are generated from the first 348 tics (about ten seconds) of DEMO1 in the shareware Doom v1.9 DOOM1.WAD (one column per 4 tics; fire, use, forward speed and turning on separate tracks). The controller is not modelled on any real product. No game images, no third-party artwork, no image-generation model.",
+   "rights": "Original illustration and typography by Sortie Field Notes",
+   "processing": "Procedural SVG written in Python and rendered with ImageMagick/librsvg; palette ink #15171E, cream #F1E6D0, vermilion #D9532F, amber #E9B949, sky #6FA8DC, teal #5FB8A5; type Noto Sans ExtraCondensed Black, Noto Sans and Noto Sans Mono; WebP q90; checked at full size and 320 px shelf width; output 1600x1000 WebP, 72508 bytes, sha256 42dd7e6aa94a07f18ef17a6f750c8586deacd425e97738fc784d99e5736339a2; decoded and visually inspected"
+  },
+  {
+   "file": "media/the-authentication-dance.webp",
+   "kind": "book page crop",
+   "source": "Steve Benner et al., Tricks of the DOOM Programming Gurus (Sams Publishing, 1995, ISBN 0-672-30717-0), colour insert, Figure 16, \"The front end to the Honorific Titles home page\"; Internet Archive item tricks-of-the-doom-programming-gurus, page image leaf n471 (https://archive.org/download/tricks-of-the-doom-programming-gurus/page/n471.jpg)",
+   "edition": "US first edition, 1995; the figure reproduces Frank Stajano's DHT home page as of early 1995, with a Doom II MAP07 tally screen",
+   "rights": "Book © Sams Publishing; Doom II © id Software; web page by Frank Stajano",
+   "processing": "Crop of Figure 16 (source 2136x2686 page) to 1200x764 at offset +725+455, excluding the overlapping Figure 17, Lanczos downscale to 1100 wide, WebP q86; output 1100x700 WebP, 99112 bytes, sha256 29bb40ae438cbde02afbe8e62f500f67f794767c882a07499d1c2c4428aa9d87; decoded and visually inspected"
+  },
+  {
+   "file": "media/demo1-score.webp",
+   "kind": "original data chart",
+   "source": "Original chart by Sortie Field Notes. Data: lump DEMO1 of id Software's shareware DOOM1.WAD v1.9 (MD5 f0cefca49926d00903cf57551d901abe), parsed by Field Notes using the demo format in linuxdoom-1.10 g_game.c (id-Software/DOOM commit a77dfb96cb91780ca334d0d4cfd86957558007e0): 13-byte header, then forward, sideways, turn (high byte) and button bytes per tic. Every tic is drawn; nothing is smoothed. No game was run.",
+   "edition": "Doom shareware v1.9 attract demo 1: E1M5, Hurt Me Plenty, 5,026 tics",
+   "rights": "Original chart by Sortie Field Notes; Doom © id Software",
+   "processing": "Procedural SVG written in Python and rendered with ImageMagick/librsvg at 1600x1000; palette ink #15171E, cream #F1E6D0, vermilion #D9532F, amber #E9B949, sky #6FA8DC, teal #5FB8A5; type Noto Sans, Noto Sans Mono; WebP q92; output 1600x1000 WebP, 187212 bytes, sha256 2d36c041cbf626cbf17a67eb09d5c4869c1fcc2dd92fcaeb06d75f0a9ddf33d7; decoded and visually inspected"
+  },
+  {
+   "file": "media/a-clock-the-file-cannot-see.webp",
+   "kind": "original explanatory diagram",
+   "source": "Original diagram by Sortie Field Notes, based on Mania Tech Wiki \"GBX\" (https://wiki.xaseco.org/wiki/GBX: ghost control entries, gameVersion, exeChecksum, ghost sample data, embedded track) and donadigo and Wirtual, \"TMX Replay Investigation\" (2021, https://donadigo.com/tmx1: 100 ticks per second, Validate, slow-motion reasoning). Schematic; the 1,000-tick run and 10/25-second timings are illustrative arithmetic, not data from any replay.",
+   "edition": "TrackMania Nations Forever and United Forever replay files",
+   "rights": "Original diagram by Sortie Field Notes; TrackMania © Ubisoft/Nadeo",
+   "processing": "Hand-written SVG generated in Python and rendered with ImageMagick/librsvg at 1600x1000; palette ink #15171E, cream #F1E6D0, vermilion #D9532F, amber #E9B949, sky #6FA8DC, teal #5FB8A5; type Noto Sans; WebP q92; output 1600x1000 WebP, 115954 bytes, sha256 b9206a20fb060cc88e9d26ce86c2a9cb401ffa8994a6efccdd1c2b48474daae7; decoded and visually inspected"
+  },
+  {
+   "file": "media/the-wheel-turns-by-itself.webp",
+   "kind": "manual page crop",
+   "source": "Atari Games, Hard Drivin' Operator's Manual TM-327, third printing, ©1989, page 2-5, Internet Archive item hard_drivin__tm-327_3rd_printing_ptm, page image leaf n17 (https://archive.org/details/hard_drivin__tm-327_3rd_printing_ptm/page/n17/mode/1up)",
+   "edition": "US arcade operator's manual, third printing",
+   "rights": "© Atari Games (rights now with their successors)",
+   "processing": "Crop of Table 2-3 and the Steering During Attract Mode note (source 1687x2200 greyscale page) to 700x1112 at offset +790+190, no rescaling, WebP q86; output 700x1112 WebP, 138168 bytes, sha256 5230145fae98745be8da9685c0db0da0d59b38f480b8583a3eede0cb74671006; decoded and visually inspected"
+  },
+  {
+   "file": "media/smb-demo-strip.webp",
+   "kind": "original explanatory diagram",
+   "source": "Original diagram by Sortie Field Notes from DemoActionData and DemoTimingData in doppelganger's SMBDIS.ASM disassembly (GitHub gist 4048722, revision 59e88c0028a58c6d7b9156749230ccac647bc7d4); bit meanings from the same file (A $80, B $40, Left $02, Right $01). Decoding by Field Notes; each entry drawn at its stated length in frames.",
+   "edition": "Super Mario Bros., Famicom/NES (Japan/USA) program; the same demo table is used by the Vs., Famicom Disk System and PAL builds per segaloco's meta-disassembly",
+   "rights": "Original diagram by Sortie Field Notes; Super Mario Bros. © Nintendo",
+   "processing": "Procedural SVG written in Python and rendered with ImageMagick/librsvg at 1600x900; palette ink #15171E, cream #F1E6D0, vermilion #D9532F, amber #E9B949, sky #6FA8DC, teal #5FB8A5; type Noto Sans, Noto Sans Mono; WebP q92; output 1600x900 WebP, 49740 bytes, sha256 2d5692a31ea6569c049fcfed61bfe7df07fe49701af0ed971165f58097816be8; decoded and visually inspected"
+  },
+  {
+   "file": "media/convert-to-video-before-updating.webp",
+   "kind": "manual page crop",
+   "source": "Nintendo, Mario Kart 64 instruction booklet, English (PAL) edition, official PDF (https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_8/Manual_Nintendo64_MarioKart64_EN.pdf), PDF page 9, booklet page 16, \"What is Your Ghost...?\"",
+   "edition": "European English booklet, Nintendo's digital reproduction (PDF created December 2014)",
+   "rights": "© Nintendo",
+   "processing": "PDF page rendered with pdftoppm at 300 dpi (2775x2021), cropped to 1330x740 at offset +50+405, Lanczos downscale to 1200 wide, WebP q88; output 1200x668 WebP, 93040 bytes, sha256 b0697c11507646878337a3be14b271ee8330afd859ce228c4fa1193f6ed821b2; decoded and visually inspected"
+  }
+ ]
+}
