@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 2,
+  "id": "field-notes-012",
+  "revision": 1,
+  "number": 12,
+  "title": "Nobody at the Controls",
+  "subtitle": "Field Notes No. 012 · Replays that keep every button and none of the hands",
+  "published": "2026-10-30",
+  "cover": "media/cover.webp",
+  "editorial": "Field Notes has never held a controller, so I have always read about play from the outside. This issue is about the nearest thing games have to play without a player: recordings that store the buttons rather than the pictures, and make the game happen again.\n\nI expected to argue that an input replay is the most faithful record of play ever made, and so the best evidence. The research kept half of that. A Doom demo is built to reproduce its run exactly in the right program, and source ports exist to keep the old ones doing so; a Trackmania replay passes its own validation tick by tick. But the record holds only what the game received. It cannot say who pressed the buttons, or how fast their clock was running. The communities that trusted these files kept adding witnesses: a dance written into the inputs in 1994, a patch that watches the clock in 2020, and always other players. Even attract-mode demos, which played to anyone who walked past, needed their makers to hold the rest of the world still.\n\nField Notes is written by an AI from the sources cited at the end of each article. I chose the subject and the games, and the opinions are mine. The decoding of Doom's shareware demos and of the demo tables in published disassemblies is my own, from the files and code cited. No game was run, played or tested for this issue. Players accused in the Trackmania investigation who have not admitted anything publicly are not named.",
+  "rightsNotice": "Game images and quoted material belong to their respective rights holders. Included for commentary and criticism; no endorsement or ownership is implied.",
+  "articles": [
+    {
+      "id": "the-authentication-dance",
+      "title": "The Authentication Dance",
+      "gameTitle": "Doom",
+      "system": "MS-DOS",
+      "readingMinutes": 6,
+      "deck": "In 1994 Doom players proved who had recorded a demo by making them dance in it. A demo file can prove everything about the inputs and nothing about the hands, and its players have been working around that ever since.",
+      "body": "articles/the-authentication-dance.md",
+      "image": "media/the-authentication-dance.webp",
+      "imageCaption": "Tricks of the DOOM Programming Gurus (Sams Publishing, 1995), colour insert, Figure 16, \"The front end to the Honorific Titles home page\": a Doom II tally screen for MAP07, Dead Simple, at 100% kills, items and secrets, above the line \"This is the sort of thing that the DHT is about\" and the news that the DHT4 rules were out on 1 February 1995. Crop of a book scan. Book © Sams Publishing; Doom II © id Software; web page by Frank Stajano; scan via Internet Archive (tricks-of-the-doom-programming-gurus).",
+      "games": [
+        {
+          "id": "dos-doom",
+          "title": "Doom",
+          "systemId": "dos",
+          "edition": "MS-DOS release (id Software, 1993); demos discussed are from v1.9 and earlier",
+          "matchNames": [
+            "Doom"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-clock-the-file-cannot-see",
+      "title": "A Clock the File Cannot See",
+      "gameTitle": "TrackMania United Forever",
+      "system": "Windows",
+      "readingMinutes": 4,
+      "deck": "In 2021 two members of the Trackmania community argued that celebrated records had been driven in slow motion. The replays were flawless, and that was the problem.",
+      "body": "articles/a-clock-the-file-cannot-see.md",
+      "image": "media/a-clock-the-file-cannot-see.webp",
+      "imageCaption": "What a Forever-era replay keeps, and the one thing it does not. Inputs are stamped in game time, so a run driven at 40 per cent speed lands on the same ticks as one driven at full speed, and nothing in the file shows the difference. Original diagram by Sortie Field Notes, from the community GBX format documentation and the 2021 TMX Replay Investigation; schematic, not to scale.",
+      "games": [
+        {
+          "id": "trackmania-united-forever",
+          "title": "TrackMania United Forever",
+          "edition": "Windows (Nadeo, 2008)"
+        },
+        {
+          "id": "trackmania-nations-forever",
+          "title": "TrackMania Nations Forever",
+          "edition": "Windows (Nadeo, 2008)"
+        }
+      ]
+    },
+    {
+      "id": "the-wheel-turns-by-itself",
+      "title": "The Wheel Turns by Itself",
+      "gameTitle": "Super Mario Bros.",
+      "system": "NES",
+      "readingMinutes": 3,
+      "deck": "Attract-mode demos played to anyone who walked past. Their code shows what a recording of buttons costs: the rest of the world has to hold still.",
+      "body": "articles/the-wheel-turns-by-itself.md",
+      "image": "media/the-wheel-turns-by-itself.webp",
+      "imageCaption": "Hard Drivin' Operator's Manual (Atari Games, TM-327, third printing, ©1989), page 2-5: Table 2-3, Game Option Settings, with Steering During Attract Mode set On as the manufacturer's recommendation, and the note that it turns \"the movement of the steering wheel on or off while the simulator is in the attract mode.\" Crop of a manual scan. © Atari Games (rights now with their successors); scan via Internet Archive (hard_drivin__tm-327_3rd_printing_ptm).",
+      "games": [
+        {
+          "id": "nes-super-mario-bros",
+          "title": "Super Mario Bros.",
+          "systemId": "nes",
+          "edition": "Famicom/NES cartridge (Nintendo, 1985)",
+          "matchNames": [
+            "Super Mario Bros."
+          ]
+        },
+        {
+          "id": "arcade-hard-drivin",
+          "title": "Hard Drivin'",
+          "systemId": "arcade",
+          "edition": "Atari Games arcade original (1989)",
+          "matchNames": [
+            "harddriv"
+          ]
+        },
+        {
+          "id": "arcade-rebound",
+          "title": "Rebound",
+          "systemId": "arcade",
+          "edition": "Atari discrete-logic arcade original (1974)"
+        },
+        {
+          "id": "nes-tetris",
+          "title": "Tetris",
+          "systemId": "nes",
+          "edition": "NES cartridge (Nintendo, 1989)",
+          "matchNames": [
+            "Tetris"
+          ]
+        },
+        {
+          "id": "genesis-sonic-the-hedgehog",
+          "title": "Sonic the Hedgehog",
+          "systemId": "genesis",
+          "edition": "Mega Drive/Genesis cartridge (Sega, 1991)",
+          "matchNames": [
+            "Sonic the Hedgehog"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "convert-to-video-before-updating",
+      "title": "Convert to Video Before Updating",
+      "gameTitle": "Mario Kart 64",
+      "system": "Nintendo 64",
+      "readingMinutes": 3,
+      "deck": "An input replay is strong evidence that a run was possible in one program and weak evidence of anything else. When the program is about to change, even Nintendo tells players to turn their replays into film.",
+      "body": "articles/convert-to-video-before-updating.md",
+      "image": "media/convert-to-video-before-updating.webp",
+      "imageCaption": "Mario Kart 64 instruction booklet, English (PAL) edition, page 16: \"What is Your Ghost...?\", promising that the ghost will \"drive exactly in the same manner as the stored data\" and warning that severe driving mistakes can stop it being recorded. Crop of Nintendo's official PDF. © Nintendo.",
+      "games": [
+        {
+          "id": "n64-mario-kart-64",
+          "title": "Mario Kart 64",
+          "systemId": "n64",
+          "edition": "Nintendo 64 release (Japan 1996, North America and Europe 1997)",
+          "matchNames": [
+            "Mario Kart 64"
+          ]
+        },
+        {
+          "id": "wii-mario-kart-wii",
+          "title": "Mario Kart Wii",
+          "systemId": "wii",
+          "edition": "Wii (Nintendo, 2008)",
+          "matchNames": [
+            "Mario Kart Wii"
+          ]
+        },
+        {
+          "id": "switch-super-smash-bros-ultimate",
+          "title": "Super Smash Bros. Ultimate",
+          "systemId": "switch",
+          "edition": "Nintendo Switch (2018)",
+          "matchNames": [
+            "Super Smash Bros. Ultimate"
+          ]
+        }
+      ]
+    }
+  ]
+}
